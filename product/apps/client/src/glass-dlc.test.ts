@@ -33,7 +33,7 @@ describe('Xiaodong notebook content-addressed ASCII art',()=>{
       }
     }
     expect(fingerprints.size).toBe(96);
-  });
+  },30_000); // Exhaustive 96-drink x 3-size pixel checks also run on shared CI CPUs.
   it('provides 32 different glass contours and confines colour bands to explicitly layered recipes',()=>{
     const contours=new Set<string>();
     for(const family of ['martini','coupe','flute','highball','hurricane','goblet','mug','rocks'])for(let variant=0;variant<4;variant++){

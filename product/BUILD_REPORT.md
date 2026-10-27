@@ -61,3 +61,6 @@ Git attributes preserve source-pack and supplied-original bytes instead of norma
 
 Cloud Windows CI initially found a reference-test fixture read that depended on the system ANSI encoding. It now uses explicit UTF-8; the source fixture and application behavior are unchanged. The initial failed workflow remains in GitHub Actions history.
 
+
+On the shared GitHub Windows runner, the exhaustive 96-drink × 3-size pixel-geometry test took 10.353 s and exceeded Vitest's default 5 s timeout. Only this test now has a 30 s allowance; all samples and per-pixel assertions remain intact. Its four-test file was rerun locally and passed.
+
