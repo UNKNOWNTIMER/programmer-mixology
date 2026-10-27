@@ -1,0 +1,6181 @@
+{
+  "pack_id": "iba-completion-2026-09-21",
+  "pack_schema_version": 1,
+  "checked_on": "2026-09-21",
+  "provenance": {
+    "publisher": "International Bartenders Association",
+    "index_url": "https://iba-world.com/cocktails/all-cocktails/",
+    "index_pages": 6,
+    "official_list_count": 102,
+    "new_recipe_count": 42,
+    "license_status": "not_granted_or_verified",
+    "attribution_requirements": "保留逐条来源URL、出版社、查阅日期及独立转述标记；其他许可义务待权利人确认。",
+    "commercial_review_status": "pending",
+    "content_scope": "配料事实、独立中文步骤转述；未复制图片、视频、历史长文或网站数据库。"
+  },
+  "recipes": {
+    "schema_version": "0.1.0",
+    "snapshot_date": "2026-09-21",
+    "recipe_count": 42,
+    "recipes": [
+      {
+        "id": "iba_brandy_crusta",
+        "name_en": "Brandy Crusta",
+        "name_zh": "白兰地克鲁斯塔",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "sour",
+        "glass_template": "coupe",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "stir",
+        "ingredients": [
+          {
+            "ingredient_id": "brandy",
+            "quantity": 52.5,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "maraschino",
+            "quantity": 7.5,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": "来源指定 Luxardo。",
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "orange_curacao",
+            "quantity": 1,
+            "unit": "barspoon",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "lemon",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "simple_syrup",
+            "quantity": 1,
+            "unit": "barspoon",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "aromatic_bitters",
+            "quantity": 2,
+            "unit": "dash",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "用橙或柠檬润湿杯沿并蘸细白糖；把果皮卷置杯内。",
+          "混合材料与冰在调酒杯中拌匀，滤入准备好的细身鸡尾酒杯。"
+        ],
+        "garnish_zh": "糖口与橙／柠檬皮；来源未量化糖与果皮用量。",
+        "notes_zh": "",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/brandy-crusta/",
+          "reference": "brandy-crusta",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_brandy_crusta"
+      },
+      {
+        "id": "iba_canchanchara",
+        "name_en": "Canchanchara",
+        "name_zh": "坎昌恰拉",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "sour",
+        "glass_template": "rocks",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "build",
+        "ingredients": [
+          {
+            "ingredient_id": "cuban_aguardiente",
+            "quantity": 60,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "lime",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "raw_honey",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "water",
+            "quantity": 50,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "先将蜂蜜、水和青柠汁混合，润遍杯底和内壁。",
+          "加碎冰与甘蔗烈酒，自底向上充分搅匀。"
+        ],
+        "garnish_zh": "青柠角。",
+        "notes_zh": "原料栏写 Cuban Aguardiente；步骤泛称 rum。本条遵守原料栏，保留这一措辞差异，不替换成普通朗姆酒。",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/canchanchara/",
+          "reference": "canchanchara",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_canchanchara"
+      },
+      {
+        "id": "iba_casino",
+        "name_en": "Casino",
+        "name_zh": "卡西诺",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "sour",
+        "glass_template": "rocks",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "shake",
+        "ingredients": [
+          {
+            "ingredient_id": "old_tom_gin",
+            "quantity": 40,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "maraschino",
+            "quantity": 10,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": "来源指定 Luxardo。",
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "lemon",
+            "quantity": 10,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "orange_bitters",
+            "quantity": 2,
+            "unit": "dash",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "所有材料加冰摇匀。",
+          "滤入预冷并放冰的古典杯。"
+        ],
+        "garnish_zh": "柠檬皮与马拉斯奇诺樱桃。",
+        "notes_zh": "",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/casino/",
+          "reference": "casino",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_casino"
+      },
+      {
+        "id": "iba_champagne_cocktail",
+        "name_en": "Champagne Cocktail",
+        "name_zh": "香槟鸡尾酒",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "spritz",
+        "glass_template": "flute",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "build",
+        "ingredients": [
+          {
+            "ingredient_id": "champagne",
+            "quantity": 90,
+            "unit": "ml",
+            "optional": false,
+            "stage": "top",
+            "quantity_note": "预冷。",
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "cognac",
+            "quantity": 10,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "angostura",
+            "quantity": 2,
+            "unit": "dash",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "grand_marnier",
+            "quantity": null,
+            "unit": "few_drops",
+            "optional": true,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "sugar_cube",
+            "quantity": 1,
+            "unit": "cube",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "在大香槟杯内放方糖，滴上苦精并加入干邑；可选添加几滴柑曼怡。",
+          "缓缓注入冷香槟。"
+        ],
+        "garnish_zh": "橙皮与马拉斯奇诺樱桃。",
+        "notes_zh": "",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/champagne-cocktail/",
+          "reference": "champagne-cocktail",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_champagne_cocktail"
+      },
+      {
+        "id": "iba_chartreuse_swizzle",
+        "name_en": "Chartreuse Swizzle",
+        "name_zh": "查特搅和",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "tiki",
+        "glass_template": "highball",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "swizzle",
+        "ingredients": [
+          {
+            "ingredient_id": "green_chartreuse",
+            "quantity": 45,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "pineapple",
+            "quantity": 30,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "lime",
+            "quantity": 22.5,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "falernum",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "材料倒入高杯，加入小颗粒冰。",
+          "用搅棒或吧勺迅速搅和，再补满小颗粒冰。"
+        ],
+        "garnish_zh": "薄荷叶与现磨肉豆蔻。",
+        "notes_zh": "",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/chartreuse-swizzle/",
+          "reference": "chartreuse-swizzle",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_chartreuse_swizzle"
+      },
+      {
+        "id": "iba_dons_special_daiquiri",
+        "name_en": "Don’s Special Daiquiri",
+        "name_zh": "唐氏特调戴吉利",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "tiki",
+        "glass_template": "goblet",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "blend",
+        "ingredients": [
+          {
+            "ingredient_id": "jamaican_rum",
+            "quantity": 30,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": "来源指定 Gold Jamaican Rum。",
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "cuban_rum",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "passion_fruit_syrup",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "lime",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "honey_syrup",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "材料与碎冰在奶昔搅拌机中短暂搅打。",
+          "倒入有脚的 copo 杯，再补碎冰。"
+        ],
+        "garnish_zh": "半颗百香果。",
+        "notes_zh": "",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/dons-special-daiquiri/",
+          "reference": "dons-special-daiquiri",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_dons_special_daiquiri"
+      },
+      {
+        "id": "iba_fernandito",
+        "name_en": "Fernandito",
+        "name_zh": "费尔南迪托",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "highball",
+        "glass_template": "rocks",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "build",
+        "ingredients": [
+          {
+            "ingredient_id": "fernet",
+            "quantity": 50,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": "来源指定 Fernet Branca。",
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "cola",
+            "quantity": null,
+            "unit": "to_top",
+            "optional": false,
+            "stage": "top",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "在双份古典杯内加冰和 Fernet Branca。",
+          "用可乐补满，轻轻拌匀。"
+        ],
+        "garnish_zh": "来源未指定装饰。",
+        "notes_zh": "",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/fernandito/",
+          "reference": "fernandito",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_fernandito"
+      },
+      {
+        "id": "iba_grand_margarita",
+        "name_en": "Grand Margarita",
+        "name_zh": "柑曼怡玛格丽特",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "sour",
+        "glass_template": "rocks",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "shake",
+        "ingredients": [
+          {
+            "ingredient_id": "tequila",
+            "quantity": 45,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": "来源要求 100% agave。",
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "grand_marnier",
+            "quantity": 30,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "lime",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "古典杯做海盐杯口并放冰。",
+          "混合材料在加冰摇壶中用力摇约10秒，滤入杯中。"
+        ],
+        "garnish_zh": "青柠片；海盐杯口用量未指定。",
+        "notes_zh": "",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/grand-margarita/",
+          "reference": "grand-margarita",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_grand_margarita"
+      },
+      {
+        "id": "iba_hemingway_special",
+        "name_en": "Hemingway Special",
+        "name_zh": "海明威特调",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "sour",
+        "glass_template": "coupe",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "shake",
+        "ingredients": [
+          {
+            "ingredient_id": "rum",
+            "quantity": 60,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "grapefruit",
+            "quantity": 40,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "maraschino",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": "来源指定 Luxardo。",
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "lime",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": "原文 Fresh Lime，液体用量以 ml 记录。",
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "将所列混合材料与冰摇匀。",
+          "滤入预冷鸡尾酒杯。"
+        ],
+        "garnish_zh": "来源未指定装饰。",
+        "notes_zh": "",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/hemingway-special/",
+          "reference": "hemingway-special",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_hemingway_special"
+      },
+      {
+        "id": "iba_iba_tiki",
+        "name_en": "IBA Tiki",
+        "name_zh": "IBA 提基",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "tiki",
+        "glass_template": "hurricane",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "shake",
+        "ingredients": [
+          {
+            "ingredient_id": "havana_profundo",
+            "quantity": 30,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "havana_smoky",
+            "quantity": 30,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "amaretto",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "frangelico",
+            "quantity": 5,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "maraschino",
+            "quantity": 5,
+            "unit": "drop",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": "来源指定 Luxardo；滴的体积未校准。",
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "passion_fruit_puree",
+            "quantity": 30,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "pineapple",
+            "quantity": null,
+            "unit": "unknown",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": "原文数字为90，未写单位；不得自动假定ml。",
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "lime",
+            "quantity": null,
+            "unit": "unknown",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": "原文数字为30，未写单位；不得自动假定ml。",
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "fresh_ginger",
+            "quantity": 1,
+            "unit": "slice",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": "一薄片，未指定厚度或重量。",
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "在摇壶内轻压一薄片姜，再加入其他材料。",
+          "加冰用力摇匀，滤入装小颗粒冰的预冷提基杯。"
+        ],
+        "garnish_zh": "柑橘与脱水菠萝片。",
+        "notes_zh": "原页两种果汁缺计量单位，必须经人工来源复核及ServingSpec确认后才能用于精确配制；不填入推测剂量。",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/iba-tiki/",
+          "reference": "iba-tiki",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_iba_tiki"
+      },
+      {
+        "id": "iba_illegal",
+        "name_en": "Illegal",
+        "name_zh": "非法",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "sour",
+        "glass_template": "coupe",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "shake",
+        "ingredients": [
+          {
+            "ingredient_id": "mezcal",
+            "quantity": 30,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": "来源指定 Espadin。",
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "jamaican_overproof_white_rum",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "falernum",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "maraschino",
+            "quantity": 1,
+            "unit": "barspoon",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": "来源指定 Luxardo。",
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "lime",
+            "quantity": 22.5,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "simple_syrup",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "egg_white",
+            "quantity": null,
+            "unit": "few_drops",
+            "optional": true,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "混合材料加冰用力摇匀。",
+          "滤入预冷鸡尾酒杯；也可盛入放冰的陶杯。"
+        ],
+        "garnish_zh": "来源未指定装饰。",
+        "notes_zh": "",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/illegal/",
+          "reference": "illegal",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_illegal"
+      },
+      {
+        "id": "iba_mary_pickford",
+        "name_en": "Mary Pickford",
+        "name_zh": "玛丽·毕克馥",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "tiki",
+        "glass_template": "coupe",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "shake",
+        "ingredients": [
+          {
+            "ingredient_id": "white_rum",
+            "quantity": 45,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "pineapple",
+            "quantity": 45,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "maraschino",
+            "quantity": 7.5,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": "来源指定 Luxardo。",
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "grenadine",
+            "quantity": 5,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "将所列混合材料与冰摇匀。",
+          "滤入预冷鸡尾酒杯。"
+        ],
+        "garnish_zh": "来源未指定装饰。",
+        "notes_zh": "",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/mary-pickford/",
+          "reference": "mary-pickford",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_mary_pickford"
+      },
+      {
+        "id": "iba_mint_julep",
+        "name_en": "Mint Julep",
+        "name_zh": "薄荷朱利普",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "spirit_forward",
+        "glass_template": "mug",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "muddle",
+        "ingredients": [
+          {
+            "ingredient_id": "bourbon",
+            "quantity": 60,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "mint",
+            "quantity": 4,
+            "unit": "sprig",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "sugar",
+            "quantity": 1,
+            "unit": "tsp",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": "来源指定粉状糖。",
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "water",
+            "quantity": 2,
+            "unit": "tsp",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "在不锈钢朱利普杯中轻压薄荷、糖和水。",
+          "填入碎冰并加波本，充分搅拌至杯外结霜。"
+        ],
+        "garnish_zh": "一枝薄荷。",
+        "notes_zh": "",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/mint-julep/",
+          "reference": "mint-julep",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_mint_julep"
+      },
+      {
+        "id": "iba_missionarys_downfall",
+        "name_en": "Missionary’s Downfall",
+        "name_zh": "传教士的没落",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "tiki",
+        "glass_template": "goblet",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "blend",
+        "ingredients": [
+          {
+            "ingredient_id": "white_rum",
+            "quantity": 30,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "peach_brandy",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "lime",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "honey_mix",
+            "quantity": 30,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "mint",
+            "quantity": 10,
+            "unit": "leaf",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "pineapple_chunks",
+            "quantity": null,
+            "unit": "piece",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": "来源为3至4块；块大小未指定。",
+            "allowed_alternatives": [],
+            "quantity_range": [
+              3,
+              4
+            ]
+          }
+        ],
+        "steps_zh": [
+          "全部材料与半杯碎冰一起搅打。",
+          "盛入大型鸡尾酒杯。"
+        ],
+        "garnish_zh": "薄荷枝与菠萝片。",
+        "notes_zh": "半杯碎冰的杯容量及蜂蜜混合液比例未给定。",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/missionarys-downfall/",
+          "reference": "missionarys-downfall",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_missionarys_downfall"
+      },
+      {
+        "id": "iba_monkey_gland",
+        "name_en": "Monkey Gland",
+        "name_zh": "猴腺",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "sour",
+        "glass_template": "coupe",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "shake",
+        "ingredients": [
+          {
+            "ingredient_id": "gin",
+            "quantity": 45,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": "来源指定 Dry Gin。",
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "orange_juice",
+            "quantity": 45,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "absinthe",
+            "quantity": 1,
+            "unit": "tbsp",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "grenadine",
+            "quantity": 1,
+            "unit": "tbsp",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "将所列混合材料与冰摇匀。",
+          "滤入预冷鸡尾酒杯。"
+        ],
+        "garnish_zh": "来源未指定装饰。",
+        "notes_zh": "本次页面写的是1汤匙苦艾酒和1汤匙红石榴糖浆，保留当前页面版本；不改成其他常见版本的dash。汤匙容量须在ServingSpec校准。",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/monkey-gland/",
+          "reference": "monkey-gland",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_monkey_gland"
+      },
+      {
+        "id": "iba_paradise",
+        "name_en": "Paradise",
+        "name_zh": "天堂",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "sour",
+        "glass_template": "coupe",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "shake",
+        "ingredients": [
+          {
+            "ingredient_id": "gin",
+            "quantity": 30,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "apricot_brandy",
+            "quantity": 20,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "orange_juice",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "将所列混合材料与冰摇匀。",
+          "滤入预冷鸡尾酒杯。"
+        ],
+        "garnish_zh": "来源未指定装饰。",
+        "notes_zh": "",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/paradise/",
+          "reference": "paradise",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_paradise"
+      },
+      {
+        "id": "iba_pisco_punch",
+        "name_en": "Pisco Punch",
+        "name_zh": "皮斯科潘趣",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "sour",
+        "glass_template": "goblet",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "shake",
+        "ingredients": [
+          {
+            "ingredient_id": "pisco",
+            "quantity": 60,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "pineapple",
+            "quantity": 22.5,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "simple_syrup",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "lemon",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "white_wine",
+            "quantity": 30,
+            "unit": "ml",
+            "optional": false,
+            "stage": "top",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "cloves",
+            "quantity": 3,
+            "unit": "piece",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "将丁香与普通糖浆轻压，加入白葡萄酒以外的其余材料后充分摇和。",
+          "双重过滤入大高脚杯，最后加入白葡萄酒并轻拌。"
+        ],
+        "garnish_zh": "来源未指定装饰。",
+        "notes_zh": "",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/pisco-punch/",
+          "reference": "pisco-punch",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_pisco_punch"
+      },
+      {
+        "id": "iba_planters_punch",
+        "name_en": "Planters Punch",
+        "name_zh": "种植园潘趣",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "tiki",
+        "glass_template": "rocks",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "build",
+        "ingredients": [
+          {
+            "ingredient_id": "jamaican_rum_unspecified",
+            "quantity": 45,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "lime",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "sugar_cane_juice",
+            "quantity": 30,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "将材料倒入小平底杯或传统陶杯。",
+          "按口味使用水、冰或鲜果汁稀释，具体量须单独确认。"
+        ],
+        "garnish_zh": "橙皮。",
+        "notes_zh": "稀释方式和数量由来源保留为按口味调整，未加入固定体积。",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/planters-punch/",
+          "reference": "planters-punch",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_planters_punch"
+      },
+      {
+        "id": "iba_porn_star_martini",
+        "name_en": "Porn Star Martini",
+        "name_zh": "激情之星马天尼",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "sour",
+        "glass_template": "martini",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "shake",
+        "ingredients": [
+          {
+            "ingredient_id": "vanilla_vodka",
+            "quantity": 50,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "passion_fruit_liqueur",
+            "quantity": 20,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "passion_fruit_puree",
+            "quantity": 50,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "vanilla_sugar",
+            "quantity": 2,
+            "unit": "barspoon",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "champagne",
+            "quantity": 50,
+            "unit": "ml",
+            "optional": false,
+            "stage": "side",
+            "quantity_note": "另杯随附，不能与其他材料一起摇和或算作同一杯体积。",
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "香槟留作另杯；其余材料加冰摇匀。",
+          "双重过滤入预冷的大鸡尾酒杯，旁边另配50ml香槟。"
+        ],
+        "garnish_zh": "百香果壳和糖（装饰量未指定）。",
+        "notes_zh": "",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/porn-star-martini/",
+          "reference": "porn-star-martini",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_porn_star_martini"
+      },
+      {
+        "id": "iba_porto_flip",
+        "name_en": "Porto Flip",
+        "name_zh": "波特翻转",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "creamy",
+        "glass_template": "coupe",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "shake",
+        "ingredients": [
+          {
+            "ingredient_id": "brandy",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "tawny_port",
+            "quantity": 45,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "egg_yolk",
+            "quantity": 10,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "将所列混合材料与冰摇匀。",
+          "滤入预冷鸡尾酒杯。"
+        ],
+        "garnish_zh": "现磨肉豆蔻。",
+        "notes_zh": "",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/porto-flip/",
+          "reference": "porto-flip",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_porto_flip"
+      },
+      {
+        "id": "iba_rabo_de_galo",
+        "name_en": "Rabo de Galo",
+        "name_zh": "公鸡尾",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "spirit_forward",
+        "glass_template": "rocks",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "build",
+        "ingredients": [
+          {
+            "ingredient_id": "cachaca",
+            "quantity": 60,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "sweet_vermouth",
+            "quantity": 20,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": "来源指定 Cinzano Rosso。",
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "cynar",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "angostura",
+            "quantity": 2,
+            "unit": "drop",
+            "optional": true,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "材料放入古典杯，加冰。",
+          "短暂搅拌至混合。"
+        ],
+        "garnish_zh": "扭转橙皮。",
+        "notes_zh": "",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/rabo-de-galo/",
+          "reference": "rabo-de-galo",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_rabo_de_galo"
+      },
+      {
+        "id": "iba_ramos_fizz",
+        "name_en": "Ramos Fizz",
+        "name_zh": "拉莫斯菲士",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "creamy",
+        "glass_template": "highball",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "shake",
+        "ingredients": [
+          {
+            "ingredient_id": "gin",
+            "quantity": 45,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "lime",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "lemon",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "sugar_syrup",
+            "quantity": 30,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "cream",
+            "quantity": 60,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "egg_white",
+            "quantity": 30,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "orange_flower_water",
+            "quantity": 3,
+            "unit": "dash",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "vanilla_extract",
+            "quantity": 2,
+            "unit": "drop",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "soda",
+            "quantity": null,
+            "unit": "to_top",
+            "optional": false,
+            "stage": "top",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "除苏打水外的材料加冰摇约2分钟，双重过滤到中间容器。",
+          "把滤出的液体倒回摇壶，不加冰用力摇约1分钟。",
+          "滤入高杯，再用苏打水补满。"
+        ],
+        "garnish_zh": "来源未指定装饰。",
+        "notes_zh": "",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/ramos-fizz/",
+          "reference": "ramos-fizz",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_ramos_fizz"
+      },
+      {
+        "id": "iba_remember_the_maine",
+        "name_en": "Remember the Maine",
+        "name_zh": "铭记缅因号",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "spirit_forward",
+        "glass_template": "coupe",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "stir",
+        "ingredients": [
+          {
+            "ingredient_id": "rye",
+            "quantity": 60,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "sweet_vermouth",
+            "quantity": 22.5,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "cherry_brandy_luxardo",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "absinthe",
+            "quantity": 7.5,
+            "unit": "ml",
+            "optional": false,
+            "stage": "rinse",
+            "quantity_note": "润杯后倒掉；实际残留量未知，不能将7.5ml全部计入成杯。",
+            "allowed_alternatives": [],
+            "retained_ml": null
+          }
+        ],
+        "steps_zh": [
+          "苦艾酒在浅碟杯内旋转润杯后倒掉。",
+          "其余材料加入约四分之三杯冰的调酒杯，搅冷后滤入已润杯的浅碟杯。"
+        ],
+        "garnish_zh": "柠檬皮。",
+        "notes_zh": "",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/remember-the-maine/",
+          "reference": "remember-the-maine",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_remember_the_maine"
+      },
+      {
+        "id": "iba_russian_spring_punch",
+        "name_en": "Russian Spring Punch",
+        "name_zh": "俄罗斯春日潘趣",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "spritz",
+        "glass_template": "highball",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "shake",
+        "ingredients": [
+          {
+            "ingredient_id": "vodka",
+            "quantity": 25,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "lemon",
+            "quantity": 25,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "cassis",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "sugar_syrup",
+            "quantity": 10,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "sparkling_wine",
+            "quantity": null,
+            "unit": "to_top",
+            "optional": false,
+            "stage": "top",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "起泡酒以外的材料加冰摇匀，滤入预冷且装冰的高杯。",
+          "用起泡酒补满。"
+        ],
+        "garnish_zh": "黑莓；可另加柠檬片。",
+        "notes_zh": "",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/russian-spring-punch/",
+          "reference": "russian-spring-punch",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_russian_spring_punch"
+      },
+      {
+        "id": "iba_sea_breeze",
+        "name_en": "Sea Breeze",
+        "name_zh": "海风",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "highball",
+        "glass_template": "highball",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "build",
+        "ingredients": [
+          {
+            "ingredient_id": "vodka",
+            "quantity": 40,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "cranberry",
+            "quantity": 120,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "grapefruit",
+            "quantity": 30,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "把所有材料直接注入装冰的高杯。"
+        ],
+        "garnish_zh": "橙皮与樱桃。",
+        "notes_zh": "",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/sea-breeze/",
+          "reference": "sea-breeze",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_sea_breeze"
+      },
+      {
+        "id": "iba_sex_on_the_beach",
+        "name_en": "Sex on the Beach",
+        "name_zh": "性感沙滩",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "highball",
+        "glass_template": "highball",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "build",
+        "ingredients": [
+          {
+            "ingredient_id": "vodka",
+            "quantity": 40,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "peach_schnapps",
+            "quantity": 20,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "orange_juice",
+            "quantity": 40,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "cranberry",
+            "quantity": 40,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "在装冰的高杯内直接混合各项材料。"
+        ],
+        "garnish_zh": "半片橙。",
+        "notes_zh": "",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/sex-on-the-beach/",
+          "reference": "sex-on-the-beach",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_sex_on_the_beach"
+      },
+      {
+        "id": "iba_sherry_cobbler",
+        "name_en": "Sherry Cobbler",
+        "name_zh": "雪莉考布勒",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "sour",
+        "glass_template": "mug",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "shake",
+        "ingredients": [
+          {
+            "ingredient_id": "amontillado_sherry",
+            "quantity": 45,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "palo_cortado",
+            "quantity": 45,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "sugar",
+            "quantity": 1,
+            "unit": "tsp",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": "超细糖或颗粒白糖。",
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "orange_fruit",
+            "quantity": 0.5,
+            "unit": "slice",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": "半个圆片，切成两份四分之一圆片。",
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "lemon_fruit",
+            "quantity": 0.5,
+            "unit": "slice",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": "半个圆片，切成两份四分之一圆片。",
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "两种雪莉、糖和橙／柠檬片加冰快速摇匀。",
+          "滤入盛碎冰的朱利普杯。"
+        ],
+        "garnish_zh": "鲜浆果、各四分之一圆片的橙与柠檬，并配吸管。",
+        "notes_zh": "",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/sherry-cobbler/",
+          "reference": "sherry-cobbler",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_sherry_cobbler"
+      },
+      {
+        "id": "iba_south_side",
+        "name_en": "South Side",
+        "name_zh": "南区",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "sour",
+        "glass_template": "coupe",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "shake",
+        "ingredients": [
+          {
+            "ingredient_id": "gin",
+            "quantity": 60,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": "来源指定 London dry Gin。",
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "lemon",
+            "quantity": 30,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "simple_syrup",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "mint",
+            "quantity": null,
+            "unit": "leaf",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": "原文5/6叶，按5至6叶区间保留。",
+            "allowed_alternatives": [],
+            "quantity_range": [
+              5,
+              6
+            ]
+          },
+          {
+            "ingredient_id": "egg_white",
+            "quantity": null,
+            "unit": "few_drops",
+            "optional": true,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "材料加冰摇匀；使用蛋清时需更用力摇和。",
+          "双重过滤入预冷鸡尾酒杯。"
+        ],
+        "garnish_zh": "薄荷枝。",
+        "notes_zh": "",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/south-side/",
+          "reference": "south-side",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_south_side"
+      },
+      {
+        "id": "iba_spicy_fifty",
+        "name_en": "Spicy Fifty",
+        "name_zh": "香辣五十",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "sour",
+        "glass_template": "coupe",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "shake",
+        "ingredients": [
+          {
+            "ingredient_id": "vanilla_vodka",
+            "quantity": 50,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "elderflower_cordial",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "lime",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "honey_syrup",
+            "quantity": 10,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": "来源指定 Monin。",
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "red_chili",
+            "quantity": 2,
+            "unit": "slice",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": "薄片，厚度和辣度未指定。",
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "各项材料加冰充分摇匀。",
+          "双重过滤入预冷鸡尾酒杯。"
+        ],
+        "garnish_zh": "一枚红辣椒（大小未指定）。",
+        "notes_zh": "",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/spicy-fifty/",
+          "reference": "spicy-fifty",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_spicy_fifty"
+      },
+      {
+        "id": "iba_stinger",
+        "name_en": "Stinger",
+        "name_zh": "毒刺",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "spirit_forward",
+        "glass_template": "martini",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "stir",
+        "ingredients": [
+          {
+            "ingredient_id": "cognac",
+            "quantity": 50,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "creme_menthe_white",
+            "quantity": 20,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "将材料放入加冰的调酒杯，搅拌至冷。",
+          "滤入预冷鸡尾酒杯。"
+        ],
+        "garnish_zh": "可选薄荷叶。",
+        "notes_zh": "",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/stinger/",
+          "reference": "stinger",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_stinger"
+      },
+      {
+        "id": "iba_suffering_bastard",
+        "name_en": "Suffering Bastard",
+        "name_zh": "受苦的混蛋",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "highball",
+        "glass_template": "highball",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "shake",
+        "ingredients": [
+          {
+            "ingredient_id": "cognac",
+            "quantity": 30,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": "来源允许干邑或白兰地。",
+            "allowed_alternatives": [
+              "brandy"
+            ]
+          },
+          {
+            "ingredient_id": "gin",
+            "quantity": 30,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "lime",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "angostura",
+            "quantity": 2,
+            "unit": "dash",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "ginger_beer",
+            "quantity": null,
+            "unit": "to_top",
+            "optional": false,
+            "stage": "top",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "姜汁啤酒以外的材料加冰摇匀。",
+          "不滤冰，整壶倒入柯林斯杯或原式陶杯，再补姜汁啤酒。"
+        ],
+        "garnish_zh": "薄荷枝；可选橙片。",
+        "notes_zh": "",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/suffering-bastard/",
+          "reference": "suffering-bastard",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_suffering_bastard"
+      },
+      {
+        "id": "iba_tequila_sunrise",
+        "name_en": "Tequila Sunrise",
+        "name_zh": "龙舌兰日出",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "highball",
+        "glass_template": "highball",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "build",
+        "ingredients": [
+          {
+            "ingredient_id": "tequila",
+            "quantity": 45,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "orange_juice",
+            "quantity": 90,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "grenadine",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "finish",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "在盛冰的高杯中倒入龙舌兰和橙汁。",
+          "最后加入红石榴糖浆形成渐层，不搅拌。"
+        ],
+        "garnish_zh": "半片橙或橙皮。",
+        "notes_zh": "",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/tequila-sunrise/",
+          "reference": "tequila-sunrise",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_tequila_sunrise"
+      },
+      {
+        "id": "iba_three_dots_and_a_dash",
+        "name_en": "Three Dots and a Dash",
+        "name_zh": "三点一划",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "tiki",
+        "glass_template": "goblet",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "blend",
+        "ingredients": [
+          {
+            "ingredient_id": "martinique_agricole_rum",
+            "quantity": 45,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "aged_rum",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": "来源指定 Blended Aged Rum。",
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "falernum",
+            "quantity": 7.5,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "allspice_st_elizabeth",
+            "quantity": 7.5,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "lime",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": "原页排版把上一条多香果与本条文字连在同一行；两个数值各自保留。",
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "orange_juice",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "honey_syrup",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "angostura",
+            "quantity": 2,
+            "unit": "dash",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "材料与来源标注的12盎司碎冰短暂搅打。",
+          "倒入带脚 copo 杯，再补碎冰。"
+        ],
+        "garnish_zh": "三颗樱桃和一条矩形菠萝块。",
+        "notes_zh": "来源未注明碎冰盎司是质量还是体积，不擅自换算成克或毫升。",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/three-dots-and-a-dash/",
+          "reference": "three-dots-and-a-dash",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_three_dots_and_a_dash"
+      },
+      {
+        "id": "iba_tipperary",
+        "name_en": "Tipperary",
+        "name_zh": "蒂珀雷里",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "spirit_forward",
+        "glass_template": "martini",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "stir",
+        "ingredients": [
+          {
+            "ingredient_id": "irish_whiskey",
+            "quantity": 50,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "sweet_vermouth",
+            "quantity": 25,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "green_chartreuse",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "angostura",
+            "quantity": 2,
+            "unit": "dash",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "将材料放入加冰的调酒杯，搅拌至冷。",
+          "滤入预冷鸡尾酒杯。"
+        ],
+        "garnish_zh": "橙片。",
+        "notes_zh": "",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/tipperary/",
+          "reference": "tipperary",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_tipperary"
+      },
+      {
+        "id": "iba_tommys_margarita",
+        "name_en": "Tommy’s Margarita",
+        "name_zh": "汤米玛格丽特",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "sour",
+        "glass_template": "rocks",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "shake",
+        "ingredients": [
+          {
+            "ingredient_id": "tequila",
+            "quantity": 60,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": "来源要求100% agave。",
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "lime",
+            "quantity": 30,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "agave_nectar",
+            "quantity": 30,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "材料加冰摇匀，滤入预冷并装冰的古典杯。"
+        ],
+        "garnish_zh": "青柠片。",
+        "notes_zh": "",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/tommys-margarita/",
+          "reference": "tommys-margarita",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_tommys_margarita"
+      },
+      {
+        "id": "iba_trinidad_sour",
+        "name_en": "Trinidad Sour",
+        "name_zh": "特立尼达酸酒",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "sour",
+        "glass_template": "coupe",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "shake",
+        "ingredients": [
+          {
+            "ingredient_id": "angostura",
+            "quantity": 45,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": "来源明确45ml，并非dash。",
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "orgeat",
+            "quantity": 30,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "lemon",
+            "quantity": 22.5,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "rye",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "将所列混合材料与冰摇匀。",
+          "滤入预冷鸡尾酒杯。"
+        ],
+        "garnish_zh": "来源未指定装饰。",
+        "notes_zh": "",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/trinidad-sour/",
+          "reference": "trinidad-sour",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_trinidad_sour"
+      },
+      {
+        "id": "iba_tuxedo",
+        "name_en": "Tuxedo",
+        "name_zh": "燕尾服",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "spirit_forward",
+        "glass_template": "martini",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "stir",
+        "ingredients": [
+          {
+            "ingredient_id": "old_tom_gin",
+            "quantity": 30,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "dry_vermouth",
+            "quantity": 30,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "maraschino",
+            "quantity": 0.5,
+            "unit": "barspoon",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": "来源指定 Luxardo。",
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "absinthe",
+            "quantity": 0.25,
+            "unit": "barspoon",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "orange_bitters",
+            "quantity": 3,
+            "unit": "dash",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "将材料放入加冰的调酒杯，搅拌至冷。",
+          "滤入预冷鸡尾酒杯。"
+        ],
+        "garnish_zh": "樱桃和柠檬皮。",
+        "notes_zh": "",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/tuxedo/",
+          "reference": "tuxedo",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_tuxedo"
+      },
+      {
+        "id": "iba_ve_n_to",
+        "name_en": "Ve.N.To",
+        "name_zh": "威恩托",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "sour",
+        "glass_template": "rocks",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "shake",
+        "ingredients": [
+          {
+            "ingredient_id": "white_grappa",
+            "quantity": 45,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "lemon",
+            "quantity": 22.5,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "honey_mix",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": "蜂蜜混合液中的水可按来源注释换成洋甘菊浸泡液；比例未指定。",
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "chamomile_cordial",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "egg_white",
+            "quantity": null,
+            "unit": "few_drops",
+            "optional": true,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "材料加冰用力摇匀。",
+          "滤入预冷、盛冰的小平底杯。"
+        ],
+        "garnish_zh": "柠檬皮与白葡萄。",
+        "notes_zh": "",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/ve-n-to/",
+          "reference": "ve-n-to",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_ve_n_to"
+      },
+      {
+        "id": "iba_vesper",
+        "name_en": "Vesper",
+        "name_zh": "薇斯珀",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "spirit_forward",
+        "glass_template": "martini",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "shake",
+        "ingredients": [
+          {
+            "ingredient_id": "gin",
+            "quantity": 45,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "vodka",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "lillet_blanc",
+            "quantity": 7.5,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "将所列混合材料与冰摇匀。",
+          "滤入预冷鸡尾酒杯。"
+        ],
+        "garnish_zh": "柠檬皮。",
+        "notes_zh": "",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/vesper/",
+          "reference": "vesper",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_vesper"
+      },
+      {
+        "id": "iba_vieux_carre",
+        "name_en": "Vieux Carré",
+        "name_zh": "老广场",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "spirit_forward",
+        "glass_template": "coupe",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "stir",
+        "ingredients": [
+          {
+            "ingredient_id": "rye",
+            "quantity": 30,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "cognac",
+            "quantity": 30,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "sweet_vermouth",
+            "quantity": 30,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "benedictine",
+            "quantity": 1,
+            "unit": "barspoon",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "peychaud",
+            "quantity": 2,
+            "unit": "dash",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "将材料放入加冰的调酒杯，搅拌至冷。",
+          "滤入预冷鸡尾酒杯。"
+        ],
+        "garnish_zh": "橙皮与马拉斯奇诺樱桃。",
+        "notes_zh": "",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/vieux-carre/",
+          "reference": "vieux-carre",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_vieux_carre"
+      },
+      {
+        "id": "iba_white_lady",
+        "name_en": "White Lady",
+        "name_zh": "白色佳人",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "sour",
+        "glass_template": "coupe",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "shake",
+        "ingredients": [
+          {
+            "ingredient_id": "gin",
+            "quantity": 40,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "triple_sec",
+            "quantity": 30,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "lemon",
+            "quantity": 20,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "将所列混合材料与冰摇匀。",
+          "滤入预冷鸡尾酒杯。"
+        ],
+        "garnish_zh": "来源未指定装饰。",
+        "notes_zh": "",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/white-lady/",
+          "reference": "white-lady",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_white_lady"
+      },
+      {
+        "id": "iba_zombie",
+        "name_en": "Zombie",
+        "name_zh": "僵尸",
+        "variant": "IBA 参考版本（2026-09-21 增量核对）",
+        "family": "tiki",
+        "glass_template": "highball",
+        "glass_template_provenance": "editorial_mapping",
+        "method": "blend",
+        "ingredients": [
+          {
+            "ingredient_id": "jamaican_dark_rum",
+            "quantity": 45,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "puerto_rican_gold_rum",
+            "quantity": 45,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "demerara_rum",
+            "quantity": 30,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "lime",
+            "quantity": 20,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "falernum",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "donns_mix",
+            "quantity": 15,
+            "unit": "ml",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": "来源配比为2份新鲜黄色西柚与1份肉桂糖浆；糖浆浓度未指定。",
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "grenadine",
+            "quantity": 1,
+            "unit": "tsp",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "angostura",
+            "quantity": 1,
+            "unit": "dash",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          },
+          {
+            "ingredient_id": "pernod",
+            "quantity": 6,
+            "unit": "drop",
+            "optional": false,
+            "stage": "mix",
+            "quantity_note": null,
+            "allowed_alternatives": []
+          }
+        ],
+        "steps_zh": [
+          "全部材料与170克碎冰放入电动搅拌机。",
+          "脉冲搅打数秒，倒入高平底杯。"
+        ],
+        "garnish_zh": "薄荷叶。",
+        "notes_zh": "来源未给德梅拉拉朗姆酒的酒精度；不因其他版本常用高度酒而补写。",
+        "source": {
+          "kind": "official_recipe",
+          "publisher": "International Bartenders Association",
+          "url": "https://iba-world.com/iba-cocktail/zombie/",
+          "reference": "zombie",
+          "checked_on": "2026-09-21",
+          "method_provenance": "source_paraphrase"
+        },
+        "preparation_review": "not_physically_tested",
+        "default_orderable": false,
+        "needs_serving_configuration": true,
+        "actual_user_rating": null,
+        "prediction_profile_id": "iba_zombie"
+      }
+    ]
+  },
+  "ingredients": {
+    "schema_version": "0.1.0",
+    "ingredients": [
+      {
+        "id": "aromatic_bitters",
+        "name_en": "Aromatic bitters, unspecified",
+        "name_zh": "芳香苦精（品牌未指定）",
+        "role": "bitters",
+        "potential_allergens": [
+          "label_check"
+        ],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "cuban_aguardiente",
+        "name_en": "Cuban aguardiente",
+        "name_zh": "古巴甘蔗烈酒",
+        "role": "spirit",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "raw_honey",
+        "name_en": "Raw honey",
+        "name_zh": "原蜜",
+        "role": "sweetener",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "old_tom_gin",
+        "name_en": "Old Tom gin",
+        "name_zh": "老汤姆金酒",
+        "role": "spirit",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "grand_marnier",
+        "name_en": "Grand Marnier",
+        "name_zh": "柑曼怡橙味利口酒",
+        "role": "liqueur",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "falernum",
+        "name_en": "Falernum",
+        "name_zh": "法勒南香料利口酒／糖浆（以SKU确认）",
+        "role": "modifier",
+        "potential_allergens": [
+          "nuts",
+          "label_check"
+        ],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "cuban_rum",
+        "name_en": "Cuban rum, unspecified",
+        "name_zh": "古巴朗姆酒（陈年类型未指定）",
+        "role": "spirit",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "passion_fruit_syrup",
+        "name_en": "Passion fruit syrup",
+        "name_zh": "百香果糖浆",
+        "role": "sweetener",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "grapefruit",
+        "name_en": "Grapefruit juice",
+        "name_zh": "西柚汁",
+        "role": "juice",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "havana_profundo",
+        "name_en": "Havana Club Ron Profundo",
+        "name_zh": "哈瓦那俱乐部 Profundo 朗姆酒",
+        "role": "spirit",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "havana_smoky",
+        "name_en": "Havana Club Ron Smoky",
+        "name_zh": "哈瓦那俱乐部 Smoky 朗姆酒",
+        "role": "spirit",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "frangelico",
+        "name_en": "Frangelico",
+        "name_zh": "榛果利口酒 Frangelico",
+        "role": "liqueur",
+        "potential_allergens": [
+          "nuts"
+        ],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "passion_fruit_puree",
+        "name_en": "Passion fruit purée",
+        "name_zh": "百香果果泥",
+        "role": "fruit",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "jamaican_overproof_white_rum",
+        "name_en": "Jamaican overproof white rum",
+        "name_zh": "牙买加高度白朗姆酒",
+        "role": "spirit",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "peach_brandy",
+        "name_en": "Peach brandy",
+        "name_zh": "桃白兰地（类型需SKU确认）",
+        "role": "liqueur",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "honey_mix",
+        "name_en": "Honey mix, ratio unspecified",
+        "name_zh": "蜂蜜混合液（比例未指定）",
+        "role": "sweetener",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "pineapple_chunks",
+        "name_en": "Pineapple chunks",
+        "name_zh": "菠萝块",
+        "role": "fruit",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "cloves",
+        "name_en": "Cloves",
+        "name_zh": "丁香",
+        "role": "spice",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "sugar_cane_juice",
+        "name_en": "Sugar cane juice",
+        "name_zh": "甘蔗汁",
+        "role": "juice",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "vanilla_vodka",
+        "name_en": "Vanilla vodka",
+        "name_zh": "香草伏特加",
+        "role": "spirit",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "passion_fruit_liqueur",
+        "name_en": "Passion fruit liqueur",
+        "name_zh": "百香果利口酒",
+        "role": "liqueur",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "vanilla_sugar",
+        "name_en": "Vanilla sugar",
+        "name_zh": "香草糖",
+        "role": "sweetener",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "tawny_port",
+        "name_en": "Red tawny port wine",
+        "name_zh": "茶色波特酒",
+        "role": "wine",
+        "potential_allergens": [
+          "sulfites"
+        ],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "egg_yolk",
+        "name_en": "Egg yolk",
+        "name_zh": "蛋黄",
+        "role": "protein",
+        "potential_allergens": [
+          "egg"
+        ],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "cynar",
+        "name_en": "Cynar",
+        "name_zh": "朝鲜蓟苦味利口酒 Cynar",
+        "role": "liqueur",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "orange_flower_water",
+        "name_en": "Orange flower water",
+        "name_zh": "橙花水",
+        "role": "modifier",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "vanilla_extract",
+        "name_en": "Vanilla extract",
+        "name_zh": "香草精",
+        "role": "modifier",
+        "potential_allergens": [
+          "label_check"
+        ],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "cherry_brandy_luxardo",
+        "name_en": "Cherry Brandy Luxardo",
+        "name_zh": "Luxardo 樱桃白兰地利口酒",
+        "role": "liqueur",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "sparkling_wine",
+        "name_en": "Sparkling wine, unspecified",
+        "name_zh": "起泡葡萄酒（类型未指定）",
+        "role": "wine",
+        "potential_allergens": [
+          "sulfites"
+        ],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "peach_schnapps",
+        "name_en": "Peach schnapps",
+        "name_zh": "桃味施纳普斯利口酒",
+        "role": "liqueur",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "amontillado_sherry",
+        "name_en": "Amontillado sherry",
+        "name_zh": "阿蒙蒂亚多雪莉酒",
+        "role": "wine",
+        "potential_allergens": [
+          "sulfites"
+        ],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "palo_cortado",
+        "name_en": "Palo Cortado sherry",
+        "name_zh": "帕罗科塔多雪莉酒",
+        "role": "wine",
+        "potential_allergens": [
+          "sulfites"
+        ],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "orange_fruit",
+        "name_en": "Orange",
+        "name_zh": "橙子",
+        "role": "fruit",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "lemon_fruit",
+        "name_en": "Lemon",
+        "name_zh": "黄柠檬",
+        "role": "fruit",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "elderflower_cordial",
+        "name_en": "Elderflower cordial",
+        "name_zh": "接骨木花浓缩调味液",
+        "role": "modifier",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "red_chili",
+        "name_en": "Red chili pepper",
+        "name_zh": "红辣椒",
+        "role": "spice",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "creme_menthe_white",
+        "name_en": "White crème de menthe",
+        "name_zh": "白色薄荷利口酒",
+        "role": "liqueur",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "martinique_agricole_rum",
+        "name_en": "Rhum Martinique agricole",
+        "name_zh": "马提尼克农业朗姆酒",
+        "role": "spirit",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "allspice_st_elizabeth",
+        "name_en": "St. Elizabeth allspice dram",
+        "name_zh": "圣伊丽莎白多香果利口酒",
+        "role": "liqueur",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "agave_nectar",
+        "name_en": "Agave nectar",
+        "name_zh": "龙舌兰蜜",
+        "role": "sweetener",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "white_grappa",
+        "name_en": "White smooth grappa",
+        "name_zh": "柔和白格拉帕",
+        "role": "spirit",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "chamomile_cordial",
+        "name_en": "Chamomile cordial",
+        "name_zh": "洋甘菊浓缩调味液",
+        "role": "modifier",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "jamaican_dark_rum",
+        "name_en": "Jamaican dark rum",
+        "name_zh": "牙买加深色朗姆酒",
+        "role": "spirit",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "jamaican_rum_unspecified",
+        "name_en": "Jamaican rum, type unspecified",
+        "name_zh": "牙买加朗姆酒（类型未指定）",
+        "role": "spirit",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "puerto_rican_gold_rum",
+        "name_en": "Gold Puerto Rican rum",
+        "name_zh": "波多黎各金朗姆酒",
+        "role": "spirit",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "demerara_rum",
+        "name_en": "Demerara rum, strength unspecified",
+        "name_zh": "德梅拉拉朗姆酒（酒精度未指定）",
+        "role": "spirit",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "donns_mix",
+        "name_en": "Donn’s Mix",
+        "name_zh": "Donn混合液（西柚与肉桂糖浆）",
+        "role": "modifier",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      },
+      {
+        "id": "pernod",
+        "name_en": "Pernod",
+        "name_zh": "保乐茴香酒",
+        "role": "spirit",
+        "potential_allergens": [],
+        "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+        "abv_fraction": null,
+        "sugar_g_per_100ml": null,
+        "kcal_per_100ml": null,
+        "density_g_per_ml": null,
+        "acidity_g_per_l": null,
+        "sku_confirmation_required": true
+      }
+    ]
+  },
+  "profiles": {
+    "schema_version": "0.1.0",
+    "status": "heuristic_unvalidated",
+    "profiles": [
+      {
+        "recipe_id": "iba_brandy_crusta",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          4,
+          5,
+          1,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          4000,
+          5000,
+          1000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          5,
+          6,
+          4,
+          0,
+          3,
+          0,
+          5
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_canchanchara",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          4,
+          5,
+          1,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          4000,
+          5000,
+          1000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          5,
+          6,
+          4,
+          0,
+          3,
+          0,
+          5
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_casino",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          4,
+          5,
+          1,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          4000,
+          5000,
+          1000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          5,
+          6,
+          4,
+          0,
+          3,
+          0,
+          5
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_champagne_cocktail",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          5,
+          2,
+          3,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          5000,
+          2000,
+          3000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          3,
+          6,
+          3,
+          7,
+          4,
+          0,
+          4
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_chartreuse_swizzle",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          6,
+          3,
+          1,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          6000,
+          3000,
+          1000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          5,
+          7,
+          6,
+          0,
+          3,
+          1,
+          6
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_dons_special_daiquiri",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          6,
+          3,
+          1,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          6000,
+          3000,
+          1000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          5,
+          7,
+          6,
+          0,
+          3,
+          1,
+          6
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_fernandito",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          5,
+          4,
+          1,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          5000,
+          4000,
+          1000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          3,
+          5,
+          3,
+          4,
+          4,
+          0,
+          4
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_grand_margarita",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          4,
+          5,
+          1,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          4000,
+          5000,
+          1000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          5,
+          6,
+          4,
+          0,
+          3,
+          0,
+          5
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_hemingway_special",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          4,
+          5,
+          1,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          4000,
+          5000,
+          1000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          5,
+          6,
+          4,
+          0,
+          3,
+          0,
+          5
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_iba_tiki",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          6,
+          3,
+          1,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          6000,
+          3000,
+          1000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          5,
+          7,
+          6,
+          0,
+          3,
+          1,
+          6
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_illegal",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          4,
+          5,
+          1,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          4000,
+          5000,
+          1000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          5,
+          6,
+          4,
+          0,
+          3,
+          0,
+          5
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_mary_pickford",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          6,
+          3,
+          1,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          6000,
+          3000,
+          1000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          5,
+          7,
+          6,
+          0,
+          3,
+          1,
+          6
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_mint_julep",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          4,
+          0,
+          6,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          4000,
+          0,
+          6000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          7,
+          7,
+          5,
+          0,
+          7,
+          0,
+          7
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_missionarys_downfall",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          6,
+          3,
+          1,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          6000,
+          3000,
+          1000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          5,
+          7,
+          6,
+          0,
+          3,
+          1,
+          6
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_monkey_gland",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          4,
+          5,
+          1,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          4000,
+          5000,
+          1000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          5,
+          6,
+          4,
+          0,
+          3,
+          0,
+          5
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_paradise",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          4,
+          5,
+          1,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          4000,
+          5000,
+          1000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          5,
+          6,
+          4,
+          0,
+          3,
+          0,
+          5
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_pisco_punch",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          4,
+          5,
+          1,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          4000,
+          5000,
+          1000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          5,
+          6,
+          4,
+          0,
+          3,
+          0,
+          5
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_planters_punch",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          6,
+          3,
+          1,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          6000,
+          3000,
+          1000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          5,
+          7,
+          6,
+          0,
+          3,
+          1,
+          6
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_porn_star_martini",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          4,
+          5,
+          1,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          4000,
+          5000,
+          1000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          5,
+          6,
+          4,
+          0,
+          3,
+          0,
+          5
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_porto_flip",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          7,
+          2,
+          1,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          7000,
+          2000,
+          1000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          3,
+          5,
+          8,
+          0,
+          2,
+          0,
+          5
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_rabo_de_galo",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          4,
+          0,
+          6,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          4000,
+          0,
+          6000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          7,
+          7,
+          5,
+          0,
+          1,
+          0,
+          7
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_ramos_fizz",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          7,
+          2,
+          1,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          7000,
+          2000,
+          1000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          3,
+          5,
+          8,
+          1,
+          2,
+          0,
+          5
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_remember_the_maine",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          4,
+          0,
+          6,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          4000,
+          0,
+          6000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          7,
+          7,
+          5,
+          0,
+          1,
+          0,
+          7
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_russian_spring_punch",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          5,
+          2,
+          3,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          5000,
+          2000,
+          3000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          3,
+          6,
+          3,
+          7,
+          4,
+          0,
+          4
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_sea_breeze",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          5,
+          4,
+          1,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          5000,
+          4000,
+          1000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          3,
+          5,
+          3,
+          0,
+          4,
+          0,
+          4
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_sex_on_the_beach",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          5,
+          4,
+          1,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          5000,
+          4000,
+          1000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          3,
+          5,
+          3,
+          0,
+          4,
+          0,
+          4
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_sherry_cobbler",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          4,
+          5,
+          1,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          4000,
+          5000,
+          1000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          5,
+          6,
+          4,
+          0,
+          3,
+          0,
+          5
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_south_side",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          4,
+          5,
+          1,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          4000,
+          5000,
+          1000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          5,
+          6,
+          4,
+          0,
+          3,
+          0,
+          5
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_spicy_fifty",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          4,
+          5,
+          1,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          4000,
+          5000,
+          1000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          5,
+          6,
+          4,
+          0,
+          3,
+          7,
+          5
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_stinger",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          4,
+          0,
+          6,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          4000,
+          0,
+          6000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          7,
+          7,
+          5,
+          0,
+          1,
+          0,
+          7
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_suffering_bastard",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          5,
+          4,
+          1,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          5000,
+          4000,
+          1000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          3,
+          5,
+          3,
+          4,
+          4,
+          0,
+          4
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_tequila_sunrise",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          5,
+          4,
+          1,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          5000,
+          4000,
+          1000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          3,
+          5,
+          3,
+          0,
+          4,
+          0,
+          4
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_three_dots_and_a_dash",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          6,
+          3,
+          1,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          6000,
+          3000,
+          1000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          5,
+          7,
+          6,
+          0,
+          3,
+          1,
+          6
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_tipperary",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          4,
+          0,
+          6,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          4000,
+          0,
+          6000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          7,
+          7,
+          5,
+          0,
+          1,
+          0,
+          7
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_tommys_margarita",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          4,
+          5,
+          1,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          4000,
+          5000,
+          1000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          5,
+          6,
+          4,
+          0,
+          3,
+          0,
+          5
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_trinidad_sour",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          4,
+          5,
+          1,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          4000,
+          5000,
+          1000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          5,
+          6,
+          4,
+          0,
+          3,
+          0,
+          5
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_tuxedo",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          4,
+          0,
+          6,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          4000,
+          0,
+          6000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          7,
+          7,
+          5,
+          0,
+          1,
+          0,
+          7
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_ve_n_to",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          4,
+          5,
+          1,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          4000,
+          5000,
+          1000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          5,
+          6,
+          4,
+          0,
+          3,
+          0,
+          5
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_vesper",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          4,
+          0,
+          6,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          4000,
+          0,
+          6000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          7,
+          7,
+          5,
+          0,
+          1,
+          0,
+          7
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_vieux_carre",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          4,
+          0,
+          6,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          4000,
+          0,
+          6000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          7,
+          7,
+          5,
+          0,
+          1,
+          0,
+          7
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_white_lady",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          4,
+          5,
+          1,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          4000,
+          5000,
+          1000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          5,
+          6,
+          4,
+          0,
+          3,
+          0,
+          5
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      },
+      {
+        "recipe_id": "iba_zombie",
+        "taste_axes": [
+          "sweet",
+          "sour",
+          "bitter",
+          "salty",
+          "umami"
+        ],
+        "taste_intensity_0_10": [
+          6,
+          3,
+          1,
+          0,
+          0
+        ],
+        "taste_preference_bps": [
+          6000,
+          3000,
+          1000,
+          0,
+          0
+        ],
+        "sensory_axes": [
+          "alcohol_heat",
+          "aroma",
+          "body",
+          "carbonation",
+          "cooling",
+          "spiciness",
+          "finish"
+        ],
+        "sensory_0_10": [
+          5,
+          7,
+          6,
+          0,
+          3,
+          1,
+          6
+        ],
+        "status": "heuristic_unvalidated",
+        "confidence": "low",
+        "origin": "editorial_family_prior_with_structural_overrides_extension_2026_09_21",
+        "measured": false,
+        "source_recipe_does_not_supply_these_scores": true,
+        "note_zh": "新增资料使用编辑性家族先验，仅供排序冷启动；不是实测、用户评价或IBA提供的感官评分。"
+      }
+    ]
+  },
+  "sources": {
+    "checked_on": "2026-09-21",
+    "sources": [
+      {
+        "recipe_id": "iba_brandy_crusta",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/brandy-crusta/",
+        "reference": "brandy-crusta",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_canchanchara",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/canchanchara/",
+        "reference": "canchanchara",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_casino",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/casino/",
+        "reference": "casino",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_champagne_cocktail",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/champagne-cocktail/",
+        "reference": "champagne-cocktail",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_chartreuse_swizzle",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/chartreuse-swizzle/",
+        "reference": "chartreuse-swizzle",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_dons_special_daiquiri",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/dons-special-daiquiri/",
+        "reference": "dons-special-daiquiri",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_fernandito",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/fernandito/",
+        "reference": "fernandito",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_grand_margarita",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/grand-margarita/",
+        "reference": "grand-margarita",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_hemingway_special",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/hemingway-special/",
+        "reference": "hemingway-special",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_iba_tiki",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/iba-tiki/",
+        "reference": "iba-tiki",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_illegal",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/illegal/",
+        "reference": "illegal",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_mary_pickford",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/mary-pickford/",
+        "reference": "mary-pickford",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_mint_julep",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/mint-julep/",
+        "reference": "mint-julep",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_missionarys_downfall",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/missionarys-downfall/",
+        "reference": "missionarys-downfall",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_monkey_gland",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/monkey-gland/",
+        "reference": "monkey-gland",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_paradise",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/paradise/",
+        "reference": "paradise",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_pisco_punch",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/pisco-punch/",
+        "reference": "pisco-punch",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_planters_punch",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/planters-punch/",
+        "reference": "planters-punch",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_porn_star_martini",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/porn-star-martini/",
+        "reference": "porn-star-martini",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_porto_flip",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/porto-flip/",
+        "reference": "porto-flip",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_rabo_de_galo",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/rabo-de-galo/",
+        "reference": "rabo-de-galo",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_ramos_fizz",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/ramos-fizz/",
+        "reference": "ramos-fizz",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_remember_the_maine",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/remember-the-maine/",
+        "reference": "remember-the-maine",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_russian_spring_punch",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/russian-spring-punch/",
+        "reference": "russian-spring-punch",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_sea_breeze",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/sea-breeze/",
+        "reference": "sea-breeze",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_sex_on_the_beach",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/sex-on-the-beach/",
+        "reference": "sex-on-the-beach",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_sherry_cobbler",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/sherry-cobbler/",
+        "reference": "sherry-cobbler",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_south_side",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/south-side/",
+        "reference": "south-side",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_spicy_fifty",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/spicy-fifty/",
+        "reference": "spicy-fifty",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_stinger",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/stinger/",
+        "reference": "stinger",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_suffering_bastard",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/suffering-bastard/",
+        "reference": "suffering-bastard",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_tequila_sunrise",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/tequila-sunrise/",
+        "reference": "tequila-sunrise",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_three_dots_and_a_dash",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/three-dots-and-a-dash/",
+        "reference": "three-dots-and-a-dash",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_tipperary",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/tipperary/",
+        "reference": "tipperary",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_tommys_margarita",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/tommys-margarita/",
+        "reference": "tommys-margarita",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_trinidad_sour",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/trinidad-sour/",
+        "reference": "trinidad-sour",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_tuxedo",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/tuxedo/",
+        "reference": "tuxedo",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_ve_n_to",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/ve-n-to/",
+        "reference": "ve-n-to",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_vesper",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/vesper/",
+        "reference": "vesper",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_vieux_carre",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/vieux-carre/",
+        "reference": "vieux-carre",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_white_lady",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/white-lady/",
+        "reference": "white-lady",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      {
+        "recipe_id": "iba_zombie",
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/zombie/",
+        "reference": "zombie",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      }
+    ]
+  }
+}

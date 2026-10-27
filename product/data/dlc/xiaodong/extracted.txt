@@ -1,0 +1,4091 @@
+[B001 PARAGRAPH Normal]
+TIMER MIXLAB
+
+[B002 PARAGRAPH Title]
+调酒笔记
+详细清单
+
+[B003 PARAGRAPH Subtitle]
+配方版本 · 原创酒语 · 背景文案 · Codex 数据
+
+[B004 PARAGRAPH Normal]
+原始材料：《调酒笔记.docx》
+整理版本：1.0  /  中文主版
+
+[B005 PARAGRAPH Normal]
+97
+
+[B006 PARAGRAPH Normal]
+条目录记录，保留完整与未完成的不同状态。
+
+[B007 PARAGRAPH Normal]
+不是97份标准配方，而是一份可追溯、可继续完善的个人调酒档案。
+
+[B008 TABLE]
+ROW 1: 归档 | 创作 | 程序资料
+ROW 2: 97条记录与版本 | 97条原创酒语 | JSON + Schema
+ROW 3: 146个名称级原料 | 97段原创背景 | 稳定ID与审核状态
+ROW 4: 18则知识笔记 | 历史与文学分栏 | 30项结构校验通过
+
+[B009 PARAGRAPH Normal]
+保留原作者的比例、个人评价和酒吧体验。缺失的单位、未完成的步骤与尚未执行的计划，均明确标记，不以想象冒充来源。
+
+[B010 PARAGRAPH Caption]
+PRIVATE NOTES / EDITORIAL COPY / SOURCE TRACEABILITY
+
+[B011 PARAGRAPH Normal]
+
+
+
+[B012 PARAGRAPH Heading 1]
+阅读说明与整理结论
+
+[B013 PARAGRAPH Normal]
+本轮只依据本次上传的Word笔记。源文件解析为46页，包含647个Word段落和24张内嵌图片。全部原始段落与图片在数据包中保留，便于核对。没有混入此前整理的网页经典库，也没有把聊天中新写的政霖汤等配方插入源笔记。
+
+[B014 PARAGRAPH Normal]
+三层内容  配料与方法是来源整理；“整理／待确认”是编辑分析；“酒语”和“背景文案·原创”是本次新创作文案。涉及真实创作者、年份、赛事或酒吧的内容，只以原笔记记载呈现，尚未外部核实。
+
+[B015 PARAGRAPH Normal]
+计量规则  明确ml优先。只有oz时，按该笔记常见配对约定显示约1 oz=30 ml，同时保留原oz；这不是精密换算。shot、dash、茶匙、吧勺、喷、瓶盖不擅自换ml。缺单位不是零，补满不是固定体积。
+
+[B016 PARAGRAPH Normal]
+配方分支  “或”表示从备选项中选一，不是全加；范围保持区间，可选项单独标记。没有明确继承关系的条目，不自动把上一条配方抄入下一条。
+
+[B017 PARAGRAPH Normal]
+不伪造评分  原文星号没有定义量表；不等于软件评分。没有实测依据的甜酸苦咸鲜、七感官强度、酒精度、热量和杯量，均保留未知。
+
+[B018 PARAGRAPH Normal]
+程序上线边界  条目可以归档和浏览，不因JSON格式正确就自动成为可点单、可缩放或可训练的合格配方。管理员需要先确认原料、单位、步骤和版本。
+
+[B019 TABLE]
+ROW 1: 记录性质 | 数量 | 说明
+ROW 2: 配方笔记 | 69 | 包含剂量或做法不足的记录
+ROW 3: 内嵌图片配方 | 2 | 新加坡司令两张图片，单独转录
+ROW 4: 个人试验 | 3 | 与未执行的调整分开
+ROW 5: 仅名称 | 11 | 不自动补经典配方
+ROW 6: 配料关系／甜食 | 3 | 2条配料关系与1条水果浸泡笔记
+ROW 7: 体验／调整计划／构想 | 9 | 7条体验、1条计划、1条构想
+
+[B020 PARAGRAPH Caption]
+共97条记录；其中81条至少包含一项材料，74条属于“配方／图录／试验”类且有材料。这些统计不代表完整、已审核或已品鉴的数量。
+
+[B021 PARAGRAPH Heading 2]
+最需要处理的源问题
+
+[B022 PARAGRAPH Normal]
+新加坡司令三版本不同；荆棘、雪茄、高地清凉酒、盘尼西林与萨泽拉克有单位或原料疑项；Mojito的45 ml果糖需核对；梅子花花公子试验与下一次计划必须分开。非食品洗涤剂句子已隔离，不能进入任何饮品步骤。
+
+[B023 PARAGRAPH Heading 2]
+编号与定位
+
+[B024 PARAGRAPH Normal]
+条目编号用于本文件浏览；tn-开头ID用于程序持久引用。源位置中的“解析页”指上传附件的46页解析结果，P0001等是实际Word段落编号，不是本整理文件页码。Word左侧“导航窗格”可按标题跳转。
+
+[B025 PARAGRAPH Normal]
+
+
+
+[B026 PARAGRAPH Heading 1]
+完整目录索引
+
+[B027 PARAGRAPH Caption]
+点击中文酒名可跳至对应条目。没有配方的名称与体验仍保留，避免资料在整理时丢失。
+
+[B028 TABLE]
+ROW 1: 编号 | 中文酒名／版本 | 归档类目 | 记录类型
+ROW 2: 001 | 龙舌兰日出·1972滚石笔记 | 龙舌兰 | 只有名称
+ROW 3: 002 | 龙舌兰日出·1930年代亚利桑那笔记 | 龙舌兰 | 只有名称
+ROW 4: 003 | 魔鬼 | 龙舌兰 | 配方笔记
+ROW 5: 004 | 龙舌兰巴克 | 龙舌兰 | 配方笔记
+ROW 6: 005 | 奇马约 | 龙舌兰 | 配方笔记
+ROW 7: 006 | 玛格丽特·原笔记正统版 | 龙舌兰 | 配方笔记
+ROW 8: 007 | 玛格丽特·预调版 | 龙舌兰 | 配方笔记
+ROW 9: 008 | 莫斯科骡子 | 伏特加 | 配方笔记
+ROW 10: 009 | 苹果马天尼 | 伏特加 | 配方笔记
+ROW 11: 010 | 卡皮罗斯卡 | 伏特加 | 配方笔记
+ROW 12: 011 | 神风 | 伏特加 | 配方笔记
+ROW 13: 012 | 浓缩咖啡马天尼·奶油笔记版 | 伏特加 | 配方笔记
+ROW 14: 013 | 泥石流 | 伏特加 | 配方笔记
+ROW 15: 014 | 火焰之吻 | 伏特加 | 配方笔记
+ROW 16: 015 | 内格罗尼 | 金酒 | 配方笔记
+ROW 17: 016 | 白色内格罗尼 | 金酒 | 配方笔记
+ROW 18: 017 | 汤姆·柯林斯 | 金酒 | 配方笔记
+ROW 19: 018 | 金汤力 | 金酒 | 只有名称
+ROW 20: 019 | 亡者复苏·未编号笔记 | 金酒 | 配方笔记
+ROW 21: 020 | 向日葵 | 金酒 | 配方笔记
+ROW 22: 021 | 常备之选 | 金酒 | 配方笔记
+ROW 23: 022 | 白色马天尼·笔记版 | 金酒 | 配方笔记
+ROW 24: 023 | 樱桃美式·苏打记录版 | 金酒 | 配方笔记
+ROW 25: 024 | 土星 | 金酒 | 配方笔记
+ROW 26: 025 | 火焰迷迭香吉姆雷特 | 金酒 | 配方笔记
+ROW 27: 026 | 荆棘·黑莓或黑加仑笔记 | 金酒 | 配方笔记
+ROW 28: 027 | 茉莉 | 金酒 | 配方笔记
+ROW 29: 028 | 蜜蜂之膝 | 金酒 | 配方笔记
+ROW 30: 029 | 恩佐尼 | 金酒 | 配方笔记
+ROW 31: 030 | 新加坡司令·正文版 | 金酒 | 配方笔记
+ROW 32: 031 | 新加坡司令·莱佛士式图录 | 金酒 | 图录配方
+ROW 33: 032 | 新加坡司令·萨伏伊式图录 | 金酒 | 图录配方
+ROW 34: 033 | 美式鸡尾酒 | 金酒 | 只有名称
+ROW 35: 034 | 法国七五 | 金酒 | 配方笔记
+ROW 36: 035 | 黑刺李金酒菲士 | 黑刺李金酒 | 配方笔记
+ROW 37: 036 | 查理·卓别林·增金酒笔记版 | 黑刺李金酒 | 配方笔记
+ROW 38: 037 | 黑刺李金酒酸 | 黑刺李金酒 | 配方笔记
+ROW 39: 038 | 莫吉托·原笔记果糖版 | 朗姆酒 | 配方笔记
+ROW 40: 039 | 横渡太平洋 | 朗姆酒 | 配方笔记
+ROW 41: 040 | 横渡太平洋·个人两项草稿 | 朗姆酒 | 个人试验
+ROW 42: 041 | 戴吉利 | 朗姆酒 | 配方笔记
+ROW 43: 042 | 总统 | 朗姆酒 | 只有名称
+ROW 44: 043 | 椰林飘香·简化版 | 朗姆酒 | 配方笔记
+ROW 45: 044 | 马里布日落 | 朗姆酒 | 只有名称
+ROW 46: 045 | 马里布海湾微风 | 朗姆酒 | 只有名称
+ROW 47: 046 | 跳伞 | 朗姆酒 | 配方笔记
+ROW 48: 047 | 不那么黑暗的暴风雨 | 朗姆酒 | 配方笔记
+ROW 49: 048 | 贝拉唐娜戴吉利 | 朗姆酒 | 配方笔记
+ROW 50: 049 | 蒙特内格罗朗姆酸 | 朗姆酒 | 配方笔记
+ROW 51: 050 | 朝鲜蓟 | 朗姆酒 | 配方笔记
+ROW 52: 051 | 迈泰·多朗姆笔记版 | Tiki | 配方笔记
+ROW 53: 052 | 僵尸 | Tiki | 只有名称
+ROW 54: 053 | 日式威士忌嗨棒 | 威士忌 | 配方笔记
+ROW 55: 054 | 古典·Kumiko笔记版 | 威士忌 | 配方笔记
+ROW 56: 055 | 古典·个人简化版 | 威士忌 | 配方笔记
+ROW 57: 056 | 纽约酸 | 威士忌 | 配方笔记
+ROW 58: 057 | 棕色德比 | 威士忌 | 配方笔记
+ROW 59: 058 | 波本复兴 | 威士忌 | 配方笔记
+ROW 60: 059 | 纸飞机 | 威士忌 | 配方笔记
+ROW 61: 060 | 菠萝盘尼西林 | 威士忌 | 配方笔记
+ROW 62: 061 | 老友·配料关系笔记 | 威士忌 | 只有配料关系
+ROW 63: 062 | 二八原则 | 威士忌 | 个人试验
+ROW 64: 063 | 雪茄 | 威士忌 | 配方笔记
+ROW 65: 064 | 高地清凉酒 | 威士忌 | 配方笔记
+ROW 66: 065 | 教父 | 威士忌 | 配方笔记
+ROW 67: 066 | 盘尼西林·原笔记版 | 威士忌 | 配方笔记
+ROW 68: 067 | 亲和 | 威士忌 | 配方笔记
+ROW 69: 068 | 多愁善感的绅士 | 威士忌 | 配方笔记
+ROW 70: 069 | 花花公子 | 威士忌 | 配方笔记
+ROW 71: 070 | 血与沙 | 威士忌 | 配方笔记
+ROW 72: 071 | 曼哈顿·经典笔记版 | 威士忌 | 配方笔记
+ROW 73: 072 | 完美曼哈顿·笔记变式 | 威士忌 | 配方笔记
+ROW 74: 073 | 黑色曼哈顿 | 威士忌 | 配方笔记
+ROW 75: 074 | 莫米塞特 | 苦艾酒 | 配方笔记
+ROW 76: 075 | 午后之死·柠檬糖浆笔记版 | 苦艾酒 | 配方笔记
+ROW 77: 076 | 萨泽拉克·黑麦与干邑笔记版 | 干邑／混合基酒 | 配方笔记
+ROW 78: 077 | 毛茸茸的肚脐 | 利口酒与苦味酒 | 配方笔记
+ROW 79: 078 | 蜜瓜酸·绿茶烧酎笔记版 | 日式饮品 | 配方笔记
+ROW 80: 079 | 梅酒调饮 | 日式饮品 | 配方笔记
+ROW 81: 080 | 梅子调饮·Ume-su笔记分支 | 日式饮品 | 配方笔记
+ROW 82: 081 | 樱桃美式·后段三项简记 | 日式饮品 | 配方笔记
+ROW 83: 082 | 枪店菲士 | 利口酒与苦味酒 | 配方笔记
+ROW 84: 083 | B-52轰炸机 | 利口酒与苦味酒 | 只有名称
+ROW 85: 084 | 彩虹小杯酒 | 利口酒与苦味酒 | 只有名称
+ROW 86: 085 | 普斯咖啡·名称记录 | 利口酒与苦味酒 | 只有名称
+ROW 87: 086 | 广岛炸弹·三项原料笔记 | 利口酒与苦味酒 | 只有配料关系
+ROW 88: 087 | 酒鬼话梅小菠萝 | 含酒精甜食 | 甜食笔记
+ROW 89: 088 | 透明的拿铁·容阙体验 | 酒吧体验与实验 | 品饮体验
+ROW 90: 089 | 查理·卓别林·Zlounge体验 | 酒吧体验与实验 | 品饮体验
+ROW 91: 090 | 盘尼西林·Zlounge漂浮体验 | 酒吧体验与实验 | 品饮体验
+ROW 92: 091 | 拉夫格酸·品饮线索 | 酒吧体验与实验 | 品饮体验
+ROW 93: 092 | 山楂树下 | 酒吧体验与实验 | 品饮体验
+ROW 94: 093 | 梅子花花公子·Takenaka体验 | 酒吧体验与实验 | 品饮体验
+ROW 95: 094 | 梅子花花公子·复刻试验1 | 酒吧体验与实验 | 个人试验
+ROW 96: 095 | 梅子花花公子·下一次调整计划 | 酒吧体验与实验 | 未执行计划
+ROW 97: 096 | 梅酒古典·构想 | 酒吧体验与实验 | 构想
+ROW 98: 097 | 卡米纳里 | 酒吧体验与实验 | 品饮体验
+
+[B029 PARAGRAPH Normal]
+
+
+
+[B030 PARAGRAPH Heading 1]
+龙舌兰
+
+[B031 PARAGRAPH Heading 2]
+001  龙舌兰日出·1972滚石笔记
+
+[B032 PARAGRAPH Normal]
+Tequila Sunrise — 1972 Rolling Stone note
+
+[B033 PARAGRAPH Normal]
+只有名称 · 待补配方
+
+[B034 PARAGRAPH Normal]
+“把日出留在杯沿，把公路留给远方。”
+
+[B035 PARAGRAPH Normal]
+配料  原笔记没有提供，不自动填补。
+
+[B036 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B037 PARAGRAPH Normal]
+整理／待确认  未记录配料、用量、做法；1972与滚石的联系只是原文标题，未外部核实。
+
+[B038 PARAGRAPH Normal]
+背景文案·原创  一条公路从夜色伸向地平线，车窗里还留着未散的乐声。这段原创场景为“1972滚石日出”的名字而写：红光尚未变成太阳，旅程也不必急着抵达。配方的空白，留待真实记录来填。
+
+[B039 PARAGRAPH Normal]
+tn-sunrise-1972  |  原件解析第1页；P0007
+
+[B040 PARAGRAPH Heading 2]
+002  龙舌兰日出·1930年代亚利桑那笔记
+
+[B041 PARAGRAPH Normal]
+Tequila Sunrise — 1930s Arizona note
+
+[B042 PARAGRAPH Normal]
+只有名称 · 待补配方 · 原注3星
+
+[B043 PARAGRAPH Normal]
+“沙漠尚未醒来，天边已经有了答案。”
+
+[B044 PARAGRAPH Normal]
+配料  原笔记没有提供，不自动填补。
+
+[B045 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B046 PARAGRAPH Normal]
+整理／待确认  三星紧跟此标题，暂按就近归属保留；也可能是两个日出标题的组评分，需作者确认。
+
+[B047 PARAGRAPH Normal]
+背景文案·原创  把这次想象放在亚利桑那的清晨：沙漠仍安静，第一束光沿着山线慢慢抬起。它不是一段被确认的发明史，而是一张以日出命名的风景卡；晨光可以先出现，配方不必被猜出来。
+
+[B048 PARAGRAPH Normal]
+tn-sunrise-arizona  |  原件解析第1页；P0008–P0009
+
+[B049 PARAGRAPH Heading 2]
+003  魔鬼
+
+[B050 PARAGRAPH Normal]
+El Diablo
+
+[B051 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品 · 原注4星
+
+[B052 PARAGRAPH Normal]
+“红色不必喧哗，也能点亮整片夜色。”
+
+[B053 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 龙舌兰 | 45 ml | 原文记录
+ROW 3: 黑加仑利口酒 Crème de Cassis | 15 ml | 原文记录
+ROW 4: 青柠汁 | 15 ml | 原文记录
+ROW 5: 姜汁啤酒 Ginger Beer 或 姜汁汽水 Ginger Ale | 90 ml | 原文二选一
+
+[B054 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B055 PARAGRAPH Normal]
+背景文案·原创  黑加仑像夜里一抹深红，青柠划出明亮的边，龙舌兰与姜在两者之间留下各自的线条。它的故事不是纵火，而是暗处突然亮起的一盏灯：有对比，有转折，也有足够的空间让细节彼此看见。
+
+[B056 PARAGRAPH Normal]
+tn-el-diablo  |  原件解析第1页；P0010–P0012
+
+[B057 PARAGRAPH Heading 2]
+004  龙舌兰巴克
+
+[B058 PARAGRAPH Normal]
+Tequila Buck
+
+[B059 PARAGRAPH Normal]
+配方笔记 · 有方法记录／待审核 · 原注3星
+
+[B060 PARAGRAPH Normal]
+“风绕过杯口，留下清醒的轮廓。”
+
+[B061 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 龙舌兰 | 30 ml | 原文记录
+ROW 3: 黄柠檬汁 | 15 ml | 原文记录
+ROW 4: 姜汁啤酒 Ginger Beer 或 姜汁汽水 Ginger Ale | 补满／未定量 | 原文二选一
+
+[B062 PARAGRAPH Normal]
+方法记录  1. 加入龙舌兰与黄柠檬汁。 2. 加冰，再用所选姜汁饮料补满。
+
+[B063 PARAGRAPH Normal]
+出杯记录  冰：加冰至满
+
+[B064 PARAGRAPH Normal]
+整理／待确认  原文是 lemon juice，不替换成青柠汁。
+
+[B065 PARAGRAPH Normal]
+背景文案·原创  让龙舌兰与柠檬先画出两条线，再让姜味饮料把它们延伸到杯沿。背景是一阵掠过窗边的风，简洁而有方向；不需要宏大的传说，只需要在平常的一刻，看见日常也能有自己的节拍。
+
+[B066 PARAGRAPH Normal]
+tn-tequila-buck  |  原件解析第1页；P0014–P0016
+
+[B067 PARAGRAPH Heading 2]
+005  奇马约
+
+[B068 PARAGRAPH Normal]
+Chimayó
+
+[B069 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品
+
+[B070 PARAGRAPH Normal]
+“苹果落下的那一刻，秋天有了回声。”
+
+[B071 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 龙舌兰 | 45 ml | 原文记录
+ROW 3: 苹果西打 apple cider 或 苹果汁 | 30 ml | 原文二选一；有待核实项
+ROW 4: 黑加仑利口酒 Crème de Cassis | 10 ml | 原文记录
+ROW 5: 黄柠檬汁 | 15 ml | 原文记录
+
+[B072 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B073 PARAGRAPH Normal]
+原料疑项  苹果西打 apple cider：是否含酒精、具体产品待确认
+
+[B074 PARAGRAPH Normal]
+背景文案·原创  苹果与黑加仑像果园里两种不同的夜色，龙舌兰从其间伸出一条更清楚的轮廓。以这组原料写成一段秋夜想象：枝叶渐静，果实仍在，最后一线柠檬色的光把整个场景连在一起。
+
+[B075 PARAGRAPH Normal]
+tn-chimayo  |  原件解析第1页；P0018–P0019
+
+[B076 PARAGRAPH Heading 2]
+006  玛格丽特·原笔记正统版
+
+[B077 PARAGRAPH Normal]
+Margarita — proper note
+
+[B078 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品 · 原注2星
+
+[B079 PARAGRAPH Normal]
+“在酸与甜的交界，留下一道明亮的边。”
+
+[B080 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 龙舌兰 | 约60 ml（原2 oz） | 原文记录
+ROW 3: 三重橙味利口酒 Triple Sec | 约30 ml（原1 oz） | 原文记录
+ROW 4: 青柠汁 | 约30 ml（原1 oz） | 原文记录
+
+[B081 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B082 PARAGRAPH Normal]
+整理／待确认  oz按编辑约定约1 oz=30 ml展示，原数值与原单位同时保留。 相邻预调版明确有摇和与盐边；本条不自动继承其步骤。
+
+[B083 PARAGRAPH Normal]
+背景文案·原创  三种材料组成一个清楚的三角：龙舌兰是主体，橙与青柠从两侧靠近。让背景停留在日落前的明亮片刻，不靠复杂装饰取胜；每条边都看得见，彼此之间的距离也值得被认真保留。
+
+[B084 PARAGRAPH Normal]
+tn-margarita-proper  |  原件解析第1页；P0020–P0024
+
+[B085 PARAGRAPH Heading 2]
+007  玛格丽特·预调版
+
+[B086 PARAGRAPH Normal]
+Margarita — premix
+
+[B087 PARAGRAPH Normal]
+配方笔记 · 有方法记录／待审核 · 原注3星
+
+[B088 PARAGRAPH Normal]
+“把繁复交给准备，把相遇留在此刻。”
+
+[B089 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 龙舌兰 | 30 ml | 原文记录
+ROW 3: 龙舌兰预调液 tequila premix | 120 ml | 待核实
+ROW 4: 黄柠檬汁 | 15 ml | 原文记录
+
+[B090 PARAGRAPH Normal]
+方法记录  1. 将酒液摇和。 2. 杯口半边蘸盐。
+
+[B091 PARAGRAPH Normal]
+出杯记录  装饰：半圈盐边
+
+[B092 PARAGRAPH Normal]
+整理／待确认  原文没有说明预调液配方，不补成“标准玛格丽特酸甜液”。
+
+[B093 PARAGRAPH Normal]
+原料疑项  龙舌兰预调液 tequila premix：产品、糖度和是否含酒精未注明
+
+[B094 PARAGRAPH Normal]
+背景文案·原创  这是一张关于准备与相遇的场景卡：预调液把前置工作收在身后，龙舌兰与柠檬留在眼前，半边盐口像一道尚未闭合的圆。便捷不必等于潦草，真正重要的细节仍然值得逐一确认。
+
+[B095 PARAGRAPH Normal]
+tn-margarita-premix  |  原件解析第2页；P0026–P0032
+
+[B096 PARAGRAPH Heading 1]
+伏特加
+
+[B097 PARAGRAPH Heading 2]
+008  莫斯科骡子
+
+[B098 PARAGRAPH Normal]
+Moscow Mule
+
+[B099 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品 · 原注4星
+
+[B100 PARAGRAPH Normal]
+“让姜的节拍，敲开安静的夜。”
+
+[B101 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 伏特加 | 约45 ml（原1.5 oz） | 原文记录
+ROW 3: 青柠汁 | 约22.5 ml（原0.75 oz） | 原文记录
+ROW 4: 姜汁啤酒 Ginger Beer | 约120 ml（原4 oz） | 原文记录
+
+[B102 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B103 PARAGRAPH Normal]
+背景文案·原创  伏特加、青柠与姜汁啤酒像三个不同的节拍，在同一杯里相遇。背景可以是一扇深夜的窗：远处灯光固定，近处细点向上升起；不需要走得很远，也能让一个熟悉的夜晚有新的纹理。
+
+[B104 PARAGRAPH Normal]
+tn-moscow-mule  |  原件解析第2页；P0038–P0042
+
+[B105 PARAGRAPH Heading 2]
+009  苹果马天尼
+
+[B106 PARAGRAPH Normal]
+Appletini
+
+[B107 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品
+
+[B108 PARAGRAPH Normal]
+“把一整座果园，折进一束微光。”
+
+[B109 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 伏特加 | 45 ml | 原文记录
+ROW 3: 苹果汁 | 45 ml | 原文记录
+ROW 4: 青柠汁 | 5 ml | 原文记录
+ROW 5: 枫糖浆 | 5 ml | 原文记录
+
+[B110 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B111 PARAGRAPH Normal]
+背景文案·原创  把伏特加与苹果汁想作两块等大的留白，再让少量青柠和枫糖像秋光一样落上去。果园的意象不必浓重：一枚苹果，一条细枝，一束穿过窗格的光，足以把这份简洁配方写成安静的风景。
+
+[B112 PARAGRAPH Normal]
+tn-appletini  |  原件解析第2页；P0044–P0048
+
+[B113 PARAGRAPH Heading 2]
+010  卡皮罗斯卡
+
+[B114 PARAGRAPH Normal]
+Caipiroska
+
+[B115 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品
+
+[B116 PARAGRAPH Normal]
+“一枚青柠，也有自己的八个方向。”
+
+[B117 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 伏特加 | 60 ml | 原文记录
+ROW 3: 青柠 | 1 个 | 原文记录
+ROW 4: 白糖 | 2 吧勺 | 原文记录
+
+[B118 PARAGRAPH Normal]
+方法记录  1. 将1枚青柠切成8块。 2. 与记录的伏特加、糖一起摇和。
+
+[B119 PARAGRAPH Normal]
+整理／待确认  原文未明确记录捣压、加冰或过滤，不在源步骤中补写。
+
+[B120 PARAGRAPH Normal]
+背景文案·原创  一枚青柠被分成八个小小方向，糖与伏特加沿着切面相遇。它的故事可以很直接：像一张折开的地图，没有复杂的注脚；每片果瓣都保留自己的轮廓，每次展开都让空间多一点明亮。
+
+[B121 PARAGRAPH Normal]
+tn-caipiroska  |  原件解析第2、3页；P0050–P0055
+
+[B122 PARAGRAPH Heading 2]
+011  神风
+
+[B123 PARAGRAPH Normal]
+Kamikaze
+
+[B124 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品
+
+[B125 PARAGRAPH Normal]
+“把锋芒收进杯中，让夜风继续向前。”
+
+[B126 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 伏特加 | 30 ml | 原文记录
+ROW 3: 三重橙味利口酒 Triple Sec | 15 ml | 原文记录
+ROW 4: 青柠汁 | 15 ml | 原文记录
+
+[B127 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B128 PARAGRAPH Normal]
+出杯记录  装饰：青柠轮
+
+[B129 PARAGRAPH Normal]
+整理／待确认  名称译为“神风”，保留英文检索；原文 vidka 按伏特加拼写错误处理并保留原段落。
+
+[B130 PARAGRAPH Normal]
+背景文案·原创  伏特加、橙味利口酒与青柠构成紧凑的三段关系，像一枚线条清楚的折纸。这里不借激烈的名字鼓励冒险，只保留速度与锋芒的视觉意象：一道风掠过杯口，留下干净的几何边缘。
+
+[B131 PARAGRAPH Normal]
+tn-kamikaze  |  原件解析第3页；P0057–P0058
+
+[B132 PARAGRAPH Heading 2]
+012  浓缩咖啡马天尼·奶油笔记版
+
+[B133 PARAGRAPH Normal]
+Espresso Martini — Irish cream note
+
+[B134 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品 · 原注4星
+
+[B135 PARAGRAPH Normal]
+“夜色落进咖啡，时间短暂地慢了一拍。”
+
+[B136 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 咖啡利口酒 | 30 ml | 原文记录
+ROW 3: 伏特加 | 30 ml | 原文记录
+ROW 4: 浓缩咖啡 Espresso | 30 ml | 原文记录
+ROW 5: 爱尔兰奶油利口酒 | 7.5 ml | 原文记录
+
+[B137 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B138 PARAGRAPH Normal]
+背景文案·原创  咖啡、伏特加与少量奶油利口酒，为这份版本搭起黑与白的场景。想象一盏深夜台灯，把桌面切成明暗两半；咖啡是颜色最深的部分，柔和的细节则留在边缘，让整段夜色不至于只有一种声音。
+
+[B139 PARAGRAPH Normal]
+tn-espresso-martini  |  原件解析第3页；P0060–P0062
+
+[B140 PARAGRAPH Heading 2]
+013  泥石流
+
+[B141 PARAGRAPH Normal]
+Mudslide
+
+[B142 PARAGRAPH Normal]
+配方笔记 · 有方法记录／待审核
+
+[B143 PARAGRAPH Normal]
+“让深色的回声，沉入柔软的夜。”
+
+[B144 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 伏特加 | 30 ml | 原文记录
+ROW 3: 咖啡利口酒 | 45 ml | 原文记录
+ROW 4: 爱尔兰奶油利口酒 | 45 ml | 原文记录
+ROW 5: 牛奶 | 60 ml | 原文记录
+
+[B145 PARAGRAPH Normal]
+方法记录  1. 将配方原料摇和。 2. 用巧克力装饰。
+
+[B146 PARAGRAPH Normal]
+出杯记录  装饰：巧克力
+
+[B147 PARAGRAPH Normal]
+背景文案·原创  咖啡色与乳白色像两条缓慢交会的河流，巧克力留在岸边，成为最后一个细节。这段原创背景不追求汹涌，而让“泥石流”有一个柔软的反差：名字很重，画面却可以安静地沉下来。
+
+[B148 PARAGRAPH Normal]
+tn-mudslide  |  原件解析第3页；P0064–P0065
+
+[B149 PARAGRAPH Heading 2]
+014  火焰之吻
+
+[B150 PARAGRAPH Normal]
+Kiss of Fire
+
+[B151 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品 · 原注3星
+
+[B152 PARAGRAPH Normal]
+“火焰不必燃烧，也能留下一次温柔。”
+
+[B153 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 三得利 Haku 伏特加 | 约22.5 ml（原0.75 oz） | 原文记录
+ROW 3: Sipsmith 黑刺李金酒 | 约22.5 ml（原0.75 oz） | 原文记录
+ROW 4: Noilly Prat Original 干味美思 | 约22.5 ml（原0.75 oz） | 原文记录
+ROW 5: 新鲜黄柠檬汁 | 1 吧勺 | 原文记录
+
+[B154 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B155 PARAGRAPH Normal]
+出杯记录  装饰：糖边、用于润杯口的柠檬轮
+
+[B156 PARAGRAPH Normal]
+笔记背景  原文描述黑刺李金酒的红果风味与伏特加、干味美思形成对比，并以糖边平衡酸度。
+
+[B157 PARAGRAPH Normal]
+历史原注·未核实  笔记称酒名来自 Louis Armstrong 的同名歌曲，由 Kenji Ishioka 创作，并在1953年全日本饮品比赛获第一名。 笔记提到大阪、Trickies酒吧及孙辈 Kai Vyama；名称和亲属叙述均未经外部核对。
+
+[B158 PARAGRAPH Normal]
+整理／待确认  制作句在“Combine the vodka, sloe gin, dry”处截断；不能当作完整做法。
+
+[B159 PARAGRAPH Normal]
+背景文案·原创  把三种等量的酒写成三束不同的光，糖边是一圈微亮的边界，柠檬则留下短促的转折。所谓火焰之吻，在这段想象里不需要真正燃烧；红色、留白与一次靠近，就足够构成一个完整瞬间。
+
+[B160 PARAGRAPH Normal]
+tn-kiss-of-fire  |  原件解析第3、4页；P0067–P0076
+
+[B161 PARAGRAPH Heading 1]
+金酒
+
+[B162 PARAGRAPH Heading 2]
+015  内格罗尼
+
+[B163 PARAGRAPH Normal]
+Negroni
+
+[B164 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品 · 原注4星
+
+[B165 PARAGRAPH Normal]
+“相等的三份，不必拥有相同的性格。”
+
+[B166 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 金酒 | 22.5 ml | 原文记录
+ROW 3: 金巴利 Campari | 22.5 ml | 原文记录
+ROW 4: 甜味美思 | 22.5 ml | 原文记录
+
+[B167 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B168 PARAGRAPH Normal]
+整理／待确认  第10页再次出现同名标题，没有新增配方；作为重复索引关联，不另造版本。
+
+[B169 PARAGRAPH Normal]
+背景文案·原创  三份相同的体积，不代表三种相同的性格。金酒、金巴利与甜味美思可以被画成三个等大的像素块，在暗色背景里各守一边；当它们相遇，故事来自差异本身，而不是谁必须盖过谁。
+
+[B170 PARAGRAPH Normal]
+tn-negroni  |  原件解析第4、5页；P0083–P0087；原件解析第10页；P0192
+
+[B171 PARAGRAPH Heading 2]
+016  白色内格罗尼
+
+[B172 PARAGRAPH Normal]
+White Negroni
+
+[B173 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品
+
+[B174 PARAGRAPH Normal]
+“把暮色调浅，轮廓仍然清晰。”
+
+[B175 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 金酒 | 40 ml | 原文记录
+ROW 3: 白味美思 White Vermouth | 30 ml | 原文记录
+ROW 4: Suze 龙胆风味酒 | 20 ml | 原文记录
+
+[B176 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B177 PARAGRAPH Normal]
+出杯记录  装饰：西柚皮
+
+[B178 PARAGRAPH Normal]
+整理／待确认  白味美思的甜度类型与品牌未记录。
+
+[B179 PARAGRAPH Normal]
+背景文案·原创  把熟悉的三方结构调成更浅的画面：金酒、白味美思与Suze各留一条线，西柚皮像一道细小的月弧。背景不必明亮到失去边界，恰当的留白，反而能让每一个转折更容易被看见。
+
+[B180 PARAGRAPH Normal]
+tn-white-negroni  |  原件解析第5页；P0089–P0093
+
+[B181 PARAGRAPH Heading 2]
+017  汤姆·柯林斯
+
+[B182 PARAGRAPH Normal]
+Tom Collins
+
+[B183 PARAGRAPH Normal]
+配方笔记 · 有方法记录／待审核 · 原注3星
+
+[B184 PARAGRAPH Normal]
+“一条向上的气泡线，写完半个夏天。”
+
+[B185 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 老汤姆金酒 Old Tom Gin | 30 ml | 原文记录
+ROW 3: 普通糖浆 | 15 ml | 原文记录
+ROW 4: 黄柠檬汁 | 15 ml | 原文记录
+ROW 5: 苏打水 | 补满／未定量 | 原文记录
+
+[B186 PARAGRAPH Normal]
+方法记录  1. 将老汤姆金酒、糖浆与黄柠檬汁快速摇和。 2. 加苏打水和冰，使用柠檬轮或柠檬皮装饰。
+
+[B187 PARAGRAPH Normal]
+出杯记录  冰：加冰；装饰：柠檬轮或柠檬皮
+
+[B188 PARAGRAPH Normal]
+背景文案·原创  老汤姆金酒与柠檬、糖浆先组成短句，再由苏打把句子轻轻拉长。让一排上升的细点穿过清晨的窗格，柠檬轮像远处的太阳；这一幕关于轻快，也关于不急着把所有空间填满。
+
+[B189 PARAGRAPH Normal]
+tn-tom-collins  |  原件解析第5页；P0095–P0101
+
+[B190 PARAGRAPH Heading 2]
+018  金汤力
+
+[B191 PARAGRAPH Normal]
+Gin & Tonic
+
+[B192 PARAGRAPH Normal]
+只有名称 · 待补配方 · 原注5星
+
+[B193 PARAGRAPH Normal]
+“留一片空白，让风自己找到位置。”
+
+[B194 PARAGRAPH Normal]
+配料  原笔记没有提供，不自动填补。
+
+[B195 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B196 PARAGRAPH Normal]
+背景文案·原创  为这个名字留下一扇半开的窗、一片缓慢移动的影子，以及一段没有被写满的夜。这是一张尚未有配方的意象卡，留白本身就是它当前真实的样子；等材料被确认，风景才会获得自己的比例。
+
+[B197 PARAGRAPH Normal]
+tn-gin-tonic  |  原件解析第5页；P0103–P0104
+
+[B198 PARAGRAPH Heading 2]
+019  亡者复苏·未编号笔记
+
+[B199 PARAGRAPH Normal]
+Corpse Reviver — unnumbered note
+
+[B200 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品
+
+[B201 PARAGRAPH Normal]
+“让沉睡的光，在杯缘重新聚拢。”
+
+[B202 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 金酒 | 22.5 ml | 原文记录
+ROW 3: Americano（原料身份待确认） 或 Lillet Blanc 白利莱 | 22.5 ml | 原文二选一
+ROW 4: 三重橙味利口酒 Triple Sec | 22.5 ml | 原文记录
+ROW 5: 新鲜黄柠檬汁 | 22.5 ml | 原文记录
+ROW 6: 苦艾酒 Absinthe | 洗杯／未定量 | 洗杯
+
+[B203 PARAGRAPH Normal]
+方法记录  1. 用苦艾酒洗杯。
+
+[B204 PARAGRAPH Normal]
+出杯记录  装饰：鸡尾酒樱桃
+
+[B205 PARAGRAPH Normal]
+整理／待确认  未记录摇和、搅拌或入杯步骤；不自行加上No.2。 Americano在这里是原料文本，与本目录Americano酒款不是同一实体。
+
+[B206 PARAGRAPH Normal]
+背景文案·原创  四份等量原料像四束从不同方向归来的光，苦艾洗杯留下门的意象，樱桃是远处的一点红。这里的“复苏”只是一场光影叙事：沉睡的画面重新聚拢，杯子仍然安静，没有任何神奇功效的承诺。
+
+[B207 PARAGRAPH Normal]
+tn-corpse-reviver  |  原件解析第5页；P0106–P0110
+
+[B208 PARAGRAPH Heading 2]
+020  向日葵
+
+[B209 PARAGRAPH Normal]
+Sunflower
+
+[B210 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品 · 原注3星
+
+[B211 PARAGRAPH Normal]
+“朝向光的花，也记得夜的形状。”
+
+[B212 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 金酒 | 22.5 ml | 原文记录
+ROW 3: 君度 Cointreau | 22.5 ml | 原文记录
+ROW 4: St-Germain 接骨木花利口酒 | 22.5 ml | 原文记录
+ROW 5: 苦艾酒 Absinthe | 洗杯／未定量 | 洗杯
+
+[B213 PARAGRAPH Normal]
+方法记录  1. 用苦艾酒洗杯。
+
+[B214 PARAGRAPH Normal]
+出杯记录  冰：原文 No ice；是否仅指成杯不带冰待确认
+
+[B215 PARAGRAPH Normal]
+笔记背景  原笔记称其为 Corpse Reviver 的改良。
+
+[B216 PARAGRAPH Normal]
+历史原注·未核实  原笔记标注“Sam Ross 2008”，本次未外部核验。
+
+[B217 PARAGRAPH Normal]
+整理／待确认  君度后有无关乱码，展示删除但原段落保留。 柑橘汁未记录，是否漏记待确认；不把“未记录”自动判为已知必须添加。
+
+[B218 PARAGRAPH Normal]
+背景文案·原创  让三份等量的酒像花瓣一样围拢，苦艾的洗杯动作成为外侧一道很薄的轮廓。以向日葵的名字写一段朝向光的场景：夜色尚未完全退去，花已经决定了方向，温柔并不意味着没有骨架。
+
+[B219 PARAGRAPH Normal]
+tn-sunflower  |  原件解析第5、6页；P0112–P0119
+
+[B220 PARAGRAPH Heading 2]
+021  常备之选
+
+[B221 PARAGRAPH Normal]
+GO-TO
+
+[B222 PARAGRAPH Normal]
+配方笔记 · 有方法记录／待审核
+
+[B223 PARAGRAPH Normal]
+“熟悉的入口，也能通向新的风景。”
+
+[B224 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 黄瓜 | 3 片 | 原文记录
+ROW 3: 薄荷叶 | 8–10 片 | 原文记录
+ROW 4: 金酒（原配 Ford’s） | 60 ml | 原文记录
+ROW 5: St-Germain 接骨木花利口酒 | 15 ml | 原文记录
+ROW 6: 青柠汁 | 22.5 ml | 原文记录
+ROW 7: 姜汁啤酒 Ginger Beer | 补满／未定量 | 原文记录
+
+[B225 PARAGRAPH Normal]
+方法记录  1. 在摇壶中摇和。 2. 倒入柯林斯杯，以姜汁啤酒补顶。
+
+[B226 PARAGRAPH Normal]
+出杯记录  杯型：柯林斯杯
+
+[B227 PARAGRAPH Normal]
+整理／待确认  标题后、君度及补顶文字周边的无关输入噪声已单独保留，不进入酒语或配料。
+
+[B228 PARAGRAPH Normal]
+背景文案·原创  黄瓜、薄荷、接骨木花与青柠，让这份配方像一条熟悉的小径；金酒是路的轴线，姜味饮料把它延到远处。所谓常备之选，不是每天必须重复，而是在需要一种熟悉感觉时，仍认得回去的方向。
+
+[B229 PARAGRAPH Normal]
+tn-go-to  |  原件解析第6页；P0121–P0130
+
+[B230 PARAGRAPH Heading 2]
+022  白色马天尼·笔记版
+
+[B231 PARAGRAPH Normal]
+White Martini
+
+[B232 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品
+
+[B233 PARAGRAPH Normal]
+“少一点喧哗，多一点尚未说出口的光。”
+
+[B234 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 金酒 | 45 ml | 原文记录
+ROW 3: 干味美思 | 22.5 ml | 原文记录
+
+[B235 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B236 PARAGRAPH Normal]
+出杯记录  装饰：挤出柠檬皮油
+
+[B237 PARAGRAPH Normal]
+历史原注·未核实  原笔记称19世纪出现、早期1∶1，后来金酒比例上升，并提到1950年代伏特加马天尼。 原文含丘吉尔“看一眼味美思”的轶事；只作未核实笔记，不做名人酒语。
+
+[B238 PARAGRAPH Normal]
+整理／待确认  White为原作者名称，不能静默重命名成其他已核验标准版本。
+
+[B239 PARAGRAPH Normal]
+背景文案·原创  金酒与干味美思组成两条长短不同的线，柠檬皮油像一束最后落下的光。背景可以只保留深色桌面与清楚杯沿：当元素减少，细节便有更多空间被看见，沉默也成为一种完整表达。
+
+[B240 PARAGRAPH Normal]
+tn-white-martini  |  原件解析第7页；P0132–P0139
+
+[B241 PARAGRAPH Heading 2]
+023  樱桃美式·苏打记录版
+
+[B242 PARAGRAPH Normal]
+Sakuranbo Americano — soda note
+
+[B243 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品
+
+[B244 PARAGRAPH Normal]
+“樱桃落在暮色里，留下一个轻盈的逗号。”
+
+[B245 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 金巴利 Campari | 30 ml | 原文记录
+ROW 3: 甜味美思 | 15 ml | 原文记录
+ROW 4: Cherry Heering 樱桃利口酒 | 15 ml | 原文记录
+ROW 5: 苏打水 | 补满／未定量 | 原文记录
+
+[B246 PARAGRAPH Normal]
+方法记录  1. 以苏打水补满。
+
+[B247 PARAGRAPH Normal]
+整理／待确认  后段日式章节同名简记未写苏打，单列相关记录而非擅自认定遗漏。
+
+[B248 PARAGRAPH Normal]
+背景文案·原创  樱桃利口酒在金巴利与甜味美思之间留下一个暗红的逗号，苏打把后半句继续向上展开。场景是一条刚亮起路灯的街：晚风并不强，夜也还很长，几处轻盈的细节足以改变整幅画面。
+
+[B249 PARAGRAPH Normal]
+tn-sakuranbo-full  |  原件解析第8页；P0143–P0147
+
+[B250 PARAGRAPH Heading 2]
+024  土星
+
+[B251 PARAGRAPH Normal]
+Saturn
+
+[B252 PARAGRAPH Normal]
+配方笔记 · 有方法记录／待审核 · 原注4星
+
+[B253 PARAGRAPH Normal]
+“让一枚柠檬环，绕过你的微型宇宙。”
+
+[B254 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 伦敦干金酒 | 45 ml | 原文记录
+ROW 3: 杏仁糖浆 Orgeat | 15 ml | 原文记录
+ROW 4: 新鲜黄柠檬汁 | 15 ml | 原文记录
+ROW 5: Velvet Falernum | 7.5 ml | 原文记录
+ROW 6: 百香果糖浆 | 7.5 ml | 原文记录
+
+[B255 PARAGRAPH Normal]
+方法记录  1. 将配方原料与冰一起搅打。 2. 用樱桃和柠檬皮装饰。
+
+[B256 PARAGRAPH Normal]
+出杯记录  冰：搅打用冰；装饰：樱桃、柠檬皮
+
+[B257 PARAGRAPH Normal]
+背景文案·原创  让柠檬皮成为想象中的星环，樱桃是一颗近处的小卫星，金酒、杏仁与百香果在杯中构成微型天体。这个宇宙没有宏大尺度，只有一圈弧线和一刻停留；远方因此变得可以被轻轻端起。
+
+[B258 PARAGRAPH Normal]
+tn-saturn  |  原件解析第8页；P0149–P0158
+
+[B259 PARAGRAPH Heading 2]
+025  火焰迷迭香吉姆雷特
+
+[B260 PARAGRAPH Normal]
+Flaming Rosemary Gimlet
+
+[B261 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品 · 原注3星
+
+[B262 PARAGRAPH Normal]
+“一枝草木，照亮夜色的边缘。”
+
+[B263 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 金酒 | 45 ml | 原文记录
+ROW 3: Chartreuse 草本利口酒 | 15 ml | 原文记录
+ROW 4: 迷迭香普通糖浆 | 10 ml | 原文记录
+ROW 5: 青柠汁 | 15 ml | 原文记录
+
+[B264 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B265 PARAGRAPH Normal]
+整理／待确认  Chartreuse的具体品种没有记录。 名称中的Flaming不构成点火制法的证据。
+
+[B266 PARAGRAPH Normal]
+背景文案·原创  迷迭香与草本酒把画面引向一座夜间花园，金酒与青柠留下清楚边缘。名称中的火焰被写成枝叶间的一点暖光，而不是真正的点火动作；草木足以把夜色照亮，不必让它燃烧。
+
+[B267 PARAGRAPH Normal]
+tn-rosemary-gimlet  |  原件解析第8页；P0160–P0162
+
+[B268 PARAGRAPH Heading 2]
+026  荆棘·黑莓或黑加仑笔记
+
+[B269 PARAGRAPH Normal]
+Bramble — berry choice note
+
+[B270 PARAGRAPH Normal]
+配方笔记 · 用量单位缺失 · 原注4星
+
+[B271 PARAGRAPH Normal]
+“越过荆棘，仍有一颗果实在等光。”
+
+[B272 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 金酒 | 45 ml | 原文记录
+ROW 3: 黄柠檬汁 | 22.5（单位未记） | 待核实
+ROW 4: 半浓糖浆 Semi-rich | 15 ml | 原文记录
+ROW 5: 黑莓利口酒 Crème de Mûre 或 黑加仑利口酒 Crème de Cassis | 15 ml | 原文允许黑加仑替代黑莓；作漂浮层
+
+[B273 PARAGRAPH Normal]
+方法记录  1. 使用碎冰；将所选浆果利口酒作漂浮层。
+
+[B274 PARAGRAPH Normal]
+出杯记录  冰：碎冰；装饰：柠檬轮、黑莓
+
+[B275 PARAGRAPH Normal]
+原料疑项  黄柠檬汁：原文缺少单位，不自动补ml
+
+[B276 PARAGRAPH Normal]
+背景文案·原创  想象深色果实穿过一片碎冰，留下细小而不规则的路径；柠檬轮与黑莓停在路的尽头。荆棘的故事不只有阻碍，也可以是抵达：越过凌乱的枝线，仍有一颗果实完整地留在光里。
+
+[B277 PARAGRAPH Normal]
+tn-bramble  |  原件解析第8、9页；P0164–P0168
+
+[B278 PARAGRAPH Heading 2]
+027  茉莉
+
+[B279 PARAGRAPH Normal]
+Jasmine
+
+[B280 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品 · 原注2星
+
+[B281 PARAGRAPH Normal]
+“有些花，不以花瓣的方式开放。”
+
+[B282 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 金酒 | 45 ml | 原文记录
+ROW 3: 三重橙味利口酒 Triple Sec | 5 ml | 原文记录
+ROW 4: 金巴利 Campari | 5 ml | 原文记录
+ROW 5: 黄柠檬汁 | 30 ml | 原文记录
+
+[B283 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B284 PARAGRAPH Normal]
+背景文案·原创  名字是一朵花，配方却没有写入花材：金酒、橙味利口酒、金巴利与柠檬共同构成它的轮廓。让这份反差成为背景的中心——有些花并不以花瓣开放，而是在几条不同的线相遇时出现。
+
+[B285 PARAGRAPH Normal]
+tn-jasmine  |  原件解析第9页；P0170–P0172
+
+[B286 PARAGRAPH Heading 2]
+028  蜜蜂之膝
+
+[B287 PARAGRAPH Normal]
+Bee’s Knees
+
+[B288 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品 · 原注2星
+
+[B289 PARAGRAPH Normal]
+“一滴蜂蜜，收藏了花开时的光。”
+
+[B290 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 金酒 | 60 ml | 原文记录
+ROW 3: 蜂蜜糖浆 | 22.5 ml | 原文记录
+ROW 4: 黄柠檬汁 | 22.5 ml | 原文记录
+
+[B291 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B292 PARAGRAPH Normal]
+出杯记录  装饰：迷迭香
+
+[B293 PARAGRAPH Normal]
+背景文案·原创  把蜂蜜糖浆想作一块收藏阳光的琥珀，柠檬为它画出明亮边缘，金酒留住整体结构。迷迭香像一条细枝伸进画面：花季可以已经过去，关于花开的那束光仍然留在杯边。
+
+[B294 PARAGRAPH Normal]
+tn-bees-knees  |  原件解析第9页；P0174–P0176
+
+[B295 PARAGRAPH Heading 2]
+029  恩佐尼
+
+[B296 PARAGRAPH Normal]
+Enzoni
+
+[B297 PARAGRAPH Normal]
+配方笔记 · 有方法记录／待审核 · 原注2星
+
+[B298 PARAGRAPH Normal]
+“把葡萄的光，藏进红色的转折里。”
+
+[B299 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 青葡萄 | 5 颗 | 原文记录
+ROW 3: 金酒 | 30 ml | 原文记录
+ROW 4: 金巴利 Campari | 30 ml | 原文记录
+ROW 5: 黄柠檬汁 | 22.5 ml | 原文记录
+ROW 6: 普通糖浆 | 15 ml | 原文记录
+
+[B300 PARAGRAPH Normal]
+方法记录  1. 捣碎5颗青葡萄。 2. 加入其他配料摇和。 3. 双重过滤。
+
+[B301 PARAGRAPH Normal]
+笔记背景  原文提示：可将它想象成Negroni Sour。
+
+[B302 PARAGRAPH Normal]
+背景文案·原创  五颗青葡萄先打破完整的轮廓，再与金酒、金巴利、柠檬和糖浆相遇。展示故事围绕这次变化展开：一颗果实不必保持原来的形状，也能保留自己的存在，让红色的画面多出新的方向。
+
+[B303 PARAGRAPH Normal]
+tn-enzoni  |  原件解析第9页；P0178–P0185
+
+[B304 PARAGRAPH Heading 2]
+030  新加坡司令·正文版
+
+[B305 PARAGRAPH Normal]
+Singapore Sling — text version
+
+[B306 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品 · 原注4星
+
+[B307 PARAGRAPH Normal]
+“热带的夜雨，把果香写成一封长信。”
+
+[B308 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 金酒 | 40 ml | 原文记录
+ROW 3: 君度 Cointreau | 20 ml | 原文记录
+ROW 4: Cherry Heering 樱桃利口酒 | 20 ml | 原文记录
+ROW 5: 黄柠檬汁 | 30 ml | 原文记录
+ROW 6: 红石榴糖浆 Grenadine | 10 ml | 原文记录
+ROW 7: 菠萝汁 | 60 ml | 原文记录
+ROW 8: 苏打水 | 补满／未定量 | 原文记录
+
+[B309 PARAGRAPH Normal]
+方法记录  1. 用苏打水补满。
+
+[B310 PARAGRAPH Normal]
+整理／待确认  原料与配比不与同页“Raffles Style”图和“Savoy Style”图合并。
+
+[B311 PARAGRAPH Normal]
+背景文案·原创  菠萝与樱桃像热带夜雨中的两盏灯，金酒、橙香和柠檬将它们连成一条长街。以正文这一版为背景写一封湿润的夜信：灯光有层次，雨丝有方向，每种材料都保留自己在信中的位置。
+
+[B312 PARAGRAPH Normal]
+tn-singapore-text  |  原件解析第9、10页；P0187–P0190
+
+[B313 PARAGRAPH Heading 2]
+031  新加坡司令·莱佛士式图录
+
+[B314 PARAGRAPH Normal]
+Singapore Sling — Raffles Style image
+
+[B315 PARAGRAPH Normal]
+图录配方 · 图像剂量缺失
+
+[B316 PARAGRAPH Normal]
+“同一个名字，也能映出另一片雨林。”
+
+[B317 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 金酒 | 30 ml | 原文记录
+ROW 3: Cherry Heering 樱桃利口酒 | 15 ml | 原文记录
+ROW 4: Bénédictine DOM 草本利口酒 | 7.5 ml | 原文记录
+ROW 5: 君度 Cointreau | 7.5 ml | 原文记录
+ROW 6: 菠萝汁 | 120 ml | 原文记录
+ROW 7: 青柠汁 | 15 ml | 原文记录
+ROW 8: 红石榴糖浆 Grenadine | 10 ml | 原文记录
+ROW 9: 安格斯图拉芳香苦精 | 用量未记 | 待核实
+
+[B318 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B319 PARAGRAPH Normal]
+整理／待确认  目视转录七项清楚用量；Angostura名称可见，剂量不可辨，不猜1 dash。 杯子插画仅作来源展示，不能确定实际服务杯容量。
+
+[B320 PARAGRAPH Normal]
+原料疑项  安格斯图拉芳香苦精：底部剂量被字幕遮挡
+
+[B321 PARAGRAPH Normal]
+背景文案·原创  这张图录里的菠萝篇幅更大，樱桃、橙与Bénédictine藏在细节之中。让场景成为一座开着灯的热带门廊：同名的酒像不同窗户看见的夜，彼此相似，却不必被拼成同一张配方。
+
+[B322 PARAGRAPH Normal]
+tn-singapore-raffles-image  |  原件解析第10页；P0189；image3.jpeg
+
+[B323 PARAGRAPH Heading 2]
+032  新加坡司令·萨伏伊式图录
+
+[B324 PARAGRAPH Normal]
+Singapore Sling — Savoy Style image
+
+[B325 PARAGRAPH Normal]
+图录配方 · 比例单位未明
+
+[B326 PARAGRAPH Normal]
+“留白的热带，仍然有风经过。”
+
+[B327 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 黄柠檬榨汁 | 0.25 个 | 原文记录
+ROW 3: 干金酒 | 0.25 原图比例单位未注明 | 原文记录
+ROW 4: 樱桃白兰地 Cherry Brandy | 0.5 原图比例单位未注明 | 原文记录
+ROW 5: 苏打水 | 补满／未定量 | 原文记录
+
+[B328 PARAGRAPH Normal]
+方法记录  1. 充分摇和。 2. 用苏打水补满。
+
+[B329 PARAGRAPH Normal]
+整理／待确认  1/4、1/2未说明是何种份量，不把它们当成杯数或盎司。 字幕所称“现在普遍以…为主”属于原视频表述，未采纳为当前事实。
+
+[B330 PARAGRAPH Normal]
+背景文案·原创  让这张图录保留更多空白：柠檬、金酒、樱桃白兰地与苏打只勾出几条线，剩下的比例基准仍待确认。它像一张旧明信片，景色已经可辨，远处的小字却还没有被完整读清。
+
+[B331 PARAGRAPH Normal]
+tn-singapore-savoy-image  |  原件解析第10页；P0189；image4.jpeg
+
+[B332 PARAGRAPH Heading 2]
+033  美式鸡尾酒
+
+[B333 PARAGRAPH Normal]
+Americano
+
+[B334 PARAGRAPH Normal]
+只有名称 · 待补配方
+
+[B335 PARAGRAPH Normal]
+“城市的转角，也值得停留一小会儿。”
+
+[B336 PARAGRAPH Normal]
+配料  原笔记没有提供，不自动填补。
+
+[B337 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B338 PARAGRAPH Normal]
+背景文案·原创  一处街角、一张小桌、一段不急着回答的黄昏，是为Americano这个名字写下的原创场景。配方尚未出现在笔记中，因此这张卡先收藏一种氛围；城市可以想象，杯中的内容必须等真实记录。
+
+[B339 PARAGRAPH Normal]
+tn-americano-title  |  原件解析第10页；P0191
+
+[B340 PARAGRAPH Heading 2]
+034  法国七五
+
+[B341 PARAGRAPH Normal]
+French 75
+
+[B342 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品
+
+[B343 PARAGRAPH Normal]
+“让一串微小的星，照见盛大的瞬间。”
+
+[B344 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: Crémant de Bourgogne Brut 勃艮第干型起泡酒 | 60 ml | 原文记录
+ROW 3: Plymouth 金酒 或 Maison Rouge VSOP 干邑 | 30 ml | 原文二选一
+ROW 4: 新鲜黄柠檬汁 | 15 ml | 原文记录
+ROW 5: 普通糖浆 | 15 ml | 原文记录
+
+[B345 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B346 PARAGRAPH Normal]
+出杯记录  装饰：柠檬皮
+
+[B347 PARAGRAPH Normal]
+历史原注·未核实  笔记称酒名与一战法国野战炮有关，1920年代版本用金酒，1940年代常用干邑；均未外部核实。
+
+[B348 PARAGRAPH Normal]
+整理／待确认  原文没有记录摇和或起泡酒加入顺序，步骤保持待补全。
+
+[B349 PARAGRAPH Normal]
+背景文案·原创  金酒或干邑与柠檬、糖浆组成前景，起泡酒把细点一路带向杯沿。把这一幕想作夜空里一串很小的星：它们不需要变成烟火，也能在相遇的一瞬，让原本平常的时间显得郑重。
+
+[B350 PARAGRAPH Normal]
+tn-french-75  |  原件解析第10、11页；P0194–P0200
+
+[B351 PARAGRAPH Heading 1]
+黑刺李金酒
+
+[B352 PARAGRAPH Heading 2]
+035  黑刺李金酒菲士
+
+[B353 PARAGRAPH Normal]
+Sloe Gin Fizz
+
+[B354 PARAGRAPH Normal]
+配方笔记 · 有方法记录／待审核
+
+[B355 PARAGRAPH Normal]
+“一颗深色果实，也能长出轻盈的气泡。”
+
+[B356 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 黑刺李金酒 | 60 ml | 原文记录
+ROW 3: 新鲜黄柠檬汁 | 30 ml | 原文记录
+ROW 4: 半浓糖浆 Semi-rich | 15 ml | 原文记录
+ROW 5: 苏打水 | 补满／未定量 | 原文记录
+
+[B357 PARAGRAPH Normal]
+方法记录  1. 摇和黑刺李金酒、黄柠檬汁和半浓糖浆。 2. 以苏打水补满。
+
+[B358 PARAGRAPH Normal]
+背景文案·原创  黑刺李的名字带来一片深色果园，柠檬与糖浆让画面出现两种方向，苏打则把安静的点逐一抬起。背景不必浓重：一颗果实的影子，也可以在风经过时变得轻盈。
+
+[B359 PARAGRAPH Normal]
+tn-sloe-fizz  |  原件解析第11页；P0203–P0204
+
+[B360 PARAGRAPH Heading 2]
+036  查理·卓别林·增金酒笔记版
+
+[B361 PARAGRAPH Normal]
+Charlie Chaplin — added-gin note
+
+[B362 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品
+
+[B363 PARAGRAPH Normal]
+“不用说话，光影已经写好了对白。”
+
+[B364 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 黑刺李金酒 | 30 ml | 原文记录
+ROW 3: 杏子白兰地 Apricot Brandy | 30 ml | 原文记录
+ROW 4: 金酒 | 60 ml | 原文记录
+ROW 5: 黄柠檬汁 | 30 ml | 原文记录
+ROW 6: 青柠汁 | 30 ml | 原文记录
+ROW 7: 普通糖浆 | 10 ml | 原文记录
+
+[B365 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B366 PARAGRAPH Normal]
+整理／待确认  列出的液体合计190 ml，原文未写份数；不默认一定是一人一杯。 Apricot Brandy的具体产品未明确，不擅自替换成未加糖的杏子蒸馏酒。
+
+[B367 PARAGRAPH Normal]
+背景文案·原创  黑刺李与杏子像默片中两种不同的光，增加的金酒把场景向外拉开，青柠与黄柠檬留下双重边缘。让这份个人版本拥有一段无声对白：没有台词，角色之间的距离已经说明了许多。
+
+[B368 PARAGRAPH Normal]
+tn-charlie-chaplin  |  原件解析第11页；P0206–P0208
+
+[B369 PARAGRAPH Heading 2]
+037  黑刺李金酒酸
+
+[B370 PARAGRAPH Normal]
+Sloe Gin Sour
+
+[B371 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品
+
+[B372 PARAGRAPH Normal]
+“深紫的夜，也可以拥有柔软的边。”
+
+[B373 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: Plymouth 黑刺李金酒 | 45 ml | 原文记录
+ROW 3: 金巴利 Campari | 15 ml | 原文记录
+ROW 4: 新鲜黄柠檬汁 | 22.5 ml | 原文记录
+ROW 5: 半浓糖浆 Semi-rich | 15 ml | 糖∶水=1.5∶1；原文未明示重量或体积
+ROW 6: 蛋清 或 鹰嘴豆液 Aquafaba | 15 ml | 原文二选一
+
+[B374 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B375 PARAGRAPH Normal]
+出杯记录  装饰：柠檬皮油、安格斯图拉苦精3滴
+
+[B376 PARAGRAPH Normal]
+整理／待确认  “12/ oz.”疑似打字错误；保留raw，采用同句明示15 ml，不推断其正确盎司写法。 未记录干摇或湿摇顺序。
+
+[B377 PARAGRAPH Normal]
+背景文案·原创  让深色果实与浅色泡沫的意象并置，柠檬像一条从中穿过的光，苦精留下微小的标点。黑刺李金酒酸的场景可以温柔而不模糊：黑夜仍在，只是每一处边缘都有了另一种表达方式。
+
+[B378 PARAGRAPH Normal]
+tn-sloe-sour  |  原件解析第11页；P0210–P0216
+
+[B379 PARAGRAPH Heading 1]
+朗姆酒
+
+[B380 PARAGRAPH Heading 2]
+038  莫吉托·原笔记果糖版
+
+[B381 PARAGRAPH Normal]
+Mojito — fructose note
+
+[B382 PARAGRAPH Normal]
+配方笔记 · 原料待确认
+
+[B383 PARAGRAPH Normal]
+“把薄荷轻轻拍醒，夏天便有了回声。”
+
+[B384 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 薄荷叶 | 10 片 | 原文记录
+ROW 3: 黄柠檬片 | 1 片 | 原文记录
+ROW 4: 白糖 | 1 吧勺 | 原文记录
+ROW 5: 果糖（原文名称，制剂未明） | 45 ml | 待核实
+ROW 6: 青柠汁 | 20 ml | 原文记录
+ROW 7: 朗姆酒 | 45 ml | 原文记录
+ROW 8: 苏打水 | 补满／未定量 | 原文记录
+
+[B385 PARAGRAPH Normal]
+方法记录  1. 轻拍约10片薄荷叶；斜放1片黄柠檬。 2. 在柠檬片上撒1吧勺白糖，碾压。 3. 加入果糖45 ml、青柠汁20 ml、朗姆酒45 ml。 4. 加入半杯碎冰，用吧勺搅拌，提起薄荷并把柠檬片调整竖立。 5. 碎冰加至七分满，苏打水加满，再盖冰。 6. 使用马蹄吸管，放青柠角并插薄荷叶。
+
+[B386 PARAGRAPH Normal]
+出杯记录  冰：碎冰；半杯→七分满→盖冰；装饰：青柠角、薄荷叶
+
+[B387 PARAGRAPH Normal]
+整理／待确认  不将45 ml果糖擅改为常见糖浆用量；投产前确认制剂、糖度与目标份量。 后文Mojito重复标题只作关联，不另造配方。
+
+[B388 PARAGRAPH Normal]
+原料疑项  果糖（原文名称，制剂未明）：原文明确45 ml，浓度与是否液体果糖待核实
+
+[B389 PARAGRAPH Normal]
+背景文案·原创  薄荷被轻轻拍醒，柠檬片在碎冰里站起，吧勺把绿色从杯底带回光下。以原作者细致的动作写一段夏日场景：风景不是凭空生成的，它由一次轻拍、一次提拉和一片被重新看见的叶子组成。
+
+[B390 PARAGRAPH Normal]
+tn-mojito  |  原件解析第12、13页；P0220–P0235；原件解析第13页；P0247
+
+[B391 PARAGRAPH Heading 2]
+039  横渡太平洋
+
+[B392 PARAGRAPH Normal]
+Cross the Pacific
+
+[B393 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品
+
+[B394 PARAGRAPH Normal]
+“海的另一端，也许只是杯中的一段余韵。”
+
+[B395 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 深色朗姆酒 | 30 ml | 原文记录
+ROW 3: 高度朗姆酒 Overproof Rum | 15 ml | 原文记录
+ROW 4: 意式杏仁风味利口酒 Amaretto 或 杏仁糖浆 Orgeat | 15 ml | 原文二选一
+ROW 5: 普通糖浆 | 15 ml | 原文记录
+ROW 6: 黄柠檬汁 | 22.5 ml | 原文记录
+
+[B396 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B397 PARAGRAPH Normal]
+整理／待确认  原文没有完整制法；高度朗姆酒的实际酒精度未提供。
+
+[B398 PARAGRAPH Normal]
+背景文案·原创  两种朗姆像来自不同海岸的风，杏仁材料与柠檬把它们留在同一张航图上。横渡太平洋在这里是一段原创意象：远方并不靠距离证明，而在不同的线终于愿意朝着同一方向延伸时出现。
+
+[B399 PARAGRAPH Normal]
+tn-cross-pacific  |  原件解析第13页；P0237–P0238
+
+[B400 PARAGRAPH Heading 2]
+040  横渡太平洋·个人两项草稿
+
+[B401 PARAGRAPH Normal]
+Cross the Pacific — personal draft
+
+[B402 PARAGRAPH Normal]
+个人试验 · 草稿
+
+[B403 PARAGRAPH Normal]
+“地图只画到这里，海还没有结束。”
+
+[B404 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 高度朗姆酒 Overproof Rum | 30 ml | 原文记录
+ROW 3: 青柠汁 | 22.5 ml | 原文记录
+
+[B405 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B406 PARAGRAPH Normal]
+整理／待确认  没有明确指示继承上方其他原料，不补写。
+
+[B407 PARAGRAPH Normal]
+背景文案·原创  航图画到一半，只留下朗姆与青柠两个坐标，其他海岸还没有名字。这份个人草稿适合保留一种未完成的美：不是每次出发都要立即抵达，下一次记录，才会决定航线往哪里继续。
+
+[B408 PARAGRAPH Normal]
+tn-cross-pacific-experiment  |  原件解析第13页；P0240–P0242
+
+[B409 PARAGRAPH Heading 2]
+041  戴吉利
+
+[B410 PARAGRAPH Normal]
+Daiquiri
+
+[B411 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品
+
+[B412 PARAGRAPH Normal]
+“三条简单的线，也能勾出整片海。”
+
+[B413 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 白朗姆酒 | 50 ml | 原文记录
+ROW 3: 青柠汁 | 25 ml | 原文记录
+ROW 4: 糖浆 | 10 ml | 原文记录
+
+[B414 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B415 PARAGRAPH Normal]
+出杯记录  装饰：青柠轮
+
+[B416 PARAGRAPH Normal]
+背景文案·原创  白朗姆、青柠与糖浆构成三条干净的线，像海面上尚未被打乱的航迹。它的场景不需要拥挤的颜色；用最少的元素保留清楚关系，本身就可以是一种认真，也可以是一种完整。
+
+[B417 PARAGRAPH Normal]
+tn-daiquiri  |  原件解析第13页；P0244–P0245
+
+[B418 PARAGRAPH Heading 2]
+042  总统
+
+[B419 PARAGRAPH Normal]
+El Presidente
+
+[B420 PARAGRAPH Normal]
+只有名称 · 待补配方
+
+[B421 PARAGRAPH Normal]
+“一张安静的桌，也能容纳盛大的夜。”
+
+[B422 PARAGRAPH Normal]
+配料  原笔记没有提供，不自动填补。
+
+[B423 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B424 PARAGRAPH Normal]
+背景文案·原创  为这个名字留下一张安静的桌、一束收敛的灯光与尚未打开的笔记。这里没有被确认的配方或人物故事，只有一段原创氛围：重要的东西不一定喧哗，也可以耐心地等待真实内容到来。
+
+[B425 PARAGRAPH Normal]
+tn-el-presidente  |  原件解析第13页；P0246
+
+[B426 PARAGRAPH Heading 2]
+043  椰林飘香·简化版
+
+[B427 PARAGRAPH Normal]
+Piña Colada — simplified
+
+[B428 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品
+
+[B429 PARAGRAPH Normal]
+“把海风调成白色，把远方留在杯中。”
+
+[B430 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 菠萝汁 | 90 ml | 原文记录
+ROW 3: 白朗姆酒 | 60 ml | 原文记录
+ROW 4: 椰奶 Coconut Milk | 60 ml | 原文记录
+ROW 5: 普通糖浆 | 15 ml | 原文记录
+
+[B431 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B432 PARAGRAPH Normal]
+整理／待确认  原文未记录搅打或摇和方式。 Coconut Milk保留为椰奶，不替换成甜椰浆Cream of Coconut。
+
+[B433 PARAGRAPH Normal]
+背景文案·原创  菠萝汁与椰奶像沙岸上两种不同的光，白朗姆在其间留下一条线。让简化版的背景停在一片想象中的椰林：枝影缓慢移动，远处有海，但真正构成杯中风景的仍是四项清楚写下的材料。
+
+[B434 PARAGRAPH Normal]
+tn-pina-colada  |  原件解析第13页；P0248–P0252
+
+[B435 PARAGRAPH Heading 2]
+044  马里布日落
+
+[B436 PARAGRAPH Normal]
+Malibu Sunset
+
+[B437 PARAGRAPH Normal]
+只有名称 · 待补配方
+
+[B438 PARAGRAPH Normal]
+“日落没有停下，只是暂时住进杯里。”
+
+[B439 PARAGRAPH Normal]
+配料  原笔记没有提供，不自动填补。
+
+[B440 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B441 PARAGRAPH Normal]
+背景文案·原创  为这个名字写一段日落：天色从远处慢慢退下，海面只剩一条尚未消失的光。它是一张等待配方的意象卡，颜色来自想象而非实测；在比例被写下之前，先让晚霞安静地留在名字里。
+
+[B442 PARAGRAPH Normal]
+tn-malibu-sunset  |  原件解析第13页；P0253
+
+[B443 PARAGRAPH Heading 2]
+045  马里布海湾微风
+
+[B444 PARAGRAPH Normal]
+Malibu Bay Breeze
+
+[B445 PARAGRAPH Normal]
+只有名称 · 待补配方
+
+[B446 PARAGRAPH Normal]
+“海湾没有催促，风也不必回答。”
+
+[B447 PARAGRAPH Normal]
+配料  原笔记没有提供，不自动填补。
+
+[B448 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B449 PARAGRAPH Normal]
+背景文案·原创  海湾的风不急着走直线，帆影也不必立即靠岸。以这样的场景承接这条只有名称的记录：轻盈、开阔、没有被填满的空白。等真实的原料到来，这阵风才会拥有可被量取的形状。
+
+[B450 PARAGRAPH Normal]
+tn-malibu-bay-breeze  |  原件解析第13页；P0254
+
+[B451 PARAGRAPH Heading 2]
+046  跳伞
+
+[B452 PARAGRAPH Normal]
+Sky Diving
+
+[B453 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品
+
+[B454 PARAGRAPH Normal]
+“在下落之前，先借一瞬天空。”
+
+[B455 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 白朗姆酒 | 22.5 ml | 原文记录
+ROW 3: 蓝橙利口酒 Blue Curaçao | 15 ml | 原文记录
+ROW 4: 青柠柯迪尔 Lime Cordial | 7.5 ml | 原文记录
+
+[B456 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B457 PARAGRAPH Normal]
+笔记背景  条目位于“Kumiko（Japanese）”小节；原文没有进一步创作者或年份说明。
+
+[B458 PARAGRAPH Normal]
+背景文案·原创  白朗姆、蓝橙利口酒和青柠柯迪尔，可以在背景里化成天空中的三条轨迹。跳伞的意象停在离地的一瞬，而不是危险的动作：熟悉的地面暂时远去，世界因此显出另一种尺寸。
+
+[B459 PARAGRAPH Normal]
+tn-sky-diving  |  原件解析第13页；P0255–P0257
+
+[B460 PARAGRAPH Heading 2]
+047  不那么黑暗的暴风雨
+
+[B461 PARAGRAPH Normal]
+Not So Dark, But Stormy
+
+[B462 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品
+
+[B463 PARAGRAPH Normal]
+“风暴可以很远，杯中的光仍然很近。”
+
+[B464 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 朗姆酒 | 30 ml | 原文记录
+ROW 3: 青柠汁 | 15 ml | 原文记录
+ROW 4: 姜汁啤酒 Ginger Beer | 150 ml | 原文记录
+
+[B465 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B466 PARAGRAPH Normal]
+背景文案·原创  朗姆、青柠与姜汁啤酒勾出一场并不沉重的夜雨。这里的暴风雨只在画面里发生：远处有翻动的云，近处仍有一盏灯，细小气泡像穿过光线的雨丝，让黑暗保留层次而不是占据全部。
+
+[B467 PARAGRAPH Normal]
+tn-not-so-dark-stormy  |  原件解析第14页；P0259–P0260
+
+[B468 PARAGRAPH Heading 2]
+048  贝拉唐娜戴吉利
+
+[B469 PARAGRAPH Normal]
+Bella Donna Daiquiri
+
+[B470 PARAGRAPH Normal]
+配方笔记 · 量具待标定
+
+[B471 PARAGRAPH Normal]
+“在肉桂的边缘，听见夜色慢慢转身。”
+
+[B472 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 深色朗姆酒 或 Black Rum（原文） 或 Blackstrap Rum（原文） | 1.5 shot | 原文备选项，任选其一
+ROW 3: Disaronno 杏仁风味利口酒 | 1.5 shot | 原文记录
+ROW 4: 新鲜黄柠檬汁 | 0.5 shot | 原文记录
+ROW 5: 浓糖浆 Rich | 1/6 shot | 原文记录
+
+[B473 PARAGRAPH Normal]
+方法记录  1. 用橙汁润杯口，蘸肉桂与糖。 2. 其余原料加冰摇和。 3. 细滤入冰镇杯。
+
+[B474 PARAGRAPH Normal]
+出杯记录  杯型：冰镇杯，具体类型未写；冰：摇和用冰；装饰：橙汁润杯口、肉桂糖边
+
+[B475 PARAGRAPH Normal]
+整理／待确认  所有shot用量保留原单位；管理员须先定义量杯容量。 浓糖浆糖水比未注明。
+
+[B476 PARAGRAPH Normal]
+背景文案·原创  橙汁润湿杯口，肉桂糖在边缘留下一圈印记；朗姆与Disaronno的名字把画面引向深色木桌。让这一段背景像缓慢转动的唱片：主旋律在杯中，最容易记住的细节却停在外缘。
+
+[B477 PARAGRAPH Normal]
+tn-bella-donna  |  原件解析第14页；P0262–P0269
+
+[B478 PARAGRAPH Heading 2]
+049  蒙特内格罗朗姆酸
+
+[B479 PARAGRAPH Normal]
+The Rum Monte Sour
+
+[B480 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品
+
+[B481 PARAGRAPH Normal]
+“山影沉入酸甜，夜色多了一层柔软。”
+
+[B482 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: Amaro Montenegro 苦味利口酒 | 45 ml | 原文记录
+ROW 3: 深色朗姆酒 | 15 ml | 原文记录
+ROW 4: 糖浆 | 5 ml | 原文记录
+ROW 5: 黄柠檬汁 | 30 ml | 原文记录
+ROW 6: 蛋清 | 10–15 ml | 原文记录
+
+[B483 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B484 PARAGRAPH Normal]
+背景文案·原创  Montenegro与深色朗姆像两重远近不同的山影，柠檬划出一道谷线，泡沫的意象停在上方。以层次而不是厚重写这杯酸酒：夜色可以很深，也仍能留出一处柔软的位置。
+
+[B485 PARAGRAPH Normal]
+tn-rum-monte-sour  |  原件解析第14页；P0271–P0276
+
+[B486 PARAGRAPH Heading 2]
+050  朝鲜蓟
+
+[B487 PARAGRAPH Normal]
+Artichoke
+
+[B488 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品
+
+[B489 PARAGRAPH Normal]
+“让草木伸入夜色，让花香留在远处。”
+
+[B490 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 深色朗姆酒 | 20 ml | 原文记录
+ROW 3: 高度朗姆酒 Overproof Rum | 5 ml | 原文记录
+ROW 4: Cynar 苦味利口酒 | 25 ml | 原文记录
+ROW 5: 接骨木花利口酒 | 15 ml | 原文记录
+ROW 6: 杏仁糖浆 Orgeat | 15 ml | 原文记录
+ROW 7: 青柠汁 | 20 ml | 原文记录
+
+[B491 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B492 PARAGRAPH Normal]
+出杯记录  装饰：薄荷枝
+
+[B493 PARAGRAPH Normal]
+背景文案·原创  两种朗姆、Cynar、接骨木花与杏仁材料在同一幅草木图里交叠，青柠为叶片画出边缘。朝鲜蓟的名字适合层层展开的结构：每向内看一层，画面便出现另一条不必急着解释的线。
+
+[B494 PARAGRAPH Normal]
+tn-artichoke  |  原件解析第14、15页；P0278–P0285
+
+[B495 PARAGRAPH Heading 1]
+Tiki
+
+[B496 PARAGRAPH Heading 2]
+051  迈泰·多朗姆笔记版
+
+[B497 PARAGRAPH Normal]
+Mai Tai — multi-rum note
+
+[B498 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品
+
+[B499 PARAGRAPH Normal]
+“三种海风，在同一片薄荷下相遇。”
+
+[B500 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 香料朗姆酒 | 22.5 ml | 原文记录
+ROW 3: 金朗姆酒 | 22.5 ml | 原文记录
+ROW 4: 深色朗姆酒 | 15 ml | 原文记录
+ROW 5: 君度 Cointreau | 15 ml | 原文记录
+ROW 6: 杏仁糖浆 Orgeat | 30 ml | 原文记录
+ROW 7: 杏仁利口酒 | 15 ml | 原文记录
+ROW 8: 青柠汁 | 45 ml | 原文记录
+
+[B501 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B502 PARAGRAPH Normal]
+出杯记录  装饰：薄荷
+
+[B503 PARAGRAPH Normal]
+整理／待确认  前文仅标题；这里是唯一明确剂量记录。 液体量合计165 ml，原文未说明份数与稀释量。
+
+[B504 PARAGRAPH Normal]
+背景文案·原创  三种朗姆像三阵来自不同方向的海风，在杏仁材料与青柠之间汇合，薄荷停在最上方。让这份多朗姆笔记拥有一片开阔海面：丰富不是没有秩序，而是许多方向终于找到共同的岸。
+
+[B505 PARAGRAPH Normal]
+tn-mai-tai  |  原件解析第15页；P0288–P0296；原件解析第13页；P0236
+
+[B506 PARAGRAPH Heading 2]
+052  僵尸
+
+[B507 PARAGRAPH Normal]
+Zombie
+
+[B508 PARAGRAPH Normal]
+只有名称 · 待补配方
+
+[B509 PARAGRAPH Normal]
+“别急着解释夜晚，先看看它的影子。”
+
+[B510 PARAGRAPH Normal]
+配料  原笔记没有提供，不自动填补。
+
+[B511 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B512 PARAGRAPH Normal]
+背景文案·原创  为这个尚无配方的名字写一场影子戏：夜里一扇半开的门，一道并未靠近的轮廓，还有留在远处的灯。奇幻可以先存在，原料却不能靠名字生长；真正的配方，仍待下一页记录。
+
+[B513 PARAGRAPH Normal]
+tn-zombie  |  原件解析第15页；P0298；原件解析第43页；P0627
+
+[B514 PARAGRAPH Heading 1]
+威士忌
+
+[B515 PARAGRAPH Heading 2]
+053  日式威士忌嗨棒
+
+[B516 PARAGRAPH Normal]
+Japanese Whisky Highball
+
+[B517 PARAGRAPH Normal]
+配方笔记 · 有方法记录／待审核
+
+[B518 PARAGRAPH Normal]
+“大冰沉默，气泡替时间说话。”
+
+[B519 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 日本威士忌 | 45 ml | 原文记录
+ROW 3: 苏打水 | 补满／未定量 | 待核实
+ROW 4: Oloroso 雪莉酒 | 1 吧勺 | 可选；漂浮层
+
+[B520 PARAGRAPH Normal]
+方法记录  1. 使用冰镇高球杯，放入两块足以从底至顶的大冰块。 2. 倒入预先冷冻／预冷的日本威士忌。 3. 加入苏打水，用吧勺轻轻向上提冰使其融合。 4. 可把Oloroso雪莉淋在顶部冰块上；不加装饰。
+
+[B521 PARAGRAPH Normal]
+出杯记录  杯型：高球杯；冰：两块从杯底至杯顶的大块冰
+
+[B522 PARAGRAPH Normal]
+笔记背景  原笔记认为日本语境中的Highball通常指威士忌与苏打，强调简单配方中的温度与操作。
+
+[B523 PARAGRAPH Normal]
+历史原注·未核实  笔记将Highball在日本的流行与战后Torys酒吧和三得利推广联系，并写到1920年代、1946年等时间；均未外部核验。
+
+[B524 PARAGRAPH Normal]
+整理／待确认  保留5:1原字样；未解析方向。
+
+[B525 PARAGRAPH Normal]
+原料疑项  苏打水：5:1的方向和计量基准未明示
+
+[B526 PARAGRAPH Normal]
+背景文案·原创  大块冰像一座透明建筑，预冷的威士忌与苏打沿着它缓慢融合，可选雪莉留在上方。背景只需要冰、细点与一条向上的动作：简洁并不是没有细节，而是每一个细节都没有地方躲藏。
+
+[B527 PARAGRAPH Normal]
+tn-japanese-highball  |  原件解析第18、19页；P0310–P0321
+
+[B528 PARAGRAPH Heading 2]
+054  古典·Kumiko笔记版
+
+[B529 PARAGRAPH Normal]
+Old Fashioned — Kumiko note
+
+[B530 PARAGRAPH Normal]
+配方笔记 · 有方法记录／待审核 · 原注4星
+
+[B531 PARAGRAPH Normal]
+“让一小片橙色，陪时间慢慢坐下。”
+
+[B532 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 橙肉 | 适量／未定量 | 原文记录
+ROW 3: 浓德梅拉拉糖浆 Rich Demerara | 7.5 ml | 原文记录
+ROW 4: 安格斯图拉芳香苦精 | 2 dash | 原文记录
+ROW 5: 橙味苦精 | 1 dash | 原文记录
+ROW 6: 波本威士忌 | 60 ml | 原文记录
+
+[B533 PARAGRAPH Normal]
+方法记录  1. 切一小块橙子，与配方原料搅拌。 2. 以橙皮装饰。
+
+[B534 PARAGRAPH Normal]
+出杯记录  装饰：橙皮
+
+[B535 PARAGRAPH Normal]
+整理／待确认  四星位于Old Fashioned总标题，暂存本首个版本，不自动给V2复制评级。 Rich糖浆在这条未记录明确糖水比。
+
+[B536 PARAGRAPH Normal]
+背景文案·原创  一小块橙子参与搅拌，浓德梅拉拉糖浆与两类苦精围绕波本留下层次，橙皮是最后的一束光。让场景像旧木桌上的静物：岁月不是被讲出来的，而藏在那些不愿省略的小动作里。
+
+[B537 PARAGRAPH Normal]
+tn-old-fashioned-v1  |  原件解析第19页；P0324–P0332
+
+[B538 PARAGRAPH Heading 2]
+055  古典·个人简化版
+
+[B539 PARAGRAPH Normal]
+Old Fashioned — personal simplified
+
+[B540 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品
+
+[B541 PARAGRAPH Normal]
+“把复杂折好，留下最清楚的三句话。”
+
+[B542 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 威士忌（品种不限，原文） | 60 ml | 原文记录
+ROW 3: 普通糖浆 | 15 ml | 原文记录
+ROW 4: 安格斯图拉芳香苦精 | 4 dash | 原文记录
+
+[B543 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B544 PARAGRAPH Normal]
+背景文案·原创  威士忌、糖浆与苦精被作者写成简化的三项，像把长信折成一张便笺。背景不必替它补回被省去的装饰：清楚的比例、一点安静的光，以及让个人选择如实留下的位置，就已经足够。
+
+[B545 PARAGRAPH Normal]
+tn-old-fashioned-v2  |  原件解析第19页；P0334–P0337
+
+[B546 PARAGRAPH Heading 2]
+056  纽约酸
+
+[B547 PARAGRAPH Normal]
+New York Sour
+
+[B548 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品
+
+[B549 PARAGRAPH Normal]
+“城市的天际线，浮在一层红色之上。”
+
+[B550 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: Basil Hayden 波本威士忌 | 45 ml | 原文记录
+ROW 3: 新鲜黄柠檬汁 | 22.5 ml | 原文记录
+ROW 4: 浓德梅拉拉糖浆 Rich Demerara | 15 ml | 糖∶水=2∶1；原文未明示重量或体积
+ROW 5: 鹰嘴豆液 Aquafaba 或 蛋清 | 15 ml；或 1 枚蛋的蛋清 | 原文二选一
+ROW 6: 红葡萄酒 | 22.5 ml | 漂浮层
+
+[B551 PARAGRAPH Normal]
+方法记录  1. 红葡萄酒作漂浮层。
+
+[B552 PARAGRAPH Normal]
+出杯记录  装饰：柠檬皮油（可选）
+
+[B553 PARAGRAPH Normal]
+整理／待确认  正文未记录主体如何摇和；蛋清与鹰嘴豆液的单位各自保留。
+
+[B554 PARAGRAPH Normal]
+背景文案·原创  红葡萄酒浮在主体上方，像一条城市天际线；柠檬、波本和泡沫材料在其下组成另一重景深。让这段原创背景停在华灯初上的瞬间：上下并不相同，却可以在同一个杯沿内彼此映照。
+
+[B555 PARAGRAPH Normal]
+tn-new-york-sour  |  原件解析第19、20页；P0338–P0344
+
+[B556 PARAGRAPH Heading 2]
+057  棕色德比
+
+[B557 PARAGRAPH Normal]
+Brown Derby
+
+[B558 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品
+
+[B559 PARAGRAPH Normal]
+“西柚的弧线，勾住一束蜂蜜色的光。”
+
+[B560 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 波本威士忌 | 约60 ml（原2 oz） | 原文记录
+ROW 3: 西柚汁 | 约30 ml（原1 oz） | 原文记录
+ROW 4: 黄柠檬汁 | 1 茶匙 | 原文记录
+ROW 5: 蜂蜜糖浆 | 约15 ml（原0.5 oz） | 原文记录
+
+[B561 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B562 PARAGRAPH Normal]
+出杯记录  装饰：西柚皮
+
+[B563 PARAGRAPH Normal]
+背景文案·原创  西柚汁、蜂蜜与波本把画面铺成几种深浅不同的暖色，少量柠檬留下更细的边。让背景像一顶帽檐下的黄昏：不需要站在光的正中，也能让一条曲线保存整个下午的方向。
+
+[B564 PARAGRAPH Normal]
+tn-brown-derby  |  原件解析第20页；P0345–P0350
+
+[B565 PARAGRAPH Heading 2]
+058  波本复兴
+
+[B566 PARAGRAPH Normal]
+Bourbon Renewal
+
+[B567 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品 · 原注5星
+
+[B568 PARAGRAPH Normal]
+“旧木的年轮里，也会长出新的浆果。”
+
+[B569 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 波本威士忌 | 60 ml | 原文记录
+ROW 3: 黄柠檬汁 | 30 ml | 原文记录
+ROW 4: 黑加仑利口酒 Crème de Cassis | 15 ml | 原文记录
+ROW 5: 普通糖浆 | 10 ml | 原文记录
+ROW 6: 安格斯图拉芳香苦精 | 2 dash | 原文记录
+
+[B570 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B571 PARAGRAPH Normal]
+出杯记录  冰：加冰饮用（on the rocks）
+
+[B572 PARAGRAPH Normal]
+历史原注·未核实  原文写“Created 20 years ago”；写作日期不明，保留相对时间，不生成创作年份。
+
+[B573 PARAGRAPH Normal]
+背景文案·原创  波本与黑加仑把年轮和果实放在一起，柠檬、糖浆与苦精为它们写下连接。复兴在这段原创背景里不是宏大事件，而是旧木上重新落下一束果园的光，让熟悉结构多出一个新的季节。
+
+[B574 PARAGRAPH Normal]
+tn-bourbon-renewal  |  原件解析第20页；P0352–P0360
+
+[B575 PARAGRAPH Heading 2]
+059  纸飞机
+
+[B576 PARAGRAPH Normal]
+Paper Plane
+
+[B577 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品
+
+[B578 PARAGRAPH Normal]
+“折好一张纸，把未说的话交给风。”
+
+[B579 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 波本威士忌 | 22.5 ml | 原文记录
+ROW 3: Amaro Nonino 苦味利口酒 或 Amaro Montenegro 苦味利口酒 | 22.5 ml | 原文二选一
+ROW 4: 黄柠檬汁 | 22.5 ml | 原文记录
+ROW 5: Aperol 开胃酒 或 金巴利 Campari | 22.5 ml | 原文二选一
+
+[B580 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B581 PARAGRAPH Normal]
+历史原注·未核实  原文同样写“Created 20 years ago”，没有绝对时间依据。
+
+[B582 PARAGRAPH Normal]
+整理／待确认  实际制备前两组选择均须选定，不可四瓶都加。
+
+[B583 PARAGRAPH Normal]
+背景文案·原创  四份等量像折纸的四条边，波本、柠檬与两个可选酒类位置共同决定它的形状。让纸飞机带走的不是一定要得到回应的话，而是一种轻盈的可能：折痕清楚，风向则可以慢慢选择。
+
+[B584 PARAGRAPH Normal]
+tn-paper-plane  |  原件解析第20页；P0362–P0367
+
+[B585 PARAGRAPH Heading 2]
+060  菠萝盘尼西林
+
+[B586 PARAGRAPH Normal]
+Pineapple Penicillin
+
+[B587 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品
+
+[B588 PARAGRAPH Normal]
+“远方的菠萝，与近处的姜交换光线。”
+
+[B589 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 辛辣菠萝汽水 Spicy Pineapple Soda | 约120 ml（原4 oz） | 原文记录
+ROW 3: 威士忌 | 约45 ml（原1.5 oz） | 原文记录
+ROW 4: 黄柠檬汁 | 约22.5 ml（原0.75 oz） | 原文记录
+ROW 5: 蜂蜜糖浆 | 约15 ml（原0.5 oz） | 原文记录
+
+[B590 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B591 PARAGRAPH Normal]
+出杯记录  装饰：糖渍姜、柠檬皮
+
+[B592 PARAGRAPH Normal]
+整理／待确认  汽水产品与辛辣来源未注明；未记录完整调制顺序。
+
+[B593 PARAGRAPH Normal]
+背景文案·原创  辛辣菠萝汽水为威士忌、柠檬与蜂蜜带来热带场景，糖渍姜像岸边一个小小路标。把这段背景写成远方与近处交换光线：菠萝来自想象中的海岸，姜的轮廓却清楚地停在杯旁。
+
+[B594 PARAGRAPH Normal]
+tn-pineapple-penicillin  |  原件解析第20、21页；P0369–P0371
+
+[B595 PARAGRAPH Heading 2]
+061  老友·配料关系笔记
+
+[B596 PARAGRAPH Normal]
+Old Pal — ingredient relationship note
+
+[B597 PARAGRAPH Normal]
+只有配料关系 · 缺少剂量
+
+[B598 PARAGRAPH Normal]
+“老友坐在对面，沉默也有熟悉的形状。”
+
+[B599 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 黑麦威士忌 | 用量未记 | 原文记录
+ROW 3: 金巴利 Campari | 用量未记 | 原文记录
+ROW 4: 干味美思 | 用量未记 | 原文记录
+
+[B600 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B601 PARAGRAPH Normal]
+笔记背景  笔记通过与Boulevardier对比，强调Old Pal使用干味美思而非甜味美思。
+
+[B602 PARAGRAPH Normal]
+背景文案·原创  三种原料关系已经被记住，具体剂量还留在空白里。为“老友”写一段重逢的场景：桌子的另一边有人坐下，不必立刻把话说完；熟悉的关系先成立，细节可以在下一次认真补齐。
+
+[B603 PARAGRAPH Normal]
+tn-old-pal  |  原件解析第21页；P0373
+
+[B604 PARAGRAPH Heading 2]
+062  二八原则
+
+[B605 PARAGRAPH Normal]
+2/8 Principle
+
+[B606 PARAGRAPH Normal]
+个人试验 · 待确认做法与产品 · 原注4星
+
+[B607 PARAGRAPH Normal]
+“不走捷径，也能走到花香的尽头。”
+
+[B608 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 苏格兰威士忌 | 60 ml | 原文记录
+ROW 3: 安格斯图拉芳香苦精 | 2 dash | 原文记录
+ROW 4: 接骨木花利口酒 | 15 ml | 原文记录
+
+[B609 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B610 PARAGRAPH Normal]
+笔记背景  作者原注：“爷就不走捷径”；试饮认为甜味较重，拟降低接骨木花比例、提高苦精比例。
+
+[B611 PARAGRAPH Normal]
+整理／待确认  “爷就不走捷径”为原笔记文案，独立保留，不归入本次原创句子。 调整没有明确新剂量，未制造一个已完成V2。
+
+[B612 PARAGRAPH Normal]
+背景文案·原创  威士忌写“烈”，苦精写“苦”，接骨木花利口酒写“甜”，像作者为自己的试验标出三条路径。让这条有日期的记录成为一段耐心的背景：不走捷径，也不急着宣布完成，下一次调整仍有意义。
+
+[B613 PARAGRAPH Normal]
+tn-two-eight  |  原件解析第24、25页；P0415–P0424
+
+[B614 PARAGRAPH Heading 2]
+063  雪茄
+
+[B615 PARAGRAPH Normal]
+Cigar
+
+[B616 PARAGRAPH Normal]
+配方笔记 · 用量单位缺失
+
+[B617 PARAGRAPH Normal]
+“雪茄只是名字，夜色才是长长的余韵。”
+
+[B618 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 甜味美思 | 45 ml | 原文记录
+ROW 3: 苏格兰威士忌 | 30 mk | 待核实
+ROW 4: Aperol 开胃酒 或 金巴利 Campari | 15 ml | 原文二选一
+
+[B619 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B620 PARAGRAPH Normal]
+出杯记录  装饰：西柚皮油、肉桂棒
+
+[B621 PARAGRAPH Normal]
+原料疑项  苏格兰威士忌：mk疑似ml笔误；未批准前不做机器容量换算
+
+[B622 PARAGRAPH Normal]
+背景文案·原创  甜味美思、苏格兰威士忌与苦味开胃酒构成画面的深处，西柚皮与肉桂棒留在近旁。雪茄在这里只是名字的意象，不需要真实烟草：一条缓慢上升的线，已经足够让夜色显得悠长。
+
+[B623 PARAGRAPH Normal]
+tn-cigar  |  原件解析第25页；P0426–P0428
+
+[B624 PARAGRAPH Heading 2]
+064  高地清凉酒
+
+[B625 PARAGRAPH Normal]
+Highland Cooler
+
+[B626 PARAGRAPH Normal]
+配方笔记 · 用量单位缺失
+
+[B627 PARAGRAPH Normal]
+“让一阵姜风，掠过安静的高地。”
+
+[B628 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 糖粉 或 白糖 | 1 茶匙 | 原文二选一
+ROW 3: 姜汁汽水 Ginger Ale | 约120 ml（原4 oz） | 原文记录
+ROW 4: 安格斯图拉芳香苦精 | 2 dash | 原文记录
+ROW 5: 苏格兰威士忌 | 约30 ml（原1 oz） | 原文记录
+ROW 6: 黄柠檬汁 | 1（单位未记） | 待核实
+
+[B629 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B630 PARAGRAPH Normal]
+原料疑项  黄柠檬汁：数量1后缺单位
+
+[B631 PARAGRAPH Normal]
+背景文案·原创  姜汁汽水像经过坡地的风，威士忌、糖与苦精留下较稳的轮廓，柠檬的具体尺度仍待补全。让这段原创场景保留远近：山线可以清楚，风也可以轻，未知的部分不必被匆忙描黑。
+
+[B632 PARAGRAPH Normal]
+tn-highland-cooler  |  原件解析第25页；P0430–P0435
+
+[B633 PARAGRAPH Heading 2]
+065  教父
+
+[B634 PARAGRAPH Normal]
+Godfather
+
+[B635 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品 · 原注5星
+
+[B636 PARAGRAPH Normal]
+“不必提高声音，也能让余韵留下。”
+
+[B637 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 苏格兰威士忌 | 60 ml | 原文记录
+ROW 3: 杏仁风味利口酒 Amaretto | 15 ml | 原文记录
+
+[B638 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B639 PARAGRAPH Normal]
+背景文案·原创  60 ml苏格兰威士忌与15 mlAmaretto，在背景里化成两块大小不同的琥珀。没有多余对白，也不需要人物传说；把光线收敛一点，留足空间给两种角色靠近，沉稳便有了自己的形状。
+
+[B640 PARAGRAPH Normal]
+tn-godfather  |  原件解析第26页；P0437–P0439
+
+[B641 PARAGRAPH Heading 2]
+066  盘尼西林·原笔记版
+
+[B642 PARAGRAPH Normal]
+Penicillin — notebook version
+
+[B643 PARAGRAPH Normal]
+配方笔记 · 原料身份待确认 · 原注5星
+
+[B644 PARAGRAPH Normal]
+“烟不是终点，穿过它还有蜂蜜色的光。”
+
+[B645 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: Monkey Shoulder 猴肩威士忌 | 60 ml | 原文记录
+ROW 3: telska（原文，身份待确认） | 7.5（单位未记） | 待核实
+ROW 4: 新鲜黄柠檬汁 | 22.5 ml | 原文记录
+ROW 5: 蜂蜜糖浆 | 22.5 ml | 原文记录
+ROW 6: 姜汁 | 7.5 ml | 原文记录
+
+[B646 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B647 PARAGRAPH Normal]
+整理／待确认  保留telska原字面，不自动认定为Talisker。 后段Zlounge品饮提到float，但没有证明与本条每项剂量完全相同。
+
+[B648 PARAGRAPH Normal]
+原料疑项  telska（原文，身份待确认）：原料拼写和用量单位均待核对
+
+[B649 PARAGRAPH Normal]
+背景文案·原创  蜂蜜、柠檬与姜围绕猴肩展开，作者另留下一个尚待辨认的酒名。以烟后仍有光的意象写这段背景：未知不是必须填满的黑暗，而是等待下一次确认的空间；其余线条先清楚地站稳。
+
+[B650 PARAGRAPH Normal]
+tn-penicillin  |  原件解析第26页；P0441–P0446
+
+[B651 PARAGRAPH Heading 2]
+067  亲和
+
+[B652 PARAGRAPH Normal]
+Affinity Cocktail
+
+[B653 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品 · 原注4星
+
+[B654 PARAGRAPH Normal]
+“靠近不必相同，差异也能成为引力。”
+
+[B655 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 单一麦芽苏格兰威士忌 | 22.5 ml | 原文记录
+ROW 3: 甜味美思 | 22.5 ml | 原文记录
+ROW 4: 干味美思 | 22.5 ml | 原文记录
+ROW 5: 安格斯图拉芳香苦精 | 2 dash | 原文记录
+
+[B656 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B657 PARAGRAPH Normal]
+背景文案·原创  三份等量的威士忌、甜味美思与干味美思像三条靠近的轨道，苦精是其中几个微小节点。亲和不要求完全相同；在这段原创场景里，差异恰好成为引力，让彼此在保留轮廓时依然能够相遇。
+
+[B658 PARAGRAPH Normal]
+tn-affinity  |  原件解析第26、27页；P0448–P0453
+
+[B659 PARAGRAPH Heading 2]
+068  多愁善感的绅士
+
+[B660 PARAGRAPH Normal]
+Sentimental Gentleman
+
+[B661 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品
+
+[B662 PARAGRAPH Normal]
+“有些往事，适合藏在木与果仁之间。”
+
+[B663 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 苏格兰威士忌（调和或单一麦芽） | 60 ml | 原文记录
+ROW 3: Bénédictine DOM 草本利口酒 | 15 ml | 原文记录
+ROW 4: Nux Alpina 核桃利口酒 | 15 ml | 原文记录
+
+[B664 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B665 PARAGRAPH Normal]
+背景文案·原创  苏格兰威士忌与草本、核桃两种利口酒，把画面带向木桌、旧书与深色果仁。让“多愁善感”不是沉重的故事，而是一种保留细节的能力：过去不必重来，也仍能在角落留下温和的回声。
+
+[B666 PARAGRAPH Normal]
+tn-sentimental-gentleman  |  原件解析第27页；P0455–P0458
+
+[B667 PARAGRAPH Heading 2]
+069  花花公子
+
+[B668 PARAGRAPH Normal]
+Boulevardier
+
+[B669 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品
+
+[B670 PARAGRAPH Normal]
+“沿着红色的街灯，走进琥珀色的夜。”
+
+[B671 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: Woodford Reserve 威士忌 | 40 ml | 原文记录
+ROW 3: Dolin 甜味美思 | 20 ml | 原文记录
+ROW 4: 金巴利 Campari | 20 ml | 原文记录
+
+[B672 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B673 PARAGRAPH Normal]
+出杯记录  装饰：橙皮
+
+[B674 PARAGRAPH Normal]
+笔记背景  前段另有说明：它是以威士忌替换金酒的Negroni式变化；此为笔记自身的关系描述。
+
+[B675 PARAGRAPH Normal]
+整理／待确认  同时出现1 1/3 oz、2/3 oz的配对标注，采用同句明示40／20 ml。
+
+[B676 PARAGRAPH Normal]
+背景文案·原创  威士忌、甜味美思与金巴利像街道上三种不同的灯，橙皮是一条走向远处的弧线。背景是一段城市漫步：没有必须抵达的地方，只有红与琥珀在转角处相遇，让夜晚多出一点层次。
+
+[B677 PARAGRAPH Normal]
+tn-boulevardier  |  原件解析第27页；P0460–P0464；原件解析第21页；P0373
+
+[B678 PARAGRAPH Heading 2]
+070  血与沙
+
+[B679 PARAGRAPH Normal]
+Blood and Sand
+
+[B680 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品
+
+[B681 PARAGRAPH Normal]
+“沙漏翻转，红色的光仍留在原地。”
+
+[B682 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 苏格兰威士忌 | 22.5 ml | 原文记录
+ROW 3: 甜味美思 | 22.5 ml | 原文记录
+ROW 4: Cherry Heering 樱桃利口酒 | 22.5 ml | 原文记录
+ROW 5: 橙汁 | 22.5 ml | 原文记录
+
+[B683 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B684 PARAGRAPH Normal]
+背景文案·原创  四份等量构成稳定的几何关系，樱桃、橙与苏格兰威士忌、味美思共同进入画面。让“血与沙”成为抽象的红光与沙漏，而不是伤害的故事：时间流过，颜色仍在，边界随着光线缓慢变化。
+
+[B685 PARAGRAPH Normal]
+tn-blood-sand  |  原件解析第27页；P0466–P0467
+
+[B686 PARAGRAPH Heading 2]
+071  曼哈顿·经典笔记版
+
+[B687 PARAGRAPH Normal]
+Manhattan — classic note
+
+[B688 PARAGRAPH Normal]
+配方笔记 · 有方法记录／待审核 · 原注2星
+
+[B689 PARAGRAPH Normal]
+“城市很大，杯中只留一枚安静的灯。”
+
+[B690 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 黑麦威士忌 | 60 ml | 原文记录
+ROW 3: 甜味美思 | 30 ml | 原文记录
+ROW 4: 安格斯图拉芳香苦精 | 2 dash | 原文记录
+
+[B691 PARAGRAPH Normal]
+方法记录  1. 将配方原料搅拌。 2. 盛入冰镇杯，以樱桃装饰。
+
+[B692 PARAGRAPH Normal]
+出杯记录  杯型：冰镇杯，形状未注明；装饰：樱桃
+
+[B693 PARAGRAPH Normal]
+背景文案·原创  黑麦威士忌、甜味美思与苦精，被搅拌成一段关于城市的静物想象；樱桃是窗口里一枚小灯。大城并不总意味着喧闹，有时只需一条清楚的天际线，就能让人记住夜晚的尺度。
+
+[B694 PARAGRAPH Normal]
+tn-manhattan-classic  |  原件解析第28页；P0471–P0474
+
+[B695 PARAGRAPH Heading 2]
+072  完美曼哈顿·笔记变式
+
+[B696 PARAGRAPH Normal]
+Perfect Manhattan — notebook variant
+
+[B697 PARAGRAPH Normal]
+配方笔记 · 有方法记录／待审核
+
+[B698 PARAGRAPH Normal]
+“所谓完美，也许是给两种性格各留一半。”
+
+[B699 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 黑麦威士忌 | 60 ml | 原文记录
+ROW 3: 甜味美思 | 15 ml | 原文记录
+ROW 4: 干味美思 | 15 ml | 原文记录
+ROW 5: 安格斯图拉芳香苦精 | 2 dash | 原文记录
+
+[B700 PARAGRAPH Normal]
+方法记录  1. 按照前条其余步骤搅拌。 2. 盛入冰镇杯，用樱桃装饰。
+
+[B701 PARAGRAPH Normal]
+出杯记录  杯型：冰镇杯；装饰：樱桃
+
+[B702 PARAGRAPH Normal]
+整理／待确认  本条继承关系由“everything is the same, except”直接支持。 原条星号未在本变式重复，不自动复制。
+
+[B703 PARAGRAPH Normal]
+背景文案·原创  把原有的味美思位置平分给甜与干，像给夜晚的两种性格各留半扇窗。这里的“完美”只是版本的名字，背景则讨论一种靠近：不是消除差异，而是在有限空间里让彼此都被看见。
+
+[B704 PARAGRAPH Normal]
+tn-manhattan-perfect  |  原件解析第28页；P0475–P0476；原件解析第28页；P0471–P0474
+
+[B705 PARAGRAPH Heading 2]
+073  黑色曼哈顿
+
+[B706 PARAGRAPH Normal]
+Black Manhattan
+
+[B707 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品
+
+[B708 PARAGRAPH Normal]
+“熄掉几盏灯，城市反而更有深度。”
+
+[B709 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 黑麦威士忌 | 60 ml | 原文记录
+ROW 3: Averna 苦味利口酒 | 20 ml | 原文记录
+ROW 4: 安格斯图拉芳香苦精 | 1 dash | 原文记录
+ROW 5: 橙味苦精 | 1 dash | 原文记录
+
+[B710 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B711 PARAGRAPH Normal]
+背景文案·原创  黑麦与Averna构成画面的深色部分，两类苦精像仍未熄灭的小灯。黑色曼哈顿的原创场景可以更安静：当城市少了几处亮光，街道并未消失，只是让轮廓和深度显得更清楚。
+
+[B712 PARAGRAPH Normal]
+tn-black-manhattan  |  原件解析第28页；P0478–P0482
+
+[B713 PARAGRAPH Heading 1]
+苦艾酒
+
+[B714 PARAGRAPH Heading 2]
+074  莫米塞特
+
+[B715 PARAGRAPH Normal]
+Momisette
+
+[B716 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品 · 原注3星
+
+[B717 PARAGRAPH Normal]
+“一层薄雾，也能容纳整座花园。”
+
+[B718 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 苦艾酒 Absinthe | 30 ml | 原文记录
+ROW 3: 杏仁糖浆 Orgeat | 22.5 ml | 原文记录
+ROW 4: 黄柠檬汁 | 15 ml | 原文记录
+ROW 5: 气泡水 | 60–90 ml | 原文记录
+
+[B719 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B720 PARAGRAPH Normal]
+背景文案·原创  苦艾、杏仁糖浆、柠檬与气泡水，被写成花园里一层正在移动的薄雾。它不必完全遮住景色，也不必迅速散去；让可见与不可见各留一半，画面便有了继续向内看去的空间。
+
+[B721 PARAGRAPH Normal]
+tn-momisette  |  原件解析第29页；P0485–P0487
+
+[B722 PARAGRAPH Heading 2]
+075  午后之死·柠檬糖浆笔记版
+
+[B723 PARAGRAPH Normal]
+Death in the Afternoon — lemon-syrup note
+
+[B724 PARAGRAPH Normal]
+配方笔记 · 有方法记录／待审核
+
+[B725 PARAGRAPH Normal]
+“午后的光散开，时间变成一层乳白。”
+
+[B726 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 苦艾酒 Absinthe | 30 ml | 原文记录
+ROW 3: 黄柠檬汁 | 7.5 ml | 原文记录
+ROW 4: 普通糖浆 | 7.5 ml | 原文记录
+ROW 5: 香槟 | 补满／未定量 | 原文记录
+
+[B727 PARAGRAPH Normal]
+方法记录  1. 将苦艾酒、柠檬汁与糖浆加冰搅拌，原文意在产生louche浑浊。 2. 滤入另一只冰镇杯。 3. 用香槟补满。
+
+[B728 PARAGRAPH Normal]
+出杯记录  杯型：另一只冰镇杯；冰：搅拌用冰，滤出
+
+[B729 PARAGRAPH Normal]
+整理／待确认  “champigon”按上下文酒名整理为香槟，原段落保留。 紧接本条的非食品洗涤剂内容只进入安全隔离记录，不进入配料与步骤。
+
+[B730 PARAGRAPH Normal]
+背景文案·原创  苦艾、柠檬与糖浆先相遇，再由香槟把细小的光向上带起。让“午后之死”停留在文学意象：不是终结生命，而是一个下午的轮廓慢慢散开，时间短暂失去棱角，变成更柔和的景深。
+
+[B731 PARAGRAPH Normal]
+tn-death-afternoon  |  原件解析第29页；P0489–P0492
+
+[B732 PARAGRAPH Heading 1]
+干邑／混合基酒
+
+[B733 PARAGRAPH Heading 2]
+076  萨泽拉克·黑麦与干邑笔记版
+
+[B734 PARAGRAPH Normal]
+Sazerac — rye and cognac note
+
+[B735 PARAGRAPH Normal]
+配方笔记 · 用量单位缺失
+
+[B736 PARAGRAPH Normal]
+“一层香气的门，通向更深的木色。”
+
+[B737 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 黑麦威士忌 | 45 ml | 原文记录
+ROW 3: 干邑 | 15 ml | 原文记录
+ROW 4: 普通糖浆 | 7.5（单位未记） | 待核实
+ROW 5: Peychaud’s 苦精 | 3 dash | 原文记录
+ROW 6: 安格斯图拉芳香苦精 | 1 dash | 原文记录
+ROW 7: 苦艾酒 Absinthe | 8 喷 | 洗杯
+
+[B738 PARAGRAPH Normal]
+方法记录  1. 黑麦威士忌、干邑、糖浆与苦精加冰搅拌。 2. 另取冰镇杯，用苦艾酒洗杯，原文约8喷。 3. 滤入杯中，释放柠檬皮油。
+
+[B739 PARAGRAPH Normal]
+出杯记录  杯型：冰镇杯；冰：搅拌用冰，滤出；装饰：柠檬皮油
+
+[B740 PARAGRAPH Normal]
+原料疑项  普通糖浆：原文缺少单位
+
+[B741 PARAGRAPH Normal]
+背景文案·原创  黑麦与干邑在深处相遇，两种苦精留下标点，苦艾洗杯像一扇很薄的门，柠檬皮油则是门边的光。它的原创背景不讲未经核实的年代，只讲一次经过：先遇到边缘，再慢慢走向中心。
+
+[B742 PARAGRAPH Normal]
+tn-sazerac  |  原件解析第29、30页；P0503–P0512
+
+[B743 PARAGRAPH Heading 1]
+利口酒与苦味酒
+
+[B744 PARAGRAPH Heading 2]
+077  毛茸茸的肚脐
+
+[B745 PARAGRAPH Normal]
+Fuzzy Navel
+
+[B746 PARAGRAPH Normal]
+配方笔记 · 有方法记录／待审核
+
+[B747 PARAGRAPH Normal]
+“桃色的光，落在一枚橙子的午后。”
+
+[B748 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 桃味利口酒 | 45 ml | 原文记录
+ROW 3: 橙汁 | 125 ml | 原文记录
+
+[B749 PARAGRAPH Normal]
+方法记录  1. 将桃味利口酒与橙汁加冰摇和。
+
+[B750 PARAGRAPH Normal]
+出杯记录  冰：摇和用冰
+
+[B751 PARAGRAPH Normal]
+背景文案·原创  桃味利口酒与橙汁构成一幅简单的果色画面，俏皮名字像一条不必解释的旁白。让背景停在午后的桌面：一枚桃子的影子，一束橙色的光，生活偶尔也可以只保留轻松的一面。
+
+[B752 PARAGRAPH Normal]
+tn-fuzzy-navel  |  原件解析第30页；P0516–P0517
+
+[B753 PARAGRAPH Heading 1]
+日式饮品
+
+[B754 PARAGRAPH Heading 2]
+078  蜜瓜酸·绿茶烧酎笔记版
+
+[B755 PARAGRAPH Normal]
+Midori Sour — green-tea shochu note
+
+[B756 PARAGRAPH Normal]
+配方笔记 · 有方法记录／待审核 · 原注4星
+
+[B757 PARAGRAPH Normal]
+“蜜瓜色的夜，给清风留了一扇窗。”
+
+[B758 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: Mizu 绿茶烧酎 | 约45 ml（原1.5 oz） | 原文记录
+ROW 3: Midori 蜜瓜利口酒 | 约30 ml（原1 oz） | 原文记录
+ROW 4: 新鲜青柠汁 | 约15 ml（原0.5 oz） | 原文记录
+ROW 5: 普通糖浆 | 约15 ml（原0.5 oz） | 原文记录
+ROW 6: 新鲜黄柠檬汁 | 约15 ml（原0.5 oz） | 原文记录
+ROW 7: 苏打水 | 少量补顶 | 补顶
+
+[B759 PARAGRAPH Normal]
+方法记录  1. 将绿茶烧酎、Midori、两种柑橘汁和糖浆放入摇壶。 2. 不加冰干摇使其充气。 3. 倒入放有新冰的高球杯，补少量苏打。 4. 吧勺沿内壁插入，轻轻向上提冰使原料融合；必要时补冰。 5. 以蜜瓜球装饰。
+
+[B760 PARAGRAPH Normal]
+出杯记录  杯型：高球杯；冰：成杯用新冰；必要时补冰；装饰：蜜瓜球
+
+[B761 PARAGRAPH Normal]
+背景文案·原创  绿茶烧酎与蜜瓜利口酒让画面出现两种不同的绿色，双柑橘留下边，苏打把细点带到上方。为这份版本写一扇夜里的窗：里面是柔和色块，外面有风，彼此相通，却不需要完全融成一种声音。
+
+[B762 PARAGRAPH Normal]
+tn-midori-sour  |  原件解析第30、31页；P0522–P0531
+
+[B763 PARAGRAPH Heading 2]
+079  梅酒调饮
+
+[B764 PARAGRAPH Normal]
+Ume-shu Mixed Drink
+
+[B765 PARAGRAPH Normal]
+配方笔记 · 待确认做法与产品
+
+[B766 PARAGRAPH Normal]
+“一枚梅子，把整个季节轻轻折起。”
+
+[B767 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 梅酒 Ume-shu | 45 ml | 原文记录
+ROW 3: 苏打水 或 冰镇麦茶 Mugicha | 120–150 ml | 原文二选一
+
+[B768 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B769 PARAGRAPH Normal]
+整理／待确认  原文未给出梅酒品牌、酒精度或搅拌步骤。
+
+[B770 PARAGRAPH Normal]
+背景文案·原创  一份梅酒可以在苏打与麦茶之间选择不同的陪伴，像同一个季节在两扇窗里映出不同景色。让背景以一枚折起的梅子开始：春天不必被完整保存，只留一点轮廓，也足以被记起。
+
+[B771 PARAGRAPH Normal]
+tn-ume-shu  |  原件解析第31页；P0533–P0536
+
+[B772 PARAGRAPH Heading 2]
+080  梅子调饮·Ume-su笔记分支
+
+[B773 PARAGRAPH Normal]
+Ume-su Mixed Drink — notebook branch
+
+[B774 PARAGRAPH Normal]
+配方笔记 · 原料待确认
+
+[B775 PARAGRAPH Normal]
+“不借酒精，也可以把梅子的意象留住。”
+
+[B776 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: Ume-su（原文标为无酒精，产品待确认） | 45 ml | 待核实
+ROW 3: 苏打水 或 冰镇麦茶 Mugicha | 120–150 ml | 原文二选一
+
+[B777 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B778 PARAGRAPH Normal]
+原料疑项  Ume-su（原文标为无酒精，产品待确认）：真实产品身份和成分未确认，不自动给出无酒精保证
+
+[B779 PARAGRAPH Normal]
+背景文案·原创  为原作者标作无酒精的这条分支，写一段梅子与清风的场景：不借热闹，也可以有完整的相遇。真正的产品仍待确认，原创意象则先保留它的愿望——一种轻轻展开、不必被催促的味觉想象。
+
+[B780 PARAGRAPH Normal]
+tn-ume-su  |  原件解析第31页；P0534–P0536
+
+[B781 PARAGRAPH Heading 2]
+081  樱桃美式·后段三项简记
+
+[B782 PARAGRAPH Normal]
+Sakuranbo Americano — later short note
+
+[B783 PARAGRAPH Normal]
+配方笔记 · 重复关系待确认
+
+[B784 PARAGRAPH Normal]
+“同一颗樱桃，在笔记里留下两次回声。”
+
+[B785 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 金巴利 Campari | 30 ml | 原文记录
+ROW 3: 甜味美思 | 15 ml | 原文记录
+ROW 4: Cherry Heering 樱桃利口酒 | 15 ml | 原文记录
+
+[B786 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B787 PARAGRAPH Normal]
+整理／待确认  配方重复但内容不完全相同；不自动补入前段苏打，也不宣称为无苏打版本。
+
+[B788 PARAGRAPH Normal]
+背景文案·原创  同一个樱桃美式在笔记中出现两次，后一次像省去后半句的便笺。为这条简记保留一段回声：三种酒的名字仍在，未写下的部分也有自己的位置；安静地等待确认，比匆忙补全更接近记忆。
+
+[B789 PARAGRAPH Normal]
+tn-sakuranbo-short  |  原件解析第31页；P0538–P0541
+
+[B790 PARAGRAPH Heading 1]
+利口酒与苦味酒
+
+[B791 PARAGRAPH Heading 2]
+082  枪店菲士
+
+[B792 PARAGRAPH Normal]
+Gunshop Fizz
+
+[B793 PARAGRAPH Normal]
+配方笔记 · 有方法记录／待审核
+
+[B794 PARAGRAPH Normal]
+“把红色拆成细节，每一片果皮都有声音。”
+
+[B795 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: Peychaud’s 苦精 | 60 ml | 原文记录
+ROW 3: 新鲜黄柠檬汁 | 30 ml | 原文记录
+ROW 4: 普通糖浆 | 30 ml | 糖∶水=1∶1；原文未明示重量或体积
+ROW 5: 草莓 | 2 颗 | 原文记录
+ROW 6: 黄瓜 | 2 片 | 原文记录
+ROW 7: 橙皮 | 3 片 | 原文记录
+ROW 8: 西柚皮 | 3 片 | 原文记录
+ROW 9: Sanbitter 红色苦味汽水 或 Stappi 红色苦味汽水 | 30 ml | 原文二选一
+
+[B796 PARAGRAPH Normal]
+方法记录  1. 使用波士顿摇壶摇和。 2. 以柯林斯杯呈现，红色苦味汽水作补顶。
+
+[B797 PARAGRAPH Normal]
+出杯记录  杯型：柯林斯杯；装饰：黄瓜片1片、草莓1颗
+
+[B798 PARAGRAPH Normal]
+历史原注·未核实  笔记称2009年由新奥尔良的Kirk estopinol与Max pizuniak创作。 笔记将Peychaud’s、1830年药剂师及旧药房变古董枪店联系为命名背景；人名拼写、年代和故事未经外部核对。
+
+[B799 PARAGRAPH Normal]
+整理／待确认  60 ml苦精是原文明确值，不擅自改为2 dash；实际产品与份量须复核。 原文没有明确水果捣压与过滤方式，不补写。
+
+[B800 PARAGRAPH Normal]
+背景文案·原创  Peychaud’s在这份记录里不是微小配角，草莓、黄瓜和两种果皮围绕它留下许多细节。以红色的不同层次写一座小型剧场：每片果皮都有位置，每个角色都不必用同样的方式说话。
+
+[B801 PARAGRAPH Normal]
+tn-gunshop-fizz  |  原件解析第32、33页；P0555–P0568
+
+[B802 PARAGRAPH Heading 2]
+083  B-52轰炸机
+
+[B803 PARAGRAPH Normal]
+B-52
+
+[B804 PARAGRAPH Normal]
+只有名称 · 待补配方
+
+[B805 PARAGRAPH Normal]
+“名字可以响亮，杯面仍旧安静。”
+
+[B806 PARAGRAPH Normal]
+配料  原笔记没有提供，不自动填补。
+
+[B807 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B808 PARAGRAPH Normal]
+背景文案·原创  这是一张只有名字的舞台卡：灯光尚未亮起，幕布后面的材料也还没有被写下。让“轰炸机”停留在夸张命名的反差里，实际画面保持安静；没有真实配方之前，不给它安排火焰或冒险动作。
+
+[B809 PARAGRAPH Normal]
+tn-b52  |  原件解析第33页；P0569
+
+[B810 PARAGRAPH Heading 2]
+084  彩虹小杯酒
+
+[B811 PARAGRAPH Normal]
+Rainbow Shots
+
+[B812 PARAGRAPH Normal]
+只有名称 · 待补配方
+
+[B813 PARAGRAPH Normal]
+“让颜色并肩，不必替彼此命名。”
+
+[B814 PARAGRAPH Normal]
+配料  原笔记没有提供，不自动填补。
+
+[B815 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B816 PARAGRAPH Normal]
+背景文案·原创  让几条颜色并肩停在黑色背景里，像雨后尚未散开的光谱。这段原创意象不保证真实酒液能够按同样方式分层；它只为一个待补全的名字留出视觉方向，等待材料赋予它真实的结构。
+
+[B817 PARAGRAPH Normal]
+tn-rainbow-shots  |  原件解析第33页；P0570
+
+[B818 PARAGRAPH Heading 2]
+085  普斯咖啡·名称记录
+
+[B819 PARAGRAPH Normal]
+Pousse-Café
+
+[B820 PARAGRAPH Normal]
+只有名称 · 待补配方
+
+[B821 PARAGRAPH Normal]
+“层次留给时间，留白留给想象。”
+
+[B822 PARAGRAPH Normal]
+配料  原笔记没有提供，不自动填补。
+
+[B823 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B824 PARAGRAPH Normal]
+整理／待确认  中文名为本次编辑音译，不声称统一通行译名。
+
+[B825 PARAGRAPH Normal]
+背景文案·原创  为这个法文名字留下一组层层退后的影子、一条清楚杯沿与未写完的注脚。场景讲的是层次与耐心，而不是暗示杯中一定有咖啡；等原料被记录，名字才会获得真正可执行的细节。
+
+[B826 PARAGRAPH Normal]
+tn-pousse-cafe  |  原件解析第33页；P0571
+
+[B827 PARAGRAPH Heading 2]
+086  广岛炸弹·三项原料笔记
+
+[B828 PARAGRAPH Normal]
+Hiroshima Bomb — three-ingredient note
+
+[B829 PARAGRAPH Normal]
+只有配料关系 · 缺少剂量
+
+[B830 PARAGRAPH Normal]
+“把强烈留给名字，把细节留给杯中。”
+
+[B831 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 三重橙味利口酒 Triple Sec | 用量未记 | 原文记录
+ROW 3: 爱尔兰奶油利口酒 | 用量未记 | 原文记录
+ROW 4: 红石榴糖浆 Grenadine | 用量未记 | 原文记录
+
+[B832 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B833 PARAGRAPH Normal]
+背景文案·原创  三重橙酒、奶油利口酒与红石榴糖浆只留下了三项名字，比例仍为空。让这条记录的原创场景尽量克制：深色背景里三块尚未移动的色片，等待真实数量来决定距离，而不是让名称替它们作主。
+
+[B834 PARAGRAPH Normal]
+tn-hiroshima-bomb  |  原件解析第33页；P0572
+
+[B835 PARAGRAPH Heading 1]
+含酒精甜食
+
+[B836 PARAGRAPH Heading 2]
+087  酒鬼话梅小菠萝
+
+[B837 PARAGRAPH Normal]
+Plum Pineapple with Spirits
+
+[B838 PARAGRAPH Normal]
+甜食笔记 · 家用量词待标定
+
+[B839 PARAGRAPH Normal]
+“菠萝接住梅子的咸甜，像海风接住夏天。”
+
+[B840 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 菠萝 | 适量／未定量 | 原文记录
+ROW 3: 白朗姆酒 | 2 瓶盖 | 原文记录
+ROW 4: 椰子伏特加 | 1 瓶盖 | 原文记录
+ROW 5: 新鲜黄柠檬榨汁 | 1 个 | 原文记录
+ROW 6: 青柠汁 | 适量／未定量 | 原文记录
+ROW 7: 九制话梅 | 4–5 颗 | 原文记录
+ROW 8: 海之盐柠檬汽水 或 Sprite／7 Up（原文spirit/7 up） | 适量／未定量 | 原文二选一
+ROW 9: 薄荷叶 | 适量／未定量 | 原文记录
+ROW 10: 柚子盐 或 海盐 | 适量／未定量 | 原文二选一
+ROW 11: 糖 | 适量／未定量 | 原文记录
+
+[B841 PARAGRAPH Normal]
+方法记录  1. 菠萝切小块，泡盐水后沥干。 2. 白朗姆、椰子伏特加、柠檬汁、少量青柠汁、话梅和柠檬汽水混合。 3. 薄荷轻拍后加入，再加柚子盐或海盐、少许糖。 4. 放两片新鲜柠檬，擦少量青柠／柠檬皮作点缀，冷藏。 5. 原笔记记载15–30分钟即可吃，或浸泡过夜；这是作者操作记录。
+
+[B842 PARAGRAPH Normal]
+出杯记录  装饰：新鲜柠檬2片、青柠／黄柠檬皮
+
+[B843 PARAGRAPH Normal]
+整理／待确认  原文时间不是经验证的食品保质期；总份量、瓶盖容量和保存条件均待明确。 “spirit”疑指Sprite，保留原词并标记，不将其解释为另加烈酒。
+
+[B844 PARAGRAPH Normal]
+背景文案·原创  菠萝接住话梅、柑橘与薄荷，像一块果实把海风和夏天都暂时留住。两种酒藏在这份水果浸泡笔记里，盐与糖是小小的转折；背景可以轻快，但它首先是一份含酒精甜食，而不是无负担的水果零食。
+
+[B845 PARAGRAPH Normal]
+tn-plum-pineapple  |  原件解析第33、34页；P0574–P0592
+
+[B846 PARAGRAPH Heading 1]
+酒吧体验与实验
+
+[B847 PARAGRAPH Heading 2]
+088  透明的拿铁·容阙体验
+
+[B848 PARAGRAPH Normal]
+Clear Latte / Milk Punch — venue note
+
+[B849 PARAGRAPH Normal]
+品饮体验 · 只作体验资料
+
+[B850 PARAGRAPH Normal]
+“看似透明的光，也藏着尚未读出的句子。”
+
+[B851 PARAGRAPH Normal]
+配料  原笔记没有提供，不自动填补。
+
+[B852 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B853 PARAGRAPH Normal]
+笔记背景  原笔记把这条置于呼和浩特容阙酒吧体验下，只有名称与照片。
+
+[B854 PARAGRAPH Normal]
+背景文案·原创  “透明的拿铁”像一个故意留下的谜面：眼前可见光线，名字却让人想到另一种质地。把这段酒吧记忆写成一张安静的卡片，不从照片猜答案；有些场景之所以被记住，正因为仍有部分没有被说清。
+
+[B855 PARAGRAPH Normal]
+tn-clear-latte  |  原件解析第34、35页；P0596–P0599；image16.jpeg
+
+[B856 PARAGRAPH Heading 2]
+089  查理·卓别林·Zlounge体验
+
+[B857 PARAGRAPH Normal]
+Charlie Chaplin — Zlounge experience
+
+[B858 PARAGRAPH Normal]
+品饮体验 · 只作体验资料
+
+[B859 PARAGRAPH Normal]
+“默片没有台词，记忆自有回响。”
+
+[B860 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 青柠 | 用量未记 | 原文记录
+ROW 3: 黄柠檬 | 用量未记 | 原文记录
+ROW 4: 金酒 | 2 shot | 原文记录
+ROW 5: 黑刺李金酒 | 用量未记 | 原文记录
+ROW 6: 杏子白兰地 Apricot Brandy | 用量未记 | 原文记录
+
+[B861 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B862 PARAGRAPH Normal]
+笔记背景  作者在北京Zlounge体验中突出增金酒的变化，这是个人感受，不是通行质量标准。
+
+[B863 PARAGRAPH Normal]
+背景文案·原创  作者记得的是增加金酒之后的变化，以及黑刺李、杏子和两种柑橘共同出现的瞬间。以默片与光影写这段吧台记忆：具体用量可以暂缺，那次感受到的转折仍值得被认真留下。
+
+[B864 PARAGRAPH Normal]
+tn-charlie-venue  |  原件解析第37页；P0608–P0610；image17.jpeg
+
+[B865 PARAGRAPH Heading 2]
+090  盘尼西林·Zlounge漂浮体验
+
+[B866 PARAGRAPH Normal]
+Penicillin — Zlounge float experience
+
+[B867 PARAGRAPH Normal]
+品饮体验 · 只作体验资料
+
+[B868 PARAGRAPH Normal]
+“烟熏停在表面，故事却往深处走。”
+
+[B869 PARAGRAPH Normal]
+配料  原笔记没有提供，不自动填补。
+
+[B870 PARAGRAPH Normal]
+方法记录  1. 原体验文字提到float漂浮手法，未记具体操作。
+
+[B871 PARAGRAPH Normal]
+笔记背景  作者认为float使层次更丰富，入口的烟熏泥煤更明显。
+
+[B872 PARAGRAPH Normal]
+背景文案·原创  这次记忆从表面开始：作者写下float带来的烟熏泥煤印象，像隔着一层薄雾看见后面的光。原创背景不试图复原未记下的剂量，只保存那种先遇到边缘、再走向深处的顺序。
+
+[B873 PARAGRAPH Normal]
+tn-penicillin-venue  |  原件解析第38、39页；P0611–P0612；image18.jpeg
+
+[B874 PARAGRAPH Heading 2]
+091  拉夫格酸·品饮线索
+
+[B875 PARAGRAPH Normal]
+Laphroaig Sour — tasting note
+
+[B876 PARAGRAPH Normal]
+品饮体验 · 只作体验资料
+
+[B877 PARAGRAPH Normal]
+“沿着烟的方向，听见远处的海。”
+
+[B878 PARAGRAPH Normal]
+配料  原笔记没有提供，不自动填补。
+
+[B879 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B880 PARAGRAPH Normal]
+笔记背景  作者描述品饮拉夫格四分之一桶的烟熏泥煤印象，并提到highball与sour两种体验方向。
+
+[B881 PARAGRAPH Normal]
+整理／待确认  关于较小桶更快达到“更好效果”的表述属于原作者理解，不用作经过核验的熟成结论。
+
+[B882 PARAGRAPH Normal]
+背景文案·原创  作者留下了烟熏泥煤的印象，也留下对一瓶酒的喜爱，酸酒的具体配方却没有写出。让这段背景成为关于记忆的海岸：有些气息的轮廓很清楚，有些细节仍在远处，不必强迫它们同时到岸。
+
+[B883 PARAGRAPH Normal]
+tn-laphroaig-sour  |  原件解析第39、40页；P0614–P0617；image19.jpeg
+
+[B884 PARAGRAPH Heading 2]
+092  山楂树下
+
+[B885 PARAGRAPH Normal]
+Under the Hawthorn Tree — note
+
+[B886 PARAGRAPH Normal]
+品饮体验 · 缺少剂量
+
+[B887 PARAGRAPH Normal]
+“肉桂点亮冬夜，山楂记得旧时的酸。”
+
+[B888 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: Fireball（原文fire ball whiskey） | 用量未记 | 原文记录
+ROW 3: 山楂（形态未注明） | 用量未记 | 原文记录
+
+[B889 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B890 PARAGRAPH Normal]
+笔记背景  原文评价：肉桂与山楂的搭配很惊艳。
+
+[B891 PARAGRAPH Normal]
+背景文案·原创  肉桂与山楂在作者的体验里相遇，让一段熟悉的果味记忆多出暖色边缘。以冬夜、糖葫芦与灯光作场景，而不从照片猜酒里的山楂形态；童年的意象可以出现，配方仍等真实记录。
+
+[B892 PARAGRAPH Normal]
+tn-hawthorn-tree  |  原件解析第41页；P0619–P0620；image20.jpeg
+
+[B893 PARAGRAPH Heading 2]
+093  梅子花花公子·Takenaka体验
+
+[B894 PARAGRAPH Normal]
+Ume Boulevardier — Takenaka experience
+
+[B895 PARAGRAPH Normal]
+品饮体验 · 只作体验资料
+
+[B896 PARAGRAPH Normal]
+“一丝咸味，把梅子的远方带回眼前。”
+
+[B897 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 波本威士忌 | 用量未记 | 原文记录
+ROW 3: 龙舌兰 | 用量未记 | 原文记录
+ROW 4: salt plum hoijicha campari（原文组合项） | 用量未记 | 待核实
+ROW 5: Maraschino 马拉斯奇诺利口酒 | 用量未记 | 原文记录
+
+[B898 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B899 PARAGRAPH Normal]
+笔记背景  作者称这是当晚最喜欢的一杯；感到梅味浓、有一丝咸，与威士忌交融，龙舌兰气息随后显现。
+
+[B900 PARAGRAPH Normal]
+整理／待确认  “salt plum hoijicha campari”可能是复合原料描述，原文标点不足。 后文把hojicha写成“煎茶”，此处保存原名并标记术语对应待核对；不暗改译名。
+
+[B901 PARAGRAPH Normal]
+原料疑项  salt plum hoijicha campari（原文组合项）：盐梅、茶与Campari的分词／浸渍关系不清
+
+[B902 PARAGRAPH Normal]
+背景文案·原创  浓梅、微咸、威士忌与随后出现的龙舌兰气息，是作者记住这杯酒的方式。让原创背景像一封从远处寄回的短笺：曾经想尝试的组合突然在眼前成立，记忆因此有了值得带回家的坐标。
+
+[B903 PARAGRAPH Normal]
+tn-ume-boulevardier-venue  |  原件解析第43、44页；P0629–P0633；image22.jpeg
+
+[B904 PARAGRAPH Heading 2]
+094  梅子花花公子·复刻试验1
+
+[B905 PARAGRAPH Normal]
+Ume Boulevardier — reconstruction test 1
+
+[B906 PARAGRAPH Normal]
+个人试验 · 待确认做法与产品
+
+[B907 PARAGRAPH Normal]
+“第一次写下的比例，是通向下一次的路。”
+
+[B908 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: 威士忌 | 30 ml | 原文记录
+ROW 3: 绿茶梅酒 | 60 ml | 原文记录
+ROW 4: 金巴利 Campari | 15 ml | 原文记录
+ROW 5: Maraschino 马拉斯奇诺利口酒 | 15 ml | 原文记录
+
+[B909 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B910 PARAGRAPH Normal]
+笔记背景  作者评价Maraschino过于突出，梅子味不够浓，提出下一次调整。
+
+[B911 PARAGRAPH Normal]
+背景文案·原创  把酒吧里的印象带回家，写成30、60、15、15这四个数，是一次认真复刻的开始。它不必立刻成功：樱桃太突出、梅味不够，都成为下一次的路标；记录变化本身，就是这段故事真正的内容。
+
+[B912 PARAGRAPH Normal]
+tn-ume-boulevardier-test1  |  原件解析第44页；P0635–P0642
+
+[B913 PARAGRAPH Heading 2]
+095  梅子花花公子·下一次调整计划
+
+[B914 PARAGRAPH Normal]
+Ume Boulevardier — planned revision
+
+[B915 PARAGRAPH Normal]
+未执行计划 · 未执行调整
+
+[B916 PARAGRAPH Normal]
+“让樱桃轻一点，让梅子把话说完。”
+
+[B917 TABLE]
+ROW 1: 配料 | 记录用量／约值 | 说明
+ROW 2: Maraschino 马拉斯奇诺利口酒 | 7.5 ml | 原文记录
+ROW 3: 风味更浓的梅酒（产品未定） | 30 ml | 原文记录
+ROW 4: 绿茶梅酒 | 30 ml | 原文记录
+
+[B918 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B919 PARAGRAPH Normal]
+整理／待确认  本条仅表示对试验1的建议变更；未说明的原料是否保留，需要作者确认。 不能进入自动缩放、点单或AI训练中的已完成配方集合。
+
+[B920 PARAGRAPH Normal]
+背景文案·原创  让Maraschino轻一点，让两种梅酒各占一个位置，是作者写给下一次试验的便条。这段原创背景保留尚未执行的语气：新的方向已经出现，结果还没有到来，空白也应被耐心保存。
+
+[B921 PARAGRAPH Normal]
+tn-ume-boulevardier-planned2  |  原件解析第44页；P0642
+
+[B922 PARAGRAPH Heading 2]
+096  梅酒古典·构想
+
+[B923 PARAGRAPH Normal]
+Ume Old Fashioned — idea
+
+[B924 PARAGRAPH Normal]
+构想 · 只有构想
+
+[B925 PARAGRAPH Normal]
+“让一枚梅子，敲响古典的木门。”
+
+[B926 PARAGRAPH Normal]
+配料  原笔记没有提供，不自动填补。
+
+[B927 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B928 PARAGRAPH Normal]
+笔记背景  原文只是尚未尝试的愿望，没有具体配比。
+
+[B929 PARAGRAPH Normal]
+背景文案·原创  梅酒与古典结构的相遇，目前还停在作者的愿望里。为这张灵感卡写一扇尚未推开的木门：门内或许有梅子的季节，门外仍是熟悉的酒杯；不必伪装已经抵达，期待本身也值得归档。
+
+[B930 PARAGRAPH Normal]
+tn-ume-old-fashioned-idea  |  原件解析第43、44页；P0633
+
+[B931 PARAGRAPH Heading 2]
+097  卡米纳里
+
+[B932 PARAGRAPH Normal]
+Kaminari
+
+[B933 PARAGRAPH Normal]
+品饮体验 · 只作体验资料
+
+[B934 PARAGRAPH Normal]
+“光先到达，回声稍后才来。”
+
+[B935 PARAGRAPH Normal]
+配料  原笔记没有提供，不自动填补。
+
+[B936 PARAGRAPH Normal]
+方法记录  原笔记未写逐杯制法；本次不补标准做法。
+
+[B937 PARAGRAPH Normal]
+整理／待确认  末尾两张照片分别呈透明带冰与泡沫顶饮品，名称对应关系不确定。 视觉资料不构成基酒、蛋清、苦精或剂量证据。
+
+[B938 PARAGRAPH Normal]
+背景文案·原创  名字前后留下两张不同的酒照，细节与对应关系都还没有说明。以光先到达、回声随后出现的意象收尾：先看见一幕景色，不急着替它命名，下一次更完整的记录会把声音带来。
+
+[B939 PARAGRAPH Normal]
+tn-kaminari  |  原件解析第45、46页；P0645–P0647；image23.jpeg, image24.jpeg
+
+[B940 PARAGRAPH Normal]
+
+
+
+[B941 PARAGRAPH Heading 1]
+附录 A  原作者知识与经验笔记
+
+[B942 PARAGRAPH Normal]
+以下是原笔记的整理与译述，不是已核实百科。涉及法律、历史、产品身份或技术的说法保留出处与待核实标记，不静默改成外部知识。
+
+[B943 PARAGRAPH Heading 2]
+原作者的纯酒搅拌总则
+
+[B944 PARAGRAPH Normal]
+原文写“For all spirit cocktail, stir only”，译为纯酒类鸡尾酒只搅拌。它是笔记开头的总提示，不是每个条目都已明确写下的独立制法。
+
+[B945 PARAGRAPH Normal]
+整理注  未提供适用边界；不据此自动补完所有缺失步骤。
+
+[B946 PARAGRAPH Caption]
+原件解析第1页；P0003
+
+[B947 PARAGRAPH Heading 2]
+金酒与杜松子
+
+[B948 PARAGRAPH Normal]
+笔记称金酒由植物调味，最重要的植物是杜松子；并以龙舌兰类比说明命名要求。
+
+[B949 PARAGRAPH Normal]
+整理注  这段是原作者的概述，未核对任何地区的现行法规，不作为法规引擎。
+
+[B950 PARAGRAPH Caption]
+原件解析第4页；P0079–P0081；image1.jpeg
+
+[B951 PARAGRAPH Heading 2]
+马天尼比例与轶事
+
+[B952 PARAGRAPH Normal]
+笔记说马天尼起源有争议，19世纪已有记录，早期金酒与味美思为1∶1，后来变成2∶1、4∶1、8∶1、12∶1、15∶1；又写1950年代开始改用伏特加。原文另有丘吉尔隔空看味美思的轶事。
+
+[B953 PARAGRAPH Normal]
+整理注  这些年代、比例史和轶事都未外部核实。 不把轶事做成署名名人名言；正文配方依旧保存45 ml金酒与22.5 ml干味美思。
+
+[B954 PARAGRAPH Caption]
+原件解析第7页；P0132–P0135
+
+[B955 PARAGRAPH Heading 2]
+味美思概述
+
+[B956 PARAGRAPH Normal]
+原笔记描述味美思以葡萄酒为基底、加强酒精后浸泡植物，并提到欧盟定义要求苦艾属植物。
+
+[B957 PARAGRAPH Normal]
+整理注  这是来源中的法规相关说法，不是本次核验的法律结论。
+
+[B958 PARAGRAPH Caption]
+原件解析第7页；P0141
+
+[B959 PARAGRAPH Heading 2]
+日式嗨棒背景
+
+[B960 PARAGRAPH Normal]
+原文将Highball概括为烈酒加苏打，并称日本通常指威士忌苏打；把其传播与1920年代用餐场景、战后Torys酒吧和三得利推广联系起来，提到Torys在1946年推出。
+
+[B961 PARAGRAPH Normal]
+整理注  创作与传播叙述、人物拼写及年份都只按原笔记转述。
+
+[B962 PARAGRAPH Caption]
+原件解析第18页；P0317–P0318
+
+[B963 PARAGRAPH Heading 2]
+Whisky／Whiskey拼写笔记
+
+[B964 PARAGRAPH Normal]
+作者写：产于苏格兰写whisky，其他地方写whiskey。
+
+[B965 PARAGRAPH Normal]
+整理注  原文对“其他地方”的概括过宽，本附件没有足够证据确立全球拼写规则；不直接编码成产地校验。
+
+[B966 PARAGRAPH Caption]
+原件解析第21页；P0375–P0377
+
+[B967 PARAGRAPH Heading 2]
+苏格兰威士忌五种分类
+
+[B968 PARAGRAPH Normal]
+笔记依次列单一麦芽、单一谷物、调和麦芽、调和谷物、调和苏格兰威士忌；称single指一个蒸馏厂，单一麦芽为100%麦芽大麦，单一谷物涉及麦芽大麦和其他谷物。
+
+[B969 PARAGRAPH Normal]
+整理注  仅为笔记摘要，不补齐法律定义或生产工艺。
+
+[B970 PARAGRAPH Caption]
+原件解析第22页；P0379–P0386；image9.jpeg
+
+[B971 PARAGRAPH Heading 2]
+苏格兰威士忌条件图录
+
+[B972 PARAGRAPH Normal]
+第21页图片列出：在苏格兰制作；原料列麦芽大麦、小麦、酵母和水；至少陈年三年；调和时标示最年轻酒龄；最低40%酒精度。
+
+[B973 PARAGRAPH Normal]
+整理注  以上是图中可读文字的转述，没有外部法规核验；原料列表不应被当成完整且普遍适用的定义。
+
+[B974 PARAGRAPH Caption]
+原件解析第21页；P0378；image8.jpeg
+
+[B975 PARAGRAPH Heading 2]
+产区与作者举例
+
+[B976 PARAGRAPH Normal]
+笔记列Speyside、Highlands、Lowlands、Islay、Campbeltown。Speyside举Monkey Shoulder与Glenfiddich，并写蜂蜜甜感；Highlands含Skye／Talisker、Northen、Central，举Talisker、Edradour、Aberfield；Lowlands举Augchentoshan；Islay举Laphroaig；Campbeltown举sprinbank。
+
+[B977 PARAGRAPH Normal]
+整理注  Aberfield、Augchentoshan、sprinbank等保留原拼写，并设待核对别名。 品牌与产区的归属、各产区风格是原作者笔记，不自动成为精确风味向量或产区认证。
+
+[B978 PARAGRAPH Caption]
+原件解析第23页；P0388–P0411；image10.jpeg
+
+[B979 PARAGRAPH Heading 2]
+泥煤风味的原作者说明
+
+[B980 PARAGRAPH Normal]
+原文用大麦开始发芽、燃烧泥煤供热以停止发芽、烟进入风味来解释泥煤威士忌。
+
+[B981 PARAGRAPH Normal]
+整理注  这是一段简化且未核实的工艺解释，不能充当精确生产教程。
+
+[B982 PARAGRAPH Caption]
+原件解析第23页；P0404–P0407
+
+[B983 PARAGRAPH Heading 2]
+Louche／Ouzo effect
+
+[B984 PARAGRAPH Normal]
+原笔记称茴香精油在酒精中可溶、遇水后形成细小液滴，散射光线使酒液呈乳白色，并将现象称为louching。
+
+[B985 PARAGRAPH Normal]
+整理注  紧邻的detergent句子与可食用调制分离，已安全隔离。
+
+[B986 PARAGRAPH Caption]
+原件解析第29页；P0494–P0496
+
+[B987 PARAGRAPH Heading 2]
+Amaro／Amari与内部不一致
+
+[B988 PARAGRAPH Normal]
+原文说amaro意为苦，可将植物浸泡在蒸馏酒或葡萄酒中后加糖制成；苦味来源举苦艾、龙胆、金鸡纳和大黄。后文又称amaro总以蒸馏酒为基底，与前句的“或葡萄酒”不一致。
+
+[B989 PARAGRAPH Normal]
+整理注  两句均保留并标记冲突，不擅自替作者选择一个作为统一定义。 Suze被记作法国龙胆酒，同样作为笔记而非外部认证。
+
+[B990 PARAGRAPH Caption]
+原件解析第31、32页；P0545–P0553
+
+[B991 PARAGRAPH Heading 2]
+烧酎与清酒对比图录
+
+[B992 PARAGRAPH Normal]
+第31页嵌图把烧酎写为蒸馏饮品、可用多种原料，酒精度20–40%；把清酒写为发酵饮品、以米制作，酒精度15–20%。
+
+[B993 PARAGRAPH Normal]
+整理注  原图分辨率有限；图中范围只作为原图说明保存，不覆盖具体瓶身或现行分类规则。
+
+[B994 PARAGRAPH Caption]
+原件解析第31页；P0532；image15.jpeg
+
+[B995 PARAGRAPH Heading 2]
+Tiki作者归纳
+
+[B996 PARAGRAPH Normal]
+作者强调Falernum，写“两种以上朗姆酒＋风味糖浆＋香料＋热带水果”，并以Golden Falernum说明香料风味，举僵尸、迈泰、椰林飘香。
+
+[B997 PARAGRAPH Normal]
+整理注  这是启发式个人归纳，不能转为所有Tiki都必须包含两种朗姆或Falernum的硬规则。
+
+[B998 PARAGRAPH Caption]
+原件解析第42、43页；P0622–P0627；image21.jpeg
+
+[B999 PARAGRAPH Heading 2]
+四分之一桶体验与解释
+
+[B1000 PARAGRAPH Normal]
+作者描述拉夫格四分之一桶烟熏泥煤明显，并认为较小桶让酒与橡木接触更充分，可在更短时间获得某种效果；随后表达个人喜爱。
+
+[B1001 PARAGRAPH Normal]
+整理注  “更好效果”属于个人评价；不推导更短时间等同更长熟成或更高质量。
+
+[B1002 PARAGRAPH Caption]
+原件解析第40页；P0615–P0617
+
+[B1003 PARAGRAPH Heading 2]
+梅酒、Ume-su与麦茶
+
+[B1004 PARAGRAPH Normal]
+原文标梅酒Ume-shu有酒精、Ume-su无酒精，配方共享45 ml基底和120–150 ml苏打／冰麦茶。
+
+[B1005 PARAGRAPH Normal]
+整理注  Ume-su具体产品身份未清楚；不能保证所有同名产品的成分或酒精度。
+
+[B1006 PARAGRAPH Caption]
+原件解析第31页；P0533–P0536
+
+[B1007 PARAGRAPH Heading 2]
+hojicha／煎茶对应问题
+
+[B1008 PARAGRAPH Normal]
+Takenaka段落末尾写“煎茶（hojicha）”，作者说两种原料还未单独品尝，因此不评价。
+
+[B1009 PARAGRAPH Normal]
+整理注  名称对应待核实；仅保存两种原词，不自动选择某一种茶、更不编造浸泡时间。
+
+[B1010 PARAGRAPH Caption]
+原件解析第44页；P0644
+
+[B1011 PARAGRAPH Heading 2]
+日本威士忌印象与未归属句
+
+[B1012 PARAGRAPH Normal]
+日本威士忌章节写“入口清爽顺滑，只觉满口谷物香”，随后有一句英文称某杯酒以烈酒为主、略苦、值得调酒师掌握，但没有明确对应酒名。
+
+[B1013 PARAGRAPH Normal]
+整理注  不将未归属的英文评价强行绑定到所有Highball或所有日本威士忌。
+
+[B1014 PARAGRAPH Caption]
+原件解析第16、17页；P0304–P0308；image5.jpeg, image6.jpeg
+
+[B1015 PARAGRAPH Normal]
+
+
+
+[B1016 PARAGRAPH Heading 1]
+附录 B  酒吧体验与个人偏好
+
+[B1017 PARAGRAPH Normal]
+这是作者的私人体验，不代表当前营业情况、现行菜单或本次对酒吧的推荐。
+
+[B1018 PARAGRAPH Heading 2]
+呼和浩特容阙
+
+[B1019 PARAGRAPH Normal]
+仅记录“透明的拿铁／milk punch”及照片，没有配方。
+
+[B1020 PARAGRAPH Caption]
+原件解析第34、35页；P0596–P0599
+
+[B1021 PARAGRAPH Heading 2]
+北京Zlounge
+
+[B1022 PARAGRAPH Normal]
+作者喜欢幽暗灯光与音乐，选择吧台，并赞赏Sean的技巧、理解偏好和推荐能力。尤其偏爱在经典结构中提高基酒比例但仍保持风味平衡的方向。记录了增金酒的查理卓别林、float盘尼西林、拉夫格烟熏体验与肉桂山楂组合。
+
+[B1023 PARAGRAPH Caption]
+原件解析第35、36、37、38、39、40、41页；P0601–P0620
+
+[B1024 PARAGRAPH Heading 2]
+Vancouver Takenaka
+
+[B1025 PARAGRAPH Normal]
+作者认为Ume Boulevardier满足了对梅子与威士忌组合的想象，描述浓梅、微咸和随后出现的龙舌兰植物香，并在家做了test1。认为Maraschino15ml过强，计划减量并强化梅酒风味。
+
+[B1026 PARAGRAPH Caption]
+原件解析第43、44页；P0629–P0644
+
+[B1027 PARAGRAPH Heading 2]
+可被保留的偏好线索
+
+[B1028 PARAGRAPH Normal]
+作者多次重视基酒存在感与其他风味之间的平衡；赞赏烟熏漂浮层、肉桂与山楂、梅子微咸与威士忌的组合；对过度抢眼的Maraschino有明确减量意向。这些是该作者的文字线索，不足以直接生成固定五味百分比。
+
+[B1029 PARAGRAPH Heading 2]
+待确认的末尾图像
+
+[B1030 PARAGRAPH Normal]
+Kaminari名称前后有两张外观不同的酒照。文件没有说明哪张对应名称，也没有配料。图片作为私人来源保存，不能仅凭泡沫、颜色或冰块推测蛋清、苦精、基酒及用量。
+
+[B1031 PARAGRAPH Normal]
+
+
+
+[B1032 PARAGRAPH Heading 1]
+附录 C  审核与修订清单
+
+[B1033 PARAGRAPH Normal]
+以下27项尚未全部解决。它们标记“哪里需要确认”，不意味着已通过外部查证。每次确认应创建新修订并记录操作者，保留源版本。
+
+[B1034 PARAGRAPH Heading 3]
+A001  非食品洗涤剂句子安全隔离
+
+[B1035 PARAGRAPH Normal]
+来源问题  原文在louche解释后出现By adding detergent…
+
+[B1036 PARAGRAPH Normal]
+处理要求  仅保留在隔离来源与审计记录；不得进入配料、做法、模型检索事实或食品操作。
+
+[B1037 PARAGRAPH Caption]
+原件解析第29页；P0498
+
+[B1038 PARAGRAPH Heading 3]
+A002  新加坡司令有三个相互不同版本
+
+[B1039 PARAGRAPH Normal]
+来源问题  正文配比与Raffles和Savoy两张配方图不同。
+
+[B1040 PARAGRAPH Normal]
+处理要求  保留三个稳定ID，禁止拼接用量或用标准配方覆盖。
+
+[B1041 PARAGRAPH Caption]
+原件解析第9、10页；P0187–P0190；image3.jpeg, image4.jpeg
+
+[B1042 PARAGRAPH Heading 3]
+A003  图中苦精剂量被字幕遮住
+
+[B1043 PARAGRAPH Normal]
+来源问题  Raffles图可读Angostura名称，不能可靠读出用量。
+
+[B1044 PARAGRAPH Normal]
+处理要求  用量保持null，人工确认前不可执行。
+
+[B1045 PARAGRAPH Caption]
+原件解析第10页；P0189；image3.jpeg
+
+[B1046 PARAGRAPH Heading 3]
+A004  Savoy图比例单位不明
+
+[B1047 PARAGRAPH Normal]
+来源问题  1/4 Dry Gin、1/2 Cherry Brandy没有容量基准。
+
+[B1048 PARAGRAPH Normal]
+处理要求  仅保留比例原文，不假定shot、oz或ml。
+
+[B1049 PARAGRAPH Caption]
+原件解析第10页；P0189；image4.jpeg
+
+[B1050 PARAGRAPH Heading 3]
+A005  荆棘柠檬汁缺单位
+
+[B1051 PARAGRAPH Normal]
+来源问题  原文写22.5 lemon juice。
+
+[B1052 PARAGRAPH Normal]
+处理要求  保留value=22.5，unit=null，不自动写ml。
+
+[B1053 PARAGRAPH Caption]
+原件解析第9页；P0166
+
+[B1054 PARAGRAPH Heading 3]
+A006  雪茄出现mk
+
+[B1055 PARAGRAPH Normal]
+来源问题  原文30mk scotch。
+
+[B1056 PARAGRAPH Normal]
+处理要求  登记疑似ml笔误；确认后应新增修订而非改写源值。
+
+[B1057 PARAGRAPH Caption]
+原件解析第25页；P0427
+
+[B1058 PARAGRAPH Heading 3]
+A007  高地清凉酒柠檬汁缺单位
+
+[B1059 PARAGRAPH Normal]
+来源问题  原文1 of Lemon Juice。
+
+[B1060 PARAGRAPH Normal]
+处理要求  不猜1 oz；确认量与单位。
+
+[B1061 PARAGRAPH Caption]
+原件解析第25页；P0435
+
+[B1062 PARAGRAPH Heading 3]
+A008  盘尼西林疑似原料拼写与缺单位
+
+[B1063 PARAGRAPH Normal]
+来源问题  原文7.5 telska。
+
+[B1064 PARAGRAPH Normal]
+处理要求  确认真实瓶名与单位；后文烟熏体验不构成品牌证明。
+
+[B1065 PARAGRAPH Caption]
+原件解析第26页；P0443–P0446
+
+[B1066 PARAGRAPH Heading 3]
+A009  萨泽拉克糖浆缺单位
+
+[B1067 PARAGRAPH Normal]
+来源问题  原文7.5 simple syrup。
+
+[B1068 PARAGRAPH Normal]
+处理要求  保留缺失，8喷苦艾也不换算成固定ml。
+
+[B1069 PARAGRAPH Caption]
+原件解析第29、30页；P0506–P0510
+
+[B1070 PARAGRAPH Heading 3]
+A010  Mojito果糖浓度与额外白糖
+
+[B1071 PARAGRAPH Normal]
+来源问题  原文明确45ml果糖并另有一吧勺糖。
+
+[B1072 PARAGRAPH Normal]
+处理要求  不静默改量；核实是否液体果糖、糖度、份数与杯量。
+
+[B1073 PARAGRAPH Caption]
+原件解析第12页；P0221–P0227
+
+[B1074 PARAGRAPH Heading 3]
+A011  向日葵配方有输入噪声及未记录柑橘
+
+[B1075 PARAGRAPH Normal]
+来源问题  原文只有三种22.5ml酒、苦艾洗杯和No ice。
+
+[B1076 PARAGRAPH Normal]
+处理要求  去噪仅用于显示；不补柠檬汁，确认No ice的适用阶段。
+
+[B1077 PARAGRAPH Caption]
+原件解析第5、6页；P0112–P0119
+
+[B1078 PARAGRAPH Heading 3]
+A012  部分做法缺失或截断
+
+[B1079 PARAGRAPH Normal]
+来源问题  火焰之吻制作句被截断，多数条目只给配料。
+
+[B1080 PARAGRAPH Normal]
+处理要求  保持源步骤为空或局部；参考总则不能代替完整调制SOP。
+
+[B1081 PARAGRAPH Caption]
+原件解析第4页；P0076
+
+[B1082 PARAGRAPH Heading 3]
+A013  shot、吧勺、茶匙、dash和瓶盖未校准
+
+[B1083 PARAGRAPH Normal]
+来源问题  多个配方使用家用或吧台量词。
+
+[B1084 PARAGRAPH Normal]
+处理要求  保留单位，批量计算前由管理员定义量具；固体糖不按体积猜克数。
+
+[B1085 PARAGRAPH Caption]
+原件解析第14页；P0262–P0269
+
+[B1086 PARAGRAPH Heading 3]
+A014  樱桃美式前后不完全相同
+
+[B1087 PARAGRAPH Normal]
+来源问题  前段有苏打补满，后段简记没有苏打。
+
+[B1088 PARAGRAPH Normal]
+处理要求  建相关但分离的记录；不能断言有意去苏打或自动补回。
+
+[B1089 PARAGRAPH Caption]
+原件解析第31页；P0538–P0541
+
+[B1090 PARAGRAPH Heading 3]
+A015  New York Sour泡沫材料单位不相同
+
+[B1091 PARAGRAPH Normal]
+来源问题  原文15ml aquafaba OR 1 egg white。
+
+[B1092 PARAGRAPH Normal]
+处理要求  建立二选一，蛋清保留一枚蛋的蛋清，不改成15ml。
+
+[B1093 PARAGRAPH Caption]
+原件解析第19页；P0342
+
+[B1094 PARAGRAPH Heading 3]
+A016  黑刺李金酒酸盎司写法异常
+
+[B1095 PARAGRAPH Normal]
+来源问题  原文12/ oz. (15ml)。
+
+[B1096 PARAGRAPH Normal]
+处理要求  以同句明示15ml整理并保留异常原文，不另猜盎司。
+
+[B1097 PARAGRAPH Caption]
+原件解析第11页；P0215
+
+[B1098 PARAGRAPH Heading 3]
+A017  复刻试验与下一次计划不能混写
+
+[B1099 PARAGRAPH Normal]
+来源问题  test1为30／60／15／15；下一次只明确改maraschino和两种梅酒。
+
+[B1100 PARAGRAPH Normal]
+处理要求  保留test1与未执行补丁，未重述原料不得默默继承。
+
+[B1101 PARAGRAPH Caption]
+原件解析第44页；P0635–P0644
+
+[B1102 PARAGRAPH Heading 3]
+A018  菜单复合原料与茶名不明确
+
+[B1103 PARAGRAPH Normal]
+来源问题  salt plum hoijicha campari无法可靠分词；后文又写煎茶（hojicha）。
+
+[B1104 PARAGRAPH Normal]
+处理要求  复合项整体保留并核对；不编造茶浸泡工艺。
+
+[B1105 PARAGRAPH Caption]
+原件解析第43、44页；P0632–P0644
+
+[B1106 PARAGRAPH Heading 3]
+A019  相对年代与历史传说未经核实
+
+[B1107 PARAGRAPH Normal]
+来源问题  两处Created20yearsago没有记述日期；多处人名和年代拼写含噪声。
+
+[B1108 PARAGRAPH Normal]
+处理要求  历史字段设unverified，不换算具体年份，不生成署名名人酒语。
+
+[B1109 PARAGRAPH Caption]
+原件解析第20页；P0354–P0363
+
+[B1110 PARAGRAPH Heading 3]
+A020  星号含义未定义且有归属歧义
+
+[B1111 PARAGRAPH Normal]
+来源问题  仅看到星号，没有量表说明；日出和OldFashioned标题附近可能是组评分。
+
+[B1112 PARAGRAPH Normal]
+处理要求  仅显示“笔记星号”，不映射0–10品质或喜好概率。
+
+[B1113 PARAGRAPH Caption]
+原件解析第1页；P0007–P0011
+
+[B1114 PARAGRAPH Heading 3]
+A021  Ume-su不能直接保证无酒精
+
+[B1115 PARAGRAPH Normal]
+来源问题  原文标non-alcoholic，但没有真实产品信息。
+
+[B1116 PARAGRAPH Normal]
+处理要求  公共菜单须核验瓶标，酒精度当前保持null。
+
+[B1117 PARAGRAPH Caption]
+原件解析第31页；P0533–P0536
+
+[B1118 PARAGRAPH Heading 3]
+A022  多数无明确糖浆浓度
+
+[B1119 PARAGRAPH Normal]
+来源问题  普通、半浓、浓糖浆在各条不总有糖水比。
+
+[B1120 PARAGRAPH Normal]
+处理要求  只有逐条明示的比例入结构化字段，不跨条继承1:1、1.5:1或2:1。
+
+[B1121 PARAGRAPH Caption]
+原件解析第11页；P0206–P0215
+
+[B1122 PARAGRAPH Heading 3]
+A023  末尾图片与名称不能确认绑定
+
+[B1123 PARAGRAPH Normal]
+来源问题  Kaminari前后各一张不同酒照，缺文字说明。
+
+[B1124 PARAGRAPH Normal]
+处理要求  建立不确定关联，不图像猜配料、基酒或泡沫成分。
+
+[B1125 PARAGRAPH Caption]
+原件解析第45、46页；P0645–P0647；image23.jpeg, image24.jpeg
+
+[B1126 PARAGRAPH Heading 3]
+A024  Amaro定义内部不一致
+
+[B1127 PARAGRAPH Normal]
+来源问题  前文允许葡萄酒浸泡，后文说always蒸馏酒基底。
+
+[B1128 PARAGRAPH Normal]
+处理要求  两句标冲突，未核实前不进入权威分类。
+
+[B1129 PARAGRAPH Caption]
+原件解析第32页；P0547–P0551
+
+[B1130 PARAGRAPH Heading 3]
+A025  标题无配方不应自动补齐
+
+[B1131 PARAGRAPH Normal]
+来源问题  Sunrise、Gin&Tonic、Americano、ElPresidente、Malibu等只有名称。
+
+[B1132 PARAGRAPH Normal]
+处理要求  保留为待补全目录项，经典参考数据需要另行研究并新建来源版本。
+
+[B1133 PARAGRAPH Caption]
+原件解析第13页；P0244–P0257
+
+[B1134 PARAGRAPH Heading 3]
+A026  照片与截图的公开发布权利未核实
+
+[B1135 PARAGRAPH Normal]
+来源问题  原文件既有现场酒照，也有带字幕的第三方视频画面。
+
+[B1136 PARAGRAPH Normal]
+处理要求  全部标private_source_reference_only；不得默认作为应用商店素材或公开酒谱图。
+
+[B1137 PARAGRAPH Caption]
+原件解析第9、10页；P0187–P0190；image3.jpeg, image4.jpeg
+
+[B1138 PARAGRAPH Heading 3]
+A027  杯量、份数、营养和感官无实测
+
+[B1139 PARAGRAPH Normal]
+来源问题  多条液体总量较大，且没有完整成杯量或实测记录。
+
+[B1140 PARAGRAPH Normal]
+处理要求  不将列表总液量当成最终体积；热量、ABV、五味与七感官字段保持null。
+
+[B1141 PARAGRAPH Caption]
+原件解析第11页；P0206–P0208
+
+[B1142 PARAGRAPH Normal]
+
+
+
+[B1143 PARAGRAPH Heading 1]
+附录 D  图片中的配方证据
+
+[B1144 PARAGRAPH Normal]
+原件第10页的两张配方图，与同页正文分开建档。下图仅用于本次私人笔记溯源，图片本身的公开分发权利未核实。
+
+[B1145 PARAGRAPH Normal]
+
+
+[B1146 PARAGRAPH Caption]
+莱佛士式图：Angostura Bitters名称可读，剂量被字幕遮挡。
+
+[B1147 PARAGRAPH Normal]
+
+
+[B1148 PARAGRAPH Caption]
+萨伏伊式图：1/4与1/2的容量基准不明，不能直接换ml。
+
+[B1149 PARAGRAPH Normal]
+
+
+
+[B1150 PARAGRAPH Heading 1]
+附录 E  原料名称级索引
+
+[B1151 PARAGRAPH Normal]
+146个名称级条目包含品牌名、泛类、替代材料及未确认原文。它们不是同一层级的化学分类，不代表实际库存；过敏原、酒精度、糖含量与营养信息均未核验。
+
+[B1152 TABLE]
+ROW 1: 原料名称 | 条目编号 | 源单位
+ROW 2: 龙舌兰 | 003, 004, 005, 006, 007, 093 | ml, oz
+ROW 3: 黑加仑利口酒 Crème de Cassis | 003, 005, 026, 058 | ml
+ROW 4: 青柠汁 | 003, 006, 008, 009, 011, 021, 025, 031, 036, 038, 040, 041, 047, 050, 051, 087 | ml, oz
+ROW 5: 姜汁啤酒 Ginger Beer | 003, 004, 008, 021, 047 | ml, oz
+ROW 6: 姜汁汽水 Ginger Ale | 003, 004, 064 | ml, oz
+ROW 7: 黄柠檬汁 | 004, 005, 007, 017, 026, 027, 028, 029, 030, 036, 039, 049, 057, 058, 059, 060, 064, 074, 075 | ml, tsp, oz
+ROW 8: 苹果西打 apple cider | 005 | ml
+ROW 9: 苹果汁 | 005, 009 | ml
+ROW 10: 三重橙味利口酒 Triple Sec | 006, 011, 019, 027, 086 | oz, ml
+ROW 11: 龙舌兰预调液 tequila premix | 007 | ml
+ROW 12: 伏特加 | 008, 009, 010, 011, 012, 013 | oz, ml
+ROW 13: 枫糖浆 | 009 | ml
+ROW 14: 青柠 | 010, 089 | 个
+ROW 15: 白糖 | 010, 038, 064 | barspoon, tsp
+ROW 16: 咖啡利口酒 | 012, 013 | ml
+ROW 17: 浓缩咖啡 Espresso | 012 | ml
+ROW 18: 爱尔兰奶油利口酒 | 012, 013, 086 | ml
+ROW 19: 牛奶 | 013 | ml
+ROW 20: 三得利 Haku 伏特加 | 014 | oz
+ROW 21: Sipsmith 黑刺李金酒 | 014 | oz
+ROW 22: Noilly Prat Original 干味美思 | 014 | oz
+ROW 23: 新鲜黄柠檬汁 | 014, 019, 024, 034, 035, 037, 048, 056, 066, 078, 082 | barspoon, ml, shot, oz
+ROW 24: 金酒 | 015, 016, 019, 020, 022, 025, 026, 027, 028, 029, 030, 031, 036, 089 | ml, shot
+ROW 25: 金巴利 Campari | 015, 023, 027, 029, 037, 059, 061, 063, 069, 081, 094 | ml
+ROW 26: 甜味美思 | 015, 023, 063, 067, 070, 071, 072, 081 | ml
+ROW 27: 白味美思 White Vermouth | 016 | ml
+ROW 28: Suze 龙胆风味酒 | 016 | ml
+ROW 29: 老汤姆金酒 Old Tom Gin | 017 | ml
+ROW 30: 普通糖浆 | 017, 029, 034, 036, 039, 043, 055, 058, 075, 076, 078, 082 | ml, oz
+ROW 31: 苏打水 | 017, 023, 030, 032, 035, 038, 053, 078, 079, 080 | ml
+ROW 32: Americano（原料身份待确认） | 019 | ml
+ROW 33: Lillet Blanc 白利莱 | 019 | ml
+ROW 34: 苦艾酒 Absinthe | 019, 020, 074, 075, 076 | ml, spray
+ROW 35: 君度 Cointreau | 020, 030, 031, 051 | ml
+ROW 36: St-Germain 接骨木花利口酒 | 020, 021 | ml
+ROW 37: 黄瓜 | 021, 082 | 片
+ROW 38: 薄荷叶 | 021, 038, 087 | 片
+ROW 39: 金酒（原配 Ford’s） | 021 | ml
+ROW 40: 干味美思 | 022, 061, 067, 072 | ml
+ROW 41: Cherry Heering 樱桃利口酒 | 023, 030, 031, 070, 081 | ml
+ROW 42: 伦敦干金酒 | 024 | ml
+ROW 43: 杏仁糖浆 Orgeat | 024, 039, 050, 051, 074 | ml
+ROW 44: Velvet Falernum | 024 | ml
+ROW 45: 百香果糖浆 | 024 | ml
+ROW 46: Chartreuse 草本利口酒 | 025 | ml
+ROW 47: 迷迭香普通糖浆 | 025 | ml
+ROW 48: 半浓糖浆 Semi-rich | 026, 035, 037 | ml
+ROW 49: 黑莓利口酒 Crème de Mûre | 026 | ml
+ROW 50: 蜂蜜糖浆 | 028, 057, 060, 066 | ml, oz
+ROW 51: 青葡萄 | 029 | 颗
+ROW 52: 红石榴糖浆 Grenadine | 030, 031, 086 | ml
+ROW 53: 菠萝汁 | 030, 031, 043 | ml
+ROW 54: Bénédictine DOM 草本利口酒 | 031, 068 | ml
+ROW 55: 安格斯图拉芳香苦精 | 031, 054, 055, 058, 062, 064, 067, 071, 072, 073, 076 | dash
+ROW 56: 黄柠檬榨汁 | 032 | 个
+ROW 57: 干金酒 | 032 | 原图比例单位未注明
+ROW 58: 樱桃白兰地 Cherry Brandy | 032 | 原图比例单位未注明
+ROW 59: Crémant de Bourgogne Brut 勃艮第干型起泡酒 | 034 | ml
+ROW 60: Plymouth 金酒 | 034 | ml
+ROW 61: Maison Rouge VSOP 干邑 | 034 | ml
+ROW 62: 黑刺李金酒 | 035, 036, 089 | ml
+ROW 63: 杏子白兰地 Apricot Brandy | 036, 089 | ml
+ROW 64: Plymouth 黑刺李金酒 | 037 | ml
+ROW 65: 蛋清 | 037, 049, 056 | ml, 枚蛋的蛋清
+ROW 66: 鹰嘴豆液 Aquafaba | 037, 056 | ml
+ROW 67: 黄柠檬片 | 038 | 片
+ROW 68: 果糖（原文名称，制剂未明） | 038 | ml
+ROW 69: 朗姆酒 | 038, 047 | ml
+ROW 70: 深色朗姆酒 | 039, 048, 049, 050, 051 | ml, shot
+ROW 71: 高度朗姆酒 Overproof Rum | 039, 040, 050 | ml
+ROW 72: 意式杏仁风味利口酒 Amaretto | 039 | ml
+ROW 73: 白朗姆酒 | 041, 043, 046, 087 | ml, 瓶盖
+ROW 74: 糖浆 | 041, 049 | ml
+ROW 75: 椰奶 Coconut Milk | 043 | ml
+ROW 76: 蓝橙利口酒 Blue Curaçao | 046 | ml
+ROW 77: 青柠柯迪尔 Lime Cordial | 046 | ml
+ROW 78: Black Rum（原文） | 048 | shot
+ROW 79: Blackstrap Rum（原文） | 048 | shot
+ROW 80: Disaronno 杏仁风味利口酒 | 048 | shot
+ROW 81: 浓糖浆 Rich | 048 | shot
+ROW 82: Amaro Montenegro 苦味利口酒 | 049, 059 | ml
+ROW 83: Cynar 苦味利口酒 | 050 | ml
+ROW 84: 接骨木花利口酒 | 050, 062 | ml
+ROW 85: 香料朗姆酒 | 051 | ml
+ROW 86: 金朗姆酒 | 051 | ml
+ROW 87: 杏仁利口酒 | 051 | ml
+ROW 88: 日本威士忌 | 053 | ml
+ROW 89: Oloroso 雪莉酒 | 053 | barspoon
+ROW 90: 橙肉 | 054 | 未记
+ROW 91: 浓德梅拉拉糖浆 Rich Demerara | 054, 056 | ml
+ROW 92: 橙味苦精 | 054, 073 | dash
+ROW 93: 波本威士忌 | 054, 057, 058, 059, 093 | ml, oz
+ROW 94: 威士忌（品种不限，原文） | 055 | ml
+ROW 95: Basil Hayden 波本威士忌 | 056 | ml
+ROW 96: 红葡萄酒 | 056 | ml
+ROW 97: 西柚汁 | 057 | oz
+ROW 98: Amaro Nonino 苦味利口酒 | 059 | ml
+ROW 99: Aperol 开胃酒 | 059, 063 | ml
+ROW 100: 辛辣菠萝汽水 Spicy Pineapple Soda | 060 | oz
+ROW 101: 威士忌 | 060, 094 | oz, ml
+ROW 102: 黑麦威士忌 | 061, 071, 072, 073, 076 | ml
+ROW 103: 苏格兰威士忌 | 062, 063, 064, 065, 070 | ml, mk, oz
+ROW 104: 糖粉 | 064 | tsp
+ROW 105: 杏仁风味利口酒 Amaretto | 065 | ml
+ROW 106: Monkey Shoulder 猴肩威士忌 | 066 | ml
+ROW 107: telska（原文，身份待确认） | 066 | 未记
+ROW 108: 姜汁 | 066 | ml
+ROW 109: 单一麦芽苏格兰威士忌 | 067 | ml
+ROW 110: 苏格兰威士忌（调和或单一麦芽） | 068 | ml
+ROW 111: Nux Alpina 核桃利口酒 | 068 | ml
+ROW 112: Woodford Reserve 威士忌 | 069 | ml
+ROW 113: Dolin 甜味美思 | 069 | ml
+ROW 114: 橙汁 | 070, 077 | ml
+ROW 115: Averna 苦味利口酒 | 073 | ml
+ROW 116: 气泡水 | 074 | ml
+ROW 117: 香槟 | 075 | 未记
+ROW 118: 干邑 | 076 | ml
+ROW 119: Peychaud’s 苦精 | 076, 082 | dash, ml
+ROW 120: 桃味利口酒 | 077 | ml
+ROW 121: Mizu 绿茶烧酎 | 078 | oz
+ROW 122: Midori 蜜瓜利口酒 | 078 | oz
+ROW 123: 新鲜青柠汁 | 078 | oz
+ROW 124: 梅酒 Ume-shu | 079 | ml
+ROW 125: 冰镇麦茶 Mugicha | 079, 080 | ml
+ROW 126: Ume-su（原文标为无酒精，产品待确认） | 080 | ml
+ROW 127: 草莓 | 082 | 颗
+ROW 128: 橙皮 | 082 | 片
+ROW 129: 西柚皮 | 082 | 片
+ROW 130: Sanbitter 红色苦味汽水 | 082 | ml
+ROW 131: Stappi 红色苦味汽水 | 082 | ml
+ROW 132: 菠萝 | 087 | 未记
+ROW 133: 椰子伏特加 | 087 | 瓶盖
+ROW 134: 新鲜黄柠檬榨汁 | 087 | 个
+ROW 135: 九制话梅 | 087 | 颗
+ROW 136: 海之盐柠檬汽水 | 087 | 未记
+ROW 137: Sprite／7 Up（原文spirit/7 up） | 087 | 未记
+ROW 138: 柚子盐 | 087 | 未记
+ROW 139: 海盐 | 087 | 未记
+ROW 140: 糖 | 087 | 未记
+ROW 141: 黄柠檬 | 089 | 未记
+ROW 142: Fireball（原文fire ball whiskey） | 092 | 未记
+ROW 143: 山楂（形态未注明） | 092 | 未记
+ROW 144: salt plum hoijicha campari（原文组合项） | 093 | 未记
+ROW 145: Maraschino 马拉斯奇诺利口酒 | 093, 094, 095 | ml
+ROW 146: 绿茶梅酒 | 094, 095 | ml
+ROW 147: 风味更浓的梅酒（产品未定） | 095 | ml
+
+[B1153 PARAGRAPH Normal]
+
+
+
+[B1154 PARAGRAPH Heading 1]
+附录 F  Codex 导入与验证
+
+[B1155 PARAGRAPH Normal]
+推荐导入顺序：先校验catalogue.json与Schema，再导入原料和版本关联；前端通过ui_feed.json显示白名单字段；酒语和背景也可独立读取copy_zh.json。不要把raw_excerpt、图片文字或安全隔离内容直接送入调酒Agent。
+
+[B1156 TABLE]
+ROW 1: 界面用途 | 读取字段／文件 | 约束
+ROW 2: 中文／英文名 | name_zh / name_en | 不同版本保留独立ID
+ROW 3: 配料与方法 | ingredients / steps_source_zh | 缺项显示未知，不默认0
+ROW 4: 酒语弹窗 | copy.quote_zh | 标记原创，不署名名人
+ROW 5: 背景介绍 | copy.background_zh | 文学文案，不作为史实
+ROW 6: 历史信息 | history_claims_unverified | 默认附“笔记记载，未核实”
+ROW 7: 评价区 | note_rating / sensory | 笔记星号与模型评分分开
+ROW 8: 点单资格 | review.orderable | 本次全部false，须另行审核
+
+[B1157 PARAGRAPH Normal]
+本次实际运行30项结构与不变量校验，30项通过；包括ID唯一、引用完整、选择分支、未知单位不补值、关键源数据保留、记录哈希、全部段落覆盖及JSON Schema。源DOCX的SHA-256也与本次上传匹配。
+
+[B1158 PARAGRAPH Normal]
+未执行：逐杯实饮、外部历史核实、各品牌营养与过敏原核对、真实应用数据库导入及客户端联调。格式通过不是配方专业认证。
+
+[B1159 PARAGRAPH Heading 2]
+原始来源校验值
+
+[B1160 PARAGRAPH Normal]
+bd6d87d029e8df5f106729ac5993a23dd4074bd2b2a1d825440dfcf21d6ebe35
+
+[B1161 PARAGRAPH Normal]
+保留来源，允许修订；生成文案，不生成伪证。
+
+
+[ANCILLARY word/header1.xml]
+TIMER  /  COCKTAIL FIELD NOTES
+
+[ANCILLARY word/footer1.xml]
+私人笔记整理 · 原创文案与源记录分层保存      / 

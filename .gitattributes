@@ -1,0 +1,8 @@
+# These seed bytes are immutable migration identities across Windows checkouts.
+data/*.json -text
+# Deterministic DLC generation and art provenance also hash their JSON bytes.
+product/data/dlc/**/*.json -text
+product/apps/client/src/dlc-art-profiles.json -text
+# Supplied originals and personal recipe provenance are hashed as exact bytes.
+product/data/personal/** -text
+product/data/dlc/xiaodong/source.docx -text

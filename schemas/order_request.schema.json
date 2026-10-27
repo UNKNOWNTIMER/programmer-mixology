@@ -1,0 +1,73 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "protocol_version": {
+      "const": 1
+    },
+    "request_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "recipe_revision_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "serving_spec_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "target_profile": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "taste_bps": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 10000
+          },
+          "minItems": 5,
+          "maxItems": 5,
+          "description": "Business validator must additionally assert exact sum=10000."
+        },
+        "sensory_0_10": {
+          "type": "array",
+          "items": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 10
+          },
+          "minItems": 7,
+          "maxItems": 7
+        }
+      },
+      "required": [
+        "taste_bps",
+        "sensory_0_10"
+      ],
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    },
+    "units_count": {
+      "const": 1
+    },
+    "guest_note": {
+      "type": "string",
+      "maxLength": 300
+    }
+  },
+  "required": [
+    "protocol_version",
+    "request_id",
+    "recipe_revision_id",
+    "serving_spec_id",
+    "target_profile",
+    "units_count",
+    "guest_note"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Server derives authenticated guest identity. A serving_spec_id is not proof of authorization; validate ownership/menu approval."
+}

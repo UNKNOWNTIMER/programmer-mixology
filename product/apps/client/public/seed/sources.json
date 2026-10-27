@@ -1,0 +1,2706 @@
+{
+  "checked_on": "2026-09-21",
+  "sources": [
+    {
+      "recipe_id": "iba_alexander",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/alexander/",
+      "reference": "alexander",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_americano",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/americano/",
+      "reference": "americano",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_angel_face",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/angel-face/",
+      "reference": "angel-face",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_aviation",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/aviation/",
+      "reference": "aviation",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_bees_knees",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/bees-knees/",
+      "reference": "bees-knees",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_bellini",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/bellini/",
+      "reference": "bellini",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_between_the_sheets",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/between-the-sheets/",
+      "reference": "between-the-sheets",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_black_russian",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/black-russian/",
+      "reference": "black-russian",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_bloody_mary",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/bloody-mary/",
+      "reference": "bloody-mary",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_boulevardier",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/boulevardier/",
+      "reference": "boulevardier",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_bramble",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/bramble/",
+      "reference": "bramble",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_caipirinha",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/caipirinha/",
+      "reference": "caipirinha",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_cardinale",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/cardinale/",
+      "reference": "cardinale",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_clover_club",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/clover-club/",
+      "reference": "clover-club",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_corpse_reviver_2",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/corpse-reviver-2/",
+      "reference": "corpse-reviver-2",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_cosmopolitan",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/cosmopolitan/",
+      "reference": "cosmopolitan",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_cuba_libre",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/cuba-libre/",
+      "reference": "cuba-libre",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_daiquiri",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/daiquiri/",
+      "reference": "daiquiri",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_dark_n_stormy",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/dark-n-stormy/",
+      "reference": "dark-n-stormy",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_dry_martini",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/dry-martini/",
+      "reference": "dry-martini",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_espresso_martini",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/espresso-martini/",
+      "reference": "espresso-martini",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_french_75",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/french-75/",
+      "reference": "french-75",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_french_connection",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/french-connection/",
+      "reference": "french-connection",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_french_martini",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/french-martini/",
+      "reference": "french-martini",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_garibaldi",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/garibaldi/",
+      "reference": "garibaldi",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_gin_basil_smash",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/gin-basil-smash/",
+      "reference": "gin-basil-smash",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_gin_fizz",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/gin-fizz/",
+      "reference": "gin-fizz",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_grasshopper",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/grasshopper/",
+      "reference": "grasshopper",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_hanky_panky",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/hanky-panky/",
+      "reference": "hanky-panky",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_horses_neck",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/horses-neck/",
+      "reference": "horses-neck",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_irish_coffee",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/irish-coffee/",
+      "reference": "irish-coffee",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_john_collins",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/john-collins/",
+      "reference": "john-collins",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_jungle_bird",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/jungle-bird/",
+      "reference": "jungle-bird",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_kir",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/kir/",
+      "reference": "kir",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_last_word",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/last-word/",
+      "reference": "last-word",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_lemon_drop_martini",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/lemon-drop-martini/",
+      "reference": "lemon-drop-martini",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_long_island_iced_tea",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/long-island-iced-tea/",
+      "reference": "long-island-iced-tea",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_mai_tai",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/mai-tai/",
+      "reference": "mai-tai",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_manhattan",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/manhattan/",
+      "reference": "manhattan",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_margarita",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/margarita/",
+      "reference": "margarita",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_martinez",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/martinez/",
+      "reference": "martinez",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_mimosa",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/mimosa/",
+      "reference": "mimosa",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_mojito",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/mojito/",
+      "reference": "mojito",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_moscow_mule",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/moscow-mule/",
+      "reference": "moscow-mule",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_naked_and_famous",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/naked-and-famous/",
+      "reference": "naked-and-famous",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_negroni",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/negroni/",
+      "reference": "negroni",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_new_york_sour",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/new-york-sour/",
+      "reference": "new-york-sour",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_old_cuban",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/old-cuban/",
+      "reference": "old-cuban",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_old_fashioned",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/old-fashioned/",
+      "reference": "old-fashioned",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_paloma",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/paloma/",
+      "reference": "paloma",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_paper_plane",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/paper-plane/",
+      "reference": "paper-plane",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_penicillin",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/penicillin/",
+      "reference": "penicillin",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_pina_colada",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/pina-colada/",
+      "reference": "pina-colada",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_pisco_sour",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/pisco-sour/",
+      "reference": "pisco-sour",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_rusty_nail",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/rusty-nail/",
+      "reference": "rusty-nail",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_sazerac",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/sazerac/",
+      "reference": "sazerac",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_sidecar",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/sidecar/",
+      "reference": "sidecar",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_singapore_sling",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/singapore-sling/",
+      "reference": "singapore-sling",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_spritz",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/spritz/",
+      "reference": "spritz",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_whiskey_sour",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/whiskey-sour/",
+      "reference": "whiskey-sour",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "note_appletini",
+      "kind": "user_note",
+      "publisher": "用户原始鸡尾酒笔记",
+      "url": null,
+      "reference": "conversation:original-cocktail-catalogue",
+      "checked_on": "2026-09-21",
+      "method_provenance": "editorial_template"
+    },
+    {
+      "recipe_id": "note_el_diablo",
+      "kind": "user_note",
+      "publisher": "用户原始鸡尾酒笔记",
+      "url": null,
+      "reference": "conversation:original-cocktail-catalogue",
+      "checked_on": "2026-09-21",
+      "method_provenance": "editorial_template"
+    },
+    {
+      "recipe_id": "note_chimayo",
+      "kind": "user_note",
+      "publisher": "用户原始鸡尾酒笔记",
+      "url": null,
+      "reference": "conversation:original-cocktail-catalogue",
+      "checked_on": "2026-09-21",
+      "method_provenance": "editorial_template"
+    },
+    {
+      "recipe_id": "note_godfather",
+      "kind": "user_note",
+      "publisher": "用户原始鸡尾酒笔记",
+      "url": null,
+      "reference": "conversation:original-cocktail-catalogue",
+      "checked_on": "2026-09-21",
+      "method_provenance": "editorial_template"
+    },
+    {
+      "recipe_id": "note_not_so_dark_but_stormy",
+      "kind": "user_note",
+      "publisher": "用户原始鸡尾酒笔记",
+      "url": null,
+      "reference": "conversation:original-cocktail-catalogue",
+      "checked_on": "2026-09-21",
+      "method_provenance": "editorial_template"
+    },
+    {
+      "recipe_id": "note_espresso_cream",
+      "kind": "user_note",
+      "publisher": "用户原始鸡尾酒笔记",
+      "url": null,
+      "reference": "conversation:original-cocktail-catalogue",
+      "checked_on": "2026-09-21",
+      "method_provenance": "editorial_template"
+    },
+    {
+      "recipe_id": "note_bramble_cassis",
+      "kind": "user_note",
+      "publisher": "用户原始鸡尾酒笔记",
+      "url": null,
+      "reference": "conversation:original-cocktail-catalogue",
+      "checked_on": "2026-09-21",
+      "method_provenance": "editorial_template"
+    },
+    {
+      "recipe_id": "note_margarita_notebook",
+      "kind": "user_note",
+      "publisher": "用户原始鸡尾酒笔记",
+      "url": null,
+      "reference": "conversation:original-cocktail-catalogue",
+      "checked_on": "2026-09-21",
+      "method_provenance": "editorial_template"
+    },
+    {
+      "recipe_id": "note_daiquiri_notebook",
+      "kind": "user_note",
+      "publisher": "用户原始鸡尾酒笔记",
+      "url": null,
+      "reference": "conversation:original-cocktail-catalogue",
+      "checked_on": "2026-09-21",
+      "method_provenance": "editorial_template"
+    },
+    {
+      "recipe_id": "note_old_fashioned_simple",
+      "kind": "user_note",
+      "publisher": "用户原始鸡尾酒笔记",
+      "url": null,
+      "reference": "conversation:original-cocktail-catalogue",
+      "checked_on": "2026-09-21",
+      "method_provenance": "editorial_template"
+    },
+    {
+      "recipe_id": "iba_brandy_crusta",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/brandy-crusta/",
+      "reference": "brandy-crusta",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_canchanchara",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/canchanchara/",
+      "reference": "canchanchara",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_casino",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/casino/",
+      "reference": "casino",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_champagne_cocktail",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/champagne-cocktail/",
+      "reference": "champagne-cocktail",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_chartreuse_swizzle",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/chartreuse-swizzle/",
+      "reference": "chartreuse-swizzle",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_dons_special_daiquiri",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/dons-special-daiquiri/",
+      "reference": "dons-special-daiquiri",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_fernandito",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/fernandito/",
+      "reference": "fernandito",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_grand_margarita",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/grand-margarita/",
+      "reference": "grand-margarita",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_hemingway_special",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/hemingway-special/",
+      "reference": "hemingway-special",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_iba_tiki",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/iba-tiki/",
+      "reference": "iba-tiki",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_illegal",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/illegal/",
+      "reference": "illegal",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_mary_pickford",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/mary-pickford/",
+      "reference": "mary-pickford",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_mint_julep",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/mint-julep/",
+      "reference": "mint-julep",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_missionarys_downfall",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/missionarys-downfall/",
+      "reference": "missionarys-downfall",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_monkey_gland",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/monkey-gland/",
+      "reference": "monkey-gland",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_paradise",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/paradise/",
+      "reference": "paradise",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_pisco_punch",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/pisco-punch/",
+      "reference": "pisco-punch",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_planters_punch",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/planters-punch/",
+      "reference": "planters-punch",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_porn_star_martini",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/porn-star-martini/",
+      "reference": "porn-star-martini",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_porto_flip",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/porto-flip/",
+      "reference": "porto-flip",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_rabo_de_galo",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/rabo-de-galo/",
+      "reference": "rabo-de-galo",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_ramos_fizz",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/ramos-fizz/",
+      "reference": "ramos-fizz",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_remember_the_maine",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/remember-the-maine/",
+      "reference": "remember-the-maine",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_russian_spring_punch",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/russian-spring-punch/",
+      "reference": "russian-spring-punch",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_sea_breeze",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/sea-breeze/",
+      "reference": "sea-breeze",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_sex_on_the_beach",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/sex-on-the-beach/",
+      "reference": "sex-on-the-beach",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_sherry_cobbler",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/sherry-cobbler/",
+      "reference": "sherry-cobbler",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_south_side",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/south-side/",
+      "reference": "south-side",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_spicy_fifty",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/spicy-fifty/",
+      "reference": "spicy-fifty",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_stinger",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/stinger/",
+      "reference": "stinger",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_suffering_bastard",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/suffering-bastard/",
+      "reference": "suffering-bastard",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_tequila_sunrise",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/tequila-sunrise/",
+      "reference": "tequila-sunrise",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_three_dots_and_a_dash",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/three-dots-and-a-dash/",
+      "reference": "three-dots-and-a-dash",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_tipperary",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/tipperary/",
+      "reference": "tipperary",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_tommys_margarita",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/tommys-margarita/",
+      "reference": "tommys-margarita",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_trinidad_sour",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/trinidad-sour/",
+      "reference": "trinidad-sour",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_tuxedo",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/tuxedo/",
+      "reference": "tuxedo",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_ve_n_to",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/ve-n-to/",
+      "reference": "ve-n-to",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_vesper",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/vesper/",
+      "reference": "vesper",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_vieux_carre",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/vieux-carre/",
+      "reference": "vieux-carre",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_white_lady",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/white-lady/",
+      "reference": "white-lady",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_zombie",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/zombie/",
+      "reference": "zombie",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_15200",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/15200",
+      "reference": "idDrink 15200; API snapshot 2026-09-21; dateModified 2016-02-03 15:47:54",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17831",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17831",
+      "reference": "idDrink 17831; API snapshot 2026-09-21; dateModified 2016-08-31 19:46:06",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_15675",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/15675",
+      "reference": "idDrink 15675; API snapshot 2026-09-21; dateModified 2016-04-28 19:14:52",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17832",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17832",
+      "reference": "idDrink 17832; API snapshot 2026-09-21; dateModified 2016-04-29 09:43:00",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17833",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17833",
+      "reference": "idDrink 17833; API snapshot 2026-09-21; dateModified 2016-09-02 11:16:58",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17834",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17834",
+      "reference": "idDrink 17834; API snapshot 2026-09-21; dateModified 2016-09-02 11:19:28",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17835",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17835",
+      "reference": "idDrink 17835; API snapshot 2026-09-21; dateModified 2016-04-29 09:44:25",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_15597",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/15597",
+      "reference": "idDrink 15597; API snapshot 2026-09-21; dateModified 2016-09-02 11:23:45",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_15024",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/15024",
+      "reference": "idDrink 15024; API snapshot 2026-09-21; dateModified 2016-09-02 11:24:44",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17836",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17836",
+      "reference": "idDrink 17836; API snapshot 2026-09-21; dateModified 2016-09-02 11:26:16",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17837",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17837",
+      "reference": "idDrink 17837; API snapshot 2026-09-21; dateModified 2016-09-02 11:29:29",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17838",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17838",
+      "reference": "idDrink 17838; API snapshot 2026-09-21; dateModified 2016-09-02 11:27:11",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17839",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17839",
+      "reference": "idDrink 17839; API snapshot 2026-09-21; dateModified 2016-09-01 10:05:34",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17840",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17840",
+      "reference": "idDrink 17840; API snapshot 2026-09-21; dateModified 2017-09-07 21:44:05",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11010",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11010",
+      "reference": "idDrink 11010; API snapshot 2026-09-21; dateModified 2017-01-02 20:06:18",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11012",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11012",
+      "reference": "idDrink 11012; API snapshot 2026-09-21; dateModified 2017-01-02 20:07:27",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11013",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11013",
+      "reference": "idDrink 11013; API snapshot 2026-09-21; dateModified 2017-01-02 20:08:40",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11019",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11019",
+      "reference": "idDrink 11019; API snapshot 2026-09-21; dateModified 2017-01-02 20:10:29",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11020",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11020",
+      "reference": "idDrink 11020; API snapshot 2026-09-21; dateModified 2017-01-02 20:11:13",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11021",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11021",
+      "reference": "idDrink 11021; API snapshot 2026-09-21; dateModified 2017-01-02 20:12:14",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11022",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11022",
+      "reference": "idDrink 11022; API snapshot 2026-09-21; dateModified 2017-01-02 20:15:04",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11023",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11023",
+      "reference": "idDrink 11023; API snapshot 2026-09-21; dateModified 2017-01-02 20:16:21",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11024",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11024",
+      "reference": "idDrink 11024; API snapshot 2026-09-21; dateModified 2017-01-02 20:18:16",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11027",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11027",
+      "reference": "idDrink 11027; API snapshot 2026-09-21; dateModified 2017-04-24 22:32:59",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_13731",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/13731",
+      "reference": "idDrink 13731; API snapshot 2026-09-21; dateModified 2017-04-24 22:43:32",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_14578",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/14578",
+      "reference": "idDrink 14578; API snapshot 2026-09-21; dateModified 2017-04-24 22:44:27",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11029",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11029",
+      "reference": "idDrink 11029; API snapshot 2026-09-21; dateModified 2017-04-24 22:42:47",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11046",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11046",
+      "reference": "idDrink 11046; API snapshot 2026-09-21; dateModified 2017-09-02 23:02:44",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11050",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11050",
+      "reference": "idDrink 11050; API snapshot 2026-09-21; dateModified 2017-09-02 23:03:34",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11052",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11052",
+      "reference": "idDrink 11052; API snapshot 2026-09-21; dateModified 2015-09-02 16:21:47",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11053",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11053",
+      "reference": "idDrink 11053; API snapshot 2026-09-21; dateModified 2015-09-02 16:23:52",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11054",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11054",
+      "reference": "idDrink 11054; API snapshot 2026-09-21; dateModified 2017-04-24 22:05:21",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11055",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11055",
+      "reference": "idDrink 11055; API snapshot 2026-09-21; dateModified 2017-04-24 22:02:27",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_13938",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/13938",
+      "reference": "idDrink 13938; API snapshot 2026-09-21; dateModified 2017-04-24 22:00:19",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_13423",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/13423",
+      "reference": "idDrink 13423; API snapshot 2026-09-21; dateModified 2017-04-24 21:59:16",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_13086",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/13086",
+      "reference": "idDrink 13086; API snapshot 2026-09-21; dateModified 2017-04-24 21:56:52",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_12756",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/12756",
+      "reference": "idDrink 12756; API snapshot 2026-09-21; dateModified 2017-02-20 15:02:08",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_15266",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/15266",
+      "reference": "idDrink 15266; API snapshot 2026-09-21; dateModified 2017-04-24 22:22:11",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17209",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17209",
+      "reference": "idDrink 17209; API snapshot 2026-09-21; dateModified 2017-09-02 18:12:17",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11084",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11084",
+      "reference": "idDrink 11084; API snapshot 2026-09-21; dateModified 2015-09-02 16:08:48",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11106",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11106",
+      "reference": "idDrink 11106; API snapshot 2026-09-21; dateModified 2015-09-02 16:57:10",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11117",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11117",
+      "reference": "idDrink 11117; API snapshot 2026-09-21; dateModified 2017-09-02 22:58:25",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11119",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11119",
+      "reference": "idDrink 11119; API snapshot 2026-09-21; dateModified 2015-09-02 17:04:13",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11120",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11120",
+      "reference": "idDrink 11120; API snapshot 2026-09-21; dateModified 2015-09-02 17:06:11",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11121",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11121",
+      "reference": "idDrink 11121; API snapshot 2026-09-21; dateModified 2017-01-14 16:33:28",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11124",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11124",
+      "reference": "idDrink 11124; API snapshot 2026-09-21; dateModified 2017-09-02 22:59:12",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11128",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11128",
+      "reference": "idDrink 11128; API snapshot 2026-09-21; dateModified 2017-09-02 16:26:02",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11146",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11146",
+      "reference": "idDrink 11146; API snapshot 2026-09-21; dateModified 2017-09-02 16:31:00",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11149",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11149",
+      "reference": "idDrink 11149; API snapshot 2026-09-21; dateModified 2017-09-02 16:32:57",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11157",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11157",
+      "reference": "idDrink 11157; API snapshot 2026-09-21; dateModified 2015-08-13 12:37:16",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11164",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11164",
+      "reference": "idDrink 11164; API snapshot 2026-09-21; dateModified 2017-09-02 16:34:21",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11170",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11170",
+      "reference": "idDrink 11170; API snapshot 2026-09-21; dateModified 2017-09-02 16:35:40",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11205",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11205",
+      "reference": "idDrink 11205; API snapshot 2026-09-21; dateModified 2016-08-28 18:47:04",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11222",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11222",
+      "reference": "idDrink 11222; API snapshot 2026-09-21; dateModified 2015-09-06 16:36:02",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11224",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11224",
+      "reference": "idDrink 11224; API snapshot 2026-09-21; dateModified 2017-09-02 16:38:19",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11239",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11239",
+      "reference": "idDrink 11239; API snapshot 2026-09-21; dateModified 2015-09-06 16:47:04",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11242",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11242",
+      "reference": "idDrink 11242; API snapshot 2026-09-21; dateModified 2015-09-02 16:29:23",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11255",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11255",
+      "reference": "idDrink 11255; API snapshot 2026-09-21; dateModified 2016-04-28 19:19:39",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_15346",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/15346",
+      "reference": "idDrink 15346; API snapshot 2026-09-21; dateModified 2016-10-05 12:36:28",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_14029",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/14029",
+      "reference": "idDrink 14029; API snapshot 2026-09-21; dateModified 2016-07-18 22:49:04",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_178318",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/178318",
+      "reference": "idDrink 178318; API snapshot 2026-09-21; dateModified unknown",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_16108",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/16108",
+      "reference": "idDrink 16108; API snapshot 2026-09-21; dateModified 2016-08-31 19:48:22",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17222",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17222",
+      "reference": "idDrink 17222; API snapshot 2026-09-21; dateModified 2017-09-07 21:42:09",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17223",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17223",
+      "reference": "idDrink 17223; API snapshot 2026-09-21; dateModified 2017-09-07 21:50:03",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17224",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17224",
+      "reference": "idDrink 17224; API snapshot 2026-09-21; dateModified 2017-09-07 21:55:34",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17225",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17225",
+      "reference": "idDrink 17225; API snapshot 2026-09-21; dateModified 2017-09-07 22:05:06",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17226",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17226",
+      "reference": "idDrink 17226; API snapshot 2026-09-21; dateModified 2017-09-07 22:17:58",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17227",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17227",
+      "reference": "idDrink 17227; API snapshot 2026-09-21; dateModified 2017-09-07 22:15:25",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_14272",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/14272",
+      "reference": "idDrink 14272; API snapshot 2026-09-21; dateModified 2017-04-24 22:14:53",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17229",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17229",
+      "reference": "idDrink 17229; API snapshot 2026-09-21; dateModified 2017-09-07 22:31:33",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_12560",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/12560",
+      "reference": "idDrink 12560; API snapshot 2026-09-21; dateModified 2016-07-18 22:07:32",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_12562",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/12562",
+      "reference": "idDrink 12562; API snapshot 2026-09-21; dateModified 2016-07-18 22:09:04",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_16311",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/16311",
+      "reference": "idDrink 16311; API snapshot 2026-09-21; dateModified 2016-11-15 11:24:22",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_178319",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/178319",
+      "reference": "idDrink 178319; API snapshot 2026-09-21; dateModified unknown",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17074",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17074",
+      "reference": "idDrink 17074; API snapshot 2026-09-21; dateModified 2017-04-24 22:08:55",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17066",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17066",
+      "reference": "idDrink 17066; API snapshot 2026-09-21; dateModified 2017-04-24 22:07:42",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_178320",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/178320",
+      "reference": "idDrink 178320; API snapshot 2026-09-21; dateModified unknown",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17254",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17254",
+      "reference": "idDrink 17254; API snapshot 2026-09-21; dateModified 2017-12-19 18:09:45",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17268",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17268",
+      "reference": "idDrink 17268; API snapshot 2026-09-21; dateModified 2018-01-12 22:23:42",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17242",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17242",
+      "reference": "idDrink 17242; API snapshot 2026-09-21; dateModified 2017-11-08 10:28:28",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_12572",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/12572",
+      "reference": "idDrink 12572; API snapshot 2026-09-21; dateModified 2016-09-06 23:43:31",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_178331",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/178331",
+      "reference": "idDrink 178331; API snapshot 2026-09-21; dateModified unknown",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17825",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17825",
+      "reference": "idDrink 17825; API snapshot 2026-09-21; dateModified 2018-02-18 09:50:01",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_178310",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/178310",
+      "reference": "idDrink 178310; API snapshot 2026-09-21; dateModified unknown",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_178356",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/178356",
+      "reference": "idDrink 178356; API snapshot 2026-09-21; dateModified unknown",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_178329",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/178329",
+      "reference": "idDrink 178329; API snapshot 2026-09-21; dateModified unknown",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17174",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17174",
+      "reference": "idDrink 17174; API snapshot 2026-09-21; dateModified 2015-12-28 10:45:48",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17830",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17830",
+      "reference": "idDrink 17830; API snapshot 2026-09-21; dateModified 2018-06-27 15:15:09",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_14608",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/14608",
+      "reference": "idDrink 14608; API snapshot 2026-09-21; dateModified 2016-11-15 11:29:27",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_178334",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/178334",
+      "reference": "idDrink 178334; API snapshot 2026-09-21; dateModified unknown",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17182",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17182",
+      "reference": "idDrink 17182; API snapshot 2026-09-21; dateModified 2017-01-22 11:31:25",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_178328",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/178328",
+      "reference": "idDrink 178328; API snapshot 2026-09-21; dateModified unknown",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_12758",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/12758",
+      "reference": "idDrink 12758; API snapshot 2026-09-21; dateModified 2017-02-20 15:01:18",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17255",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17255",
+      "reference": "idDrink 17255; API snapshot 2026-09-21; dateModified 2017-12-19 18:14:32",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_178342",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/178342",
+      "reference": "idDrink 178342; API snapshot 2026-09-21; dateModified unknown",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17230",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17230",
+      "reference": "idDrink 17230; API snapshot 2026-09-21; dateModified 2017-09-08 16:19:05",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17252",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17252",
+      "reference": "idDrink 17252; API snapshot 2026-09-21; dateModified 2017-12-19 18:05:32",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_12706",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/12706",
+      "reference": "idDrink 12706; API snapshot 2026-09-21; dateModified 2017-02-20 15:13:45",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_16178",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/16178",
+      "reference": "idDrink 16178; API snapshot 2026-09-21; dateModified 2015-09-03 02:55:18",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_178359",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/178359",
+      "reference": "idDrink 178359; API snapshot 2026-09-21; dateModified unknown",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_178370",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/178370",
+      "reference": "idDrink 178370; API snapshot 2026-09-21; dateModified unknown",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_14842",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/14842",
+      "reference": "idDrink 14842; API snapshot 2026-09-21; dateModified 2015-09-02 16:38:30",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_12388",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/12388",
+      "reference": "idDrink 12388; API snapshot 2026-09-21; dateModified 2016-04-28 19:21:54",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_178350",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/178350",
+      "reference": "idDrink 178350; API snapshot 2026-09-21; dateModified unknown",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_15639",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/15639",
+      "reference": "idDrink 15639; API snapshot 2026-09-21; dateModified 2017-09-08 18:02:39",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_12362",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/12362",
+      "reference": "idDrink 12362; API snapshot 2026-09-21; dateModified 2017-09-08 17:53:57",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_12418",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/12418",
+      "reference": "idDrink 12418; API snapshot 2026-09-21; dateModified 2015-09-06 16:46:07",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_178330",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/178330",
+      "reference": "idDrink 178330; API snapshot 2026-09-21; dateModified unknown",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17826",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17826",
+      "reference": "idDrink 17826; API snapshot 2026-09-21; dateModified 2018-09-01 10:34:38",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_12518",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/12518",
+      "reference": "idDrink 12518; API snapshot 2026-09-21; dateModified 2016-04-28 19:24:18",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_12528",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/12528",
+      "reference": "idDrink 12528; API snapshot 2026-09-21; dateModified 2016-08-28 18:35:32",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_12474",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/12474",
+      "reference": "idDrink 12474; API snapshot 2026-09-21; dateModified 2015-09-02 16:43:03",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17219",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17219",
+      "reference": "idDrink 17219; API snapshot 2026-09-21; dateModified 2017-09-02 18:53:31",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17208",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17208",
+      "reference": "idDrink 17208; API snapshot 2026-09-21; dateModified 2017-09-02 17:57:42",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_16031",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/16031",
+      "reference": "idDrink 16031; API snapshot 2026-09-21; dateModified 2017-09-08 17:43:15",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_12097",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/12097",
+      "reference": "idDrink 12097; API snapshot 2026-09-21; dateModified 2017-09-08 16:58:06",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_12071",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/12071",
+      "reference": "idDrink 12071; API snapshot 2026-09-21; dateModified 2017-09-08 17:37:54",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_16250",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/16250",
+      "reference": "idDrink 16250; API snapshot 2026-09-21; dateModified 2017-09-08 17:40:57",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_12087",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/12087",
+      "reference": "idDrink 12087; API snapshot 2026-09-21; dateModified 2017-09-08 17:40:10",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17114",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17114",
+      "reference": "idDrink 17114; API snapshot 2026-09-21; dateModified 2015-09-06 16:30:37",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_12630",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/12630",
+      "reference": "idDrink 12630; API snapshot 2026-09-21; dateModified 2015-09-02 16:27:40",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17245",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17245",
+      "reference": "idDrink 17245; API snapshot 2026-09-21; dateModified 2017-12-04 16:55:43",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11936",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11936",
+      "reference": "idDrink 11936; API snapshot 2026-09-21; dateModified 2017-09-08 17:36:58",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17249",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17249",
+      "reference": "idDrink 17249; API snapshot 2026-09-21; dateModified 2017-12-19 17:18:23",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11938",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11938",
+      "reference": "idDrink 11938; API snapshot 2026-09-21; dateModified 2017-09-08 17:23:49",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_178354",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/178354",
+      "reference": "idDrink 178354; API snapshot 2026-09-21; dateModified unknown",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11961",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11961",
+      "reference": "idDrink 11961; API snapshot 2026-09-21; dateModified 2015-09-06 16:38:31",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11963",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11963",
+      "reference": "idDrink 11963; API snapshot 2026-09-21; dateModified 2015-09-06 16:39:36",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_12130",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/12130",
+      "reference": "idDrink 12130; API snapshot 2026-09-21; dateModified 2017-01-02 20:18:27",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_13020",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/13020",
+      "reference": "idDrink 13020; API snapshot 2026-09-21; dateModified 2015-09-03 04:01:20",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_178349",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/178349",
+      "reference": "idDrink 178349; API snapshot 2026-09-21; dateModified unknown",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_14195",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/14195",
+      "reference": "idDrink 14195; API snapshot 2026-09-21; dateModified 2017-09-06 23:03:36",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_12107",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/12107",
+      "reference": "idDrink 12107; API snapshot 2026-09-21; dateModified 2017-09-08 18:03:36",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_12308",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/12308",
+      "reference": "idDrink 12308; API snapshot 2026-09-21; dateModified 2016-09-01 09:51:35",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_12162",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/12162",
+      "reference": "idDrink 12162; API snapshot 2026-09-21; dateModified 2017-09-02 12:36:47",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_12190",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/12190",
+      "reference": "idDrink 12190; API snapshot 2026-09-21; dateModified 2016-11-10 23:27:08",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_12256",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/12256",
+      "reference": "idDrink 12256; API snapshot 2026-09-21; dateModified 2017-08-22 19:19:43",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_15184",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/15184",
+      "reference": "idDrink 15184; API snapshot 2026-09-21; dateModified 2017-09-08 17:59:21",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_15226",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/15226",
+      "reference": "idDrink 15226; API snapshot 2026-09-21; dateModified 2017-09-07 21:57:23",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_12188",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/12188",
+      "reference": "idDrink 12188; API snapshot 2026-09-21; dateModified 2016-11-10 23:29:01",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17187",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17187",
+      "reference": "idDrink 17187; API snapshot 2026-09-21; dateModified 2017-09-02 11:45:56",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11320",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11320",
+      "reference": "idDrink 11320; API snapshot 2026-09-21; dateModified 2017-09-02 22:51:40",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11326",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11326",
+      "reference": "idDrink 11326; API snapshot 2026-09-21; dateModified 2015-08-13 10:12:27",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_14482",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/14482",
+      "reference": "idDrink 14482; API snapshot 2026-09-21; dateModified 2016-09-01 09:41:43",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11382",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11382",
+      "reference": "idDrink 11382; API snapshot 2026-09-21; dateModified 2017-09-08 16:22:30",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11368",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11368",
+      "reference": "idDrink 11368; API snapshot 2026-09-21; dateModified 2017-09-04 11:12:38",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11369",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11369",
+      "reference": "idDrink 11369; API snapshot 2026-09-21; dateModified 2017-09-04 11:14:00",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_13675",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/13675",
+      "reference": "idDrink 13675; API snapshot 2026-09-21; dateModified 2016-04-28 19:05:05",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_15997",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/15997",
+      "reference": "idDrink 15997; API snapshot 2026-09-21; dateModified 2016-07-18 22:06:00",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11422",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11422",
+      "reference": "idDrink 11422; API snapshot 2026-09-21; dateModified 2017-09-07 22:47:09",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11424",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11424",
+      "reference": "idDrink 11424; API snapshot 2026-09-21; dateModified 2017-09-02 17:16:24",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_12944",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/12944",
+      "reference": "idDrink 12944; API snapshot 2026-09-21; dateModified 2016-07-18 21:56:58",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11420",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11420",
+      "reference": "idDrink 11420; API snapshot 2026-09-21; dateModified 2017-09-07 22:45:24",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11416",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11416",
+      "reference": "idDrink 11416; API snapshot 2026-09-21; dateModified 2017-09-08 16:14:16",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11408",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11408",
+      "reference": "idDrink 11408; API snapshot 2026-09-21; dateModified 2016-11-10 23:19:04",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11415",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11415",
+      "reference": "idDrink 11415; API snapshot 2026-09-21; dateModified 2017-09-08 16:10:40",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11418",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11418",
+      "reference": "idDrink 11418; API snapshot 2026-09-21; dateModified 2017-09-08 16:15:02",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_15427",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/15427",
+      "reference": "idDrink 15427; API snapshot 2026-09-21; dateModified 2016-09-01 21:29:09",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11407",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11407",
+      "reference": "idDrink 11407; API snapshot 2026-09-21; dateModified 2016-11-10 23:21:49",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11419",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11419",
+      "reference": "idDrink 11419; API snapshot 2026-09-21; dateModified 2017-09-08 16:20:26",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11433",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11433",
+      "reference": "idDrink 11433; API snapshot 2026-09-21; dateModified 2016-09-14 23:19:46",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_14642",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/14642",
+      "reference": "idDrink 14642; API snapshot 2026-09-21; dateModified 2017-09-08 16:06:32",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11470",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11470",
+      "reference": "idDrink 11470; API snapshot 2026-09-21; dateModified 2017-09-08 16:01:40",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11462",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11462",
+      "reference": "idDrink 11462; API snapshot 2026-09-21; dateModified 2017-09-02 17:28:45",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11476",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11476",
+      "reference": "idDrink 11476; API snapshot 2026-09-21; dateModified 2017-04-23 20:25:53",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_12704",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/12704",
+      "reference": "idDrink 12704; API snapshot 2026-09-21; dateModified 2017-02-20 15:14:40",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_13196",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/13196",
+      "reference": "idDrink 13196; API snapshot 2026-09-21; dateModified 2017-08-24 10:00:12",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11658",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11658",
+      "reference": "idDrink 11658; API snapshot 2026-09-21; dateModified 2016-07-19 11:24:41",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11662",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11662",
+      "reference": "idDrink 11662; API snapshot 2026-09-21; dateModified 2016-07-19 11:18:27",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11670",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11670",
+      "reference": "idDrink 11670; API snapshot 2026-09-21; dateModified 2016-07-19 11:13:39",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11634",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11634",
+      "reference": "idDrink 11634; API snapshot 2026-09-21; dateModified 2017-09-08 16:41:03",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11666",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11666",
+      "reference": "idDrink 11666; API snapshot 2026-09-21; dateModified 2016-11-16 12:14:45",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11664",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11664",
+      "reference": "idDrink 11664; API snapshot 2026-09-21; dateModified 2016-07-19 11:16:57",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_13861",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/13861",
+      "reference": "idDrink 13861; API snapshot 2026-09-21; dateModified 2015-09-03 03:40:14",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_13204",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/13204",
+      "reference": "idDrink 13204; API snapshot 2026-09-21; dateModified 2017-08-24 10:04:33",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11872",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11872",
+      "reference": "idDrink 11872; API snapshot 2026-09-21; dateModified 2017-09-08 16:55:14",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17827",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17827",
+      "reference": "idDrink 17827; API snapshot 2026-09-21; dateModified 2018-03-22 23:23:30",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_12618",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/12618",
+      "reference": "idDrink 12618; API snapshot 2026-09-21; dateModified 2015-09-02 05:22:12",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_16995",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/16995",
+      "reference": "idDrink 16995; API snapshot 2026-09-21; dateModified 2016-02-03 15:52:39",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11870",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11870",
+      "reference": "idDrink 11870; API snapshot 2026-09-21; dateModified 2015-09-02 05:25:23",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_13499",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/13499",
+      "reference": "idDrink 13499; API snapshot 2026-09-21; dateModified 2016-07-19 11:43:37",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_17266",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/17266",
+      "reference": "idDrink 17266; API snapshot 2026-09-21; dateModified 2018-01-12 21:31:33",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_14586",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/14586",
+      "reference": "idDrink 14586; API snapshot 2026-09-21; dateModified 2017-08-24 10:09:41",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11025",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11025",
+      "reference": "idDrink 11025; API snapshot 2026-09-21; dateModified 2017-09-02 18:56:58",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11028",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11028",
+      "reference": "idDrink 11028; API snapshot 2026-09-21; dateModified 2017-04-24 22:38:54",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_11243",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/11243",
+      "reference": "idDrink 11243; API snapshot 2026-09-21; dateModified 2016-09-01 10:07:59",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_12726",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/12726",
+      "reference": "idDrink 12726; API snapshot 2026-09-21; dateModified 2017-02-20 15:07:58",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "cdb_15006",
+      "kind": "community_recipe",
+      "publisher": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/drink/15006",
+      "reference": "idDrink 15006; API snapshot 2026-09-21; dateModified 2015-09-06 16:44:53",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    }
+  ],
+  "rights_note": "仅摘录配料事实并独立中文改写操作，不包含原站图文、品牌图片或字体。引用不等于商业数据库再分发授权；公开发版需完成权利审查。"
+}

@@ -1,0 +1,18 @@
+{
+  "command": "bundled-python product/data/dlc/xiaodong/audit_catalog.py",
+  "tests_run": 11,
+  "passed": 11,
+  "failures": [],
+  "errors": [],
+  "source_sha256": "73d28bd6b719db9627109dbc2a05f667e550c6e774c34c10f0af4b8234d36073",
+  "catalog_sha256": "ceceb454bf8419a1badb9a00794e4e367440bdd4f1e6467f18bd656c710b47f3",
+  "coverage": {
+    "exclusive_source_alternative_rows": 17,
+    "explicit_source_ml_rows_preserved": 247
+  },
+  "limits": [
+    "Source audit and editorial inference only; no recipe was physically prepared or tasted.",
+    "Ingredient composition remains SKU-dependent and unknown where not supplied.",
+    "Source figures and source experiences are not independent historical verification."
+  ]
+}

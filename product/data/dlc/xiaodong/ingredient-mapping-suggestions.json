@@ -1,0 +1,878 @@
+[
+  {
+    "source_name": "龙舌兰",
+    "working_ingredient_id": "tequila",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "黑加仑利口酒 Crème de Cassis",
+    "working_ingredient_id": "cassis",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "青柠汁",
+    "working_ingredient_id": "lime",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "姜汁啤酒 Ginger Beer",
+    "working_ingredient_id": "ginger_beer",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "姜汁汽水 Ginger Ale",
+    "working_ingredient_id": "ginger_ale",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "黄柠檬汁",
+    "working_ingredient_id": "lemon",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "苹果西打 apple cider",
+    "working_ingredient_id": "apple_cider",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "苹果汁",
+    "working_ingredient_id": "apple_juice",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "三重橙味利口酒 Triple Sec",
+    "working_ingredient_id": "triple_sec",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "龙舌兰预调液 tequila premix",
+    "working_ingredient_id": "dlc_xd_tequila_premix",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "伏特加",
+    "working_ingredient_id": "vodka",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "枫糖浆",
+    "working_ingredient_id": "maple_syrup",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "青柠",
+    "working_ingredient_id": "lime_fruit",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "白糖",
+    "working_ingredient_id": "sugar",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "咖啡利口酒",
+    "working_ingredient_id": "coffee_liqueur",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "浓缩咖啡 Espresso",
+    "working_ingredient_id": "espresso",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "爱尔兰奶油利口酒",
+    "working_ingredient_id": "irish_cream",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "牛奶",
+    "working_ingredient_id": "cdb_milk",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "三得利 Haku 伏特加",
+    "working_ingredient_id": "vodka",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "Sipsmith 黑刺李金酒",
+    "working_ingredient_id": "cdb_sloe_gin",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "Noilly Prat Original 干味美思",
+    "working_ingredient_id": "dry_vermouth",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "新鲜黄柠檬汁",
+    "working_ingredient_id": "lemon",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "金酒",
+    "working_ingredient_id": "gin",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "金巴利 Campari",
+    "working_ingredient_id": "campari",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "甜味美思",
+    "working_ingredient_id": "sweet_vermouth",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "白味美思 White Vermouth",
+    "working_ingredient_id": "dlc_xd_white_vermouth",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "Suze 龙胆风味酒",
+    "working_ingredient_id": "dlc_xd_suze",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "老汤姆金酒 Old Tom Gin",
+    "working_ingredient_id": "old_tom_gin",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "普通糖浆",
+    "working_ingredient_id": "simple_syrup",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "苏打水",
+    "working_ingredient_id": "soda",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "Americano（原料身份待确认）",
+    "working_ingredient_id": "dlc_xd_americano_aperitif",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "Lillet Blanc 白利莱",
+    "working_ingredient_id": "lillet_blanc",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "苦艾酒 Absinthe",
+    "working_ingredient_id": "absinthe",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "君度 Cointreau",
+    "working_ingredient_id": "cointreau",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "St-Germain 接骨木花利口酒",
+    "working_ingredient_id": "cdb_st_germain",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "黄瓜",
+    "working_ingredient_id": "dlc_xd_cucumber",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "薄荷叶",
+    "working_ingredient_id": "mint",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "金酒（原配 Ford’s）",
+    "working_ingredient_id": "gin",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "干味美思",
+    "working_ingredient_id": "dry_vermouth",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "Cherry Heering 樱桃利口酒",
+    "working_ingredient_id": "cdb_cherry_heering",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "伦敦干金酒",
+    "working_ingredient_id": "gin",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "杏仁糖浆 Orgeat",
+    "working_ingredient_id": "orgeat",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "Velvet Falernum",
+    "working_ingredient_id": "falernum",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "百香果糖浆",
+    "working_ingredient_id": "passion_fruit_syrup",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "Chartreuse 草本利口酒",
+    "working_ingredient_id": "dlc_xd_chartreuse_unspecified",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "迷迭香普通糖浆",
+    "working_ingredient_id": "dlc_xd_rosemary_syrup",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "半浓糖浆 Semi-rich",
+    "working_ingredient_id": "semi_rich_syrup",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "黑莓利口酒 Crème de Mûre",
+    "working_ingredient_id": "blackberry_liqueur",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "蜂蜜糖浆",
+    "working_ingredient_id": "honey_syrup",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "青葡萄",
+    "working_ingredient_id": "dlc_xd_green_grapes",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "红石榴糖浆 Grenadine",
+    "working_ingredient_id": "grenadine",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "菠萝汁",
+    "working_ingredient_id": "pineapple",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "Bénédictine DOM 草本利口酒",
+    "working_ingredient_id": "benedictine",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "安格斯图拉芳香苦精",
+    "working_ingredient_id": "angostura",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "黄柠檬榨汁",
+    "working_ingredient_id": "lemon_fruit",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "干金酒",
+    "working_ingredient_id": "gin",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "樱桃白兰地 Cherry Brandy",
+    "working_ingredient_id": "cdb_cherry_brandy",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "Crémant de Bourgogne Brut 勃艮第干型起泡酒",
+    "working_ingredient_id": "dlc_xd_burgundy_cremant",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "Plymouth 金酒",
+    "working_ingredient_id": "gin",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "Maison Rouge VSOP 干邑",
+    "working_ingredient_id": "cognac",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "黑刺李金酒",
+    "working_ingredient_id": "cdb_sloe_gin",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "杏子白兰地 Apricot Brandy",
+    "working_ingredient_id": "apricot_brandy",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "Plymouth 黑刺李金酒",
+    "working_ingredient_id": "cdb_sloe_gin",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "蛋清",
+    "working_ingredient_id": "egg_white",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "鹰嘴豆液 Aquafaba",
+    "working_ingredient_id": "dlc_xd_aquafaba",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "黄柠檬片",
+    "working_ingredient_id": "dlc_xd_lemon_slice",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "果糖（原文名称，制剂未明）",
+    "working_ingredient_id": "dlc_xd_fructose_preparation",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "朗姆酒",
+    "working_ingredient_id": "rum",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "深色朗姆酒",
+    "working_ingredient_id": "cdb_dark_rum",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "高度朗姆酒 Overproof Rum",
+    "working_ingredient_id": "dlc_xd_overproof_rum",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "意式杏仁风味利口酒 Amaretto",
+    "working_ingredient_id": "amaretto",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "白朗姆酒",
+    "working_ingredient_id": "white_rum",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "糖浆",
+    "working_ingredient_id": "sugar_syrup",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "椰奶 Coconut Milk",
+    "working_ingredient_id": "dlc_xd_coconut_milk",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "蓝橙利口酒 Blue Curaçao",
+    "working_ingredient_id": "cdb_blue_curacao",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "青柠柯迪尔 Lime Cordial",
+    "working_ingredient_id": "cdb_lime_juice_cordial",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "Black Rum（原文）",
+    "working_ingredient_id": "dlc_xd_black_rum",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "Blackstrap Rum（原文）",
+    "working_ingredient_id": "blackstrap_rum",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "Disaronno 杏仁风味利口酒",
+    "working_ingredient_id": "amaretto",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "浓糖浆 Rich",
+    "working_ingredient_id": "dlc_xd_rich_syrup",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "Amaro Montenegro 苦味利口酒",
+    "working_ingredient_id": "cdb_amaro_montenegro",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "Cynar 苦味利口酒",
+    "working_ingredient_id": "cynar",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "接骨木花利口酒",
+    "working_ingredient_id": "cdb_st_germain",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "香料朗姆酒",
+    "working_ingredient_id": "cdb_spiced_rum",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "金朗姆酒",
+    "working_ingredient_id": "dlc_xd_gold_rum",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "杏仁利口酒",
+    "working_ingredient_id": "amaretto",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "日本威士忌",
+    "working_ingredient_id": "dlc_xd_japanese_whisky",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "Oloroso 雪莉酒",
+    "working_ingredient_id": "dlc_xd_oloroso_sherry",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "橙肉",
+    "working_ingredient_id": "orange_fruit",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "浓德梅拉拉糖浆 Rich Demerara",
+    "working_ingredient_id": "dlc_xd_rich_demerara",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "橙味苦精",
+    "working_ingredient_id": "orange_bitters",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "波本威士忌",
+    "working_ingredient_id": "bourbon",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "威士忌（品种不限，原文）",
+    "working_ingredient_id": "whisky",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "Basil Hayden 波本威士忌",
+    "working_ingredient_id": "bourbon",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "红葡萄酒",
+    "working_ingredient_id": "red_wine",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "西柚汁",
+    "working_ingredient_id": "grapefruit",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "Amaro Nonino 苦味利口酒",
+    "working_ingredient_id": "amaro_nonino",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "Aperol 开胃酒",
+    "working_ingredient_id": "aperol",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "辛辣菠萝汽水 Spicy Pineapple Soda",
+    "working_ingredient_id": "dlc_xd_spicy_pineapple_soda",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "威士忌",
+    "working_ingredient_id": "whisky",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "黑麦威士忌",
+    "working_ingredient_id": "rye",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "苏格兰威士忌",
+    "working_ingredient_id": "scotch",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "糖粉",
+    "working_ingredient_id": "cdb_powdered_sugar",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "杏仁风味利口酒 Amaretto",
+    "working_ingredient_id": "amaretto",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "Monkey Shoulder 猴肩威士忌",
+    "working_ingredient_id": "blended_scotch",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "telska（原文，身份待确认）",
+    "working_ingredient_id": "dlc_xd_telska_unresolved",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "姜汁",
+    "working_ingredient_id": "dlc_xd_ginger_juice",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "单一麦芽苏格兰威士忌",
+    "working_ingredient_id": "dlc_xd_single_malt_scotch",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "苏格兰威士忌（调和或单一麦芽）",
+    "working_ingredient_id": "scotch",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "Nux Alpina 核桃利口酒",
+    "working_ingredient_id": "dlc_xd_walnut_liqueur",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "Woodford Reserve 威士忌",
+    "working_ingredient_id": "dlc_xd_woodford_whisky",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "Dolin 甜味美思",
+    "working_ingredient_id": "sweet_vermouth",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "橙汁",
+    "working_ingredient_id": "orange_juice",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "Averna 苦味利口酒",
+    "working_ingredient_id": "dlc_xd_averna",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "气泡水",
+    "working_ingredient_id": "soda",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "香槟",
+    "working_ingredient_id": "champagne",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "干邑",
+    "working_ingredient_id": "cognac",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "Peychaud’s 苦精",
+    "working_ingredient_id": "peychaud",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "桃味利口酒",
+    "working_ingredient_id": "peach_schnapps",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "Mizu 绿茶烧酎",
+    "working_ingredient_id": "dlc_xd_green_tea_shochu",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "Midori 蜜瓜利口酒",
+    "working_ingredient_id": "cdb_midori_melon_liqueur",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "新鲜青柠汁",
+    "working_ingredient_id": "lime",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "梅酒 Ume-shu",
+    "working_ingredient_id": "dlc_xd_umeshu",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "冰镇麦茶 Mugicha",
+    "working_ingredient_id": "dlc_xd_mugicha",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "Ume-su（原文标为无酒精，产品待确认）",
+    "working_ingredient_id": "dlc_xd_ume_su",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "草莓",
+    "working_ingredient_id": "cdb_strawberries",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "橙皮",
+    "working_ingredient_id": "cdb_orange_peel",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "西柚皮",
+    "working_ingredient_id": "dlc_xd_grapefruit_peel",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "Sanbitter 红色苦味汽水",
+    "working_ingredient_id": "dlc_xd_sanbitter",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "Stappi 红色苦味汽水",
+    "working_ingredient_id": "dlc_xd_stappi",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "菠萝",
+    "working_ingredient_id": "cdb_pineapple",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "椰子伏特加",
+    "working_ingredient_id": "dlc_xd_coconut_vodka",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "新鲜黄柠檬榨汁",
+    "working_ingredient_id": "lemon_fruit",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "九制话梅",
+    "working_ingredient_id": "dlc_xd_preserved_plum",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "海之盐柠檬汽水",
+    "working_ingredient_id": "dlc_xd_salted_lemon_soda",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "Sprite／7 Up（原文spirit/7 up）",
+    "working_ingredient_id": "cdb_sprite",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "柚子盐",
+    "working_ingredient_id": "dlc_xd_yuzu_salt",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "海盐",
+    "working_ingredient_id": "salt",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "糖",
+    "working_ingredient_id": "sugar",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "黄柠檬",
+    "working_ingredient_id": "lemon_fruit",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "Fireball（原文fire ball whiskey）",
+    "working_ingredient_id": "dlc_xd_fireball",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "山楂（形态未注明）",
+    "working_ingredient_id": "dlc_xd_hawthorn",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "salt plum hoijicha campari（原文组合项）",
+    "working_ingredient_id": "dlc_xd_plum_tea_campari",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "Maraschino 马拉斯奇诺利口酒",
+    "working_ingredient_id": "maraschino",
+    "existing_seed": true,
+    "status": "category_mapping_preserves_source_brand_in_recipe_note"
+  },
+  {
+    "source_name": "绿茶梅酒",
+    "working_ingredient_id": "dlc_xd_green_tea_umeshu",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  },
+  {
+    "source_name": "风味更浓的梅酒（产品未定）",
+    "working_ingredient_id": "dlc_xd_intense_umeshu",
+    "existing_seed": false,
+    "status": "new_DLC_definition_composition_unknown"
+  }
+]

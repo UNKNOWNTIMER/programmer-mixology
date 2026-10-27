@@ -1,0 +1,3366 @@
+{
+  "schema_version": "0.1.0",
+  "status": "heuristic_unvalidated",
+  "profiles": [
+    {
+      "recipe_id": "iba_alexander",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        7,
+        0,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        8750,
+        0,
+        1250,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        3,
+        6,
+        8,
+        0,
+        1,
+        0,
+        6
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_americano",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        4,
+        3,
+        3,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        4000,
+        3000,
+        3000,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        3,
+        5,
+        3,
+        7,
+        2,
+        0,
+        4
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_angel_face",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        6,
+        2,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        6667,
+        2222,
+        1111,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        7,
+        7,
+        5,
+        0,
+        1,
+        0,
+        6
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_aviation",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        7,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        3846,
+        5385,
+        769,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        5,
+        6,
+        4,
+        0,
+        1,
+        0,
+        5
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_bees_knees",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        7,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        3846,
+        5385,
+        769,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        5,
+        6,
+        4,
+        0,
+        1,
+        0,
+        5
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_bellini",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        4,
+        3,
+        3,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        4000,
+        3000,
+        3000,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        3,
+        5,
+        3,
+        7,
+        2,
+        0,
+        4
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_between_the_sheets",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        7,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        3846,
+        5385,
+        769,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        5,
+        6,
+        4,
+        0,
+        1,
+        0,
+        5
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_black_russian",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        6,
+        0,
+        4,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        6000,
+        0,
+        4000,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        7,
+        6,
+        6,
+        0,
+        1,
+        0,
+        7
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_bloody_mary",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        2,
+        4,
+        1,
+        5,
+        7
+      ],
+      "taste_preference_bps": [
+        1053,
+        2105,
+        526,
+        2632,
+        3684
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        3,
+        5,
+        5,
+        0,
+        1,
+        4,
+        6
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_boulevardier",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        4,
+        0,
+        4,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        5000,
+        0,
+        5000,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        7,
+        7,
+        5,
+        0,
+        1,
+        0,
+        7
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_bramble",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        7,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        3846,
+        5385,
+        769,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        5,
+        6,
+        4,
+        0,
+        1,
+        0,
+        5
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_caipirinha",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        7,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        3846,
+        5385,
+        769,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        5,
+        6,
+        4,
+        0,
+        1,
+        0,
+        5
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_cardinale",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        4,
+        0,
+        4,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        5000,
+        0,
+        5000,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        7,
+        7,
+        5,
+        0,
+        1,
+        0,
+        7
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_clover_club",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        7,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        3846,
+        5385,
+        769,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        5,
+        6,
+        4,
+        0,
+        1,
+        0,
+        5
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_corpse_reviver_2",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        7,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        3846,
+        5385,
+        769,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        5,
+        6,
+        4,
+        0,
+        1,
+        0,
+        5
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_cosmopolitan",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        7,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        3846,
+        5385,
+        769,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        5,
+        6,
+        4,
+        0,
+        1,
+        0,
+        5
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_cuba_libre",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        4,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        5000,
+        4000,
+        1000,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        3,
+        5,
+        3,
+        7,
+        2,
+        0,
+        4
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_daiquiri",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        7,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        3846,
+        5385,
+        769,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        5,
+        6,
+        4,
+        0,
+        1,
+        0,
+        5
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_dark_n_stormy",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        4,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        5000,
+        4000,
+        1000,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        3,
+        5,
+        3,
+        7,
+        2,
+        0,
+        4
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_dry_martini",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        1,
+        0,
+        2,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        3333,
+        0,
+        6667,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        8,
+        8,
+        3,
+        0,
+        1,
+        0,
+        7
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_espresso_martini",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        2,
+        6,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        3846,
+        1539,
+        4615,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        5,
+        8,
+        5,
+        0,
+        1,
+        0,
+        7
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_french_75",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        4,
+        3,
+        3,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        4000,
+        3000,
+        3000,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        3,
+        5,
+        3,
+        7,
+        2,
+        0,
+        4
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_french_connection",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        4,
+        0,
+        4,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        5000,
+        0,
+        5000,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        7,
+        7,
+        5,
+        0,
+        1,
+        0,
+        7
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_french_martini",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        6,
+        2,
+        2,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        6000,
+        2000,
+        2000,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        4,
+        6,
+        5,
+        0,
+        1,
+        0,
+        5
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_garibaldi",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        4,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        5000,
+        4000,
+        1000,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        3,
+        5,
+        3,
+        7,
+        2,
+        0,
+        4
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_gin_basil_smash",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        7,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        3846,
+        5385,
+        769,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        5,
+        6,
+        4,
+        0,
+        1,
+        0,
+        5
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_gin_fizz",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        4,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        5000,
+        4000,
+        1000,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        3,
+        5,
+        3,
+        7,
+        2,
+        0,
+        4
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_grasshopper",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        8,
+        0,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        8889,
+        0,
+        1111,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        3,
+        7,
+        8,
+        0,
+        6,
+        0,
+        6
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_hanky_panky",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        0,
+        7,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        4167,
+        0,
+        5833,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        7,
+        8,
+        5,
+        0,
+        1,
+        1,
+        8
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_horses_neck",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        4,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        5000,
+        4000,
+        1000,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        3,
+        5,
+        3,
+        7,
+        2,
+        0,
+        4
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_irish_coffee",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        4,
+        0,
+        4,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        5000,
+        0,
+        5000,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        5,
+        7,
+        6,
+        0,
+        0,
+        0,
+        7
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_john_collins",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        4,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        5000,
+        4000,
+        1000,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        3,
+        5,
+        3,
+        7,
+        2,
+        0,
+        4
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_jungle_bird",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        6,
+        5,
+        6,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        3530,
+        2941,
+        3529,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        5,
+        7,
+        5,
+        0,
+        1,
+        0,
+        7
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_kir",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        4,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        5000,
+        4000,
+        1000,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        3,
+        5,
+        3,
+        0,
+        1,
+        0,
+        4
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_last_word",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        7,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        3846,
+        5385,
+        769,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        5,
+        6,
+        4,
+        0,
+        1,
+        0,
+        5
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_lemon_drop_martini",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        7,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        3846,
+        5385,
+        769,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        5,
+        6,
+        4,
+        0,
+        1,
+        0,
+        5
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_long_island_iced_tea",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        4,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        5000,
+        4000,
+        1000,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        3,
+        5,
+        3,
+        7,
+        2,
+        0,
+        4
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_mai_tai",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        7,
+        5,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        5385,
+        3846,
+        769,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        4,
+        7,
+        6,
+        0,
+        2,
+        0,
+        6
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_manhattan",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        4,
+        0,
+        4,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        5000,
+        0,
+        5000,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        7,
+        7,
+        5,
+        0,
+        1,
+        0,
+        7
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_margarita",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        7,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        3846,
+        5385,
+        769,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        5,
+        6,
+        4,
+        0,
+        1,
+        0,
+        5
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_martinez",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        4,
+        0,
+        4,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        5000,
+        0,
+        5000,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        7,
+        7,
+        5,
+        0,
+        1,
+        0,
+        7
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_mimosa",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        4,
+        3,
+        3,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        4000,
+        3000,
+        3000,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        3,
+        5,
+        3,
+        7,
+        2,
+        0,
+        4
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_mojito",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        5,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        4546,
+        4545,
+        909,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        3,
+        7,
+        3,
+        7,
+        5,
+        0,
+        4
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_moscow_mule",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        4,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        5000,
+        4000,
+        1000,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        3,
+        5,
+        3,
+        7,
+        2,
+        0,
+        4
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_naked_and_famous",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        7,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        3846,
+        5385,
+        769,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        5,
+        6,
+        4,
+        0,
+        1,
+        0,
+        5
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_negroni",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        0,
+        8,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        3846,
+        0,
+        6154,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        7,
+        7,
+        5,
+        0,
+        1,
+        0,
+        8
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_new_york_sour",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        7,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        3846,
+        5385,
+        769,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        5,
+        6,
+        4,
+        0,
+        1,
+        0,
+        5
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_old_cuban",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        4,
+        3,
+        3,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        4000,
+        3000,
+        3000,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        3,
+        5,
+        3,
+        7,
+        2,
+        0,
+        4
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_old_fashioned",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        4,
+        0,
+        4,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        5000,
+        0,
+        5000,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        7,
+        7,
+        5,
+        0,
+        1,
+        0,
+        7
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_paloma",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        4,
+        5,
+        3,
+        2,
+        0
+      ],
+      "taste_preference_bps": [
+        2857,
+        3571,
+        2143,
+        1429,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        3,
+        6,
+        3,
+        7,
+        2,
+        0,
+        5
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_paper_plane",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        7,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        3846,
+        5385,
+        769,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        5,
+        6,
+        4,
+        0,
+        1,
+        0,
+        5
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_penicillin",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        6,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        4167,
+        5000,
+        833,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        6,
+        8,
+        4,
+        0,
+        1,
+        5,
+        8
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_pina_colada",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        8,
+        3,
+        0,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        7273,
+        2727,
+        0,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        3,
+        7,
+        8,
+        0,
+        2,
+        0,
+        6
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_pisco_sour",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        7,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        3846,
+        5385,
+        769,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        5,
+        6,
+        4,
+        0,
+        1,
+        0,
+        5
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_rusty_nail",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        4,
+        0,
+        4,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        5000,
+        0,
+        5000,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        7,
+        7,
+        5,
+        0,
+        1,
+        0,
+        7
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_sazerac",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        4,
+        0,
+        4,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        5000,
+        0,
+        5000,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        7,
+        7,
+        5,
+        0,
+        1,
+        0,
+        7
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_sidecar",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        7,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        3846,
+        5385,
+        769,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        5,
+        6,
+        4,
+        0,
+        1,
+        0,
+        5
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_singapore_sling",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        7,
+        5,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        5385,
+        3846,
+        769,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        4,
+        7,
+        6,
+        0,
+        2,
+        0,
+        6
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_spritz",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        4,
+        3,
+        3,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        4000,
+        3000,
+        3000,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        3,
+        5,
+        3,
+        7,
+        2,
+        0,
+        4
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "iba_whiskey_sour",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        7,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        3846,
+        5385,
+        769,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        5,
+        6,
+        4,
+        0,
+        1,
+        0,
+        5
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "note_appletini",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        4,
+        0,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        5556,
+        4444,
+        0,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        4,
+        5,
+        3,
+        0,
+        1,
+        0,
+        4
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "note_el_diablo",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        6,
+        5,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        5000,
+        4167,
+        833,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        3,
+        6,
+        3,
+        7,
+        2,
+        4,
+        5
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "note_chimayo",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        7,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        3846,
+        5385,
+        769,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        5,
+        6,
+        4,
+        0,
+        1,
+        0,
+        5
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "note_godfather",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        6,
+        0,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        8571,
+        0,
+        1429,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        7,
+        7,
+        5,
+        0,
+        1,
+        0,
+        7
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "note_not_so_dark_but_stormy",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        4,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        5000,
+        4000,
+        1000,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        2,
+        5,
+        3,
+        7,
+        2,
+        4,
+        4
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "note_espresso_cream",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        6,
+        2,
+        2,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        6000,
+        2000,
+        2000,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        4,
+        6,
+        5,
+        0,
+        1,
+        0,
+        5
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "note_bramble_cassis",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        7,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        3846,
+        5385,
+        769,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        5,
+        6,
+        4,
+        0,
+        1,
+        0,
+        5
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "note_margarita_notebook",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        7,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        3846,
+        5385,
+        769,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        5,
+        6,
+        4,
+        0,
+        1,
+        0,
+        5
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "note_daiquiri_notebook",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        5,
+        7,
+        1,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        3846,
+        5385,
+        769,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        5,
+        6,
+        4,
+        0,
+        1,
+        0,
+        5
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    },
+    {
+      "recipe_id": "note_old_fashioned_simple",
+      "taste_axes": [
+        "sweet",
+        "sour",
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "taste_intensity_0_10": [
+        4,
+        0,
+        4,
+        0,
+        0
+      ],
+      "taste_preference_bps": [
+        5000,
+        0,
+        5000,
+        0,
+        0
+      ],
+      "sensory_axes": [
+        "alcohol_heat",
+        "aroma",
+        "body",
+        "carbonation",
+        "cooling",
+        "spiciness",
+        "finish"
+      ],
+      "sensory_0_10": [
+        7,
+        7,
+        5,
+        0,
+        1,
+        0,
+        7
+      ],
+      "status": "heuristic_unvalidated",
+      "confidence": "low",
+      "origin": "editorial_family_prior_plus_selected_overrides",
+      "measured": false,
+      "source_recipe_does_not_supply_these_scores": true,
+      "note_zh": "仅供交互和排序冷启动，不是实测，不可宣称人类味觉贡献比例或精确口味。"
+    }
+  ]
+}

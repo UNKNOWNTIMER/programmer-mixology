@@ -1,0 +1,65 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Programmer Mixology",
+  "version": "1.2.0",
+  "identifier": "local.pixelmix.workbench",
+  "build": {
+    "beforeDevCommand": "pnpm dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "pnpm build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "程序员调酒台",
+        "width": 675,
+        "height": 960,
+        "resizable": false,
+        "maximizable": false,
+        "decorations": false,
+        "backgroundColor": "#03090d",
+        "center": true,
+        "visible": false
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' asset: http://asset.localhost data:; font-src 'self'; connect-src ipc: http://ipc.localhost; object-src 'none'; frame-src 'none'; base-uri 'self'"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": [
+      "nsis"
+    ],
+    "category": "Lifestyle",
+    "shortDescription": "程序员调酒台 · 本地味觉与配方探索工作台",
+    "longDescription": "Programmer Mixology: a local-first cocktail workbench and extensible architecture for constrained AI recipe exploration. Nutrition figures are estimates; validated nutrition optimization is a research direction. No model weights bundled.",
+    "icon": [
+      "icons/icon.ico",
+      "icons/icon.png"
+    ],
+    "resources": {
+      "../../../THIRD_PARTY_NOTICES.md": "notices/THIRD_PARTY_NOTICES.md",
+      "../../../DEPENDENCY_LICENSES.md": "notices/DEPENDENCY_LICENSES.md",
+      "../../../SBOM.cdx.json": "notices/SBOM.cdx.json",
+      "../../../third_party_licenses/": "notices/licenses/",
+      "../../../../LICENSE": "notices/LICENSE"
+    },
+    "windows": {
+      "webviewInstallMode": {
+        "type": "skip"
+      },
+      "nsis": {
+        "installMode": "currentUser",
+        "displayLanguageSelector": false,
+        "languages": [
+          "SimpChinese",
+          "English"
+        ]
+      }
+    },
+    "copyright": "Copyright (c) 2026 UNKNOWNTIMER"
+  }
+}

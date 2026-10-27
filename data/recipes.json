@@ -1,0 +1,4511 @@
+{
+  "schema_version": "0.1.0",
+  "snapshot_date": "2026-09-21",
+  "recipe_count": 70,
+  "recipes": [
+    {
+      "id": "iba_alexander",
+      "name_zh": "亚历山大",
+      "name_en": "Alexander",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "creamy",
+      "glass_template": "coupe",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake",
+      "ingredients": [
+        {
+          "ingredient_id": "cognac",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "creme_cacao_brown",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "cream",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "材料加冰摇匀。",
+        "滤入预冷鸡尾酒杯。"
+      ],
+      "garnish_zh": "表面刨少量肉豆蔻。",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/alexander/",
+        "reference": "alexander",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_alexander"
+    },
+    {
+      "id": "iba_americano",
+      "name_zh": "美式鸡尾酒",
+      "name_en": "Americano",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "spritz",
+      "glass_template": "rocks",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "build",
+      "ingredients": [
+        {
+          "ingredient_id": "campari",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "sweet_vermouth",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "soda",
+          "quantity": null,
+          "unit": "splash",
+          "optional": false,
+          "stage": "top",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "杯中放冰，加入金巴利和甜味美思。",
+        "加少量苏打水，轻轻拌匀。"
+      ],
+      "garnish_zh": "半片橙子与柠檬皮。",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/americano/",
+        "reference": "americano",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_americano"
+    },
+    {
+      "id": "iba_angel_face",
+      "name_zh": "天使之颜",
+      "name_en": "Angel Face",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "spirit_forward",
+      "glass_template": "coupe",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake",
+      "ingredients": [
+        {
+          "ingredient_id": "gin",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "apricot_brandy",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "calvados",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "三种酒加冰摇和。",
+        "滤入冰镇鸡尾酒杯。"
+      ],
+      "garnish_zh": "原出处未指定／无",
+      "notes_zh": "本参考版本明确摇和；不可被“全酒精配方一律搅拌”覆盖。",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/angel-face/",
+        "reference": "angel-face",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_angel_face"
+    },
+    {
+      "id": "iba_aviation",
+      "name_zh": "飞行",
+      "name_en": "Aviation",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "sour",
+      "glass_template": "coupe",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake",
+      "ingredients": [
+        {
+          "ingredient_id": "gin",
+          "quantity": 45,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "maraschino",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lemon",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "creme_violette",
+          "quantity": 1,
+          "unit": "barspoon",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "全部材料加冰摇和。",
+        "滤入预冷鸡尾酒杯。"
+      ],
+      "garnish_zh": "樱桃可选。",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/aviation/",
+        "reference": "aviation",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_aviation"
+    },
+    {
+      "id": "iba_bees_knees",
+      "name_zh": "蜜蜂之膝",
+      "name_en": "Bee’s Knees",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "sour",
+      "glass_template": "coupe",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake",
+      "ingredients": [
+        {
+          "ingredient_id": "gin",
+          "quantity": 52.5,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "honey_syrup",
+          "quantity": 2,
+          "unit": "tsp",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lemon",
+          "quantity": 22.5,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "orange_juice",
+          "quantity": 22.5,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "先将蜂蜜糖浆和两种果汁混匀。",
+        "加入金酒与冰块摇和，再滤入杯中。"
+      ],
+      "garnish_zh": "柠檬皮或橙皮，可选。",
+      "notes_zh": "此 IBA 网页版本含橙汁；与常见不含橙汁版本并存，不擅自删除。",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/bees-knees/",
+        "reference": "bees-knees",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_bees_knees"
+    },
+    {
+      "id": "iba_bellini",
+      "name_zh": "贝利尼",
+      "name_en": "Bellini",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "spritz",
+      "glass_template": "flute",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "stir_gently",
+      "ingredients": [
+        {
+          "ingredient_id": "prosecco",
+          "quantity": 100,
+          "unit": "ml",
+          "optional": false,
+          "stage": "top",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "peach_puree",
+          "quantity": 50,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "将桃泥与起泡酒放入加冰的调酒杯，轻柔混合。",
+        "滤入预冷笛形杯。"
+      ],
+      "garnish_zh": "原出处未指定／无",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/bellini/",
+        "reference": "bellini",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_bellini"
+    },
+    {
+      "id": "iba_between_the_sheets",
+      "name_zh": "床笫之间",
+      "name_en": "Between the Sheets",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "sour",
+      "glass_template": "coupe",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake",
+      "ingredients": [
+        {
+          "ingredient_id": "white_rum",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "cognac",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "triple_sec",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lemon",
+          "quantity": 20,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "全部材料加冰摇和。",
+        "滤入预冷鸡尾酒杯。"
+      ],
+      "garnish_zh": "原出处未指定／无",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/between-the-sheets/",
+        "reference": "between-the-sheets",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_between_the_sheets"
+    },
+    {
+      "id": "iba_black_russian",
+      "name_zh": "黑俄罗斯",
+      "name_en": "Black Russian",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "spirit_forward",
+      "glass_template": "rocks",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "build",
+      "ingredients": [
+        {
+          "ingredient_id": "vodka",
+          "quantity": 50,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "coffee_liqueur",
+          "quantity": 20,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "在加冰的古典杯中加入伏特加和咖啡利口酒。",
+        "轻轻搅匀。"
+      ],
+      "garnish_zh": "原出处未指定／无",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/black-russian/",
+        "reference": "black-russian",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_black_russian"
+    },
+    {
+      "id": "iba_bloody_mary",
+      "name_zh": "血腥玛丽",
+      "name_en": "Bloody Mary",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "savory",
+      "glass_template": "highball",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "stir_gently",
+      "ingredients": [
+        {
+          "ingredient_id": "vodka",
+          "quantity": 45,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "tomato_juice",
+          "quantity": 90,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lemon",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "worcestershire",
+          "quantity": 2,
+          "unit": "dash",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "hot_sauce",
+          "quantity": null,
+          "unit": "to_taste",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "celery_salt",
+          "quantity": null,
+          "unit": "to_taste",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "black_pepper",
+          "quantity": null,
+          "unit": "to_taste",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "材料在调酒杯中加冰轻柔混合。",
+        "移入饮用杯；加冰饮用可选高球杯。"
+      ],
+      "garnish_zh": "芹菜与柠檬，可选。",
+      "notes_zh": "调味材料及装饰需要额外过敏原核对。",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/bloody-mary/",
+        "reference": "bloody-mary",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_bloody_mary"
+    },
+    {
+      "id": "iba_boulevardier",
+      "name_zh": "花花公子",
+      "name_en": "Boulevardier",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "spirit_forward",
+      "glass_template": "coupe",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "stir",
+      "ingredients": [
+        {
+          "ingredient_id": "bourbon",
+          "quantity": 45,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": [
+            "rye"
+          ]
+        },
+        {
+          "ingredient_id": "campari",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "sweet_vermouth",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "材料在调酒杯中加冰搅拌。",
+        "滤入冰镇鸡尾酒杯。"
+      ],
+      "garnish_zh": "橙皮；柠檬皮可选。",
+      "notes_zh": "基酒允许黑麦威士忌替代；替换后另存版本。",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/boulevardier/",
+        "reference": "boulevardier",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_boulevardier"
+    },
+    {
+      "id": "iba_bramble",
+      "name_zh": "荆棘",
+      "name_en": "Bramble",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "sour",
+      "glass_template": "rocks",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake",
+      "ingredients": [
+        {
+          "ingredient_id": "gin",
+          "quantity": 50,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lemon",
+          "quantity": 25,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "sugar_syrup",
+          "quantity": 12.5,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "blackberry_liqueur",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "stage": "float",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "金酒、柠檬汁和糖浆加冰摇和。",
+        "滤入装碎冰的杯中，最后环绕淋入黑莓利口酒。"
+      ],
+      "garnish_zh": "柠檬片与黑莓，可选。",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/bramble/",
+        "reference": "bramble",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_bramble"
+    },
+    {
+      "id": "iba_caipirinha",
+      "name_zh": "凯匹林纳",
+      "name_en": "Caipirinha",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "sour",
+      "glass_template": "rocks",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "muddle_build",
+      "ingredients": [
+        {
+          "ingredient_id": "cachaca",
+          "quantity": 60,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lime_fruit",
+          "quantity": 1,
+          "unit": "whole",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "sugar",
+          "quantity": 4,
+          "unit": "tsp",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "青柠切角，与糖在杯中轻捣。",
+        "加入碎裂冰及卡莎萨，轻轻混合。"
+      ],
+      "garnish_zh": "原出处未指定／无",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/caipirinha/",
+        "reference": "caipirinha",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_caipirinha"
+    },
+    {
+      "id": "iba_cardinale",
+      "name_zh": "红衣主教",
+      "name_en": "Cardinale",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "spirit_forward",
+      "glass_template": "coupe",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "stir",
+      "ingredients": [
+        {
+          "ingredient_id": "gin",
+          "quantity": 40,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "dry_vermouth",
+          "quantity": 20,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "campari",
+          "quantity": 10,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "材料加冰搅拌至冷。",
+        "滤入鸡尾酒杯。"
+      ],
+      "garnish_zh": "柠檬皮。",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/cardinale/",
+        "reference": "cardinale",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_cardinale"
+    },
+    {
+      "id": "iba_clover_club",
+      "name_zh": "三叶草俱乐部",
+      "name_en": "Clover Club",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "sour",
+      "glass_template": "coupe",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake",
+      "ingredients": [
+        {
+          "ingredient_id": "gin",
+          "quantity": 45,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "raspberry_syrup",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lemon",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "egg_white",
+          "quantity": null,
+          "unit": "few_drops",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "材料加冰充分摇和。",
+        "滤入冰镇鸡尾酒杯。"
+      ],
+      "garnish_zh": "新鲜覆盆子。",
+      "notes_zh": "原页蛋清仅写数滴，不自动改成一整颗；商用配制另行确认。",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/clover-club/",
+        "reference": "clover-club",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_clover_club"
+    },
+    {
+      "id": "iba_corpse_reviver_2",
+      "name_zh": "亡者复苏二号",
+      "name_en": "Corpse Reviver #2",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "sour",
+      "glass_template": "coupe",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake",
+      "ingredients": [
+        {
+          "ingredient_id": "gin",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "cointreau",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lillet_blanc",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lemon",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "absinthe",
+          "quantity": 1,
+          "unit": "dash",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "材料加冰摇和。",
+        "滤入冰镇鸡尾酒杯。"
+      ],
+      "garnish_zh": "橙皮。",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/corpse-reviver-2/",
+        "reference": "corpse-reviver-2",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_corpse_reviver_2"
+    },
+    {
+      "id": "iba_cosmopolitan",
+      "name_zh": "大都会",
+      "name_en": "Cosmopolitan",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "sour",
+      "glass_template": "coupe",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake",
+      "ingredients": [
+        {
+          "ingredient_id": "citron_vodka",
+          "quantity": 40,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "cointreau",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lime",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "cranberry",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "材料加冰摇和。",
+        "滤入较大的鸡尾酒杯。"
+      ],
+      "garnish_zh": "柠檬皮卷。",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/cosmopolitan/",
+        "reference": "cosmopolitan",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_cosmopolitan"
+    },
+    {
+      "id": "iba_cuba_libre",
+      "name_zh": "自由古巴",
+      "name_en": "Cuba Libre",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "highball",
+      "glass_template": "highball",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "build",
+      "ingredients": [
+        {
+          "ingredient_id": "white_rum",
+          "quantity": 50,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "cola",
+          "quantity": 120,
+          "unit": "ml",
+          "optional": false,
+          "stage": "top",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lime",
+          "quantity": 10,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "高球杯装冰，加入朗姆酒与青柠汁。",
+        "倒入可乐并轻轻混合。"
+      ],
+      "garnish_zh": "青柠角。",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/cuba-libre/",
+        "reference": "cuba-libre",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_cuba_libre"
+    },
+    {
+      "id": "iba_daiquiri",
+      "name_zh": "戴吉利",
+      "name_en": "Daiquiri",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "sour",
+      "glass_template": "coupe",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake",
+      "ingredients": [
+        {
+          "ingredient_id": "white_rum",
+          "quantity": 60,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lime",
+          "quantity": 20,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "sugar",
+          "quantity": 2,
+          "unit": "barspoon",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "先将细糖与液体充分混合溶解。",
+        "加入冰块摇和，滤入预冷鸡尾酒杯。"
+      ],
+      "garnish_zh": "原出处未指定／无",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/daiquiri/",
+        "reference": "daiquiri",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_daiquiri"
+    },
+    {
+      "id": "iba_dark_n_stormy",
+      "name_zh": "黑暗暴风雨",
+      "name_en": "Dark ’N’ Stormy",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "highball",
+      "glass_template": "highball",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "build_float",
+      "ingredients": [
+        {
+          "ingredient_id": "goslings_rum",
+          "quantity": 60,
+          "unit": "ml",
+          "optional": false,
+          "stage": "float",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "ginger_beer",
+          "quantity": 100,
+          "unit": "ml",
+          "optional": false,
+          "stage": "top",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "高球杯装冰，先倒入姜汁啤酒。",
+        "将朗姆酒缓缓淋在上层。"
+      ],
+      "garnish_zh": "青柠角或片。",
+      "notes_zh": "本参考页指定 Goslings，青柠为装饰而非配方中的青柠汁。",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/dark-n-stormy/",
+        "reference": "dark-n-stormy",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_dark_n_stormy"
+    },
+    {
+      "id": "iba_dry_martini",
+      "name_zh": "干马天尼",
+      "name_en": "Dry Martini",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "spirit_forward",
+      "glass_template": "martini",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "stir",
+      "ingredients": [
+        {
+          "ingredient_id": "gin",
+          "quantity": 60,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "dry_vermouth",
+          "quantity": 10,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "金酒与干味美思加冰搅拌。",
+        "滤入冰镇马天尼杯。"
+      ],
+      "garnish_zh": "挤柠檬皮油；也可按客人要求用绿橄榄。",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/dry-martini/",
+        "reference": "dry-martini",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_dry_martini"
+    },
+    {
+      "id": "iba_espresso_martini",
+      "name_zh": "浓缩咖啡马天尼",
+      "name_en": "Espresso Martini",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "sourless_shaken",
+      "glass_template": "coupe",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake",
+      "ingredients": [
+        {
+          "ingredient_id": "vodka",
+          "quantity": 50,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "kahlua",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "sugar_syrup",
+          "quantity": 10,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "espresso",
+          "quantity": 1,
+          "unit": "serving",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "所有材料加冰摇和。",
+        "滤入预冷鸡尾酒杯。"
+      ],
+      "garnish_zh": "三颗咖啡豆。",
+      "notes_zh": "浓缩咖啡原页按一份计量，毫升数需在调制版本中确定。",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/espresso-martini/",
+        "reference": "espresso-martini",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_espresso_martini"
+    },
+    {
+      "id": "iba_french_75",
+      "name_zh": "法国75",
+      "name_en": "French 75",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "spritz",
+      "glass_template": "flute",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake_top",
+      "ingredients": [
+        {
+          "ingredient_id": "gin",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lemon",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "sugar_syrup",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "champagne",
+          "quantity": 60,
+          "unit": "ml",
+          "optional": false,
+          "stage": "top",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "前三种材料加冰摇和后滤入笛形杯。",
+        "加入香槟，轻轻混合；香槟不进入摇壶。"
+      ],
+      "garnish_zh": "原出处未指定／无",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/french-75/",
+        "reference": "french-75",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_french_75"
+    },
+    {
+      "id": "iba_french_connection",
+      "name_zh": "法国连接",
+      "name_en": "French Connection",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "spirit_forward",
+      "glass_template": "rocks",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "build",
+      "ingredients": [
+        {
+          "ingredient_id": "cognac",
+          "quantity": 35,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "amaretto",
+          "quantity": 35,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "古典杯装冰，倒入两种酒。",
+        "轻轻搅匀。"
+      ],
+      "garnish_zh": "原出处未指定／无",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/french-connection/",
+        "reference": "french-connection",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_french_connection"
+    },
+    {
+      "id": "iba_french_martini",
+      "name_zh": "法式马天尼",
+      "name_en": "French Martini",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "sourless_shaken",
+      "glass_template": "coupe",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake",
+      "ingredients": [
+        {
+          "ingredient_id": "vodka",
+          "quantity": 45,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "raspberry_liqueur",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "pineapple",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "材料加冰摇和。",
+        "滤入预冷鸡尾酒杯。"
+      ],
+      "garnish_zh": "挤少量柠檬皮油。",
+      "notes_zh": "此网页菠萝汁为15 ml，勿以其他流行版本覆盖。",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/french-martini/",
+        "reference": "french-martini",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_french_martini"
+    },
+    {
+      "id": "iba_garibaldi",
+      "name_zh": "加里波第",
+      "name_en": "Garibaldi",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "highball",
+      "glass_template": "highball",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "build",
+      "ingredients": [
+        {
+          "ingredient_id": "campari",
+          "quantity": 45,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "orange_juice",
+          "quantity": 120,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "高球杯加冰，加入金巴利与橙汁。",
+        "轻轻混合。"
+      ],
+      "garnish_zh": "橙角。",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/garibaldi/",
+        "reference": "garibaldi",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_garibaldi"
+    },
+    {
+      "id": "iba_gin_basil_smash",
+      "name_zh": "罗勒金酒司马殊",
+      "name_en": "Gin Basil Smash",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "sour",
+      "glass_template": "coupe",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake",
+      "ingredients": [
+        {
+          "ingredient_id": "gin",
+          "quantity": 60,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lemon",
+          "quantity": 22.5,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "sugar_syrup",
+          "quantity": 22.5,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "basil",
+          "quantity": 10,
+          "unit": "leaf",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "材料加冰有力摇和。",
+        "滤入冰镇鸡尾酒杯。"
+      ],
+      "garnish_zh": "原出处未指定／无",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/gin-basil-smash/",
+        "reference": "gin-basil-smash",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_gin_basil_smash"
+    },
+    {
+      "id": "iba_gin_fizz",
+      "name_zh": "金酒菲士",
+      "name_en": "Gin Fizz",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "highball",
+      "glass_template": "highball",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake_top",
+      "ingredients": [
+        {
+          "ingredient_id": "gin",
+          "quantity": 45,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lemon",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "simple_syrup",
+          "quantity": 10,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "soda",
+          "quantity": null,
+          "unit": "splash",
+          "optional": false,
+          "stage": "top",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "金酒、柠檬汁和糖浆加冰摇和。",
+        "滤入薄壁杯，最后加入少量苏打水。"
+      ],
+      "garnish_zh": "柠檬片，柠檬皮可选。",
+      "notes_zh": "来源指定成杯不留冰。",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/gin-fizz/",
+        "reference": "gin-fizz",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_gin_fizz"
+    },
+    {
+      "id": "iba_grasshopper",
+      "name_zh": "蚱蜢",
+      "name_en": "Grasshopper",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "creamy",
+      "glass_template": "coupe",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake",
+      "ingredients": [
+        {
+          "ingredient_id": "creme_cacao_white",
+          "quantity": 20,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "creme_menthe_green",
+          "quantity": 20,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "cream",
+          "quantity": 20,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "材料加冰短时摇和。",
+        "滤入预冷鸡尾酒杯。"
+      ],
+      "garnish_zh": "薄荷叶，可选。",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/grasshopper/",
+        "reference": "grasshopper",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_grasshopper"
+    },
+    {
+      "id": "iba_hanky_panky",
+      "name_zh": "汉基潘基",
+      "name_en": "Hanky Panky",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "spirit_forward",
+      "glass_template": "coupe",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "stir",
+      "ingredients": [
+        {
+          "ingredient_id": "gin",
+          "quantity": 45,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "sweet_vermouth",
+          "quantity": 45,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "fernet",
+          "quantity": 7.5,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "全部材料加冰搅拌。",
+        "滤入预冷鸡尾酒杯。"
+      ],
+      "garnish_zh": "橙皮。",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/hanky-panky/",
+        "reference": "hanky-panky",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_hanky_panky"
+    },
+    {
+      "id": "iba_horses_neck",
+      "name_zh": "马颈",
+      "name_en": "Horse’s Neck",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "highball",
+      "glass_template": "highball",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "build",
+      "ingredients": [
+        {
+          "ingredient_id": "cognac",
+          "quantity": 40,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "ginger_ale",
+          "quantity": 120,
+          "unit": "ml",
+          "optional": false,
+          "stage": "top",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "angostura",
+          "quantity": 1,
+          "unit": "dash",
+          "optional": true,
+          "stage": "finish",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "杯中放冰，加入干邑和姜汁汽水，轻轻混合。",
+        "可按需要加芳香苦精。"
+      ],
+      "garnish_zh": "较长的螺旋柠檬皮。",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/horses-neck/",
+        "reference": "horses-neck",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_horses_neck"
+    },
+    {
+      "id": "iba_irish_coffee",
+      "name_zh": "爱尔兰咖啡",
+      "name_en": "Irish Coffee",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "hot",
+      "glass_template": "mug",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "build_float",
+      "ingredients": [
+        {
+          "ingredient_id": "irish_whiskey",
+          "quantity": 50,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "hot_coffee",
+          "quantity": 120,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "cream",
+          "quantity": 50,
+          "unit": "ml",
+          "optional": false,
+          "stage": "float",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "sugar",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "预热咖啡杯，将热咖啡、威士忌和糖混合至糖溶解。",
+        "沿匙背缓慢加入冰凉奶油，使其停留在表面。"
+      ],
+      "garnish_zh": "原出处未指定／无",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/irish-coffee/",
+        "reference": "irish-coffee",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_irish_coffee"
+    },
+    {
+      "id": "iba_john_collins",
+      "name_zh": "约翰·柯林斯",
+      "name_en": "John Collins",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "highball",
+      "glass_template": "highball",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "build",
+      "ingredients": [
+        {
+          "ingredient_id": "gin",
+          "quantity": 45,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lemon",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "simple_syrup",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "soda",
+          "quantity": 60,
+          "unit": "ml",
+          "optional": false,
+          "stage": "top",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "全部液体加入装冰高球杯。",
+        "轻轻混合，避免使苏打水过度消泡。"
+      ],
+      "garnish_zh": "柠檬片与鸡尾酒樱桃。",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/john-collins/",
+        "reference": "john-collins",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_john_collins"
+    },
+    {
+      "id": "iba_jungle_bird",
+      "name_zh": "丛林鸟",
+      "name_en": "Jungle Bird",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "tropical",
+      "glass_template": "rocks",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake",
+      "ingredients": [
+        {
+          "ingredient_id": "blackstrap_rum",
+          "quantity": 45,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "campari",
+          "quantity": 22.5,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "pineapple",
+          "quantity": 45,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lime",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "demerara_syrup",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "材料加冰摇和。",
+        "滤入装冰古典杯。"
+      ],
+      "garnish_zh": "菠萝角。",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/jungle-bird/",
+        "reference": "jungle-bird",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_jungle_bird"
+    },
+    {
+      "id": "iba_kir",
+      "name_zh": "基尔",
+      "name_en": "Kir",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "wine",
+      "glass_template": "goblet",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "build",
+      "ingredients": [
+        {
+          "ingredient_id": "white_wine",
+          "quantity": 90,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "cassis",
+          "quantity": 10,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "先在杯中倒入黑加仑利口酒。",
+        "再加入干白葡萄酒。"
+      ],
+      "garnish_zh": "原出处未指定／无",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/kir/",
+        "reference": "kir",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_kir"
+    },
+    {
+      "id": "iba_last_word",
+      "name_zh": "最后的话",
+      "name_en": "Last Word",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "sour",
+      "glass_template": "coupe",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake",
+      "ingredients": [
+        {
+          "ingredient_id": "gin",
+          "quantity": 22.5,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "green_chartreuse",
+          "quantity": 22.5,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "maraschino",
+          "quantity": 22.5,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lime",
+          "quantity": 22.5,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "材料加冰摇和。",
+        "滤入冰镇鸡尾酒杯。"
+      ],
+      "garnish_zh": "原出处未指定／无",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/last-word/",
+        "reference": "last-word",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_last_word"
+    },
+    {
+      "id": "iba_lemon_drop_martini",
+      "name_zh": "柠檬滴马天尼",
+      "name_en": "Lemon Drop Martini",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "sour",
+      "glass_template": "martini",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake",
+      "ingredients": [
+        {
+          "ingredient_id": "vodka",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "triple_sec",
+          "quantity": 20,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lemon",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "材料加冰摇和。",
+        "滤入冰镇鸡尾酒杯。"
+      ],
+      "garnish_zh": "原出处未指定／无",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/lemon-drop-martini/",
+        "reference": "lemon-drop-martini",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_lemon_drop_martini"
+    },
+    {
+      "id": "iba_long_island_iced_tea",
+      "name_zh": "长岛冰茶",
+      "name_en": "Long Island Iced Tea",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "highball",
+      "glass_template": "highball",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "build",
+      "ingredients": [
+        {
+          "ingredient_id": "vodka",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "tequila",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "white_rum",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "gin",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "cointreau",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lemon",
+          "quantity": 25,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "simple_syrup",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "cola",
+          "quantity": null,
+          "unit": "to_top",
+          "optional": false,
+          "stage": "top",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "在装冰高球杯中加入酒、柠檬汁与糖浆。",
+        "最后补入可乐并轻轻混合。"
+      ],
+      "garnish_zh": "柠檬片，可选。",
+      "notes_zh": "此参考版本糖浆30 ml，采用兑和；与聊天中的家用摇和版本不同。",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/long-island-iced-tea/",
+        "reference": "long-island-iced-tea",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_long_island_iced_tea"
+    },
+    {
+      "id": "iba_mai_tai",
+      "name_zh": "迈泰",
+      "name_en": "Mai-Tai",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "tropical",
+      "glass_template": "rocks",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake",
+      "ingredients": [
+        {
+          "ingredient_id": "jamaican_rum",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "martinique_molasses_rum",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "orange_curacao",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "orgeat",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lime",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "simple_syrup",
+          "quantity": 7.5,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "材料加冰摇和。",
+        "倒入双份古典杯，也可使用高球杯。"
+      ],
+      "garnish_zh": "菠萝条、薄荷与青柠皮。",
+      "notes_zh": "来源特别使用马提尼克糖蜜朗姆酒，不自动等同农业朗姆。",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/mai-tai/",
+        "reference": "mai-tai",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_mai_tai"
+    },
+    {
+      "id": "iba_manhattan",
+      "name_zh": "曼哈顿",
+      "name_en": "Manhattan",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "spirit_forward",
+      "glass_template": "coupe",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "stir",
+      "ingredients": [
+        {
+          "ingredient_id": "rye",
+          "quantity": 50,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "sweet_vermouth",
+          "quantity": 20,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "angostura",
+          "quantity": 1,
+          "unit": "dash",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "材料加冰搅拌。",
+        "滤入预冷鸡尾酒杯。"
+      ],
+      "garnish_zh": "鸡尾酒樱桃。",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/manhattan/",
+        "reference": "manhattan",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_manhattan"
+    },
+    {
+      "id": "iba_margarita",
+      "name_zh": "玛格丽特",
+      "name_en": "Margarita",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "sour",
+      "glass_template": "coupe",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake",
+      "ingredients": [
+        {
+          "ingredient_id": "tequila",
+          "quantity": 50,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "triple_sec",
+          "quantity": 20,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lime",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "材料加冰摇和。",
+        "滤入预冷鸡尾酒杯。"
+      ],
+      "garnish_zh": "可做半圈盐边。",
+      "notes_zh": "来源要求100%龙舌兰原料酒；杯边盐不等于酒体溶解盐浓度。",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/margarita/",
+        "reference": "margarita",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_margarita"
+    },
+    {
+      "id": "iba_martinez",
+      "name_zh": "马丁内斯",
+      "name_en": "Martinez",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "spirit_forward",
+      "glass_template": "coupe",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "stir",
+      "ingredients": [
+        {
+          "ingredient_id": "gin",
+          "quantity": 45,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "sweet_vermouth",
+          "quantity": 45,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "maraschino",
+          "quantity": 1,
+          "unit": "barspoon",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "orange_bitters",
+          "quantity": 2,
+          "unit": "dash",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "材料加冰搅拌。",
+        "滤入预冷鸡尾酒杯。"
+      ],
+      "garnish_zh": "柠檬皮。",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/martinez/",
+        "reference": "martinez",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_martinez"
+    },
+    {
+      "id": "iba_mimosa",
+      "name_zh": "含羞草",
+      "name_en": "Mimosa",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "spritz",
+      "glass_template": "flute",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "build",
+      "ingredients": [
+        {
+          "ingredient_id": "orange_juice",
+          "quantity": 75,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "prosecco",
+          "quantity": 75,
+          "unit": "ml",
+          "optional": false,
+          "stage": "top",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "先将橙汁倒入笛形杯。",
+        "加入起泡酒，轻轻混合。"
+      ],
+      "garnish_zh": "橙皮卷，可选。",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/mimosa/",
+        "reference": "mimosa",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_mimosa"
+    },
+    {
+      "id": "iba_mojito",
+      "name_zh": "莫吉托",
+      "name_en": "Mojito",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "highball",
+      "glass_template": "highball",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "muddle_build",
+      "ingredients": [
+        {
+          "ingredient_id": "white_rum",
+          "quantity": 45,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lime",
+          "quantity": 20,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "mint",
+          "quantity": 6,
+          "unit": "sprig",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "sugar",
+          "quantity": 2,
+          "unit": "tsp",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "soda",
+          "quantity": null,
+          "unit": "to_top",
+          "optional": false,
+          "stage": "top",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "将薄荷、青柠汁和糖轻柔混合，加入少许苏打水。",
+        "放冰及朗姆酒，用剩余苏打水补足后轻轻混匀。"
+      ],
+      "garnish_zh": "薄荷枝与青柠片。",
+      "notes_zh": "原页写6枝薄荷，不是6片叶；使用时须定义实际份量。",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/mojito/",
+        "reference": "mojito",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_mojito"
+    },
+    {
+      "id": "iba_moscow_mule",
+      "name_zh": "莫斯科骡子",
+      "name_en": "Moscow Mule",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "highball",
+      "glass_template": "mug",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "build",
+      "ingredients": [
+        {
+          "ingredient_id": "vodka",
+          "quantity": 45,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "ginger_beer",
+          "quantity": 120,
+          "unit": "ml",
+          "optional": false,
+          "stage": "top",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lime",
+          "quantity": 10,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "在骡子杯或古典杯中配合冰块加入材料。",
+        "轻轻混合。"
+      ],
+      "garnish_zh": "青柠片。",
+      "notes_zh": "原出处指定Smirnoff伏特加；SKU记录保留品牌。",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/moscow-mule/",
+        "reference": "moscow-mule",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_moscow_mule"
+    },
+    {
+      "id": "iba_naked_and_famous",
+      "name_zh": "赤裸与名流",
+      "name_en": "Naked and Famous",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "sour",
+      "glass_template": "coupe",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake",
+      "ingredients": [
+        {
+          "ingredient_id": "mezcal",
+          "quantity": 22.5,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "yellow_chartreuse",
+          "quantity": 22.5,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "aperol",
+          "quantity": 22.5,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lime",
+          "quantity": 22.5,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "材料加冰摇和。",
+        "滤入预冷鸡尾酒杯。"
+      ],
+      "garnish_zh": "原出处未指定／无",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/naked-and-famous/",
+        "reference": "naked-and-famous",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_naked_and_famous"
+    },
+    {
+      "id": "iba_negroni",
+      "name_zh": "内格罗尼",
+      "name_en": "Negroni",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "spirit_forward",
+      "glass_template": "rocks",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "build",
+      "ingredients": [
+        {
+          "ingredient_id": "gin",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "campari",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "sweet_vermouth",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "预冷古典杯并放冰，加入三种酒。",
+        "轻轻搅匀。"
+      ],
+      "garnish_zh": "半片橙子。",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/negroni/",
+        "reference": "negroni",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_negroni"
+    },
+    {
+      "id": "iba_new_york_sour",
+      "name_zh": "纽约酸",
+      "name_en": "New York Sour",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "sour",
+      "glass_template": "rocks",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake_float",
+      "ingredients": [
+        {
+          "ingredient_id": "rye",
+          "quantity": 60,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": [
+            "bourbon"
+          ]
+        },
+        {
+          "ingredient_id": "simple_syrup",
+          "quantity": 22.5,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lemon",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "egg_white",
+          "quantity": null,
+          "unit": "few_drops",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "red_wine",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "stage": "float",
+          "quantity_note": "西拉或马尔贝克",
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "除红葡萄酒外的材料加冰摇和。",
+        "滤入装冰古典杯，再沿匙背缓慢淋上红酒。"
+      ],
+      "garnish_zh": "柠檬皮或橙皮，以及樱桃。",
+      "notes_zh": "威士忌可选波本；来源红酒选西拉或马尔贝克。",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/new-york-sour/",
+        "reference": "new-york-sour",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_new_york_sour"
+    },
+    {
+      "id": "iba_old_cuban",
+      "name_zh": "老古巴",
+      "name_en": "Old Cuban",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "spritz",
+      "glass_template": "coupe",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake_top",
+      "ingredients": [
+        {
+          "ingredient_id": "mint",
+          "quantity": null,
+          "unit": "leaf",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": "6–8片叶",
+          "allowed_alternatives": [],
+          "quantity_range": [
+            6,
+            8
+          ]
+        },
+        {
+          "ingredient_id": "aged_rum",
+          "quantity": 45,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lime",
+          "quantity": 22.5,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "simple_syrup",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "angostura",
+          "quantity": 2,
+          "unit": "dash",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "champagne",
+          "quantity": 60,
+          "unit": "ml",
+          "optional": false,
+          "stage": "top",
+          "quantity_note": null,
+          "allowed_alternatives": [
+            "prosecco"
+          ]
+        }
+      ],
+      "steps_zh": [
+        "除起泡酒外的材料加冰摇和。",
+        "滤入鸡尾酒杯，再加入干型起泡酒。"
+      ],
+      "garnish_zh": "薄荷枝。",
+      "notes_zh": "薄荷为6–8片叶；香槟可换普罗塞克。",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/old-cuban/",
+        "reference": "old-cuban",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_old_cuban"
+    },
+    {
+      "id": "iba_old_fashioned",
+      "name_zh": "古典",
+      "name_en": "Old Fashioned",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "spirit_forward",
+      "glass_template": "rocks",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "build",
+      "ingredients": [
+        {
+          "ingredient_id": "bourbon",
+          "quantity": 45,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": [
+            "rye"
+          ]
+        },
+        {
+          "ingredient_id": "sugar_cube",
+          "quantity": 1,
+          "unit": "cube",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "angostura",
+          "quantity": null,
+          "unit": "few_dashes",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "water",
+          "quantity": null,
+          "unit": "few_dashes",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "方糖在杯中以苦精和少量水润湿并捣至溶解。",
+        "加入冰块及威士忌，轻轻混合。"
+      ],
+      "garnish_zh": "橙片或橙皮与樱桃。",
+      "notes_zh": "基酒可选黑麦威士忌；方糖及dash须在操作规格中校准。",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/old-fashioned/",
+        "reference": "old-fashioned",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_old_fashioned"
+    },
+    {
+      "id": "iba_paloma",
+      "name_zh": "帕洛玛",
+      "name_en": "Paloma",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "highball",
+      "glass_template": "highball",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "build",
+      "ingredients": [
+        {
+          "ingredient_id": "tequila",
+          "quantity": 50,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lime",
+          "quantity": 5,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "salt",
+          "quantity": 1,
+          "unit": "pinch",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "grapefruit_soda",
+          "quantity": 100,
+          "unit": "ml",
+          "optional": false,
+          "stage": "top",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "高球杯中混合龙舌兰、青柠汁和盐，加入冰。",
+        "倒入西柚汽水，轻轻混合。"
+      ],
+      "garnish_zh": "青柠片。",
+      "notes_zh": "来源要求100%龙舌兰原料酒。",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/paloma/",
+        "reference": "paloma",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_paloma"
+    },
+    {
+      "id": "iba_paper_plane",
+      "name_zh": "纸飞机",
+      "name_en": "Paper Plane",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "sour",
+      "glass_template": "coupe",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake",
+      "ingredients": [
+        {
+          "ingredient_id": "bourbon",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "amaro_nonino",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "aperol",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lemon",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "全部材料加冰摇和。",
+        "滤入预冷鸡尾酒杯。"
+      ],
+      "garnish_zh": "原出处未指定／无",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/paper-plane/",
+        "reference": "paper-plane",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_paper_plane"
+    },
+    {
+      "id": "iba_penicillin",
+      "name_zh": "盘尼西林",
+      "name_en": "Penicillin",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "sour",
+      "glass_template": "rocks",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake_float",
+      "ingredients": [
+        {
+          "ingredient_id": "blended_scotch",
+          "quantity": 60,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "islay_scotch",
+          "quantity": 7.5,
+          "unit": "ml",
+          "optional": false,
+          "stage": "float",
+          "quantity_note": "来源指定Lagavulin 16",
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lemon",
+          "quantity": 22.5,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "honey_syrup",
+          "quantity": 22.5,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "fresh_ginger",
+          "quantity": null,
+          "unit": "slice",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": "2–3片约硬币大小的鲜姜",
+          "allowed_alternatives": [],
+          "quantity_range": [
+            2,
+            3
+          ]
+        }
+      ],
+      "steps_zh": [
+        "在摇壶内捣鲜姜；加入除艾雷岛威士忌外的材料及冰摇和。",
+        "细滤入装冰古典杯，最后漂浮艾雷岛威士忌。"
+      ],
+      "garnish_zh": "糖渍姜。",
+      "notes_zh": "来源为2–3片约硬币大小鲜姜；漂浮酒指定Lagavulin 16。",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/penicillin/",
+        "reference": "penicillin",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_penicillin"
+    },
+    {
+      "id": "iba_pina_colada",
+      "name_zh": "椰林飘香",
+      "name_en": "Piña Colada",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "tropical",
+      "glass_template": "hurricane",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "blend",
+      "ingredients": [
+        {
+          "ingredient_id": "white_rum",
+          "quantity": 50,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "coconut_cream",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "pineapple",
+          "quantity": 50,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "材料与冰一同放入搅拌机打匀。",
+        "倒入较大的酒杯。"
+      ],
+      "garnish_zh": "菠萝片与鸡尾酒樱桃。",
+      "notes_zh": "椰子原料的脂肪和糖差异大；不可把椰奶与甜椰浆无提示互换。",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/pina-colada/",
+        "reference": "pina-colada",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_pina_colada"
+    },
+    {
+      "id": "iba_pisco_sour",
+      "name_zh": "皮斯科酸",
+      "name_en": "Pisco Sour",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "sour",
+      "glass_template": "goblet",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake",
+      "ingredients": [
+        {
+          "ingredient_id": "pisco",
+          "quantity": 60,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lemon",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "simple_syrup",
+          "quantity": 20,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "egg_white",
+          "quantity": 1,
+          "unit": "whole",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "amargo_bitters",
+          "quantity": null,
+          "unit": "few_dashes",
+          "optional": false,
+          "stage": "garnish",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "除装饰苦精外的材料加冰摇和。",
+        "滤入冰镇杯中，最后点上苦精。"
+      ],
+      "garnish_zh": "少量阿玛戈苦精。",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/pisco-sour/",
+        "reference": "pisco-sour",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_pisco_sour"
+    },
+    {
+      "id": "iba_rusty_nail",
+      "name_zh": "锈钉",
+      "name_en": "Rusty Nail",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "spirit_forward",
+      "glass_template": "rocks",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "build",
+      "ingredients": [
+        {
+          "ingredient_id": "scotch",
+          "quantity": 45,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "drambuie",
+          "quantity": 25,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "古典杯中加入冰块和两种酒。",
+        "轻轻搅匀。"
+      ],
+      "garnish_zh": "柠檬皮。",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/rusty-nail/",
+        "reference": "rusty-nail",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_rusty_nail"
+    },
+    {
+      "id": "iba_sazerac",
+      "name_zh": "萨泽拉克",
+      "name_en": "Sazerac",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "spirit_forward",
+      "glass_template": "rocks",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "stir_rinse",
+      "ingredients": [
+        {
+          "ingredient_id": "cognac",
+          "quantity": 50,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "absinthe",
+          "quantity": 10,
+          "unit": "ml",
+          "optional": false,
+          "stage": "rinse",
+          "quantity_note": null,
+          "allowed_alternatives": [],
+          "retained_ml": null
+        },
+        {
+          "ingredient_id": "sugar_cube",
+          "quantity": 1,
+          "unit": "cube",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "peychaud",
+          "quantity": 2,
+          "unit": "dash",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "用苦艾酒润洗并冷却古典杯。",
+        "其余材料另行加冰搅拌；倒掉饮用杯内的冰及多余苦艾酒，再滤入调好的酒液。"
+      ],
+      "garnish_zh": "柠檬皮。",
+      "notes_zh": "苦艾酒10 ml是洗杯投入量，不是全部饮用留存量；留存量未知。",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/sazerac/",
+        "reference": "sazerac",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_sazerac"
+    },
+    {
+      "id": "iba_sidecar",
+      "name_zh": "边车",
+      "name_en": "Sidecar",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "sour",
+      "glass_template": "coupe",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake",
+      "ingredients": [
+        {
+          "ingredient_id": "cognac",
+          "quantity": 50,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "triple_sec",
+          "quantity": 20,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lemon",
+          "quantity": 20,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "材料加冰摇和。",
+        "滤入预冷鸡尾酒杯。"
+      ],
+      "garnish_zh": "原出处未指定／无",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/sidecar/",
+        "reference": "sidecar",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_sidecar"
+    },
+    {
+      "id": "iba_singapore_sling",
+      "name_zh": "新加坡司令",
+      "name_en": "Singapore Sling",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "tropical",
+      "glass_template": "hurricane",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake",
+      "ingredients": [
+        {
+          "ingredient_id": "gin",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "cherry_sangue_morlacco",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "cointreau",
+          "quantity": 7.5,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "benedictine",
+          "quantity": 7.5,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "pineapple",
+          "quantity": 120,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lime",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "grenadine",
+          "quantity": 10,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "angostura",
+          "quantity": 1,
+          "unit": "dash",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "全部材料加冰摇和。",
+        "滤入飓风杯。"
+      ],
+      "garnish_zh": "菠萝与马拉斯奇诺樱桃。",
+      "notes_zh": "此网页樱桃酒为Cherry Sangue Morlacco；不冒充用户笔记中的Heering版本。",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/singapore-sling/",
+        "reference": "singapore-sling",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_singapore_sling"
+    },
+    {
+      "id": "iba_spritz",
+      "name_zh": "斯普利兹",
+      "name_en": "Spritz",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "spritz",
+      "glass_template": "goblet",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "build",
+      "ingredients": [
+        {
+          "ingredient_id": "prosecco",
+          "quantity": 90,
+          "unit": "ml",
+          "optional": false,
+          "stage": "top",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "aperol",
+          "quantity": 60,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "soda",
+          "quantity": null,
+          "unit": "splash",
+          "optional": false,
+          "stage": "top",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "葡萄酒杯中放冰，加入普罗塞克及阿佩罗。",
+        "加入少量苏打水，轻轻混合。"
+      ],
+      "garnish_zh": "橙片。",
+      "notes_zh": "",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/spritz/",
+        "reference": "spritz",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_spritz"
+    },
+    {
+      "id": "iba_whiskey_sour",
+      "name_zh": "威士忌酸",
+      "name_en": "Whiskey Sour",
+      "variant": "IBA 参考版本（网页快照）",
+      "family": "sour",
+      "glass_template": "rocks",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake",
+      "ingredients": [
+        {
+          "ingredient_id": "bourbon",
+          "quantity": 45,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lemon",
+          "quantity": 25,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "sugar_syrup",
+          "quantity": 20,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "egg_white",
+          "quantity": null,
+          "unit": "few_drops",
+          "optional": true,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "材料加冰摇和；使用蛋清时充分摇匀。",
+        "滤入饮用杯，也可使用装冰的古典杯。"
+      ],
+      "garnish_zh": "半片橙子与樱桃，也可橙皮。",
+      "notes_zh": "蛋清可选；参考版本与聊天60/30/15版本不同。",
+      "source": {
+        "kind": "official_recipe",
+        "publisher": "International Bartenders Association",
+        "url": "https://iba-world.com/iba-cocktail/whiskey-sour/",
+        "reference": "whiskey-sour",
+        "checked_on": "2026-09-21",
+        "method_provenance": "source_paraphrase"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "iba_whiskey_sour"
+    },
+    {
+      "id": "note_appletini",
+      "name_zh": "苹果马天尼",
+      "name_en": "Appletini",
+      "variant": "个人笔记版本",
+      "family": "sour",
+      "glass_template": "martini",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake",
+      "ingredients": [
+        {
+          "ingredient_id": "vodka",
+          "quantity": 45,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "apple_juice",
+          "quantity": 45,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lime",
+          "quantity": 5,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "maple_syrup",
+          "quantity": 5,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "材料加冰摇和。",
+        "滤入预冷杯中。"
+      ],
+      "garnish_zh": "原出处未指定／无",
+      "notes_zh": "",
+      "source": {
+        "kind": "user_note",
+        "publisher": "用户原始鸡尾酒笔记",
+        "url": null,
+        "reference": "conversation:original-cocktail-catalogue",
+        "checked_on": "2026-09-21",
+        "method_provenance": "editorial_template"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "note_appletini"
+    },
+    {
+      "id": "note_el_diablo",
+      "name_zh": "魔鬼",
+      "name_en": "El Diablo",
+      "variant": "个人笔记版本",
+      "family": "highball",
+      "glass_template": "highball",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake_top",
+      "ingredients": [
+        {
+          "ingredient_id": "tequila",
+          "quantity": 45,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "cassis",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lime",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "ginger_beer",
+          "quantity": 90,
+          "unit": "ml",
+          "optional": false,
+          "stage": "top",
+          "quantity_note": null,
+          "allowed_alternatives": [
+            "ginger_ale"
+          ]
+        }
+      ],
+      "steps_zh": [
+        "前三种材料加冰摇和，滤入装冰高球杯。",
+        "最后加入姜汁啤酒，轻轻混合。"
+      ],
+      "garnish_zh": "原出处未指定／无",
+      "notes_zh": "姜汁汽水为原笔记允许的替代品；不同品牌甜度需重估。",
+      "source": {
+        "kind": "user_note",
+        "publisher": "用户原始鸡尾酒笔记",
+        "url": null,
+        "reference": "conversation:original-cocktail-catalogue",
+        "checked_on": "2026-09-21",
+        "method_provenance": "editorial_template"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "note_el_diablo"
+    },
+    {
+      "id": "note_chimayo",
+      "name_zh": "奇马约",
+      "name_en": "Chimayó",
+      "variant": "个人笔记版本",
+      "family": "sour",
+      "glass_template": "rocks",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake",
+      "ingredients": [
+        {
+          "ingredient_id": "tequila",
+          "quantity": 45,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "apple_juice",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": [
+            "apple_cider"
+          ]
+        },
+        {
+          "ingredient_id": "cassis",
+          "quantity": 10,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lemon",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "材料加冰摇和。",
+        "滤入饮用杯。"
+      ],
+      "garnish_zh": "原出处未指定／无",
+      "notes_zh": "原笔记也写苹果西打；是否含酒精取决于产品，不能自动设为0%。",
+      "source": {
+        "kind": "user_note",
+        "publisher": "用户原始鸡尾酒笔记",
+        "url": null,
+        "reference": "conversation:original-cocktail-catalogue",
+        "checked_on": "2026-09-21",
+        "method_provenance": "editorial_template"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "note_chimayo"
+    },
+    {
+      "id": "note_godfather",
+      "name_zh": "教父",
+      "name_en": "Godfather",
+      "variant": "个人笔记版本",
+      "family": "spirit_forward",
+      "glass_template": "rocks",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "stir",
+      "ingredients": [
+        {
+          "ingredient_id": "scotch",
+          "quantity": 60,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "amaretto",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "两种酒加冰搅拌。",
+        "滤入放有新冰块的古典杯。"
+      ],
+      "garnish_zh": "原出处未指定／无",
+      "notes_zh": "",
+      "source": {
+        "kind": "user_note",
+        "publisher": "用户原始鸡尾酒笔记",
+        "url": null,
+        "reference": "conversation:original-cocktail-catalogue",
+        "checked_on": "2026-09-21",
+        "method_provenance": "editorial_template"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "note_godfather"
+    },
+    {
+      "id": "note_not_so_dark_but_stormy",
+      "name_zh": "不那么黑暗的暴风雨",
+      "name_en": "Not So Dark, But Stormy",
+      "variant": "个人笔记版本",
+      "family": "highball",
+      "glass_template": "highball",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "build",
+      "ingredients": [
+        {
+          "ingredient_id": "rum",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lime",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "ginger_beer",
+          "quantity": 150,
+          "unit": "ml",
+          "optional": false,
+          "stage": "top",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "高球杯装冰，加入朗姆酒与青柠汁。",
+        "加入姜汁啤酒，轻轻混合。"
+      ],
+      "garnish_zh": "原出处未指定／无",
+      "notes_zh": "",
+      "source": {
+        "kind": "user_note",
+        "publisher": "用户原始鸡尾酒笔记",
+        "url": null,
+        "reference": "conversation:original-cocktail-catalogue",
+        "checked_on": "2026-09-21",
+        "method_provenance": "editorial_template"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "note_not_so_dark_but_stormy"
+    },
+    {
+      "id": "note_espresso_cream",
+      "name_zh": "浓缩咖啡马天尼·奶油笔记版",
+      "name_en": "Espresso Martini — notebook cream variant",
+      "variant": "个人笔记版本",
+      "family": "sourless_shaken",
+      "glass_template": "coupe",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake",
+      "ingredients": [
+        {
+          "ingredient_id": "coffee_liqueur",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "vodka",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "espresso",
+          "quantity": 30,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "irish_cream",
+          "quantity": 7.5,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "全部材料加冰摇和。",
+        "滤入预冷鸡尾酒杯。"
+      ],
+      "garnish_zh": "原出处未指定／无",
+      "notes_zh": "",
+      "source": {
+        "kind": "user_note",
+        "publisher": "用户原始鸡尾酒笔记",
+        "url": null,
+        "reference": "conversation:original-cocktail-catalogue",
+        "checked_on": "2026-09-21",
+        "method_provenance": "editorial_template"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "note_espresso_cream"
+    },
+    {
+      "id": "note_bramble_cassis",
+      "name_zh": "荆棘·黑加仑替代版",
+      "name_en": "Bramble — cassis variant",
+      "variant": "个人笔记版本",
+      "family": "sour",
+      "glass_template": "rocks",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake",
+      "ingredients": [
+        {
+          "ingredient_id": "gin",
+          "quantity": 45,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lemon",
+          "quantity": 22.5,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "semi_rich_syrup",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "cassis",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "stage": "float",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "金酒、柠檬汁和糖浆加冰摇和。",
+        "滤入装碎冰的杯中，再淋上黑加仑利口酒。"
+      ],
+      "garnish_zh": "原出处未指定／无",
+      "notes_zh": "",
+      "source": {
+        "kind": "user_note",
+        "publisher": "用户原始鸡尾酒笔记",
+        "url": null,
+        "reference": "conversation:original-cocktail-catalogue",
+        "checked_on": "2026-09-21",
+        "method_provenance": "editorial_template"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "note_bramble_cassis"
+    },
+    {
+      "id": "note_margarita_notebook",
+      "name_zh": "玛格丽特·笔记版",
+      "name_en": "Margarita — notebook variant",
+      "variant": "个人笔记版本",
+      "family": "sour",
+      "glass_template": "coupe",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake",
+      "ingredients": [
+        {
+          "ingredient_id": "tequila",
+          "quantity": 2,
+          "unit": "oz",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "triple_sec",
+          "quantity": 1,
+          "unit": "oz",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lime",
+          "quantity": 1,
+          "unit": "oz",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "材料加冰摇和。",
+        "滤入预冷杯中，可做半边盐口。"
+      ],
+      "garnish_zh": "原出处未指定／无",
+      "notes_zh": "原文以oz计量；必须先确定量杯制式，不能无提示按精确30 ml换算。",
+      "source": {
+        "kind": "user_note",
+        "publisher": "用户原始鸡尾酒笔记",
+        "url": null,
+        "reference": "conversation:original-cocktail-catalogue",
+        "checked_on": "2026-09-21",
+        "method_provenance": "editorial_template"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "note_margarita_notebook"
+    },
+    {
+      "id": "note_daiquiri_notebook",
+      "name_zh": "戴吉利·笔记版",
+      "name_en": "Daiquiri — notebook variant",
+      "variant": "个人笔记版本",
+      "family": "sour",
+      "glass_template": "coupe",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "shake",
+      "ingredients": [
+        {
+          "ingredient_id": "white_rum",
+          "quantity": 50,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "lime",
+          "quantity": 25,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "sugar_syrup",
+          "quantity": 10,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "材料加冰摇和。",
+        "滤入冰镇杯中。"
+      ],
+      "garnish_zh": "青柠轮。",
+      "notes_zh": "",
+      "source": {
+        "kind": "user_note",
+        "publisher": "用户原始鸡尾酒笔记",
+        "url": null,
+        "reference": "conversation:original-cocktail-catalogue",
+        "checked_on": "2026-09-21",
+        "method_provenance": "editorial_template"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "note_daiquiri_notebook"
+    },
+    {
+      "id": "note_old_fashioned_simple",
+      "name_zh": "古典·简化笔记版",
+      "name_en": "Old Fashioned — simplified notebook variant",
+      "variant": "个人笔记版本",
+      "family": "spirit_forward",
+      "glass_template": "rocks",
+      "glass_template_provenance": "editorial_mapping",
+      "method": "stir",
+      "ingredients": [
+        {
+          "ingredient_id": "whisky",
+          "quantity": 60,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "simple_syrup",
+          "quantity": 15,
+          "unit": "ml",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        },
+        {
+          "ingredient_id": "angostura",
+          "quantity": 4,
+          "unit": "dash",
+          "optional": false,
+          "stage": "mix",
+          "quantity_note": null,
+          "allowed_alternatives": []
+        }
+      ],
+      "steps_zh": [
+        "材料加冰搅拌至冰冷。",
+        "滤入放有新冰块的古典杯。"
+      ],
+      "garnish_zh": "原出处未指定／无",
+      "notes_zh": "",
+      "source": {
+        "kind": "user_note",
+        "publisher": "用户原始鸡尾酒笔记",
+        "url": null,
+        "reference": "conversation:original-cocktail-catalogue",
+        "checked_on": "2026-09-21",
+        "method_provenance": "editorial_template"
+      },
+      "preparation_review": "not_physically_tested",
+      "default_orderable": false,
+      "needs_serving_configuration": true,
+      "actual_user_rating": null,
+      "prediction_profile_id": "note_old_fashioned_simple"
+    }
+  ]
+}

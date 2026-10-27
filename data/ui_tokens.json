@@ -1,0 +1,37 @@
+{
+  "status": "provisional_until_reference_images",
+  "colors": {
+    "background": "#0B0C0F",
+    "panel": "#13151B",
+    "text": "#E8E3D7",
+    "muted": "#94979F",
+    "accent": "#D9534F",
+    "border": "#363A43"
+  },
+  "spacing_px": [
+    4,
+    8,
+    12,
+    16,
+    24,
+    32
+  ],
+  "border_px": 2,
+  "motion": {
+    "hover_open_ms": 140,
+    "hover_close_ms": 180,
+    "drawer_ms": 200,
+    "coin_ms": 720,
+    "text_scramble_max_ms": 220,
+    "ease_out": [
+      0.16,
+      1,
+      0.3,
+      1
+    ]
+  },
+  "font_assets_bundled": false,
+  "maximum_simultaneous_hotspots": 3,
+  "minimum_touch_target_px": 44,
+  "reduced_motion_semantics": "same_final_state_no_animation"
+}

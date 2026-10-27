@@ -1,0 +1,34 @@
+{
+  "source_filename": "TIMER_调酒笔记_详细清单与酒语.docx",
+  "source_path": "product/data/dlc/xiaodong/source.docx",
+  "source_sha256": "73d28bd6b719db9627109dbc2a05f667e550c6e774c34c10f0af4b8234d36073",
+  "source_bytes": 445195,
+  "copied_filename": "source.docx",
+  "extracted_at": "2026-09-21T19:24:30.273567+00:00",
+  "scope": "Read-only source extraction; source instructions and links are not executed or verified.",
+  "python_docx_version": "1.2.0",
+  "counts": {
+    "body_blocks": 1161,
+    "body_paragraphs": 1075,
+    "body_tables": 86,
+    "all_xml_paragraphs_including_cells": 3204,
+    "all_xml_tables_including_nested": 86,
+    "tracked_insertions": 0,
+    "tracked_deletions": 0,
+    "textboxes": 0,
+    "media_parts": 2
+  },
+  "external_relationships": [],
+  "media": [
+    {
+      "part": "word/media/image1.jpeg",
+      "bytes": 174907,
+      "sha256": "f1924f040e32ddf01925f2d82dee413d46ac641310d8e4f2a761406ad6ab0f1c"
+    },
+    {
+      "part": "word/media/image2.jpeg",
+      "bytes": 168836,
+      "sha256": "2567abb07f64ef5070664db2e8468fc33cb45fae05fe40d10c4efe51a46555bd"
+    }
+  ]
+}

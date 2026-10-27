@@ -1,0 +1,52 @@
+name: Source checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: checks-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  windows:
+    runs-on: windows-2022
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+      - uses: pnpm/action-setup@f40ffcd9367d9f12939873eb1018b921a783ffaa # v4
+        with:
+          version: 11.25.0
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12'
+      - uses: dtolnay/rust-toolchain@b725eda525362e7cf34af9a7243cac1e3f01a7ec # stable
+      - name: Reference algorithms and seed provenance
+        shell: pwsh
+        run: |
+          python -m unittest discover -s tests -v
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          python scripts/validate_seed.py
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: Install locked frontend dependencies
+        run: pnpm --dir product/apps/client install --frozen-lockfile
+      - name: Frontend tests
+        run: pnpm --dir product/apps/client test
+      - name: Build frontend
+        run: pnpm --dir product/apps/client build
+      - name: Rust workspace tests
+        shell: pwsh
+        run: |
+          . ./product/scripts/enter-build-env.ps1
+          cargo test --workspace --locked --manifest-path product/Cargo.toml
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }

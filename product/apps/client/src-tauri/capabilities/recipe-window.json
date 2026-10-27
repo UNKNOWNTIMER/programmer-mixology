@@ -1,0 +1,1 @@
+{"identifier":"recipe-window","description":"Local recipe auxiliary window; event communication only.","windows":["recipe-details"],"permissions":["core:event:default"]}

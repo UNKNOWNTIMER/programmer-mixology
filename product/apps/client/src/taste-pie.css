@@ -1,0 +1,11 @@
+.taste-popup-document,.taste-popup-document body,.taste-popup-document #root{margin:0;min-width:0;width:100%;height:100%;overflow:hidden;background:#050d11}
+.taste-pie-card{box-sizing:border-box;width:100%;height:100%;padding:12px 14px 10px;background:#050d11;color:#b7c7c8;border:1px solid #597178;box-shadow:inset 3px 0 #773f3c,inset 0 -3px #263c44;font-family:PixelMix,monospace;pointer-events:none;container-type:size}
+.taste-pie-card header{height:26px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #293e45;font-size:13px;letter-spacing:1px}
+.taste-pie-card header b{font-weight:400;color:#c78d7c;letter-spacing:0}
+.taste-pie-art{--pie-row:clamp(2px,calc((100cqh - 80px) / 24),9px);margin:6px auto 0;width:max-content;font-family:Consolas,'Courier New',monospace;font-variant-ligatures:none;font-size:min(calc(100cqw / 36.6),calc(var(--pie-row) * 1.25));line-height:var(--pie-row);letter-spacing:0;white-space:pre;text-align:left;background:transparent;padding:0;border:0;overflow:visible}
+.taste-pie-row{display:block;height:var(--pie-row)}.taste-pie-art .pie-top{opacity:.8}.taste-pie-art .pie-side{opacity:.6}.taste-pie-art .pie-edge{filter:brightness(1.18);font-weight:700}
+.taste-pie-legend{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:clamp(2px,2cqw,8px);border-top:1px solid #263b40;padding-top:9px}
+.taste-pie-legend>div{display:grid;grid-template-columns:5px 1fr;gap:4px;align-items:center;min-width:0;font-size:clamp(8px,3.25cqw,12px);line-height:1.2}
+.taste-pie-legend i{width:4px;height:14px;background:var(--pie-color)}.taste-pie-legend b{grid-column:2;font-weight:400;color:var(--pie-color);font-size:clamp(10px,4cqw,15px)}
+.taste-browser-preview{position:fixed;right:8px;bottom:10px;width:min(360px,calc(100vw - 16px));height:330px;z-index:1100;pointer-events:none}
+.taste-preview-error{position:fixed;right:18px;bottom:18px;max-width:300px;background:#17272d;border:1px solid #ad665c;color:#d5aaa2;padding:8px;z-index:1101;font-size:12px}

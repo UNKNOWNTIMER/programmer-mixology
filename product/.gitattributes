@@ -1,0 +1,4 @@
+# Catalog pack bytes are persistent migration identities. Never rewrite them on checkout.
+data/catalog/*.json -text
+apps/client/public/seed/*.json -text
+apps/client/src/recipe-quotes.json -text

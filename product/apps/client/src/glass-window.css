@@ -1,0 +1,12 @@
+.glass-connector{position:fixed;inset:0;width:100vw;height:100vh;z-index:990;pointer-events:none;overflow:visible}
+.glass-connector polyline{fill:none;vector-effect:non-scaling-stroke;stroke-linejoin:miter;stroke-linecap:square}
+.glass-connector-blue{stroke:#607d86;stroke-width:4;opacity:.5;transform:translateY(2px)}
+.glass-connector-red{stroke:#b95448;stroke-width:2}
+.glass-connector-hover{stroke:transparent;stroke-width:24;pointer-events:stroke}
+.glass-connector rect{fill:#c47860;stroke:#34484e;stroke-width:1}
+.glass-browser-callout{position:fixed;inset:auto;transform:none!important;z-index:1000;box-sizing:border-box;filter:drop-shadow(4px 4px 0 #020811b3);font-family:inherit}
+.glass-popup-document,.glass-popup-document body,.glass-popup-document #root{margin:0;padding:0;width:100%;height:100%;overflow:hidden;background:#03090d}
+.glass-popup-shell{width:100%;height:100%;--glass-callout-max-height:100dvh;background:#03090d}
+.glass-popup-shell .glass-callout-card{width:100%}
+[data-callout-side=left] .glass-callout-header::before,[data-callout-side=right] .glass-callout-header::after{display:none}
+.glass-callout-error{position:absolute;z-index:12;left:12px;right:12px;bottom:24px;background:#10191b;border:1px solid #b95448;padding:12px;color:#b6c4c4;font-size:12px;overflow-wrap:anywhere}

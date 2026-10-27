@@ -1,0 +1,6 @@
+{
+  "identifier": "taste-window",
+  "description": "Read-only taste composition display with no business or filesystem commands.",
+  "windows": ["taste-preview"],
+  "permissions": ["core:event:allow-listen", "core:event:allow-unlisten"]
+}

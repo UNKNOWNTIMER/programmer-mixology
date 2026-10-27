@@ -1,0 +1,8 @@
+[workspace]
+members = ["crates/domain", "crates/catalog", "crates/recipe_engine", "crates/lan_host", "crates/inference", "apps/client/src-tauri"]
+resolver = "2"
+
+[profile.release]
+strip = true
+lto = "thin"
+codegen-units = 8

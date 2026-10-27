@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "source": {
+    "kind": "user_document",
+    "filename": "文件.txt",
+    "sha256": "a7779e4a7fbd8ac69b0daee3f9d445ad360a8317ba1fe909fac668bbe2dde90b",
+    "external_references_verified": false
+  },
+  "draft": {
+    "name_zh": "政霖汤",
+    "name_en": "Zhenglin Soup",
+    "family": "sour",
+    "glass_template": "coupe",
+    "method": "shake",
+    "ingredients": [
+      {
+        "ingredient_id": "gin",
+        "quantity": 45,
+        "unit": "ml",
+        "optional": false,
+        "stage": "mix",
+        "quantity_note": "伦敦干金酒；原文指定现有必富达，实际酒精度以瓶标为准。",
+        "allowed_alternatives": []
+      },
+      {
+        "ingredient_id": "cassis",
+        "quantity": 15,
+        "unit": "ml",
+        "optional": false,
+        "stage": "mix",
+        "quantity_note": "Crème de Cassis 黑加仑利口酒；原文指定现有波士黑加仑，不是黑莓利口酒。",
+        "allowed_alternatives": []
+      },
+      {
+        "ingredient_id": "cointreau",
+        "quantity": 10,
+        "unit": "ml",
+        "optional": false,
+        "stage": "mix",
+        "quantity_note": "君度橙味利口酒。",
+        "allowed_alternatives": []
+      },
+      {
+        "ingredient_id": "lemon",
+        "quantity": 22.5,
+        "unit": "ml",
+        "optional": false,
+        "stage": "mix",
+        "quantity_note": "新鲜黄柠檬汁。",
+        "allowed_alternatives": []
+      },
+      {
+        "ingredient_id": "simple_syrup",
+        "quantity": 7.5,
+        "unit": "ml",
+        "optional": false,
+        "stage": "mix",
+        "quantity_note": "糖∶水＝1∶1，按重量配制；例如50 g糖＋50 g水，溶解后冷却，不熬浓。",
+        "allowed_alternatives": []
+      },
+      {
+        "ingredient_id": "cdb_ice",
+        "quantity": null,
+        "unit": "g",
+        "optional": false,
+        "stage": "mix",
+        "quantity_note": "约150–200 g，仅用于摇和；双重过滤后成杯不留冰。",
+        "allowed_alternatives": [],
+        "quantity_range": [
+          150,
+          200
+        ]
+      },
+      {
+        "ingredient_id": "cdb_lemon_peel",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false,
+        "stage": "garnish",
+        "quantity_note": "1条约5–7 cm长的黄色外皮，少带白瓤，卷为细环或弧线。",
+        "allowed_alternatives": []
+      },
+      {
+        "ingredient_id": "user_zhenglin_nebula_foam",
+        "quantity": 15,
+        "unit": "ml",
+        "optional": true,
+        "stage": "garnish",
+        "quantity_note": "15 ml指已经打发的泡沫，非15 ml液体；用一平量勺取用。批次用30 ml熟鹰嘴豆液＋10 ml糖浆，不要将整批倒入一杯。",
+        "allowed_alternatives": []
+      },
+      {
+        "ingredient_id": "cassis",
+        "quantity": null,
+        "unit": "drop",
+        "optional": true,
+        "stage": "garnish",
+        "quantity_note": "点在泡沫表面画短弧或螺旋，不与主酒一起摇和。",
+        "allowed_alternatives": [],
+        "quantity_range": [
+          2,
+          3
+        ]
+      }
+    ],
+    "steps_zh": [
+      "冰镇180–220 ml、杯肚略圆的碟形鸡尾酒杯。洗净柠檬，削一条约5–7 cm的薄黄皮，少带白瓤，绕吧勺柄卷成松弛细环。",
+      "若做泡沫版，先在干净无油小容器中过滤30 ml无盐即食熟鹰嘴豆罐头液体，逐渐加入10 ml糖∶水重量比1∶1的糖浆。可加1滴食用香草精，没有可省略。不是浸泡生豆的水。",
+      "用电动打蛋器或打泡器打出细密、柔软、能舀起的泡沫，约2–4分钟开始检查，不追求裱花硬度。豆液特别稀可略收浓后完全冷却，现打现用。该批预制液的份数取决于实际起泡量。对鹰嘴豆过敏者或没有工具时省略泡沫。",
+      "向摇壶加入金酒45 ml、黑加仑利口酒15 ml、君度10 ml、新鲜黄柠檬汁22.5 ml和1∶1糖浆7.5 ml，主酒原液合计100 ml。此时不放泡沫或装饰用黑加仑滴。",
+      "加入约150–200 g结实冰块，充分摇和约12–15秒。倒掉杯中预冷冰水，用滤冰器和细网筛双重过滤入杯，成杯不留冰。酒液应为均匀的浆果紫红或酒红色。",
+      "可选：轻舀打发后的15 ml香草星云泡沫，贴液面铺成不完全覆盖表面的弧形云带。在泡沫上点2–3滴黑加仑，用干净鸡尾酒签拖出短弧或旋纹，仅处理表面，不搅动整杯。",
+      "将柠檬皮环挂在杯沿，形成金色轨道。泡沫也可用小勺随杯奉上，由饮用者自行加入；这勺是泡沫，不是额外烈酒。冷饮呈上，不加热。",
+      "首次试调一次只改一项：偏酸时下次糖浆7.5→10 ml；偏甜时7.5→5 ml；橙香过强时君度10→7.5 ml。不要为加深颜色不断增加黑加仑。"
+    ],
+    "garnish_zh": "金色柠檬皮细环；可选15 ml香草星云泡沫弧带，并以2–3滴黑加仑画短弧旋纹。",
+    "notes_zh": "政霖汤 V1.0｜黑加仑、橙香与金酒构成的星云酸酒。\n酒语：从宏观宇宙到微观尽头，我们不过一瞬。\n上酒语：如果条件可以加上一勺夸克汤，感受舌尖上的宇宙风味。\n根据用户文件描述，借鉴Bramble结构的原创改良版，并非已有经典的别名；待首次试调。预期入口浆果酸甜、橙香衔接，金酒骨架与略干收尾；泡沫提供柔软质地，不保证永久纹理。\n主酒原液100 ml。仅按文档假设：金酒40%、君度40%、黑加仑17%，纯酒精24.55 ml；摇和后主酒125–135 ml约18%–20%，未计可选泡沫，非实测，实际以瓶标与融水为准。\n味觉坐标与七维由本次编辑按文字推断，仅用于匹配；原文未提供数值，不是实饮评价。\n来源：用户提供的文件.txt；SHA-256 a7779e4a7fbd8ac69b0daee3f9d445ad360a8317ba1fe909fac668bbe2dde90b。文件中的ChatGPT引用占位符未解析，不作为已验证外部引用。",
+    "source_url": null,
+    "taste_bps": [
+      4500,
+      4500,
+      800,
+      100,
+      100
+    ],
+    "sensory_0_10": [
+      5,
+      8,
+      4,
+      0,
+      6,
+      0,
+      6
+    ]
+  },
+  "quote": {
+    "zh": "从宏观宇宙到微观尽头，我们不过一瞬。",
+    "en": "From the vast cosmos to the smallest depths, we are only an instant."
+  },
+  "foam_batch": {
+    "aquafaba_ml": 30,
+    "simple_syrup_ml": 10,
+    "vanilla_extract_drop_optional": 1,
+    "per_drink_whipped_foam_ml": 15,
+    "yield_servings": null,
+    "potential_allergens": [
+      "chickpea"
+    ]
+  }
+}

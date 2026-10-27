@@ -1,0 +1,2 @@
+# Preserve the exact user-supplied bytes used by the provenance SHA-256.
+source.txt -text -diff

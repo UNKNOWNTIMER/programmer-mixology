@@ -1,0 +1,597 @@
+{
+  "status": "experimental_candidate",
+  "target": {
+    "taste_bps": [
+      4000,
+      5000,
+      1000,
+      0,
+      0
+    ],
+    "sensory_0_10": [
+      5,
+      6,
+      4,
+      0,
+      1,
+      0,
+      5
+    ]
+  },
+  "reason": "有限模板约束内的候选；未证明新颖或好喝。",
+  "chosen": {
+    "candidate_id": "056f72e8a869",
+    "family": "sour",
+    "ingredients": [
+      {
+        "ingredient_id": "white_rum",
+        "quantity": 50,
+        "unit": "ml",
+        "stage": "mix"
+      },
+      {
+        "ingredient_id": "lemon",
+        "quantity": 15,
+        "unit": "ml",
+        "stage": "mix"
+      },
+      {
+        "ingredient_id": "simple_syrup",
+        "quantity": 10,
+        "unit": "ml",
+        "stage": "mix"
+      }
+    ],
+    "steps_zh": [
+      "将三种材料与冰摇和。",
+      "滤入预冷杯中；按实际杯量确认稀释。"
+    ],
+    "anchor_recipe_ids": [
+      "iba_whiskey_sour",
+      "iba_daiquiri"
+    ],
+    "predicted": {
+      "taste_bps": [
+        4348,
+        5217,
+        435,
+        0,
+        0
+      ],
+      "sensory_0_10": [
+        5.0,
+        6,
+        4,
+        0,
+        1,
+        0,
+        5
+      ],
+      "status": "heuristic_unvalidated"
+    },
+    "preference_match": {
+      "index": 96.6,
+      "taste_distance": 0.0565,
+      "sensory_distance": 0.0,
+      "calibrated": false
+    },
+    "ethanol_ml": 20.0,
+    "served_abv_fraction": null,
+    "served_kcal": null,
+    "physical_note": "尚未配置融冰稀释与营养标签，因此不显示成杯酒精度及热量。",
+    "review_status": "requires_bartender_review",
+    "guest_orderable": false,
+    "name_zh": "像素试调·056f",
+    "name_en": "Pixel Trial 056F"
+  },
+  "candidates": [
+    {
+      "candidate_id": "056f72e8a869",
+      "family": "sour",
+      "ingredients": [
+        {
+          "ingredient_id": "white_rum",
+          "quantity": 50,
+          "unit": "ml",
+          "stage": "mix"
+        },
+        {
+          "ingredient_id": "lemon",
+          "quantity": 15,
+          "unit": "ml",
+          "stage": "mix"
+        },
+        {
+          "ingredient_id": "simple_syrup",
+          "quantity": 10,
+          "unit": "ml",
+          "stage": "mix"
+        }
+      ],
+      "steps_zh": [
+        "将三种材料与冰摇和。",
+        "滤入预冷杯中；按实际杯量确认稀释。"
+      ],
+      "anchor_recipe_ids": [
+        "iba_whiskey_sour",
+        "iba_daiquiri"
+      ],
+      "predicted": {
+        "taste_bps": [
+          4348,
+          5217,
+          435,
+          0,
+          0
+        ],
+        "sensory_0_10": [
+          5.0,
+          6,
+          4,
+          0,
+          1,
+          0,
+          5
+        ],
+        "status": "heuristic_unvalidated"
+      },
+      "preference_match": {
+        "index": 96.6,
+        "taste_distance": 0.0565,
+        "sensory_distance": 0.0,
+        "calibrated": false
+      },
+      "ethanol_ml": 20.0,
+      "served_abv_fraction": null,
+      "served_kcal": null,
+      "physical_note": "尚未配置融冰稀释与营养标签，因此不显示成杯酒精度及热量。",
+      "review_status": "requires_bartender_review",
+      "guest_orderable": false
+    },
+    {
+      "candidate_id": "0c26b4877c49",
+      "family": "sour",
+      "ingredients": [
+        {
+          "ingredient_id": "gin",
+          "quantity": 50,
+          "unit": "ml",
+          "stage": "mix"
+        },
+        {
+          "ingredient_id": "lemon",
+          "quantity": 15,
+          "unit": "ml",
+          "stage": "mix"
+        },
+        {
+          "ingredient_id": "simple_syrup",
+          "quantity": 10,
+          "unit": "ml",
+          "stage": "mix"
+        }
+      ],
+      "steps_zh": [
+        "将三种材料与冰摇和。",
+        "滤入预冷杯中；按实际杯量确认稀释。"
+      ],
+      "anchor_recipe_ids": [
+        "iba_whiskey_sour",
+        "iba_daiquiri"
+      ],
+      "predicted": {
+        "taste_bps": [
+          4348,
+          5217,
+          435,
+          0,
+          0
+        ],
+        "sensory_0_10": [
+          5.0,
+          6,
+          4,
+          0,
+          1,
+          0,
+          5
+        ],
+        "status": "heuristic_unvalidated"
+      },
+      "preference_match": {
+        "index": 96.6,
+        "taste_distance": 0.0565,
+        "sensory_distance": 0.0,
+        "calibrated": false
+      },
+      "ethanol_ml": 20.0,
+      "served_abv_fraction": null,
+      "served_kcal": null,
+      "physical_note": "尚未配置融冰稀释与营养标签，因此不显示成杯酒精度及热量。",
+      "review_status": "requires_bartender_review",
+      "guest_orderable": false
+    },
+    {
+      "candidate_id": "25fb57de43e6",
+      "family": "sour",
+      "ingredients": [
+        {
+          "ingredient_id": "scotch",
+          "quantity": 50,
+          "unit": "ml",
+          "stage": "mix"
+        },
+        {
+          "ingredient_id": "lemon",
+          "quantity": 15,
+          "unit": "ml",
+          "stage": "mix"
+        },
+        {
+          "ingredient_id": "simple_syrup",
+          "quantity": 10,
+          "unit": "ml",
+          "stage": "mix"
+        }
+      ],
+      "steps_zh": [
+        "将三种材料与冰摇和。",
+        "滤入预冷杯中；按实际杯量确认稀释。"
+      ],
+      "anchor_recipe_ids": [
+        "iba_whiskey_sour",
+        "iba_daiquiri"
+      ],
+      "predicted": {
+        "taste_bps": [
+          4348,
+          5217,
+          435,
+          0,
+          0
+        ],
+        "sensory_0_10": [
+          5.0,
+          6,
+          4,
+          0,
+          1,
+          0,
+          5
+        ],
+        "status": "heuristic_unvalidated"
+      },
+      "preference_match": {
+        "index": 96.6,
+        "taste_distance": 0.0565,
+        "sensory_distance": 0.0,
+        "calibrated": false
+      },
+      "ethanol_ml": 20.0,
+      "served_abv_fraction": null,
+      "served_kcal": null,
+      "physical_note": "尚未配置融冰稀释与营养标签，因此不显示成杯酒精度及热量。",
+      "review_status": "requires_bartender_review",
+      "guest_orderable": false
+    },
+    {
+      "candidate_id": "399d8309c56b",
+      "family": "sour",
+      "ingredients": [
+        {
+          "ingredient_id": "white_rum",
+          "quantity": 50,
+          "unit": "ml",
+          "stage": "mix"
+        },
+        {
+          "ingredient_id": "lime",
+          "quantity": 15,
+          "unit": "ml",
+          "stage": "mix"
+        },
+        {
+          "ingredient_id": "simple_syrup",
+          "quantity": 10,
+          "unit": "ml",
+          "stage": "mix"
+        }
+      ],
+      "steps_zh": [
+        "将三种材料与冰摇和。",
+        "滤入预冷杯中；按实际杯量确认稀释。"
+      ],
+      "anchor_recipe_ids": [
+        "iba_whiskey_sour",
+        "iba_daiquiri"
+      ],
+      "predicted": {
+        "taste_bps": [
+          4348,
+          5217,
+          435,
+          0,
+          0
+        ],
+        "sensory_0_10": [
+          5.0,
+          6,
+          4,
+          0,
+          1,
+          0,
+          5
+        ],
+        "status": "heuristic_unvalidated"
+      },
+      "preference_match": {
+        "index": 96.6,
+        "taste_distance": 0.0565,
+        "sensory_distance": 0.0,
+        "calibrated": false
+      },
+      "ethanol_ml": 20.0,
+      "served_abv_fraction": null,
+      "served_kcal": null,
+      "physical_note": "尚未配置融冰稀释与营养标签，因此不显示成杯酒精度及热量。",
+      "review_status": "requires_bartender_review",
+      "guest_orderable": false
+    },
+    {
+      "candidate_id": "4395ec435312",
+      "family": "sour",
+      "ingredients": [
+        {
+          "ingredient_id": "vodka",
+          "quantity": 50,
+          "unit": "ml",
+          "stage": "mix"
+        },
+        {
+          "ingredient_id": "lemon",
+          "quantity": 15,
+          "unit": "ml",
+          "stage": "mix"
+        },
+        {
+          "ingredient_id": "simple_syrup",
+          "quantity": 10,
+          "unit": "ml",
+          "stage": "mix"
+        }
+      ],
+      "steps_zh": [
+        "将三种材料与冰摇和。",
+        "滤入预冷杯中；按实际杯量确认稀释。"
+      ],
+      "anchor_recipe_ids": [
+        "iba_whiskey_sour",
+        "iba_daiquiri"
+      ],
+      "predicted": {
+        "taste_bps": [
+          4348,
+          5217,
+          435,
+          0,
+          0
+        ],
+        "sensory_0_10": [
+          5.0,
+          6,
+          4,
+          0,
+          1,
+          0,
+          5
+        ],
+        "status": "heuristic_unvalidated"
+      },
+      "preference_match": {
+        "index": 96.6,
+        "taste_distance": 0.0565,
+        "sensory_distance": 0.0,
+        "calibrated": false
+      },
+      "ethanol_ml": 20.0,
+      "served_abv_fraction": null,
+      "served_kcal": null,
+      "physical_note": "尚未配置融冰稀释与营养标签，因此不显示成杯酒精度及热量。",
+      "review_status": "requires_bartender_review",
+      "guest_orderable": false
+    },
+    {
+      "candidate_id": "61948421bf3c",
+      "family": "sour",
+      "ingredients": [
+        {
+          "ingredient_id": "gin",
+          "quantity": 50,
+          "unit": "ml",
+          "stage": "mix"
+        },
+        {
+          "ingredient_id": "lime",
+          "quantity": 15,
+          "unit": "ml",
+          "stage": "mix"
+        },
+        {
+          "ingredient_id": "simple_syrup",
+          "quantity": 10,
+          "unit": "ml",
+          "stage": "mix"
+        }
+      ],
+      "steps_zh": [
+        "将三种材料与冰摇和。",
+        "滤入预冷杯中；按实际杯量确认稀释。"
+      ],
+      "anchor_recipe_ids": [
+        "iba_whiskey_sour",
+        "iba_daiquiri"
+      ],
+      "predicted": {
+        "taste_bps": [
+          4348,
+          5217,
+          435,
+          0,
+          0
+        ],
+        "sensory_0_10": [
+          5.0,
+          6,
+          4,
+          0,
+          1,
+          0,
+          5
+        ],
+        "status": "heuristic_unvalidated"
+      },
+      "preference_match": {
+        "index": 96.6,
+        "taste_distance": 0.0565,
+        "sensory_distance": 0.0,
+        "calibrated": false
+      },
+      "ethanol_ml": 20.0,
+      "served_abv_fraction": null,
+      "served_kcal": null,
+      "physical_note": "尚未配置融冰稀释与营养标签，因此不显示成杯酒精度及热量。",
+      "review_status": "requires_bartender_review",
+      "guest_orderable": false
+    },
+    {
+      "candidate_id": "8e545d95006c",
+      "family": "sour",
+      "ingredients": [
+        {
+          "ingredient_id": "tequila",
+          "quantity": 50,
+          "unit": "ml",
+          "stage": "mix"
+        },
+        {
+          "ingredient_id": "lime",
+          "quantity": 15,
+          "unit": "ml",
+          "stage": "mix"
+        },
+        {
+          "ingredient_id": "simple_syrup",
+          "quantity": 10,
+          "unit": "ml",
+          "stage": "mix"
+        }
+      ],
+      "steps_zh": [
+        "将三种材料与冰摇和。",
+        "滤入预冷杯中；按实际杯量确认稀释。"
+      ],
+      "anchor_recipe_ids": [
+        "iba_whiskey_sour",
+        "iba_daiquiri"
+      ],
+      "predicted": {
+        "taste_bps": [
+          4348,
+          5217,
+          435,
+          0,
+          0
+        ],
+        "sensory_0_10": [
+          5.0,
+          6,
+          4,
+          0,
+          1,
+          0,
+          5
+        ],
+        "status": "heuristic_unvalidated"
+      },
+      "preference_match": {
+        "index": 96.6,
+        "taste_distance": 0.0565,
+        "sensory_distance": 0.0,
+        "calibrated": false
+      },
+      "ethanol_ml": 20.0,
+      "served_abv_fraction": null,
+      "served_kcal": null,
+      "physical_note": "尚未配置融冰稀释与营养标签，因此不显示成杯酒精度及热量。",
+      "review_status": "requires_bartender_review",
+      "guest_orderable": false
+    },
+    {
+      "candidate_id": "97b37d00804b",
+      "family": "sour",
+      "ingredients": [
+        {
+          "ingredient_id": "vodka",
+          "quantity": 50,
+          "unit": "ml",
+          "stage": "mix"
+        },
+        {
+          "ingredient_id": "lime",
+          "quantity": 15,
+          "unit": "ml",
+          "stage": "mix"
+        },
+        {
+          "ingredient_id": "simple_syrup",
+          "quantity": 10,
+          "unit": "ml",
+          "stage": "mix"
+        }
+      ],
+      "steps_zh": [
+        "将三种材料与冰摇和。",
+        "滤入预冷杯中；按实际杯量确认稀释。"
+      ],
+      "anchor_recipe_ids": [
+        "iba_whiskey_sour",
+        "iba_daiquiri"
+      ],
+      "predicted": {
+        "taste_bps": [
+          4348,
+          5217,
+          435,
+          0,
+          0
+        ],
+        "sensory_0_10": [
+          5.0,
+          6,
+          4,
+          0,
+          1,
+          0,
+          5
+        ],
+        "status": "heuristic_unvalidated"
+      },
+      "preference_match": {
+        "index": 96.6,
+        "taste_distance": 0.0565,
+        "sensory_distance": 0.0,
+        "calibrated": false
+      },
+      "ethanol_ml": 20.0,
+      "served_abv_fraction": null,
+      "served_kcal": null,
+      "physical_note": "尚未配置融冰稀释与营养标签，因此不显示成杯酒精度及热量。",
+      "review_status": "requires_bartender_review",
+      "guest_orderable": false
+    }
+  ],
+  "candidate_count": 452,
+  "model_used": false,
+  "rules_version": "reference-0.1.0",
+  "physical_validation_required": true
+}

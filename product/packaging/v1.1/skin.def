@@ -1,0 +1,9 @@
+LIBRARY TimerInstallerSkin
+EXPORTS
+  Attach
+  Refresh
+  SetPhase
+  VerifyPayload
+  CheckTarget
+  LoadPixelFont
+  RemoveShortcutIfOwned

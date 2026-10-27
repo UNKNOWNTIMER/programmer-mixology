@@ -1,0 +1,35 @@
+{
+  "name": "pixel-mix-client",
+  "version": "1.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "vitest run",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.8.0",
+    "@tauri-apps/plugin-opener": "2.5.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.8.4",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.3",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.6",
+    "vitest": "^3.2.4"
+  },
+  "license": "MIT",
+  "author": "UNKNOWNTIMER",
+  "description": "Programmer Mixology: a local-first taste and constrained recipe exploration workbench",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UNKNOWNTIMER/programmer-mixology.git"
+  }
+}

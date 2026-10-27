@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+hardware_report.json
+product/node_modules/
+product/target/
+.DS_Store
+# Runtime information must not enter public source releases.
+.env
+.env.*
+!.env.example
+*.log
+*.pfx
+*.pem
+*.key
+*.gguf
+*.safetensors
+*.timermix
+*.pixelmix
+product/evidence/
+product/data/catalog/*-responses/

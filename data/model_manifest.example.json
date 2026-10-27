@@ -1,0 +1,41 @@
+{
+  "status": "NOT_DOWNLOADABLE_UNTIL_REVIEWED",
+  "allow_auto_download": false,
+  "runtime": {
+    "project": "ggml-org/llama.cpp",
+    "release_commit": null,
+    "artifact_sha256": null
+  },
+  "candidates": [
+    {
+      "model_id": "Qwen/Qwen3.5-2B",
+      "official_card": "https://huggingface.co/Qwen/Qwen3.5-2B",
+      "proposed_quantization": "Q4_K_M",
+      "gguf_url": null,
+      "gguf_sha256": null,
+      "size_bytes": null,
+      "license_review": "verify_official_card_and_quantized_artifact",
+      "backend_benchmarks": []
+    },
+    {
+      "model_id": "Qwen/Qwen3.5-4B",
+      "official_card": "https://huggingface.co/Qwen/Qwen3.5-4B",
+      "proposed_quantization": "Q4_K_M",
+      "gguf_url": null,
+      "gguf_sha256": null,
+      "size_bytes": null,
+      "license_review": "verify_official_card_and_quantized_artifact",
+      "backend_benchmarks": []
+    },
+    {
+      "model_id": "Qwen/Qwen3.5-9B",
+      "official_card": "https://huggingface.co/Qwen/Qwen3.5-9B",
+      "proposed_quantization": "Q4_K_M",
+      "gguf_url": null,
+      "gguf_sha256": null,
+      "size_bytes": null,
+      "license_review": "verify_official_card_and_quantized_artifact",
+      "backend_benchmarks": []
+    }
+  ]
+}

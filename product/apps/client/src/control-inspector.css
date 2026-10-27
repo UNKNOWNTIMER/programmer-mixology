@@ -1,0 +1,16 @@
+/* Local additions for the one-second control inspector and taste track fill. */
+.app .taste-controls.detailed-taste .taste-row .taste-track-wrap>input[type=range]{--taste-fill:#693936;--taste-rest:#253c42;display:block;background:linear-gradient(to right,var(--taste-fill) 0%,var(--taste-fill) var(--fill,0%),var(--taste-rest) var(--fill,0%),var(--taste-rest) 100%)}
+.app .taste-controls.detailed-taste .taste-row.locked .taste-track-wrap>input[type=range]{--taste-fill:#4e3534;--taste-rest:#343738}
+.app .detailed-taste .taste-row{min-height:27px}
+.app .detailed-taste .taste-track-wrap{height:27px;display:block}
+.detailed-taste .preset-projections .classic-marker{top:18px;height:9px}
+.detailed-taste .preset-projections .classic-marker span{top:1px;width:4px;height:8px;background:#fff;opacity:.6;clip-path:none}
+.detailed-taste .preset-projections .classic-marker:hover span,.detailed-taste .preset-projections .classic-marker:focus-visible span,.detailed-taste .preset-projections .classic-marker.active span{background:#fff}
+.control-inspector{position:fixed;z-index:250;max-width:276px;pointer-events:none;background:#101f24;color:#c8ccbb;border:1px solid #7b5b51;box-shadow:3px 3px 0 #070d10, inset 3px 0 #8a4a3e;padding:12px 14px;font:12px/1.55 PixelMix,monospace;text-align:left;white-space:normal;overflow-wrap:anywhere}
+.control-inspector strong{display:block;font-size:13px;font-weight:400;color:#d3a28a;margin:0 0 5px}
+.control-inspector p{margin:0;color:#bdc4b7}
+.control-inspector::after{content:'';position:absolute;width:5px;height:5px;right:4px;top:4px;background:#8a4a3e;box-shadow:-7px 0 #476875}
+.sensory-controls.detailed-sensory .axis-name{pointer-events:auto;cursor:help}
+@media(max-width:600px){.control-inspector{max-width:240px;padding:10px 12px;font-size:11px}}
+
+.control-inspector small{display:block;margin-top:7px;color:#8da6a6;font-size:10px;line-height:1.5}

@@ -1,0 +1,16 @@
+.host-panel{display:grid;gap:14px;min-width:0;color:var(--text,#e8e3d7);font-size:14px;line-height:1.6}
+.host-panel h3{margin:8px 0 0;font-size:16px}.host-panel p{margin:0}.host-panel small{display:block;overflow-wrap:anywhere;color:#94979f;font-size:11px}
+.host-panel .host-context{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.host-panel .host-muted{color:#a8adb4;font-size:13px}.host-panel .host-stack{display:grid;gap:12px}
+.host-panel label{display:grid;gap:6px}.host-panel input,.host-panel textarea,.host-panel select{width:100%;min-height:40px;padding:9px 11px;border:1px solid #363a43;border-radius:0;background:#10141a;color:#e8e3d7;font:inherit;box-sizing:border-box}
+.host-panel textarea{resize:vertical;min-height:120px;font-family:Consolas,'Courier New',monospace;font-size:12px;line-height:1.6}
+.host-panel button{padding:9px 12px;min-height:40px;border:1px solid #49515c;background:#202830;color:#e8e3d7;cursor:pointer;font:inherit}.host-panel button:hover{border-color:#d9534f}.host-panel button:disabled{opacity:.45;cursor:not-allowed}
+.host-panel :focus-visible{outline:2px solid #e48172;outline-offset:3px}.host-panel .host-check{display:flex;align-items:flex-start;gap:10px}.host-panel .host-check input{flex:0 0 18px;width:18px;height:18px;min-height:18px;margin-top:4px;accent-color:#d9534f}
+.host-panel .host-tabs{display:flex;gap:6px;overflow:auto}.host-panel .host-tabs button{white-space:nowrap}.host-panel .host-tabs button[aria-pressed=true]{border-color:#d9534f;background:#342025}
+.host-panel .host-error{padding:12px;border-left:3px solid #ef817a;background:#322127;color:#ffc3be;overflow-wrap:anywhere}.host-panel .host-notice{padding:12px;border-left:3px solid #8fa79a;background:#182824;overflow-wrap:anywhere}
+.host-panel .host-stamp{display:grid;gap:10px;padding:16px;border:2px dashed #717b85;background:#161d23}.host-panel .host-stamp-open{border-style:solid;border-color:#657774}.host-panel .host-stamp p{color:#b0b6bf}
+.host-panel pre{max-height:380px;max-width:100%;overflow:auto;white-space:pre-wrap;overflow-wrap:anywhere;padding:12px;background:#0c1015;font:12px/1.7 Consolas,monospace}.host-panel summary{cursor:pointer;color:#bfcbd3}
+.host-panel .host-actions{display:flex;gap:8px;flex-wrap:wrap}.host-panel .host-columns{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.host-panel .host-tear{touch-action:pan-y;border-top-style:dashed;border-right:5px dotted #ad817c;transition:transform 120ms ease-out}.host-panel .host-tear:active{transition:none}
+
+@media(max-width:600px){.host-panel .host-columns{grid-template-columns:1fr}.host-panel textarea{font-size:13px}.host-panel button{min-height:44px}.host-panel .host-context{align-items:flex-start}}

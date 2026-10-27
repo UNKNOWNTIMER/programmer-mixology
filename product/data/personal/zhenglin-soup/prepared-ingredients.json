@@ -1,0 +1,20 @@
+[
+  {
+    "id": "user_zhenglin_nebula_foam",
+    "name_zh": "香草星云泡沫（打发后）",
+    "name_en": "Vanilla nebula foam (whipped)",
+    "role": "prepared_garnish",
+    "potential_allergens": [
+      "chickpea"
+    ],
+    "allergen_status": "contains_chickpea_check_actual_ingredients",
+    "abv_fraction": null,
+    "sugar_g_per_100ml": null,
+    "kcal_per_100ml": null,
+    "density_g_per_ml": null,
+    "acidity_g_per_l": null,
+    "sku_confirmation_required": true,
+    "provenance": "User-provided Zhenglin Soup V1.0 document; prepared foam volume, not liquid volume.",
+    "preparation_note_zh": "30 ml熟无盐鹰嘴豆液＋10 ml重量比1∶1糖浆，可加1滴香草精；打发后每杯取15 ml，批次产量未知。"
+  }
+]

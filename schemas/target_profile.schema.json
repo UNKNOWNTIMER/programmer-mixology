@@ -1,0 +1,32 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "taste_bps": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 10000
+      },
+      "minItems": 5,
+      "maxItems": 5,
+      "description": "Business validator must additionally assert exact sum=10000."
+    },
+    "sensory_0_10": {
+      "type": "array",
+      "items": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 10
+      },
+      "minItems": 7,
+      "maxItems": 7
+    }
+  },
+  "required": [
+    "taste_bps",
+    "sensory_0_10"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

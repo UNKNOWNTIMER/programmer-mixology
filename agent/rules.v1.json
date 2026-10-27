@@ -1,0 +1,95 @@
+{
+  "version": "reference-0.1.0",
+  "status": "engineering_heuristic_not_sensory_validation",
+  "implemented_reference_families": [
+    "sour",
+    "highball",
+    "spirit_forward_limited"
+  ],
+  "production_expansion_requires_review": [
+    "spritz",
+    "tropical",
+    "creamy",
+    "savory",
+    "milk_punch"
+  ],
+  "rules": [
+    {
+      "id": "R01",
+      "severity": "error",
+      "rule": "Only approved food-grade ingredient IDs with reviewed SKUs."
+    },
+    {
+      "id": "R02",
+      "severity": "error",
+      "rule": "Hard exclusions and allergens override similarity score."
+    },
+    {
+      "id": "R03",
+      "severity": "error",
+      "rule": "Check stock, glass capacity and administrator ethanol ceiling."
+    },
+    {
+      "id": "R04",
+      "severity": "error",
+      "rule": "Carbonated ingredients are never shaken in a sealed shaker."
+    },
+    {
+      "id": "R05",
+      "severity": "error",
+      "rule": "Unknown ABV, dosing units, dilution or nutrition never become zero."
+    },
+    {
+      "id": "R06",
+      "severity": "error",
+      "rule": "Generated recipes need administrator review before guest ordering."
+    },
+    {
+      "id": "R07",
+      "severity": "warning",
+      "rule": "Source-specific preparation overrides family heuristics."
+    },
+    {
+      "id": "R08",
+      "severity": "error",
+      "rule": "Reject fire, nonfood chemicals and unapproved concentrates."
+    },
+    {
+      "id": "R09",
+      "severity": "error",
+      "rule": "LLM may select only current candidate IDs; amounts are recomputed."
+    },
+    {
+      "id": "R10",
+      "severity": "warning",
+      "rule": "Novelty and preference match are unvalidated indices, not taste guarantees."
+    }
+  ],
+  "reference_dosing": {
+    "sour_base_ml": [
+      45,
+      50,
+      60
+    ],
+    "sour_citrus_ml": [
+      15,
+      20,
+      25
+    ],
+    "sour_simple_syrup_ml": [
+      10,
+      15,
+      20
+    ],
+    "highball_base_ml": [
+      30,
+      45
+    ],
+    "highball_mixer_ml": [
+      90,
+      120,
+      150
+    ]
+  },
+  "note": "Reference implementation currently encodes these bounds in code. Production must load and version this ruleset with migrations/tests."
+}

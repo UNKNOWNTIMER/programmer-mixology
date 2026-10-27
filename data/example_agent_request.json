@@ -1,0 +1,101 @@
+{
+  "_notice_zh": "仅为算法测试用示例，不代表用户酒瓶的真实标签。投产必须录入实际SKU酒精度、库存及过敏原。",
+  "taste_bps": [
+    4000,
+    5000,
+    1000,
+    0,
+    0
+  ],
+  "sensory_0_10": [
+    5,
+    6,
+    4,
+    0,
+    1,
+    0,
+    5
+  ],
+  "max_ethanol_ml": 24,
+  "maximum_pre_dilution_liquid_ml": 240,
+  "excluded_ingredients": [],
+  "inventory": {
+    "gin": {
+      "abv_fraction": 0.4,
+      "available_ml": 500,
+      "food_grade": true,
+      "allergens_reviewed": true,
+      "is_test_fixture": true
+    },
+    "vodka": {
+      "abv_fraction": 0.4,
+      "available_ml": 500,
+      "food_grade": true,
+      "allergens_reviewed": true,
+      "is_test_fixture": true
+    },
+    "white_rum": {
+      "abv_fraction": 0.4,
+      "available_ml": 500,
+      "food_grade": true,
+      "allergens_reviewed": true,
+      "is_test_fixture": true
+    },
+    "tequila": {
+      "abv_fraction": 0.4,
+      "available_ml": 500,
+      "food_grade": true,
+      "allergens_reviewed": true,
+      "is_test_fixture": true
+    },
+    "scotch": {
+      "abv_fraction": 0.4,
+      "available_ml": 500,
+      "food_grade": true,
+      "allergens_reviewed": true,
+      "is_test_fixture": true
+    },
+    "simple_syrup": {
+      "abv_fraction": 0,
+      "available_ml": 500,
+      "food_grade": true,
+      "allergens_reviewed": true,
+      "is_test_fixture": true
+    },
+    "lime": {
+      "abv_fraction": 0,
+      "available_ml": 500,
+      "food_grade": true,
+      "allergens_reviewed": true,
+      "is_test_fixture": true
+    },
+    "lemon": {
+      "abv_fraction": 0,
+      "available_ml": 500,
+      "food_grade": true,
+      "allergens_reviewed": true,
+      "is_test_fixture": true
+    },
+    "soda": {
+      "abv_fraction": 0,
+      "available_ml": 500,
+      "food_grade": true,
+      "allergens_reviewed": true,
+      "is_test_fixture": true
+    },
+    "ginger_beer": {
+      "abv_fraction": 0,
+      "available_ml": 500,
+      "food_grade": true,
+      "allergens_reviewed": true,
+      "is_test_fixture": true
+    },
+    "amaretto": {
+      "abv_fraction": 0.28,
+      "available_ml": 500,
+      "food_grade": true,
+      "allergens_reviewed": true,
+      "is_test_fixture": true
+    }
+  }
+}

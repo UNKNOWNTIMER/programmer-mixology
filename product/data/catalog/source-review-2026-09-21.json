@@ -1,0 +1,343 @@
+{
+  "checked_on": "2026-09-21",
+  "scope": "42新增配方页面逐页实查；旧60份IBA事实未在本次逐条复核，保留原有查阅元数据。",
+  "verification_method": "IBA官网六页目录与各配方详情页，通过浏览工具逐页读取。未下载网站图片或正文整页。",
+  "checks": [
+    {
+      "recipe_id": "iba_brandy_crusta",
+      "source_url": "https://iba-world.com/iba-cocktail/brandy-crusta/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "0cc53f899621c544d9e0618f07a46699b594a85614668e4a0062181bb5c467bb",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_canchanchara",
+      "source_url": "https://iba-world.com/iba-cocktail/canchanchara/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "e4263980574f425d9d7c0dee88d36c4a547a202417d5c9c56ff81d35a453d653",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_casino",
+      "source_url": "https://iba-world.com/iba-cocktail/casino/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "d0fe5f8ecb83e3a39a17fdac70609ee4e89a01b4fae2fd0f80601a9c553b3545",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_champagne_cocktail",
+      "source_url": "https://iba-world.com/iba-cocktail/champagne-cocktail/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "6d077f3698160d2aac35edb408a8563a6cf7b20a9de06f561b0421d4fc61430b",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_chartreuse_swizzle",
+      "source_url": "https://iba-world.com/iba-cocktail/chartreuse-swizzle/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "d7a264208244a9531dd5b0c64eb6832bce592546653ba9534c16efad60ad9012",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_dons_special_daiquiri",
+      "source_url": "https://iba-world.com/iba-cocktail/dons-special-daiquiri/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "b626ed41de669d77435bfb121798111373443b4b57a254a69f5ac2f19a6a54ad",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_fernandito",
+      "source_url": "https://iba-world.com/iba-cocktail/fernandito/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "f71d583ff7d66f1ffd0d8d1a905a5e5527cc1af77143785e20e6d1fa9c2caccf",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_grand_margarita",
+      "source_url": "https://iba-world.com/iba-cocktail/grand-margarita/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "1ead7b639f14177a02c27d3fac7ae56f736a4b13e12dea27cd3722508daf49e4",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_hemingway_special",
+      "source_url": "https://iba-world.com/iba-cocktail/hemingway-special/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "0ac92d355f326d0ceb52f126a3314380e798aea52b497e44b99402c18779b0f4",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_iba_tiki",
+      "source_url": "https://iba-world.com/iba-cocktail/iba-tiki/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "bf5dd1d6b68a18515eabec02517d26b2b7af019e0c01de43de0aeece6bc7f49f",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_illegal",
+      "source_url": "https://iba-world.com/iba-cocktail/illegal/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "18210dc6ee366bb512e81f2d26df7a7f05b6d7c87b850adcab2b619dba1c5519",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_mary_pickford",
+      "source_url": "https://iba-world.com/iba-cocktail/mary-pickford/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "3a4f4836df30b839c86206965f552cfce4ad6b76a4390b586755149c3f644f97",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_mint_julep",
+      "source_url": "https://iba-world.com/iba-cocktail/mint-julep/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "35746d43da2580fd04a7717741e1a25de24ff4bef2f05fee55e9090de5dfb76c",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_missionarys_downfall",
+      "source_url": "https://iba-world.com/iba-cocktail/missionarys-downfall/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "997e1d2dbc838650ee57b8ad2387e2bdb705ebc182bfb330a2322cc3c5985eaf",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_monkey_gland",
+      "source_url": "https://iba-world.com/iba-cocktail/monkey-gland/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "9ff14f56c7507a644beaa589e35fd2f4131a1af217e5e8d11c2932cb46186a8c",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_paradise",
+      "source_url": "https://iba-world.com/iba-cocktail/paradise/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "52bbe7fe558e62d563eb3a22dc6dbafc40ecab026bb060355e5d45c14ad438b6",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_pisco_punch",
+      "source_url": "https://iba-world.com/iba-cocktail/pisco-punch/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "7ceeaf934b42b466aa143f63719c90d248d11591544f910d17d1096eb6c15699",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_planters_punch",
+      "source_url": "https://iba-world.com/iba-cocktail/planters-punch/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "ceb8e98af42a05f71ff8c43b8d2cddf05b6ebf2a6dcaa1a1e9c09dee60ab2927",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_porn_star_martini",
+      "source_url": "https://iba-world.com/iba-cocktail/porn-star-martini/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "c452f14f5bde7fa585b87232c217b89875f1b244e82dd9724191d58d88080a1c",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_porto_flip",
+      "source_url": "https://iba-world.com/iba-cocktail/porto-flip/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "418ca181dfb6e1f6275c5bb91f02e34905e747cdb3f8f9cf1b6fd8337d53234c",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_rabo_de_galo",
+      "source_url": "https://iba-world.com/iba-cocktail/rabo-de-galo/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "d56ea59c1185528eee26791a1844d734cd8fdfc2a29cdfecf76b6a7160bfe120",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_ramos_fizz",
+      "source_url": "https://iba-world.com/iba-cocktail/ramos-fizz/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "b2ba635e95e5371c1d76cf65fbc15967f2a76ffe0ce40a485a6a867145b7eb32",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_remember_the_maine",
+      "source_url": "https://iba-world.com/iba-cocktail/remember-the-maine/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "b4fee499685dfd91137db736a310d1512df21f1ca872e3e041fa724d57ca3cce",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_russian_spring_punch",
+      "source_url": "https://iba-world.com/iba-cocktail/russian-spring-punch/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "6a73f89865433c5836142e9ef055b59777c4922833137cd22f44f8278bf1a83e",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_sea_breeze",
+      "source_url": "https://iba-world.com/iba-cocktail/sea-breeze/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "ea6769fbc5066e3462dcac887980a938f575c2eabcf328add1d3f8a231aea014",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_sex_on_the_beach",
+      "source_url": "https://iba-world.com/iba-cocktail/sex-on-the-beach/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "9ecbac9830a122eee42a8c05b1d6e4d05fbbf55391ed86528cafd48a87d00a62",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_sherry_cobbler",
+      "source_url": "https://iba-world.com/iba-cocktail/sherry-cobbler/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "69f50c3bef31b02db60a6cf20b98d751887434447f8b8ccfb6d1db73eb0dcf05",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_south_side",
+      "source_url": "https://iba-world.com/iba-cocktail/south-side/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "c86c4970c15e9eb61e0c75ca754812ea05ef88f618eb3e4fdc7bf65715e95d72",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_spicy_fifty",
+      "source_url": "https://iba-world.com/iba-cocktail/spicy-fifty/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "c978006cb9fa068cef2a93ea60c37264c234f14ebd6a1dd349a95a8f3def09ab",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_stinger",
+      "source_url": "https://iba-world.com/iba-cocktail/stinger/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "17e57f57eb564d014a67aae866000e7c3430179d0fa002e6cbb228a1a6a88e4d",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_suffering_bastard",
+      "source_url": "https://iba-world.com/iba-cocktail/suffering-bastard/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "e90336e077894fdbd4cf19150e32a221ccb14693e36257c1dead99bdd2809356",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_tequila_sunrise",
+      "source_url": "https://iba-world.com/iba-cocktail/tequila-sunrise/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "dbf31ce2986dba2811d898f732b2ee4986152a5e0d569b863450183ca4ac2713",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_three_dots_and_a_dash",
+      "source_url": "https://iba-world.com/iba-cocktail/three-dots-and-a-dash/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "8192bf9284dc9871504042d471951fb978cd63afdbac5d0f6d6fb370fecc134e",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_tipperary",
+      "source_url": "https://iba-world.com/iba-cocktail/tipperary/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "6b5c4cc6e15c8d83ae9d56fa52b4c7373f163d9ecf1551e17fe2afa6b59f297c",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_tommys_margarita",
+      "source_url": "https://iba-world.com/iba-cocktail/tommys-margarita/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "557fdc04ea393b4bdb2db63e2bad8738b83e60d97b2d376b8445b848305550bd",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_trinidad_sour",
+      "source_url": "https://iba-world.com/iba-cocktail/trinidad-sour/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "2261c57f3bcd230f109d8e5d3dc7eeb2150679ffc1d8b576a9e3bf5745892f6d",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_tuxedo",
+      "source_url": "https://iba-world.com/iba-cocktail/tuxedo/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "7720e0cb9fc4c71c423c3c2d3c48c9a95d50f37df0e786969d5d9f8965ea8b92",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_ve_n_to",
+      "source_url": "https://iba-world.com/iba-cocktail/ve-n-to/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "3aeb2d75b9a9f605b324ca6831e582f1ed152c9db65f4900db82148e87e8bae8",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_vesper",
+      "source_url": "https://iba-world.com/iba-cocktail/vesper/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "38f283c2f3fb54bfb78d7c2fa9b9fa51b96df70845031c1529955094bf8c1642",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_vieux_carre",
+      "source_url": "https://iba-world.com/iba-cocktail/vieux-carre/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "e776474af7292f34808a5012aad659f97a20acba6a2e475f6271a4581f46e4c1",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_white_lady",
+      "source_url": "https://iba-world.com/iba-cocktail/white-lady/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "73af24e99176a580fff39e7c1a11ce7cfbdfbd5f1aed7ad1964c42de22cae616",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    },
+    {
+      "recipe_id": "iba_zombie",
+      "source_url": "https://iba-world.com/iba-cocktail/zombie/",
+      "checked_on": "2026-09-21",
+      "facts_sha256": "a608df1a681117cff47e05723f62fab9e0ae6749b052a186f76567f5b4194459",
+      "facts_hash_scope": "规范化单份SourceRecipe JSON；不是远程网页内容哈希。",
+      "editorial_review": "source_fact_transcription_checked_not_physically_tested"
+    }
+  ]
+}

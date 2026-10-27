@@ -1,0 +1,6 @@
+{
+  "identifier": "glass-window",
+  "description": "Read-only owned glass detail window; receives data and returns only validated hover/close actions through Rust.",
+  "windows": ["glass-details"],
+  "permissions": ["core:event:allow-listen", "core:event:allow-unlisten"]
+}

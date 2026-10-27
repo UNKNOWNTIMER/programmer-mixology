@@ -1,0 +1,266 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "0.1.0"
+    },
+    "snapshot_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "recipe_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "recipes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^(iba|note|cdb)_[a-z0-9_]+$"
+          },
+          "name_zh": {
+            "type": "string"
+          },
+          "name_en": {
+            "type": "string"
+          },
+          "variant": {
+            "type": "string"
+          },
+          "family": {
+            "type": "string"
+          },
+          "glass_template": {
+            "enum": [
+              "rocks",
+              "coupe",
+              "highball",
+              "flute",
+              "martini",
+              "mug",
+              "goblet",
+              "hurricane"
+            ]
+          },
+          "glass_template_provenance": {
+            "const": "editorial_mapping"
+          },
+          "method": {
+            "type": "string"
+          },
+          "ingredients": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "ingredient_id": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9_]+$"
+                },
+                "quantity": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0
+                },
+                "unit": {
+                  "enum": [
+                    "ml",
+                    "oz",
+                    "tsp",
+                    "barspoon",
+                    "dash",
+                    "few_dashes",
+                    "few_drops",
+                    "splash",
+                    "to_top",
+                    "to_taste",
+                    "whole",
+                    "leaf",
+                    "sprig",
+                    "serving",
+                    "cube",
+                    "pinch",
+                    "slice",
+                    "tbsp",
+                    "drop",
+                    "piece",
+                    "unknown",
+                    "part",
+                    "shot",
+                    "jigger",
+                    "cup",
+                    "bottle",
+                    "glass",
+                    "scoop",
+                    "g"
+                  ]
+                },
+                "optional": {
+                  "type": "boolean"
+                },
+                "stage": {
+                  "enum": [
+                    "mix",
+                    "top",
+                    "float",
+                    "rinse",
+                    "garnish",
+                    "finish",
+                    "side"
+                  ]
+                },
+                "quantity_note": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "allowed_alternatives": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "uniqueItems": true
+                },
+                "quantity_range": {
+                  "type": "array",
+                  "items": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "minItems": 2,
+                  "maxItems": 2
+                },
+                "retained_ml": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "ingredient_id",
+                "quantity",
+                "unit",
+                "optional",
+                "stage",
+                "quantity_note",
+                "allowed_alternatives"
+              ]
+            },
+            "minItems": 1
+          },
+          "steps_zh": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1
+          },
+          "garnish_zh": {
+            "type": "string"
+          },
+          "notes_zh": {
+            "type": "string"
+          },
+          "source": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "kind": {
+                "enum": [
+                  "official_recipe",
+                  "user_note",
+                  "community_recipe"
+                ]
+              },
+              "publisher": {
+                "type": "string"
+              },
+              "url": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "reference": {
+                "type": "string"
+              },
+              "checked_on": {
+                "type": "string",
+                "format": "date"
+              },
+              "method_provenance": {
+                "enum": [
+                  "source_paraphrase",
+                  "editorial_template"
+                ]
+              }
+            },
+            "required": [
+              "kind",
+              "publisher",
+              "url",
+              "reference",
+              "checked_on",
+              "method_provenance"
+            ]
+          },
+          "preparation_review": {
+            "const": "not_physically_tested"
+          },
+          "default_orderable": {
+            "const": false
+          },
+          "needs_serving_configuration": {
+            "const": true
+          },
+          "actual_user_rating": {
+            "type": "null"
+          },
+          "prediction_profile_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "name_zh",
+          "name_en",
+          "variant",
+          "family",
+          "glass_template",
+          "glass_template_provenance",
+          "method",
+          "ingredients",
+          "steps_zh",
+          "garnish_zh",
+          "notes_zh",
+          "source",
+          "preparation_review",
+          "default_orderable",
+          "needs_serving_configuration",
+          "actual_user_rating",
+          "prediction_profile_id"
+        ]
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "snapshot_date",
+    "recipe_count",
+    "recipes"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:pixelmix:seed-catalog:0.1.0",
+  "title": "Seed catalog snapshot only; production revision schema must evolve separately"
+}

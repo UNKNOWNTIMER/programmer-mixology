@@ -1,0 +1,148 @@
+/* A standalone card: its host owns placement and the connector ending at y=22px. */
+.glass-callout-card {
+  --glass-callout-blue:#91adb2;
+  --glass-callout-red:#c58776;
+  --glass-callout-ink:var(--soft,#b6c4c4);
+  --glass-callout-muted:var(--muted,#789097);
+  --glass-callout-line:var(--line,#34484e);
+  position:relative;
+  isolation:isolate;
+  display:flex;
+  flex-direction:column;
+  box-sizing:border-box;
+  width:320px;
+  max-width:100%;
+  max-height:var(--glass-callout-max-height,calc(100dvh - 8px));
+  min-height:0;
+  margin:0;
+  padding:0;
+  border:0;
+  color:var(--glass-callout-ink);
+  background:var(--panel,#040c10);
+  box-shadow:inset 0 0 0 1px var(--glass-callout-line);
+  clip-path:polygon(0 8px,4px 8px,4px 4px,8px 4px,8px 0,calc(100% - 8px) 0,calc(100% - 8px) 4px,calc(100% - 4px) 4px,calc(100% - 4px) 8px,100% 8px,100% calc(100% - 8px),calc(100% - 4px) calc(100% - 8px),calc(100% - 4px) calc(100% - 4px),calc(100% - 8px) calc(100% - 4px),calc(100% - 8px) 100%,8px 100%,8px calc(100% - 4px),4px calc(100% - 4px),4px calc(100% - 8px),0 calc(100% - 8px));
+  font-family:var(--ui-font,inherit);
+  font-size:12px;
+  line-height:1.65;
+  text-align:left;
+  overflow:hidden;
+}
+.glass-callout-card::before {
+  content:"";
+  position:absolute;
+  z-index:-1;
+  inset:4px;
+  border:1px solid #34484e66;
+  pointer-events:none;
+}
+.glass-callout-card .glass-callout-header {
+  position:relative;
+  display:flex;
+  flex:0 0 44px;
+  box-sizing:border-box;
+  align-items:center;
+  justify-content:space-between;
+  height:44px;
+  min-height:44px;
+  margin:0;
+  padding:0 13px 0 17px;
+  border-bottom:1px solid var(--glass-callout-line);
+  background:#081218;
+}
+.glass-callout-card .glass-callout-header::before,
+.glass-callout-card .glass-callout-header::after {
+  content:"";
+  position:absolute;
+  top:21px;
+  width:8px;
+  height:2px;
+  background:var(--red,#b95448);
+  pointer-events:none;
+}
+.glass-callout-card .glass-callout-header::before{left:0}
+.glass-callout-card .glass-callout-header::after{right:0}
+.glass-callout-card .glass-callout-header h2 {
+  margin:0;
+  padding:0;
+  border:0;
+  color:#c1ccca;
+  font-size:15px;
+  font-weight:400;
+  line-height:1;
+  letter-spacing:2px;
+}
+.glass-callout-card .glass-callout-close {
+  display:grid;
+  place-items:center;
+  box-sizing:border-box;
+  width:28px;
+  height:28px;
+  min-width:28px;
+  margin:0;
+  padding:0;
+  border:1px solid var(--glass-callout-line);
+  border-radius:0;
+  color:var(--glass-callout-red);
+  background:#091419;
+  box-shadow:2px 2px 0 var(--bg,#03090d);
+  font:inherit;
+  font-size:22px;
+  line-height:1;
+  cursor:pointer;
+}
+.glass-callout-card .glass-callout-close:hover{background:#203138;border-color:#c47860}
+.glass-callout-card .glass-callout-close:focus-visible,
+.glass-callout-card summary:focus-visible{outline:2px solid var(--glass-callout-blue);outline-offset:2px}
+.glass-callout-card .glass-callout-body {
+  position:relative;
+  min-height:0;
+  padding:12px 16px 16px;
+  overflow:auto;
+  overscroll-behavior:contain;
+  scrollbar-width:thin;
+  scrollbar-color:#405961 #081117;
+  overflow-wrap:anywhere;
+}
+.glass-callout-card .glass-callout-recipe {
+  margin:0 0 10px;
+  color:var(--glass-callout-muted);
+  font-size:11px;
+  line-height:1.5;
+}
+.glass-callout-card .glass-callout-ingredients{list-style:none;margin:0;padding:0}
+.glass-callout-card .glass-callout-ingredients>li {
+  display:grid;
+  grid-template-columns:minmax(0,1fr) minmax(0,auto) auto;
+  align-items:baseline;
+  gap:4px 9px;
+  margin:0;
+  padding:9px 0;
+  border-bottom:1px solid #34484e80;
+}
+.glass-callout-card .glass-callout-ingredient-name{min-width:0;color:var(--glass-callout-ink)}
+.glass-callout-card .glass-callout-ingredient-name small{display:block;color:var(--glass-callout-muted);font-size:10px}
+.glass-callout-card .glass-callout-quantity{min-width:0;color:var(--glass-callout-blue);font-size:12px;font-weight:400;text-align:right}
+.glass-callout-card .glass-callout-share{color:var(--glass-callout-red);font-size:10px;text-align:right}
+.glass-callout-card .glass-callout-facts{display:grid;grid-template-columns:72px minmax(0,1fr);gap:0 12px;margin:0}
+.glass-callout-card .glass-callout-facts dt,
+.glass-callout-card .glass-callout-facts dd{margin:0;padding:9px 0;border-bottom:1px solid #34484e80}
+.glass-callout-card .glass-callout-facts dt{color:var(--glass-callout-muted)}
+.glass-callout-card .glass-callout-facts dd{text-align:right;color:var(--glass-callout-blue);font-variant-numeric:tabular-nums}
+.glass-callout-card .glass-callout-facts dd small{display:block;color:var(--glass-callout-red);font-size:10px}
+.glass-callout-card .glass-callout-disclosure{margin:13px 0 0;padding:0;border:0}
+.glass-callout-card .glass-callout-disclosure summary{width:fit-content;margin:0;padding:2px 0;color:#9eb1b5;font-size:11px;cursor:pointer}
+.glass-callout-card .glass-callout-disclosure summary::marker{color:var(--glass-callout-red)}
+.glass-callout-card .glass-callout-disclosure p{margin:9px 0 0;color:var(--glass-callout-muted);font-size:11px;line-height:1.75}
+.glass-callout-card .glass-callout-notes{list-style:none;margin:8px 0 0;padding:0}
+.glass-callout-card .glass-callout-notes li{margin:0;padding:8px 0;border-top:1px solid var(--glass-callout-line);color:var(--glass-callout-muted);font-size:11px;line-height:1.75}
+.glass-callout-card .glass-callout-sources{margin-top:12px;padding-top:2px;border-top:1px solid var(--glass-callout-line)}
+.glass-callout-card .glass-callout-sources p{color:#9eb1b5}
+.glass-callout-card .glass-callout-sources span{display:block;margin-top:3px;color:#809da8;font-size:10px;overflow-wrap:anywhere}
+.glass-callout-card .glass-callout-profile{width:100%;border-collapse:collapse;table-layout:fixed;font-variant-numeric:tabular-nums}
+.glass-callout-card .glass-callout-profile th,
+.glass-callout-card .glass-callout-profile td{height:33px;box-sizing:border-box;padding:5px 2px;border-bottom:1px solid #34484e80;text-align:right;font-weight:400}
+.glass-callout-card .glass-callout-profile th:first-child{width:24%;text-align:left;color:var(--glass-callout-ink)}
+.glass-callout-card .glass-callout-profile thead th{height:28px;font-size:11px}
+.glass-callout-card .glass-callout-profile .glass-callout-target{color:var(--glass-callout-blue)}
+.glass-callout-card .glass-callout-profile .glass-callout-prior{color:var(--glass-callout-red)}
+.glass-callout-card .glass-callout-empty{margin:12px 0;color:var(--glass-callout-muted)}

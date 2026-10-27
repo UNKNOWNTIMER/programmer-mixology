@@ -1,0 +1,636 @@
+{
+  "checked_on": "2026-09-21",
+  "sources": [
+    {
+      "recipe_id": "iba_alexander",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/alexander/",
+      "reference": "alexander",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_americano",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/americano/",
+      "reference": "americano",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_angel_face",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/angel-face/",
+      "reference": "angel-face",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_aviation",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/aviation/",
+      "reference": "aviation",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_bees_knees",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/bees-knees/",
+      "reference": "bees-knees",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_bellini",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/bellini/",
+      "reference": "bellini",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_between_the_sheets",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/between-the-sheets/",
+      "reference": "between-the-sheets",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_black_russian",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/black-russian/",
+      "reference": "black-russian",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_bloody_mary",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/bloody-mary/",
+      "reference": "bloody-mary",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_boulevardier",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/boulevardier/",
+      "reference": "boulevardier",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_bramble",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/bramble/",
+      "reference": "bramble",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_caipirinha",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/caipirinha/",
+      "reference": "caipirinha",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_cardinale",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/cardinale/",
+      "reference": "cardinale",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_clover_club",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/clover-club/",
+      "reference": "clover-club",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_corpse_reviver_2",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/corpse-reviver-2/",
+      "reference": "corpse-reviver-2",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_cosmopolitan",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/cosmopolitan/",
+      "reference": "cosmopolitan",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_cuba_libre",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/cuba-libre/",
+      "reference": "cuba-libre",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_daiquiri",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/daiquiri/",
+      "reference": "daiquiri",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_dark_n_stormy",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/dark-n-stormy/",
+      "reference": "dark-n-stormy",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_dry_martini",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/dry-martini/",
+      "reference": "dry-martini",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_espresso_martini",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/espresso-martini/",
+      "reference": "espresso-martini",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_french_75",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/french-75/",
+      "reference": "french-75",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_french_connection",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/french-connection/",
+      "reference": "french-connection",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_french_martini",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/french-martini/",
+      "reference": "french-martini",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_garibaldi",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/garibaldi/",
+      "reference": "garibaldi",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_gin_basil_smash",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/gin-basil-smash/",
+      "reference": "gin-basil-smash",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_gin_fizz",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/gin-fizz/",
+      "reference": "gin-fizz",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_grasshopper",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/grasshopper/",
+      "reference": "grasshopper",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_hanky_panky",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/hanky-panky/",
+      "reference": "hanky-panky",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_horses_neck",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/horses-neck/",
+      "reference": "horses-neck",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_irish_coffee",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/irish-coffee/",
+      "reference": "irish-coffee",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_john_collins",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/john-collins/",
+      "reference": "john-collins",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_jungle_bird",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/jungle-bird/",
+      "reference": "jungle-bird",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_kir",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/kir/",
+      "reference": "kir",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_last_word",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/last-word/",
+      "reference": "last-word",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_lemon_drop_martini",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/lemon-drop-martini/",
+      "reference": "lemon-drop-martini",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_long_island_iced_tea",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/long-island-iced-tea/",
+      "reference": "long-island-iced-tea",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_mai_tai",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/mai-tai/",
+      "reference": "mai-tai",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_manhattan",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/manhattan/",
+      "reference": "manhattan",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_margarita",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/margarita/",
+      "reference": "margarita",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_martinez",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/martinez/",
+      "reference": "martinez",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_mimosa",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/mimosa/",
+      "reference": "mimosa",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_mojito",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/mojito/",
+      "reference": "mojito",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_moscow_mule",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/moscow-mule/",
+      "reference": "moscow-mule",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_naked_and_famous",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/naked-and-famous/",
+      "reference": "naked-and-famous",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_negroni",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/negroni/",
+      "reference": "negroni",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_new_york_sour",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/new-york-sour/",
+      "reference": "new-york-sour",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_old_cuban",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/old-cuban/",
+      "reference": "old-cuban",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_old_fashioned",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/old-fashioned/",
+      "reference": "old-fashioned",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_paloma",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/paloma/",
+      "reference": "paloma",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_paper_plane",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/paper-plane/",
+      "reference": "paper-plane",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_penicillin",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/penicillin/",
+      "reference": "penicillin",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_pina_colada",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/pina-colada/",
+      "reference": "pina-colada",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_pisco_sour",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/pisco-sour/",
+      "reference": "pisco-sour",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_rusty_nail",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/rusty-nail/",
+      "reference": "rusty-nail",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_sazerac",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/sazerac/",
+      "reference": "sazerac",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_sidecar",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/sidecar/",
+      "reference": "sidecar",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_singapore_sling",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/singapore-sling/",
+      "reference": "singapore-sling",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_spritz",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/spritz/",
+      "reference": "spritz",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "iba_whiskey_sour",
+      "kind": "official_recipe",
+      "publisher": "International Bartenders Association",
+      "url": "https://iba-world.com/iba-cocktail/whiskey-sour/",
+      "reference": "whiskey-sour",
+      "checked_on": "2026-09-21",
+      "method_provenance": "source_paraphrase"
+    },
+    {
+      "recipe_id": "note_appletini",
+      "kind": "user_note",
+      "publisher": "用户原始鸡尾酒笔记",
+      "url": null,
+      "reference": "conversation:original-cocktail-catalogue",
+      "checked_on": "2026-09-21",
+      "method_provenance": "editorial_template"
+    },
+    {
+      "recipe_id": "note_el_diablo",
+      "kind": "user_note",
+      "publisher": "用户原始鸡尾酒笔记",
+      "url": null,
+      "reference": "conversation:original-cocktail-catalogue",
+      "checked_on": "2026-09-21",
+      "method_provenance": "editorial_template"
+    },
+    {
+      "recipe_id": "note_chimayo",
+      "kind": "user_note",
+      "publisher": "用户原始鸡尾酒笔记",
+      "url": null,
+      "reference": "conversation:original-cocktail-catalogue",
+      "checked_on": "2026-09-21",
+      "method_provenance": "editorial_template"
+    },
+    {
+      "recipe_id": "note_godfather",
+      "kind": "user_note",
+      "publisher": "用户原始鸡尾酒笔记",
+      "url": null,
+      "reference": "conversation:original-cocktail-catalogue",
+      "checked_on": "2026-09-21",
+      "method_provenance": "editorial_template"
+    },
+    {
+      "recipe_id": "note_not_so_dark_but_stormy",
+      "kind": "user_note",
+      "publisher": "用户原始鸡尾酒笔记",
+      "url": null,
+      "reference": "conversation:original-cocktail-catalogue",
+      "checked_on": "2026-09-21",
+      "method_provenance": "editorial_template"
+    },
+    {
+      "recipe_id": "note_espresso_cream",
+      "kind": "user_note",
+      "publisher": "用户原始鸡尾酒笔记",
+      "url": null,
+      "reference": "conversation:original-cocktail-catalogue",
+      "checked_on": "2026-09-21",
+      "method_provenance": "editorial_template"
+    },
+    {
+      "recipe_id": "note_bramble_cassis",
+      "kind": "user_note",
+      "publisher": "用户原始鸡尾酒笔记",
+      "url": null,
+      "reference": "conversation:original-cocktail-catalogue",
+      "checked_on": "2026-09-21",
+      "method_provenance": "editorial_template"
+    },
+    {
+      "recipe_id": "note_margarita_notebook",
+      "kind": "user_note",
+      "publisher": "用户原始鸡尾酒笔记",
+      "url": null,
+      "reference": "conversation:original-cocktail-catalogue",
+      "checked_on": "2026-09-21",
+      "method_provenance": "editorial_template"
+    },
+    {
+      "recipe_id": "note_daiquiri_notebook",
+      "kind": "user_note",
+      "publisher": "用户原始鸡尾酒笔记",
+      "url": null,
+      "reference": "conversation:original-cocktail-catalogue",
+      "checked_on": "2026-09-21",
+      "method_provenance": "editorial_template"
+    },
+    {
+      "recipe_id": "note_old_fashioned_simple",
+      "kind": "user_note",
+      "publisher": "用户原始鸡尾酒笔记",
+      "url": null,
+      "reference": "conversation:original-cocktail-catalogue",
+      "checked_on": "2026-09-21",
+      "method_provenance": "editorial_template"
+    }
+  ],
+  "rights_note": "仅摘录配料事实并独立中文改写操作，不包含原站图文、品牌图片或字体。引用不等于商业数据库再分发授权；公开发版需完成权利审查。"
+}

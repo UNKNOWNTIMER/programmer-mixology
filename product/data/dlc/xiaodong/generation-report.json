@@ -1,0 +1,11 @@
+{
+  "recipes": 96,
+  "source_records": 97,
+  "appendix_records": 1,
+  "new_ingredient_definitions": 48,
+  "source_ingredient_names": 146,
+  "unique_taste_vectors": 92,
+  "unique_sensory_vectors": 85,
+  "runtime_ingredient_rows": 389,
+  "catalog_sha256": "ceceb454bf8419a1badb9a00794e4e367440bdd4f1e6467f18bd656c710b47f3"
+}

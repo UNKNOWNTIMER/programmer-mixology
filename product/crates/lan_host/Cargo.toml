@@ -1,0 +1,27 @@
+[package]
+name = "pixelmix-lan-host"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+argon2 = "0.5"
+chrono = { version = "0.4", features = ["serde"] }
+chrono-tz = "0.10"
+rand = "0.8"
+rcgen = "0.13"
+reqwest = { version = "0.12", default-features = false, features = ["blocking", "json", "rustls-tls"] }
+rustls = { version = "0.23", default-features = false, features = ["ring", "std", "tls12"] }
+rustls-pemfile = "2"
+rusqlite = { version = "0.32", features = ["bundled", "backup"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"
+thiserror = "2"
+uuid = { version = "1", features = ["v4", "serde"] }
+
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.61", features = ["Win32_Security_Cryptography", "Win32_Foundation"] }
+
+[dev-dependencies]
+tempfile = "3"

@@ -1,0 +1,4 @@
+LIBRARY pixelmix-icon-handler
+EXPORTS
+    DllGetClassObject PRIVATE
+    DllCanUnloadNow PRIVATE

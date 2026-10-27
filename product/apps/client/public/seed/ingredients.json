@@ -1,0 +1,3902 @@
+{
+  "schema_version": "0.1.0",
+  "ingredients": [
+    {
+      "id": "cognac",
+      "name_zh": "干邑白兰地",
+      "name_en": "Cognac",
+      "role": "spirit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "brandy",
+      "name_zh": "白兰地",
+      "name_en": "Brandy",
+      "role": "spirit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "creme_cacao_brown",
+      "name_zh": "棕色可可利口酒",
+      "name_en": "Brown crème de cacao",
+      "role": "liqueur",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "creme_cacao_white",
+      "name_zh": "白色可可利口酒",
+      "name_en": "White crème de cacao",
+      "role": "liqueur",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cream",
+      "name_zh": "鲜奶油",
+      "name_en": "Fresh cream",
+      "role": "cream",
+      "potential_allergens": [
+        "milk"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "campari",
+      "name_zh": "金巴利苦味开胃酒",
+      "name_en": "Campari",
+      "role": "bitter_liqueur",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "sweet_vermouth",
+      "name_zh": "红色甜味美思",
+      "name_en": "Sweet red vermouth",
+      "role": "fortified_wine",
+      "potential_allergens": [
+        "sulfites_possible"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "soda",
+      "name_zh": "苏打水",
+      "name_en": "Soda water",
+      "role": "carbonated",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "gin",
+      "name_zh": "金酒",
+      "name_en": "Gin",
+      "role": "spirit",
+      "potential_allergens": [
+        "botanical_label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "apricot_brandy",
+      "name_zh": "杏子白兰地利口酒",
+      "name_en": "Apricot brandy liqueur",
+      "role": "liqueur",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "calvados",
+      "name_zh": "卡尔瓦多斯苹果白兰地",
+      "name_en": "Calvados",
+      "role": "spirit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "maraschino",
+      "name_zh": "马拉斯奇诺樱桃利口酒",
+      "name_en": "Maraschino liqueur",
+      "role": "liqueur",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "lemon",
+      "name_zh": "新鲜黄柠檬汁",
+      "name_en": "Fresh lemon juice",
+      "role": "acid",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "creme_violette",
+      "name_zh": "紫罗兰利口酒",
+      "name_en": "Crème de violette",
+      "role": "liqueur",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "honey_syrup",
+      "name_zh": "蜂蜜糖浆",
+      "name_en": "Honey syrup",
+      "role": "sweetener",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "orange_juice",
+      "name_zh": "橙汁",
+      "name_en": "Orange juice",
+      "role": "juice",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "prosecco",
+      "name_zh": "普罗塞克起泡酒",
+      "name_en": "Prosecco",
+      "role": "sparkling_wine",
+      "potential_allergens": [
+        "sulfites_possible"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "peach_puree",
+      "name_zh": "白桃果泥",
+      "name_en": "White peach purée",
+      "role": "fruit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "white_rum",
+      "name_zh": "白朗姆酒",
+      "name_en": "White rum",
+      "role": "spirit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "triple_sec",
+      "name_zh": "橙味利口酒",
+      "name_en": "Triple sec",
+      "role": "liqueur",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "vodka",
+      "name_zh": "伏特加",
+      "name_en": "Vodka",
+      "role": "spirit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "coffee_liqueur",
+      "name_zh": "咖啡利口酒",
+      "name_en": "Coffee liqueur",
+      "role": "liqueur",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "kahlua",
+      "name_zh": "甘露咖啡利口酒",
+      "name_en": "Kahlúa",
+      "role": "liqueur",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "tomato_juice",
+      "name_zh": "番茄汁",
+      "name_en": "Tomato juice",
+      "role": "juice",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "worcestershire",
+      "name_zh": "伍斯特调味汁",
+      "name_en": "Worcestershire sauce",
+      "role": "seasoning",
+      "potential_allergens": [
+        "fish_possible"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "hot_sauce",
+      "name_zh": "辣椒调味汁",
+      "name_en": "Tabasco-style hot sauce",
+      "role": "seasoning",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "celery_salt",
+      "name_zh": "芹菜盐",
+      "name_en": "Celery salt",
+      "role": "seasoning",
+      "potential_allergens": [
+        "celery"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "black_pepper",
+      "name_zh": "黑胡椒",
+      "name_en": "Black pepper",
+      "role": "seasoning",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "bourbon",
+      "name_zh": "波本威士忌",
+      "name_en": "Bourbon whiskey",
+      "role": "spirit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "rye",
+      "name_zh": "黑麦威士忌",
+      "name_en": "Rye whiskey",
+      "role": "spirit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "sugar_syrup",
+      "name_zh": "糖浆（原出处未统一浓度）",
+      "name_en": "Sugar syrup",
+      "role": "sweetener",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "simple_syrup",
+      "name_zh": "普通糖浆（配制浓度需登记）",
+      "name_en": "Simple syrup",
+      "role": "sweetener",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "blackberry_liqueur",
+      "name_zh": "黑莓利口酒",
+      "name_en": "Crème de mûre",
+      "role": "liqueur",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cachaca",
+      "name_zh": "卡莎萨甘蔗酒",
+      "name_en": "Cachaça",
+      "role": "spirit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "lime_fruit",
+      "name_zh": "整颗青柠",
+      "name_en": "Whole lime",
+      "role": "fruit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "sugar",
+      "name_zh": "细白砂糖",
+      "name_en": "Fine white sugar",
+      "role": "sweetener",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "dry_vermouth",
+      "name_zh": "干味美思",
+      "name_en": "Dry vermouth",
+      "role": "fortified_wine",
+      "potential_allergens": [
+        "sulfites_possible"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "raspberry_syrup",
+      "name_zh": "覆盆子糖浆",
+      "name_en": "Raspberry syrup",
+      "role": "sweetener",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "egg_white",
+      "name_zh": "蛋清",
+      "name_en": "Egg white",
+      "role": "foam",
+      "potential_allergens": [
+        "egg"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cointreau",
+      "name_zh": "君度橙味利口酒",
+      "name_en": "Cointreau",
+      "role": "liqueur",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "lillet_blanc",
+      "name_zh": "利莱白开胃酒",
+      "name_en": "Lillet Blanc",
+      "role": "aperitif_wine",
+      "potential_allergens": [
+        "sulfites_possible"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "absinthe",
+      "name_zh": "苦艾酒",
+      "name_en": "Absinthe",
+      "role": "spirit",
+      "potential_allergens": [
+        "botanical_label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "citron_vodka",
+      "name_zh": "柠檬风味伏特加",
+      "name_en": "Citron vodka",
+      "role": "spirit",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "lime",
+      "name_zh": "新鲜青柠汁",
+      "name_en": "Fresh lime juice",
+      "role": "acid",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cranberry",
+      "name_zh": "蔓越莓汁",
+      "name_en": "Cranberry juice",
+      "role": "juice",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cola",
+      "name_zh": "可乐",
+      "name_en": "Cola",
+      "role": "carbonated",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "goslings_rum",
+      "name_zh": "高斯林朗姆酒",
+      "name_en": "Goslings rum",
+      "role": "spirit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "ginger_beer",
+      "name_zh": "姜汁啤酒（核对是否含酒精）",
+      "name_en": "Ginger beer",
+      "role": "carbonated",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "espresso",
+      "name_zh": "浓缩咖啡",
+      "name_en": "Espresso",
+      "role": "coffee",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "champagne",
+      "name_zh": "香槟",
+      "name_en": "Champagne",
+      "role": "sparkling_wine",
+      "potential_allergens": [
+        "sulfites_possible"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "amaretto",
+      "name_zh": "阿玛雷托杏仁风味利口酒",
+      "name_en": "Amaretto",
+      "role": "liqueur",
+      "potential_allergens": [
+        "nut_label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "raspberry_liqueur",
+      "name_zh": "覆盆子利口酒",
+      "name_en": "Raspberry liqueur",
+      "role": "liqueur",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "pineapple",
+      "name_zh": "菠萝汁",
+      "name_en": "Pineapple juice",
+      "role": "juice",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "basil",
+      "name_zh": "罗勒叶",
+      "name_en": "Basil leaves",
+      "role": "herb",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "creme_menthe_green",
+      "name_zh": "绿色薄荷利口酒",
+      "name_en": "Green crème de menthe",
+      "role": "liqueur",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "fernet",
+      "name_zh": "费尔奈特苦味利口酒",
+      "name_en": "Fernet",
+      "role": "bitter_liqueur",
+      "potential_allergens": [
+        "botanical_label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "ginger_ale",
+      "name_zh": "姜汁汽水",
+      "name_en": "Ginger ale",
+      "role": "carbonated",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "angostura",
+      "name_zh": "安格斯图拉芳香苦精",
+      "name_en": "Angostura aromatic bitters",
+      "role": "bitters",
+      "potential_allergens": [
+        "botanical_label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "irish_whiskey",
+      "name_zh": "爱尔兰威士忌",
+      "name_en": "Irish whiskey",
+      "role": "spirit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "hot_coffee",
+      "name_zh": "热咖啡",
+      "name_en": "Hot coffee",
+      "role": "coffee",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "blackstrap_rum",
+      "name_zh": "黑糖蜜朗姆酒",
+      "name_en": "Blackstrap rum",
+      "role": "spirit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "demerara_syrup",
+      "name_zh": "德梅拉拉糖浆",
+      "name_en": "Demerara syrup",
+      "role": "sweetener",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "white_wine",
+      "name_zh": "干白葡萄酒",
+      "name_en": "Dry white wine",
+      "role": "wine",
+      "potential_allergens": [
+        "sulfites_possible"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cassis",
+      "name_zh": "黑加仑利口酒",
+      "name_en": "Crème de cassis",
+      "role": "liqueur",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "green_chartreuse",
+      "name_zh": "绿色查特酒",
+      "name_en": "Green Chartreuse",
+      "role": "liqueur",
+      "potential_allergens": [
+        "botanical_label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "tequila",
+      "name_zh": "龙舌兰酒",
+      "name_en": "Tequila",
+      "role": "spirit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "jamaican_rum",
+      "name_zh": "牙买加琥珀色朗姆酒",
+      "name_en": "Amber Jamaican rum",
+      "role": "spirit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "martinique_molasses_rum",
+      "name_zh": "马提尼克糖蜜朗姆酒",
+      "name_en": "Martinique molasses rum",
+      "role": "spirit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "orange_curacao",
+      "name_zh": "橙味库拉索利口酒",
+      "name_en": "Orange Curaçao",
+      "role": "liqueur",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "orgeat",
+      "name_zh": "欧夏杏仁糖浆",
+      "name_en": "Orgeat",
+      "role": "sweetener",
+      "potential_allergens": [
+        "tree_nuts_possible"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "orange_bitters",
+      "name_zh": "橙味苦精",
+      "name_en": "Orange bitters",
+      "role": "bitters",
+      "potential_allergens": [
+        "botanical_label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "mint",
+      "name_zh": "薄荷",
+      "name_en": "Mint",
+      "role": "herb",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "mezcal",
+      "name_zh": "梅斯卡尔",
+      "name_en": "Mezcal",
+      "role": "spirit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "yellow_chartreuse",
+      "name_zh": "黄色查特酒",
+      "name_en": "Yellow Chartreuse",
+      "role": "liqueur",
+      "potential_allergens": [
+        "botanical_label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "aperol",
+      "name_zh": "阿佩罗开胃酒",
+      "name_en": "Aperol",
+      "role": "bitter_liqueur",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "red_wine",
+      "name_zh": "红葡萄酒",
+      "name_en": "Red wine",
+      "role": "wine",
+      "potential_allergens": [
+        "sulfites_possible"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "aged_rum",
+      "name_zh": "陈年朗姆酒",
+      "name_en": "Aged rum",
+      "role": "spirit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "sugar_cube",
+      "name_zh": "方糖",
+      "name_en": "Sugar cube",
+      "role": "sweetener",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "water",
+      "name_zh": "饮用水",
+      "name_en": "Water",
+      "role": "water",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "salt",
+      "name_zh": "食盐",
+      "name_en": "Salt",
+      "role": "seasoning",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "grapefruit_soda",
+      "name_zh": "粉红西柚汽水",
+      "name_en": "Pink grapefruit soda",
+      "role": "carbonated",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "amaro_nonino",
+      "name_zh": "诺尼诺苦味利口酒",
+      "name_en": "Amaro Nonino",
+      "role": "bitter_liqueur",
+      "potential_allergens": [
+        "botanical_label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "blended_scotch",
+      "name_zh": "调和苏格兰威士忌",
+      "name_en": "Blended Scotch whisky",
+      "role": "spirit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "islay_scotch",
+      "name_zh": "艾雷岛苏格兰威士忌",
+      "name_en": "Islay Scotch whisky",
+      "role": "spirit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "fresh_ginger",
+      "name_zh": "鲜姜",
+      "name_en": "Fresh ginger",
+      "role": "seasoning",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "coconut_cream",
+      "name_zh": "椰子乳脂／椰子浓浆（核对甜度）",
+      "name_en": "Coconut cream",
+      "role": "cream",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "pisco",
+      "name_zh": "皮斯科白兰地",
+      "name_en": "Pisco",
+      "role": "spirit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "amargo_bitters",
+      "name_zh": "阿玛戈苦精",
+      "name_en": "Amargo bitters",
+      "role": "bitters",
+      "potential_allergens": [
+        "botanical_label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "scotch",
+      "name_zh": "苏格兰威士忌",
+      "name_en": "Scotch whisky",
+      "role": "spirit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "drambuie",
+      "name_zh": "杜林标利口酒",
+      "name_en": "Drambuie",
+      "role": "liqueur",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "peychaud",
+      "name_zh": "佩乔苦精",
+      "name_en": "Peychaud's bitters",
+      "role": "bitters",
+      "potential_allergens": [
+        "botanical_label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cherry_sangue_morlacco",
+      "name_zh": "桑格莫拉科樱桃利口酒",
+      "name_en": "Cherry Sangue Morlacco",
+      "role": "liqueur",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "benedictine",
+      "name_zh": "廊酒",
+      "name_en": "Bénédictine D.O.M.",
+      "role": "liqueur",
+      "potential_allergens": [
+        "botanical_label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "grenadine",
+      "name_zh": "红石榴糖浆",
+      "name_en": "Grenadine",
+      "role": "sweetener",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "apple_juice",
+      "name_zh": "苹果汁",
+      "name_en": "Apple juice",
+      "role": "juice",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "maple_syrup",
+      "name_zh": "枫糖浆",
+      "name_en": "Maple syrup",
+      "role": "sweetener",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "apple_cider",
+      "name_zh": "苹果西打（是否含酒精待核对）",
+      "name_en": "Apple cider",
+      "role": "juice",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "rum",
+      "name_zh": "朗姆酒（类型未指定）",
+      "name_en": "Rum, unspecified",
+      "role": "spirit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "irish_cream",
+      "name_zh": "爱尔兰奶油利口酒",
+      "name_en": "Irish cream liqueur",
+      "role": "liqueur",
+      "potential_allergens": [
+        "milk"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "semi_rich_syrup",
+      "name_zh": "半浓糖浆",
+      "name_en": "Semi-rich syrup",
+      "role": "sweetener",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "whisky",
+      "name_zh": "威士忌（类型未指定）",
+      "name_en": "Whisky, unspecified",
+      "role": "spirit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "aromatic_bitters",
+      "name_en": "Aromatic bitters, unspecified",
+      "name_zh": "芳香苦精（品牌未指定）",
+      "role": "bitters",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cuban_aguardiente",
+      "name_en": "Cuban aguardiente",
+      "name_zh": "古巴甘蔗烈酒",
+      "role": "spirit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "raw_honey",
+      "name_en": "Raw honey",
+      "name_zh": "原蜜",
+      "role": "sweetener",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "old_tom_gin",
+      "name_en": "Old Tom gin",
+      "name_zh": "老汤姆金酒",
+      "role": "spirit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "grand_marnier",
+      "name_en": "Grand Marnier",
+      "name_zh": "柑曼怡橙味利口酒",
+      "role": "liqueur",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "falernum",
+      "name_en": "Falernum",
+      "name_zh": "法勒南香料利口酒／糖浆（以SKU确认）",
+      "role": "modifier",
+      "potential_allergens": [
+        "nuts",
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cuban_rum",
+      "name_en": "Cuban rum, unspecified",
+      "name_zh": "古巴朗姆酒（陈年类型未指定）",
+      "role": "spirit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "passion_fruit_syrup",
+      "name_en": "Passion fruit syrup",
+      "name_zh": "百香果糖浆",
+      "role": "sweetener",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "grapefruit",
+      "name_en": "Grapefruit juice",
+      "name_zh": "西柚汁",
+      "role": "juice",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "havana_profundo",
+      "name_en": "Havana Club Ron Profundo",
+      "name_zh": "哈瓦那俱乐部 Profundo 朗姆酒",
+      "role": "spirit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "havana_smoky",
+      "name_en": "Havana Club Ron Smoky",
+      "name_zh": "哈瓦那俱乐部 Smoky 朗姆酒",
+      "role": "spirit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "frangelico",
+      "name_en": "Frangelico",
+      "name_zh": "榛果利口酒 Frangelico",
+      "role": "liqueur",
+      "potential_allergens": [
+        "nuts"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "passion_fruit_puree",
+      "name_en": "Passion fruit purée",
+      "name_zh": "百香果果泥",
+      "role": "fruit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "jamaican_overproof_white_rum",
+      "name_en": "Jamaican overproof white rum",
+      "name_zh": "牙买加高度白朗姆酒",
+      "role": "spirit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "peach_brandy",
+      "name_en": "Peach brandy",
+      "name_zh": "桃白兰地（类型需SKU确认）",
+      "role": "liqueur",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "honey_mix",
+      "name_en": "Honey mix, ratio unspecified",
+      "name_zh": "蜂蜜混合液（比例未指定）",
+      "role": "sweetener",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "pineapple_chunks",
+      "name_en": "Pineapple chunks",
+      "name_zh": "菠萝块",
+      "role": "fruit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cloves",
+      "name_en": "Cloves",
+      "name_zh": "丁香",
+      "role": "spice",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "sugar_cane_juice",
+      "name_en": "Sugar cane juice",
+      "name_zh": "甘蔗汁",
+      "role": "juice",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "vanilla_vodka",
+      "name_en": "Vanilla vodka",
+      "name_zh": "香草伏特加",
+      "role": "spirit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "passion_fruit_liqueur",
+      "name_en": "Passion fruit liqueur",
+      "name_zh": "百香果利口酒",
+      "role": "liqueur",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "vanilla_sugar",
+      "name_en": "Vanilla sugar",
+      "name_zh": "香草糖",
+      "role": "sweetener",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "tawny_port",
+      "name_en": "Red tawny port wine",
+      "name_zh": "茶色波特酒",
+      "role": "wine",
+      "potential_allergens": [
+        "sulfites"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "egg_yolk",
+      "name_en": "Egg yolk",
+      "name_zh": "蛋黄",
+      "role": "protein",
+      "potential_allergens": [
+        "egg"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cynar",
+      "name_en": "Cynar",
+      "name_zh": "朝鲜蓟苦味利口酒 Cynar",
+      "role": "liqueur",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "orange_flower_water",
+      "name_en": "Orange flower water",
+      "name_zh": "橙花水",
+      "role": "modifier",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "vanilla_extract",
+      "name_en": "Vanilla extract",
+      "name_zh": "香草精",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cherry_brandy_luxardo",
+      "name_en": "Cherry Brandy Luxardo",
+      "name_zh": "Luxardo 樱桃白兰地利口酒",
+      "role": "liqueur",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "sparkling_wine",
+      "name_en": "Sparkling wine, unspecified",
+      "name_zh": "起泡葡萄酒（类型未指定）",
+      "role": "wine",
+      "potential_allergens": [
+        "sulfites"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "peach_schnapps",
+      "name_en": "Peach schnapps",
+      "name_zh": "桃味施纳普斯利口酒",
+      "role": "liqueur",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "amontillado_sherry",
+      "name_en": "Amontillado sherry",
+      "name_zh": "阿蒙蒂亚多雪莉酒",
+      "role": "wine",
+      "potential_allergens": [
+        "sulfites"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "palo_cortado",
+      "name_en": "Palo Cortado sherry",
+      "name_zh": "帕罗科塔多雪莉酒",
+      "role": "wine",
+      "potential_allergens": [
+        "sulfites"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "orange_fruit",
+      "name_en": "Orange",
+      "name_zh": "橙子",
+      "role": "fruit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "lemon_fruit",
+      "name_en": "Lemon",
+      "name_zh": "黄柠檬",
+      "role": "fruit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "elderflower_cordial",
+      "name_en": "Elderflower cordial",
+      "name_zh": "接骨木花浓缩调味液",
+      "role": "modifier",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "red_chili",
+      "name_en": "Red chili pepper",
+      "name_zh": "红辣椒",
+      "role": "spice",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "creme_menthe_white",
+      "name_en": "White crème de menthe",
+      "name_zh": "白色薄荷利口酒",
+      "role": "liqueur",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "martinique_agricole_rum",
+      "name_en": "Rhum Martinique agricole",
+      "name_zh": "马提尼克农业朗姆酒",
+      "role": "spirit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "allspice_st_elizabeth",
+      "name_en": "St. Elizabeth allspice dram",
+      "name_zh": "圣伊丽莎白多香果利口酒",
+      "role": "liqueur",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "agave_nectar",
+      "name_en": "Agave nectar",
+      "name_zh": "龙舌兰蜜",
+      "role": "sweetener",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "white_grappa",
+      "name_en": "White smooth grappa",
+      "name_zh": "柔和白格拉帕",
+      "role": "spirit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "chamomile_cordial",
+      "name_en": "Chamomile cordial",
+      "name_zh": "洋甘菊浓缩调味液",
+      "role": "modifier",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "jamaican_dark_rum",
+      "name_en": "Jamaican dark rum",
+      "name_zh": "牙买加深色朗姆酒",
+      "role": "spirit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "jamaican_rum_unspecified",
+      "name_en": "Jamaican rum, type unspecified",
+      "name_zh": "牙买加朗姆酒（类型未指定）",
+      "role": "spirit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "puerto_rican_gold_rum",
+      "name_en": "Gold Puerto Rican rum",
+      "name_zh": "波多黎各金朗姆酒",
+      "role": "spirit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "demerara_rum",
+      "name_en": "Demerara rum, strength unspecified",
+      "name_zh": "德梅拉拉朗姆酒（酒精度未指定）",
+      "role": "spirit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "donns_mix",
+      "name_en": "Donn’s Mix",
+      "name_zh": "Donn混合液（西柚与肉桂糖浆）",
+      "role": "modifier",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "pernod",
+      "name_en": "Pernod",
+      "name_zh": "保乐茴香酒",
+      "role": "spirit",
+      "potential_allergens": [],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_coconut_rum",
+      "name_en": "Coconut rum",
+      "name_zh": "椰子朗姆酒",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_lemon_peel",
+      "name_en": "Lemon peel",
+      "name_zh": "柠檬皮",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_kirschwasser",
+      "name_en": "Kirschwasser",
+      "name_zh": "樱桃蒸馏酒",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_strawberry_liqueur",
+      "name_en": "Strawberry liqueur",
+      "name_zh": "草莓利口酒",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_strawberries",
+      "name_en": "Strawberries",
+      "name_zh": "草莓",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_schweppes_russchian",
+      "name_en": "Schweppes Russchian",
+      "name_zh": "怡泉 Russchian 混饮汽水",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_anejo_rum",
+      "name_en": "Añejo rum",
+      "name_zh": "陈年朗姆酒 Añejo",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_applejack",
+      "name_en": "Applejack",
+      "name_zh": "苹果杰克烈酒",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_cherry",
+      "name_en": "Cherry",
+      "name_zh": "樱桃",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_dark_rum",
+      "name_en": "Dark rum",
+      "name_zh": "深色朗姆酒",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_peach_nectar",
+      "name_en": "Peach nectar",
+      "name_zh": "桃果蜜饮料",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_absolut_vodka",
+      "name_en": "Absolut Vodka",
+      "name_zh": "绝对伏特加",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_coconut_liqueur",
+      "name_en": "Coconut liqueur",
+      "name_zh": "椰子利口酒",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_ice",
+      "name_en": "Ice",
+      "name_zh": "冰",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_sherry",
+      "name_en": "Sherry",
+      "name_zh": "雪莉酒（类型看原文）",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_strawberry_schnapps",
+      "name_en": "Strawberry schnapps",
+      "name_zh": "草莓施纳普斯利口酒",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_southern_comfort",
+      "name_en": "Southern Comfort",
+      "name_zh": "南方安逸利口酒",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_sloe_gin",
+      "name_en": "Sloe gin",
+      "name_zh": "黑刺李金酒",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_lemon_vodka",
+      "name_en": "Lemon vodka",
+      "name_zh": "柠檬风味伏特加",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_blended_whiskey",
+      "name_en": "Blended whiskey",
+      "name_zh": "混合威士忌（产地未指定）",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_blackberry_brandy",
+      "name_en": "Blackberry brandy",
+      "name_zh": "黑莓白兰地（产品类型待确认）",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_kummel",
+      "name_en": "Kummel",
+      "name_zh": "莳萝葛缕子利口酒",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_creme_de_cacao",
+      "name_en": "Creme de Cacao",
+      "name_zh": "可可利口酒（色泽看原文）",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_light_cream",
+      "name_en": "Light cream",
+      "name_zh": "淡奶油",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_sour_mix",
+      "name_en": "Sour mix",
+      "name_zh": "酸甜调和液",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_tea",
+      "name_en": "Tea",
+      "name_zh": "茶",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_whipped_cream",
+      "name_en": "Whipped cream",
+      "name_zh": "打发奶油",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_wine",
+      "name_en": "Wine",
+      "name_zh": "葡萄酒（类型看原文）",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_tonic_water",
+      "name_en": "Tonic water",
+      "name_zh": "汤力水",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_sweet_and_sour",
+      "name_en": "Sweet and sour",
+      "name_zh": "酸甜调和液",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_lemonade",
+      "name_en": "Lemonade",
+      "name_zh": "柠檬饮料（含气性看产品）",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_blue_curacao",
+      "name_en": "Blue Curacao",
+      "name_zh": "蓝橙利口酒",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_pisang_ambon",
+      "name_en": "Pisang Ambon",
+      "name_zh": "Pisang Ambon 香蕉利口酒",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_galliano",
+      "name_en": "Galliano",
+      "name_zh": "加利亚诺草本利口酒",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_tia_maria",
+      "name_en": "Tia maria",
+      "name_zh": "添万利咖啡利口酒",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_maraschino_cherry",
+      "name_en": "Maraschino cherry",
+      "name_zh": "马拉斯奇诺樱桃",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_egg",
+      "name_en": "Egg",
+      "name_zh": "鸡蛋",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_nutmeg",
+      "name_en": "Nutmeg",
+      "name_zh": "肉豆蔻",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_powdered_sugar",
+      "name_en": "Powdered sugar",
+      "name_zh": "糖粉",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_cherry_brandy",
+      "name_en": "Cherry brandy",
+      "name_zh": "樱桃白兰地（产品类型待确认）",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_port",
+      "name_en": "Port",
+      "name_zh": "波特酒（类型未指定）",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_roses_sweetened_lime_juice",
+      "name_en": "Roses sweetened lime juice",
+      "name_zh": "Rose’s 加糖青柠汁",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_sprite",
+      "name_en": "Sprite",
+      "name_zh": "雪碧汽水",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_absolut_citron",
+      "name_en": "Absolut Citron",
+      "name_zh": "绝对柠檬伏特加",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_heavy_cream",
+      "name_en": "Heavy cream",
+      "name_zh": "厚奶油",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_milk",
+      "name_en": "Milk",
+      "name_zh": "牛奶",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_cream",
+      "name_en": "Cream",
+      "name_zh": "奶油（类型未指定）",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_jack_daniels",
+      "name_en": "Jack Daniels",
+      "name_zh": "杰克丹尼威士忌",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_midori_melon_liqueur",
+      "name_en": "Midori melon liqueur",
+      "name_zh": "蜜多丽蜜瓜利口酒",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_hpnotiq",
+      "name_en": "Hpnotiq",
+      "name_zh": "Hpnotiq 果味利口酒",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_banana_liqueur",
+      "name_en": "Banana Liqueur",
+      "name_zh": "香蕉利口酒",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_malibu_rum",
+      "name_en": "Malibu rum",
+      "name_zh": "马利宝椰子朗姆酒",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_gold_tequila",
+      "name_en": "Gold tequila",
+      "name_zh": "金色龙舌兰酒",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_cream_of_coconut",
+      "name_en": "Cream of coconut",
+      "name_zh": "加糖椰子奶油 Cream of coconut",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_pineapple",
+      "name_en": "Pineapple",
+      "name_zh": "菠萝",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_lime_juice_cordial",
+      "name_en": "Lime juice cordial",
+      "name_zh": "青柠浓缩调味液",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_passoa",
+      "name_en": "Passoa",
+      "name_zh": "帕索百香果利口酒",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_passion_fruit_juice",
+      "name_en": "Passion fruit juice",
+      "name_zh": "百香果汁",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_blueberries",
+      "name_en": "Blueberries",
+      "name_zh": "蓝莓",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_hot_chocolate",
+      "name_en": "Hot Chocolate",
+      "name_zh": "热巧克力",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_cherry_heering",
+      "name_en": "Cherry Heering",
+      "name_zh": "喜樱樱桃利口酒",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_raspberry_vodka",
+      "name_en": "Raspberry Vodka",
+      "name_zh": "覆盆子伏特加",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_cherry_grenadine",
+      "name_en": "Cherry Grenadine",
+      "name_zh": "樱桃石榴风味糖浆",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_spiced_rum",
+      "name_en": "Spiced rum",
+      "name_zh": "香料朗姆酒",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_pineapple_syrup",
+      "name_en": "Pineapple Syrup",
+      "name_zh": "菠萝糖浆",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_st_germain",
+      "name_en": "St. Germain",
+      "name_zh": "圣日耳曼接骨木花利口酒",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_pepper",
+      "name_en": "Pepper",
+      "name_zh": "胡椒（品种未指定）",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_lavender",
+      "name_en": "Lavender",
+      "name_zh": "薰衣草",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_apricot_nectar",
+      "name_en": "Apricot Nectar",
+      "name_zh": "杏桃果蜜饮料",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_pomegranate_juice",
+      "name_en": "Pomegranate juice",
+      "name_zh": "石榴汁",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_peach_vodka",
+      "name_en": "Peach Vodka",
+      "name_zh": "桃风味伏特加",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_sirup_of_roses",
+      "name_en": "Sirup of roses",
+      "name_zh": "玫瑰糖浆",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_kiwi",
+      "name_en": "Kiwi",
+      "name_zh": "猕猴桃",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_ricard",
+      "name_en": "Ricard",
+      "name_zh": "里卡尔茴香酒",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_baileys_irish_cream",
+      "name_en": "Baileys irish cream",
+      "name_zh": "百利爱尔兰奶油利口酒",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_creme_de_banane",
+      "name_en": "Creme De Banane",
+      "name_zh": "香蕉奶油利口酒",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_151_proof_rum",
+      "name_en": "151 proof rum",
+      "name_zh": "151度数朗姆酒（品牌看原文）",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_anis",
+      "name_en": "Anis",
+      "name_zh": "茴香酒 Anis",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_orange_peel",
+      "name_en": "Orange peel",
+      "name_zh": "橙皮",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_melon_liqueur",
+      "name_en": "Melon Liqueur",
+      "name_zh": "蜜瓜利口酒",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_beer",
+      "name_en": "Beer",
+      "name_zh": "啤酒（类型未指定）",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_7_up",
+      "name_en": "7-Up",
+      "name_zh": "七喜汽水",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_lemon_lime_soda",
+      "name_en": "Lemon-lime soda",
+      "name_zh": "柠檬青柠汽水",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_rosemary",
+      "name_en": "Rosemary",
+      "name_zh": "迷迭香",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_blackberries",
+      "name_en": "Blackberries",
+      "name_zh": "黑莓",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_cinnamon",
+      "name_en": "Cinnamon",
+      "name_zh": "肉桂",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_amaro_montenegro",
+      "name_en": "Amaro Montenegro",
+      "name_zh": "黑山苦味利口酒",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_ruby_port",
+      "name_en": "Ruby Port",
+      "name_zh": "红宝石波特酒",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_blood_orange",
+      "name_en": "Blood Orange",
+      "name_zh": "血橙（形态待确认）",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_advocaat",
+      "name_en": "Advocaat",
+      "name_zh": "蛋黄利口酒",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_anisette",
+      "name_en": "Anisette",
+      "name_zh": "茴香利口酒 Anisette",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_cherries",
+      "name_en": "Cherries",
+      "name_zh": "樱桃",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_peach_bitters",
+      "name_en": "Peach Bitters",
+      "name_zh": "桃味苦精",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_dubonnet_rouge",
+      "name_en": "Dubonnet Rouge",
+      "name_zh": "红杜本内开胃酒",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_sambuca",
+      "name_en": "Sambuca",
+      "name_zh": "桑布卡茴香利口酒",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_sarsaparilla",
+      "name_en": "Sarsaparilla",
+      "name_zh": "沙士",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_orange_spiral",
+      "name_en": "Orange spiral",
+      "name_zh": "螺旋橙皮",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_olive",
+      "name_en": "Olive",
+      "name_zh": "橄榄",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_lime_peel",
+      "name_en": "Lime peel",
+      "name_zh": "青柠皮",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_vanilla_ice_cream",
+      "name_en": "Vanilla ice-cream",
+      "name_zh": "香草冰淇淋",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_oreo_cookie",
+      "name_en": "Oreo cookie",
+      "name_zh": "奥利奥饼干",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_butterscotch_schnapps",
+      "name_en": "Butterscotch schnapps",
+      "name_zh": "太妃糖施纳普斯利口酒",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_jagermeister",
+      "name_en": "Jagermeister",
+      "name_zh": "野格草本利口酒",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_goldschlager",
+      "name_en": "Goldschlager",
+      "name_zh": "金箔肉桂利口酒",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_chocolate_ice_cream",
+      "name_en": "Chocolate ice-cream",
+      "name_zh": "巧克力冰淇淋",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    },
+    {
+      "id": "cdb_wild_turkey",
+      "name_en": "Wild Turkey",
+      "name_zh": "野火鸡威士忌（具体产品待确认）",
+      "role": "modifier",
+      "potential_allergens": [
+        "label_check"
+      ],
+      "allergen_status": "incomplete_requires_SKU_and_garnish_review",
+      "abv_fraction": null,
+      "sugar_g_per_100ml": null,
+      "kcal_per_100ml": null,
+      "density_g_per_ml": null,
+      "acidity_g_per_l": null,
+      "sku_confirmation_required": true
+    }
+  ]
+}

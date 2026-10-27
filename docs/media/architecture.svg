@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="740" viewBox="0 0 1200 740" role="img" aria-labelledby="title desc">
+  <title id="title">Programmer Mixology architecture</title>
+  <desc id="desc">Implemented path: source facts and taste targets enter deterministic rules, then a human reviews candidates. An optional local model only selects and names candidates. Approved host specifications and immutable snapshots are separate from local trials. Dashed research modules show future nutrition data, deterministic nutrient evaluation, and sensory calibration.</desc>
+  <defs>
+    <marker id="blue" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#83b4c7" stroke-width="1.5"/></marker>
+    <marker id="red" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#b9695c" stroke-width="1.5"/></marker>
+    <style>text{font-family:"Courier New",monospace}.heading{font-size:19px;font-weight:700;fill:#d0dcde}.body{font-size:15px;fill:#91adba}.note{font-size:13px;fill:#87a1aa}.box{fill:#0b1720;stroke:#567785;stroke-width:2}.future{fill:#0b141a;stroke:#58707c;stroke-width:2;stroke-dasharray:7 7}</style>
+  </defs>
+  <rect width="1200" height="740" fill="#03090d"/>
+  <rect x="16" y="16" width="1168" height="708" fill="none" stroke="#334d58"/>
+  <text x="40" y="52" class="heading">PROGRAMMER MIXOLOGY / ARCHITECTURE</text>
+  <text x="40" y="79" class="note">Solid lines: implemented responsibilities  |  Dashed boxes: research extensions</text>
+  <rect x="40" y="112" width="320" height="166" class="box"/>
+  <text x="60" y="145" class="heading">FACTS + TARGETS</text>
+  <text x="60" y="176" class="body">Source / revision / units</text>
+  <text x="60" y="203" class="body">5 tastes = 10 000 bps</text>
+  <text x="60" y="230" class="body">7 independent sensory axes</text>
+  <text x="60" y="256" class="note">Prediction is not measurement</text>
+  <rect x="440" y="112" width="320" height="166" class="box"/>
+  <text x="460" y="145" class="heading">DETERMINISTIC RULES</text>
+  <text x="460" y="176" class="body">Allowlist + actual SKU facts</text>
+  <text x="460" y="203" class="body">Dose / stock / glass limits</text>
+  <text x="460" y="230" class="body">Bounded candidate set</text>
+  <text x="460" y="256" class="note">Infeasible stays infeasible</text>
+  <rect x="840" y="112" width="320" height="166" class="box"/>
+  <text x="860" y="145" class="heading">HUMAN REVIEW</text>
+  <text x="860" y="176" class="body">Inspect / prepare / taste</text>
+  <text x="860" y="203" class="body">Trial is not a guest menu</text>
+  <text x="860" y="230" class="body">Approve a serving spec</text>
+  <text x="860" y="256" class="note">Keep real feedback separate</text>
+  <path d="M361 194H432" stroke="#83b4c7" stroke-width="2" fill="none" marker-end="url(#blue)"/>
+  <path d="M761 194H832" stroke="#83b4c7" stroke-width="2" fill="none" marker-end="url(#blue)"/>
+  <rect x="440" y="353" width="320" height="142" class="box"/>
+  <text x="460" y="386" class="heading">OPTIONAL LOCAL MODEL</text>
+  <text x="460" y="417" class="body">Select candidate + name it</text>
+  <text x="460" y="444" class="body">Strict schema / hash checks</text>
+  <text x="460" y="472" class="note">No doses, calories or authority</text>
+  <path d="M570 279V344" stroke="#83b4c7" stroke-width="2" fill="none" marker-end="url(#blue)"/>
+  <path d="M630 352V287" stroke="#b9695c" stroke-width="2" fill="none" marker-end="url(#red)"/>
+  <text x="452" y="320" class="note">candidates</text><text x="648" y="320" class="note">choice</text>
+  <rect x="840" y="353" width="320" height="142" class="box"/>
+  <text x="860" y="386" class="heading">PERSIST + ENFORCE</text>
+  <text x="860" y="417" class="body">SQLite / immutable snapshots</text>
+  <text x="860" y="444" class="body">Host: auth + ticket + stock</text>
+  <text x="860" y="472" class="note">Same request ID, one debit</text>
+  <path d="M1000 279V344" stroke="#83b4c7" stroke-width="2" fill="none" marker-end="url(#blue)"/>
+  <text x="40" y="387" class="heading">LOCAL FIRST</text>
+  <text x="40" y="418" class="body">React / TypeScript / Tauri 2</text>
+  <text x="40" y="445" class="body">Rust / SQLite / llama.cpp</text>
+  <text x="40" y="472" class="note">Model and LAN are opt-in</text>
+  <path d="M40 527H1160" stroke="#334d58"/>
+  <text x="40" y="559" class="heading">RESEARCH TRACK / NOT YET IMPLEMENTED</text>
+  <rect x="40" y="580" width="320" height="112" class="future"/>
+  <text x="60" y="613" class="heading">COMPOSITION DATA</text>
+  <text x="60" y="641" class="body">Licensed nutrient sources</text>
+  <text x="60" y="668" class="note">Missing values + provenance</text>
+  <rect x="440" y="580" width="320" height="112" class="future"/>
+  <text x="460" y="613" class="heading">NUTRITION EVALUATOR</text>
+  <text x="460" y="641" class="body">Units / yield / retention</text>
+  <text x="460" y="668" class="note">Deterministic per-serving math</text>
+  <rect x="840" y="580" width="320" height="112" class="future"/>
+  <text x="860" y="613" class="heading">SENSORY CALIBRATION</text>
+  <text x="860" y="641" class="body">Consented tasting experiments</text>
+  <text x="860" y="668" class="note">Versioned error + applicability</text>
+  <path d="M361 636H432" stroke="#58707c" stroke-width="2" stroke-dasharray="4 5" fill="none" marker-end="url(#blue)"/>
+  <path d="M761 636H832" stroke="#58707c" stroke-width="2" stroke-dasharray="4 5" fill="none" marker-end="url(#blue)"/>
+</svg>
