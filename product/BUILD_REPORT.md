@@ -58,3 +58,6 @@ The exported source tree was separately installed and tested: frozen pnpm instal
 The first offline dependency installation lacked cached metadata, so the normal frozen-lockfile install fetched the required locked packages. An initial parallel Rust check correctly refused to build before frontend `dist` existed; the complete workspace suite was rerun after the frontend build and passed. These failed attempts are retained locally.
 
 Git attributes preserve source-pack and supplied-original bytes instead of normalizing their line endings. Staged Git blobs for the seed, both immutable catalog packs, DLC, original DOCX, personal source and artwork metadata were compared byte-for-byte with the tested files. Local Git history, runtime records and credentials are not included in the new public history.
+
+Cloud Windows CI initially found a reference-test fixture read that depended on the system ANSI encoding. It now uses explicit UTF-8; the source fixture and application behavior are unchanged. The initial failed workflow remains in GitHub Actions history.
+

@@ -130,7 +130,7 @@ class TicketTests(unittest.TestCase):
 class AgentAndDataTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.req=json.loads((ROOT/'data/example_agent_request.json').read_text())
+        cls.req=json.loads((ROOT/'data/example_agent_request.json').read_text(encoding='utf-8'))
         cls.result=generate(cls.req)
     def test_full_seed_business_validation(self):
         self.assertEqual(validate()['recipes'],70)
