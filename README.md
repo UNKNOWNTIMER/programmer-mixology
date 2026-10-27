@@ -8,6 +8,12 @@
 
 <code>LOCAL FIRST</code> · <code>TASTE × RULES × AI</code> · <code>MIT CODE</code>
 
+### [↓ Download Windows EXE · v1.2.0](https://github.com/UNKNOWNTIMER/programmer-mixology/releases/download/v1.2.0/Programmer_Mixology_Setup_1.2.0_x64.exe)
+
+Windows 10/11 · x64 · Direct download, no GitHub sign-in required
+
+[Release notes](https://github.com/UNKNOWNTIMER/programmer-mixology/releases/tag/v1.2.0) · [SHA-256 checksums](https://github.com/UNKNOWNTIMER/programmer-mixology/releases/download/v1.2.0/SHA256SUMS.txt)
+
 [中文](README.zh-CN.md) · [User guide](docs/USAGE.md#english) · [Architecture](docs/ARCHITECTURE.md#english) · [Contributing](CONTRIBUTING.md#english)
 
 </div>
