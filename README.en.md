@@ -8,7 +8,7 @@
 
 <code>LOCAL FIRST</code> · <code>TASTE × RULES × AI</code> · <code>MIT CODE</code>
 
-[中文](README.md) · [User guide](docs/USAGE.md#english) · [Architecture](docs/ARCHITECTURE.md#english) · [Contributing](CONTRIBUTING.md#english)
+[中文](README.zh-CN.md) · [User guide](docs/USAGE.md#english) · [Architecture](docs/ARCHITECTURE.md#english) · [Contributing](CONTRIBUTING.md#english)
 
 </div>
 
@@ -40,7 +40,7 @@ Cocktails are the first application. The broader goal is to combine AI with expl
 | Seven sensory axes | Alcohol heat, aroma, body, carbonation, cooling, spiciness, finish; independent 0–10 sliders |
 | ASCII glass | Individual colored character portraits, information hotspots, quotes, random selection; library and favorites at the top right |
 
-The desktop workbench uses a fixed layout, **125% default text size**, and full motion by default. Random and preset selection animate sliders toward their new positions; the five displayed integer percentages still total **100% on every frame**.
+New profiles start in **English**. Select 中文 in Settings → General → Language to switch languages. Valid saved language preferences are preserved on upgrade. The desktop workbench uses a fixed layout, **125% default text size**, and full motion by default. Random and preset selection animate sliders toward their new positions; the five displayed integer percentages still total **100% on every frame**.
 
 The library supports custom recipes, duplication, editing, hiding, deletion, and restoration. A .timermix archive stores a complete recipe snapshot, separate user target and prediction, provenance, and a recipe-specific pixel icon. Export surfaces include the library, ASCII glass, TIMER tag, and queue. On Windows, the main workbench supports file clipboard **Ctrl+C / Ctrl+V**. See the [user guide](docs/USAGE.md#english) for behavior and limits.
 
@@ -52,6 +52,13 @@ The bundled catalog contains **396 working drink recipes**: 300 base-library rec
 
 **Xiaodong created and compiled the notebook.** The DLC preserves its experiences, quotes, and original ingredient descriptions. Missing details are completed through separately identified suggestions and estimates; these additions are not presented as Xiaodong's tested conclusions. The source notebook and authorized material are included with this open-source project. See [third-party and source notices](product/THIRD_PARTY_NOTICES.md) for attribution and rights.
 
+### Authorized source material
+
+- [Xiaodong's original cocktail notebook (DOCX)](product/data/dlc/xiaodong/source.docx): the authored notebook with its original experiences and quotes.
+- [Zhenglin Soup original description (TXT)](product/data/personal/zhenglin-soup/source.txt): the complete user-supplied source text.
+- [Zhenglin Soup structured recipe (recipe.json)](product/data/personal/zhenglin-soup/recipe.json): source data for development and inspection. This is not a .timermix archive; changing its extension does not make it importable.
+
+These materials are authorized for publication with this project. Actual user databases, accounts, and orders remain private.
 The DLC has its own group under **Recipe library → Custom** and is **enabled by default**. Toggle it to include or exclude the group from the workbench, matching, random selection, and presets. Disabling it does not delete its data or separately imported personal copies. Personal databases, accounts, orders, reviews, queues, and runtime credentials are excluded from public source and installer distribution.
 
 ## ▸ From cocktails to recipe exploration

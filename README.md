@@ -2,13 +2,13 @@
 
 ![Programmer Mixology · 程序员调酒台](docs/media/programmer-mixology.svg)
 
-# 程序员调酒台
+# Programmer Mixology
 
-**Programmer Mixology**
+**程序员调酒台**
 
 <code>LOCAL FIRST</code> · <code>TASTE × RULES × AI</code> · <code>MIT CODE</code>
 
-[English](README.en.md) · [使用说明](docs/USAGE.md) · [架构与研究方向](docs/ARCHITECTURE.md) · [参与开发](CONTRIBUTING.md)
+[中文](README.zh-CN.md) · [User guide](docs/USAGE.md#english) · [Architecture](docs/ARCHITECTURE.md#english) · [Contributing](CONTRIBUTING.md#english)
 
 </div>
 
@@ -20,58 +20,65 @@
 +----------------------------------------------------------+
 ~~~
 
-**程序员调酒台是一款本地优先的像素风调酒工作台，也是面向食谱探索的开放架构实验。** 它把经典酒谱、五味偏好、七维感官、规则生成、可选本地模型和可追溯的实际反馈放在同一个工作流程里。
+**Programmer Mixology is a local-first pixel-art cocktail workbench and an open architecture experiment for recipe exploration.** It brings source-linked recipes, five taste preferences, seven sensory dimensions, rule-based generation, an optional local model, and traceable real-world feedback into one workflow.
 
-调酒是第一种应用场景。更长远的目标是让 AI 与明确的原料数据、营养计算和人类味觉反馈协作，提出、补全和比较新的食谱。模型负责受约束的建议，确定性程序负责数值与边界，人负责试作和评价。**当前已实现调酒领域的规则候选与本地模型适配层；通用食谱、完整营养优化和经过实验校准的味觉预测仍是研究方向。**
+Cocktails are the first application. The broader goal is to combine AI with explicit ingredient data, nutrition calculations, and human taste feedback to propose, complete, and compare new recipes. The model makes bounded suggestions; deterministic code owns numerical constraints; people prepare and evaluate the result. **The current implementation covers cocktail candidates and a controlled local-model adapter. General food recipes, comprehensive nutrition optimization, and experimentally calibrated taste prediction remain research directions.**
 
-## ▸ 工作台
+## ▸ The workbench
 
-![中文版工作台](docs/media/workbench-zh.png)
+![English workbench](docs/media/workbench-en.png)
 
-*Windows 原生应用工作台。字符杯图、五味与七维控制杆组成固定七区布局。*
+*The native Windows workbench: character art, five taste controls, and seven sensory axes in a fixed seven-panel layout.*
 
-| 区域 | 操作与用途 |
+| Area | Interaction and purpose |
 | :--- | :--- |
-| 酒名 | 中英文名称、来源与版本入口 |
-| 配料 | 悬停展开窗口外的配料与步骤，点击固定；查看成杯、酒精度及热量估算 |
-| 设置与生成 | 中英文界面、字号与动态效果、AI 模式、库存与排除、主机管理 |
-| TIMER 标签与队列 | 把当前酒加入制作队列，重复导入、调整顺序、逐杯完成；进入账户与票据管理 |
-| 五味 | 甜、酸、苦、咸、鲜；拖动或滚轮调整，双击锁定，附近白色预设快速切换 |
-| 七维感官 | 酒精感、香气、酒体、气泡、清凉感、辣感、味韵；独立的 0–10 分控制杆 |
-| ASCII 酒杯 | 逐杯彩色字符画像、资料热点、酒语、随机切换；右上角打开酒谱库与收藏 |
+| Drink name | Chinese and English names, source and revision access |
+| Ingredients | Hover to open an external recipe window; click to pin it; inspect steps and estimated serving volume, ABV, and energy |
+| Settings and generation | Language, text scale, motion, AI mode, inventory and exclusions, host administration |
+| TIMER tag and queue | Add the current drink, import duplicates, reorder, and complete items; access accounts and tickets |
+| Five tastes | Sweet, sour, bitter, salty, umami; drag or scroll, double-click to lock, select nearby white preset marks |
+| Seven sensory axes | Alcohol heat, aroma, body, carbonation, cooling, spiciness, finish; independent 0–10 sliders |
+| ASCII glass | Individual colored character portraits, information hotspots, quotes, random selection; library and favorites at the top right |
 
-桌面主窗口固定布局，默认字号 **125%**，默认保留完整动态效果。随机或预设切换时，滑块平滑移动；显示的五味整数每一帧仍合计 **100%**。
+New profiles start in **English**. Select 中文 in Settings → General → Language to switch languages. Valid saved language preferences are preserved on upgrade. The desktop workbench uses a fixed layout, **125% default text size**, and full motion by default. Random and preset selection animate sliders toward their new positions; the five displayed integer percentages still total **100% on every frame**.
 
-酒谱库支持自定义添加、复制、编辑、隐藏、删除与恢复。.timermix 文件携带完整酒谱快照、独立目标、配方预测、出处与逐杯像素图标，可从酒谱库、ASCII 杯图、TIMER 标签和队列导出；Windows 文件剪贴板支持主工作台 **Ctrl+C / Ctrl+V**。具体操作和适用边界见[使用说明](docs/USAGE.md)。
+The library supports custom recipes, duplication, editing, hiding, deletion, and restoration. A .timermix archive stores a complete recipe snapshot, separate user target and prediction, provenance, and a recipe-specific pixel icon. Export surfaces include the library, ASCII glass, TIMER tag, and queue. On Windows, the main workbench supports file clipboard **Ctrl+C / Ctrl+V**. See the [user guide](docs/USAGE.md#english) for behavior and limits.
 
-## ▸ 酒谱与小董笔记 DLC
+## ▸ Recipes and Xiaodong's notebook DLC
 
-![小董调酒笔记 DLC](docs/media/catalog-dlc.png)
+![Xiaodong notebook DLC](docs/media/catalog-dlc.png)
 
-内置 **396 杯饮品工作配方**：300 杯基础酒谱，以及 **96 杯小董调酒笔记 DLC**。基础库包含 IBA 参考版本、社区来源记录和经授权公开的个人笔记；它们不是 396 杯经官方认证的经典，也不是 396 份实测味觉数据。
+The bundled catalog contains **396 working drink recipes**: 300 base-library records and **96 recipes in the Xiaodong notebook DLC**. The base library combines IBA reference revisions, community records, and personal notes authorized for this release. These are not 396 officially certified classics or 396 experimentally measured taste profiles.
 
-**小董是这份调酒笔记的制作与归纳者。** DLC 保留其体验、酒语和原始材料记述；缺少的信息由独立的建议版本和估算补全，不能把补全内容归为小董的实作结论。原稿和授权材料随本次开源项目一并提供，出处和权利范围见[第三方与资料声明](product/THIRD_PARTY_NOTICES.md)。
+**Xiaodong created and compiled the notebook.** The DLC preserves its experiences, quotes, and original ingredient descriptions. Missing details are completed through separately identified suggestions and estimates; these additions are not presented as Xiaodong's tested conclusions. The source notebook and authorized material are included with this open-source project. See [third-party and source notices](product/THIRD_PARTY_NOTICES.md) for attribution and rights.
 
-DLC 在“经典酒谱库 → 自定义”中单独分组，**默认启用**。点击开关可让整组退出或重新进入工作台、匹配、随机和预设；关闭不会删除资料，也不会删除另行导入的个人副本。个人数据库、账号、订单、评价、队列和运行凭据不随源码或安装包公开。
+### Authorized source material
 
-## ▸ 从调酒走向食谱探索
+- [Xiaodong's original cocktail notebook (DOCX)](product/data/dlc/xiaodong/source.docx): the authored notebook with its original experiences and quotes.
+- [Zhenglin Soup original description (TXT)](product/data/personal/zhenglin-soup/source.txt): the complete user-supplied source text.
+- [Zhenglin Soup structured recipe (recipe.json)](product/data/personal/zhenglin-soup/recipe.json): source data for development and inspection. This is not a .timermix archive; changing its extension does not make it importable.
 
-![数据、规则、模型与真实反馈的分工](docs/media/architecture.svg)
+These materials are authorized for publication with this project. Actual user databases, accounts, and orders remain private.
+The DLC has its own group under **Recipe library → Custom** and is **enabled by default**. Toggle it to include or exclude the group from the workbench, matching, random selection, and presets. Disabling it does not delete its data or separately imported personal copies. Personal databases, accounts, orders, reviews, queues, and runtime credentials are excluded from public source and installer distribution.
 
-这个项目希望逐步形成可检查、可替换、可复现的实验流程：
+## ▸ From cocktails to recipe exploration
 
-1. **表达偏好**：记录想达到的味觉、质感、香气与限制条件。
-2. **建立原料事实**：明确来源、单位、实际品牌、营养成分、可用量与处理方式。
-3. **提出候选**：用领域规则缩小范围，让 AI 在允许的候选与表达空间里协作。
-4. **独立计算**：由程序计算剂量、容量、营养估计和约束违反情况，保留缺失值与假设。
-5. **真实试作**：人确认、制作、品尝，记录配方版本及结果。
-6. **逐步校准**：用真实反馈修正预测，比较不同假设，而不是把生成的分数当作事实。
+![Separation of facts, rules, models, and real feedback](docs/media/architecture.svg)
 
-目前的热量和酒精度显示是基于来源数据、类别假设与份量约定的**估算**。项目尚无完整的宏量／微量营养数据库、烹饪损耗模型、个体营养处方或经过感官实验验证的预测器。它不把酒精饮品描述成营养改善方案，也不提供医疗饮食建议。未来架构同样可以用于无酒精饮品和普通食物。
+The intended research loop is inspectable, replaceable, and reproducible:
 
-详见[架构文档中的扩展路线](docs/ARCHITECTURE.md#research-roadmap)。
+1. **Express a preference:** record desired taste, texture, aroma, and exclusions.
+2. **Establish ingredient facts:** identify sources, units, actual products, composition, available quantities, and preparation methods.
+3. **Propose candidates:** narrow the search with domain rules and let AI assist within permitted choices.
+4. **Calculate independently:** compute doses, capacity, nutrition estimates, and constraint violations in code; retain unknowns and assumptions.
+5. **Prepare and evaluate:** let people review, make, taste, and record a specific recipe revision.
+6. **Calibrate from evidence:** revise predictions using real feedback and compare hypotheses without treating generated scores as measurements.
 
-## ▸ 几条始终成立的规则
+Current volume, ABV, and energy values are **estimates** derived from source data, category assumptions, and serving conventions. The project does not yet provide a comprehensive macro/micronutrient database, cooking-loss model, personalized nutrition prescription, or sensory-experiment-validated predictor. It does not present alcoholic drinks as a nutrition intervention or provide medical dietary advice. The longer-term architecture can also support nonalcoholic drinks and ordinary foods.
+
+See the [research roadmap](docs/ARCHITECTURE.md#research-roadmap).
+
+## ▸ Invariants
 
 ~~~text
 sweet + sour + bitter + salty + umami = 10_000 integer bps
@@ -82,48 +89,48 @@ archive import != guest-menu approval
 request retry != another ticket debit
 ~~~
 
-- 五味业务数据使用整数基点，显示层用最大余数法分配整数百分比。五味是偏好坐标，**不是配料体积百分比**。
-- 七维独立，不归一；“酒精感”不等于 ABV，“清凉感”不等于温度。
-- AI 不决定原料剂量、热量、账户权限或扣票结果。当前模型输出只允许候选 ID 与中英文名字。
-- 规则／AI 试调默认待审核，不能直接成为客人可点菜单。
-- 主机以一个事务保存扣票、库存变化、不可变订单快照和 outbox 事件；相同请求 ID 重试不会重复扣票。
-- 个人数据保存在本机 SQLite。没有默认管理员密码，不自动下载模型，不自动开启局域网服务。
+- Taste business values are integer basis points. The display uses largest-remainder allocation to produce whole percentages. These are preference coordinates, **not ingredient volume percentages**.
+- Sensory axes are independent. Alcohol heat is not ABV; cooling is not temperature.
+- AI cannot set ingredient doses, calories, permissions, or ticket outcomes. The current model response accepts only a candidate ID and Chinese/English names.
+- Generated trials remain pending review and cannot directly become guest-orderable menu entries.
+- The host commits ticket debit, inventory changes, an immutable order snapshot, and an outbox event in one transaction. Replaying the same request ID does not debit another ticket.
+- Personal state is stored in local SQLite. There is no default administrator password, automatic model download, or automatically enabled LAN listener.
 
-## ▸ 当前能力与验证边界
+## ▸ Implementation and acceptance boundaries
 
-| 能力 | 当前状态 |
+| Capability | Current state |
 | :--- | :--- |
-| Windows 桌面、七区像素 UI、酒谱与个人库 | 已有实现；本次版本的实际构建结果见发布页与构建报告 |
-| 五味约束、七维匹配、规则试调 | 已有确定性实现与自动化测试 |
-| .timermix、制作队列、SQLite 持久化 | 已有原生实现；物理跨窗口拖放仍需按发布说明核对验收范围 |
-| 局域网账户、TLS、票据与订单 | 已有服务与协议实现；两台物理设备的完整流程尚未完成验收 |
-| 受控 llama.cpp 适配层 | 已有进程管理、校验与回退；未随项目提供模型或宣称完成真实模型性能验收 |
-| 营养学与通用食谱优化 | 架构扩展方向；目前仅有调酒领域的成杯、ABV 与热量估算 |
-| Android / iOS / macOS | 尚无本次发布验证过的原生安装产物；响应式界面不等于移动应用验收 |
+| Windows desktop, seven-panel UI, catalog and personal library | Implemented; consult the release and build report for this version's actual results |
+| Taste constraints, sensory matching, rule-based trials | Deterministic implementation with automated tests |
+| .timermix, production queue, SQLite persistence | Native implementation; consult release notes for the exact physical cross-window drag-and-drop acceptance scope |
+| LAN accounts, TLS, tickets and orders | Service and protocol implementation exists; complete acceptance across two physical devices remains open |
+| Controlled llama.cpp adapter | Process management, validation, and fallback implemented; no model is bundled and no real-model performance acceptance is claimed |
+| Nutrition and general-recipe optimization | Architectural direction; currently limited to cocktail serving volume, ABV, and energy estimates |
+| Android / iOS / macOS | No native artifact validated for this release; responsive UI checks do not establish mobile acceptance |
 
-**1.2.0 是本次开源命名版本。** 历史本机测试记录不能替代当前发布物验收；实际命令、通过项与未验证项以 [BUILD_REPORT](product/BUILD_REPORT.md)、[STATUS](product/STATUS.md) 和对应 [GitHub Release](https://github.com/UNKNOWNTIMER/programmer-mixology/releases) 为准。
+**1.2.0 is the open-source naming release.** Historical local tests are not proof for a new artifact. Actual commands, passing checks, and unverified areas are recorded in [BUILD_REPORT](product/BUILD_REPORT.md), [STATUS](product/STATUS.md), and the corresponding [GitHub Release](https://github.com/UNKNOWNTIMER/programmer-mixology/releases).
 
-## ▸ 获取与运行
+## ▸ Get and run
 
-仓库：**[UNKNOWNTIMER/programmer-mixology](https://github.com/UNKNOWNTIMER/programmer-mixology)**。欢迎 **Fork、拉取代码、创建分支并提交 Pull Request**。
+Repository: **[UNKNOWNTIMER/programmer-mixology](https://github.com/UNKNOWNTIMER/programmer-mixology)**. **Forks, clones, feature branches, and pull requests are welcome.**
 
-Windows 用户可以从 [Releases](https://github.com/UNKNOWNTIMER/programmer-mixology/releases) 获取该版本实际列出的安装产物及校验值。只把 Release 中明确列出的 .exe 视为 Windows 安装包；GitHub 自动生成的 Source code ZIP / tar.gz 是源码。安装器为当前用户模式，需已有 WebView2；签名状态以该版本说明为准。
+Windows users can obtain the actual artifacts and checksums listed under [Releases](https://github.com/UNKNOWNTIMER/programmer-mixology/releases). An explicitly listed .exe is the Windows installer; GitHub's automatically generated Source code ZIP / tar.gz files are source archives. The installer uses current-user installation and requires an existing WebView2 runtime. Check the individual release for signing status.
 
-### 开发环境
+### Development environment
 
-| 工具 | 要求 |
+| Tool | Requirement |
 | :--- | :--- |
-| Node.js | 24.x；使用与锁文件兼容的环境 |
-| pnpm | 11.25.0，与本项目选定工具链一致 |
-| Rust | stable，Windows 使用 x86_64-pc-windows-msvc |
-| Windows 构建工具 | Visual Studio Build Tools 的 C++ 工作负载与 Windows SDK |
-| WebView2 | Windows 原生运行时 |
-| Python | 3.10+，只用于参考算法、数据检查及开发脚本 |
-| NSIS | 仅在构建定制 Windows 像素安装器时需要 |
+| Node.js | 24.x; use a lockfile-compatible environment |
+| pnpm | 11.25.0, matching the project's selected toolchain |
+| Rust | stable; x86_64-pc-windows-msvc on Windows |
+| Windows build tools | Visual Studio Build Tools C++ workload and Windows SDK |
+| WebView2 | Windows native runtime |
+| Python | 3.10+ for reference specifications, data checks, and development scripts only |
+| NSIS | Required only for the custom Windows pixel installer |
 
-SQLite 随 Rust 依赖构建；不需要单独部署数据库服务。模型权重和 llama.cpp 可执行文件由使用者自行准备，不属于基础构建依赖。
+SQLite is built through the Rust dependencies; no separate database server is required. Model weights and the llama.cpp executable are optional user-supplied files, not basic build dependencies.
 
-在已配置 MSVC 的 **Developer PowerShell for VS** 中执行：
+Run in **Developer PowerShell for VS** with MSVC configured:
 
 ~~~powershell
 git clone https://github.com/UNKNOWNTIMER/programmer-mixology.git
@@ -134,33 +141,33 @@ pnpm --dir product/apps/client test
 pnpm --dir product/apps/client build
 cargo test --workspace --locked --manifest-path product/Cargo.toml
 
-# 启动真实 Tauri 桌面应用
+# Start the real Tauri desktop application
 pnpm --dir product/apps/client tauri dev
 ~~~
 
-仅查看浏览器 UI：
+For browser-only UI development:
 
 ~~~powershell
 pnpm --dir product/apps/client dev
 ~~~
 
-浏览器模式不提供原生 SQLite、Windows 文件接口、主机管理或本地模型进程，不能替代桌面验收。
+Browser mode does not provide native SQLite, Windows file integration, host administration, or local-model processes and is not a substitute for desktop acceptance.
 
 ~~~powershell
-# 构建 Windows release 可执行程序
+# Build the Windows release executable
 cargo build --release --locked --manifest-path product/Cargo.toml -p pixel-mix
 
-# 构建定制像素安装器（需满足脚本检查的本机工具要求）
+# Build the custom pixel installer after satisfying its tool preflight
 ./product/scripts/build-windows-installer.ps1
 
-# 独立的参考算法与数据检查
+# Separate reference algorithm and seed-data checks
 python -m unittest discover -s tests -v
 python scripts/validate_seed.py
 ~~~
 
-内部 pixel-mix crate／可执行文件名及 local.pixelmix.workbench 应用标识继续保留，以兼容既有数据和升级；界面品牌已改为“程序员调酒台”。旧 .pixelmix 存档仍可读取，新输出使用 .timermix。
+The internal pixel-mix crate/executable name and local.pixelmix.workbench app identifier remain unchanged for data and upgrade compatibility. Visible branding is now Programmer Mixology / 程序员调酒台. Older .pixelmix archives remain readable; new exports use .timermix.
 
-## ▸ 项目结构
+## ▸ Repository map
 
 ~~~text
 programmer-mixology/
@@ -181,16 +188,16 @@ programmer-mixology/
 |-- docs/                     Bilingual project documentation
 ~~~
 
-## ▸ 许可证、来源与参与
+## ▸ License, provenance, and contribution
 
-项目原创代码及明确授权以同一协议发布的材料按 [MIT License](LICENSE) 开放，允许使用、修改和分发，包括商业用途；应保留许可证规定的版权与许可声明。小董笔记等材料的作者归属继续保留。
+Original project code and material explicitly authorized for publication under the same terms are available under the [MIT License](LICENSE), permitting use, modification, and distribution, including commercial use, subject to its copyright and permission notice requirements. Author attribution for materials such as Xiaodong's notebook is retained.
 
-**代码许可不替代第三方材料的许可。** 依赖、字体、来源酒谱和独立数据集遵循各自的权利声明。来源链接用于追溯制作事实，不代表获得整站内容的再分发授权；感官数值是编辑性预测，不是来源机构认证的分数。详见 [第三方声明](product/THIRD_PARTY_NOTICES.md)。
+**The code license does not replace third-party rights.** Dependencies, fonts, source-linked recipe data, and independent datasets retain their own notices. Citations make preparation facts traceable; they do not establish permission to redistribute an entire source database. Sensory values are editorial predictions, not source-publisher-certified measurements. See [third-party notices](product/THIRD_PARTY_NOTICES.md).
 
-欢迎贡献新规则、营养数据适配器、感官实验设计、ASCII 美术、翻译与平台适配，从 [CONTRIBUTING](CONTRIBUTING.md) 开始。公共 Fork 不自动获得上游写权限；变更通过分支与 PR 审阅进入项目。
+Contributions may include rules, nutrition-data adapters, sensory experiment design, ASCII art, translations, and platform adapters. Start with [CONTRIBUTING](CONTRIBUTING.md#english). A public fork does not grant upstream write access; changes are reviewed through branches and pull requests.
 
 ~~~text
 [ OWNER: UNKNOWNTIMER ]  [ VERSION: 1.2.0 ]  [ MODE: OPEN SOURCE ]
 ~~~
 
-开发者：[UNKNOWNTIMER](https://github.com/UNKNOWNTIMER)
+Developer: [UNKNOWNTIMER](https://github.com/UNKNOWNTIMER)

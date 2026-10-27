@@ -33,10 +33,10 @@ describe('personal recipe editor state and bilingual presentation',()=>{
  it('accepts an explicitly unknown dose without fabricating a volume',()=>{
    const draft=valid();draft.ingredients[0].quantity=null;draft.ingredients[0].unit='to_taste';expect(recipeDraftErrors(draft,ingredients)).toEqual([]);expect(prepareRecipeDraft(draft,'Stir.').ingredients[0].quantity).toBeNull();
  });
- it('renders Chinese by default and a complete English editor with all catalog options',()=>{
+ it('renders English by default and preserves the complete explicit Chinese editor',()=>{
    const props={ingredients,initial:valid(),initialTarget:target,onSave:async()=>{},onCancel:()=>{}};
-   const zh=renderToStaticMarkup(<RecipeEditor {...props}/>);expect(zh).toContain('使用当前味觉');expect(zh).toContain('金酒');expect(zh).not.toContain('未验证先验');
-   const en=renderToStaticMarkup(<I18nProvider language="en"><RecipeEditor {...props}/></I18nProvider>);expect(en).toContain('Use current taste');expect(en).toContain('Gin');expect(en).toContain('Save custom recipe');expect(en).not.toMatch(/[\u3400-\u9fff]/);
+   const zh=renderToStaticMarkup(<I18nProvider language="zh"><RecipeEditor {...props}/></I18nProvider>);expect(zh).toContain('使用当前味觉');expect(zh).toContain('金酒');expect(zh).not.toContain('未验证先验');
+   const en=renderToStaticMarkup(<RecipeEditor {...props}/>);expect(en).toContain('Use current taste');expect(en).toContain('Gin');expect(en).toContain('Save custom recipe');expect(en).not.toMatch(/[\u3400-\u9fff]/);
  });
  it('accepts copied source recipe drafts without changing original quantities or source records',()=>{
    const records=sourceRecipes.recipes as unknown as Recipe[],directory=sourceIngredients.ingredients as Ingredient[],before=JSON.stringify(sourceRecipes);

@@ -5,6 +5,7 @@ import { invoke } from '@tauri-apps/api/core';
 import { listen } from '@tauri-apps/api/event';
 import { native } from './bridge';
 import { GlassDetails, type GlassDetailKind } from './GlassDetails';
+import { normalizeLanguage } from './language';
 import type { Ingredient, Profile, Recipe, Target } from './types';
 import './glass-window.css';
 
@@ -151,7 +152,7 @@ export function GlassPopupWindow(){
     resize();return()=>{disposed=true;cancelAnimationFrame(frame);observer.disconnect();mutation.disconnect();};
   },[snapshot,fontsReady]);
   const payload=snapshot?.payload;
-  return <I18nProvider language={payload?.language==='en'?'en':'zh'}><Localized><div ref={root} className="glass-popup-shell" data-callout-side={snapshot?.placement.side} onMouseEnter={enter} onMouseMove={enter} onMouseLeave={leave}>
+  return <I18nProvider language={normalizeLanguage(payload?.language)}><Localized><div ref={root} className="glass-popup-shell" data-callout-side={snapshot?.placement.side} onMouseEnter={enter} onMouseMove={enter} onMouseLeave={leave}>
     {payload&&<GlassDetails kind={payload.kind} recipe={payload.recipe} ingredients={payload.ingredients} profile={payload.profile||undefined} target={payload.target||undefined} onClose={()=>action('close')}/>}
     {error&&<p role="alert">{error}</p>}
   </div></Localized></I18nProvider>;

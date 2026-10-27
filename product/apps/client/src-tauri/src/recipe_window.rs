@@ -105,7 +105,7 @@ pub async fn recipe_window_update(
             "recipe-details",
             WebviewUrl::App("index.html?view=recipe".into()),
         )
-        .title("TIMER · 配料")
+        .title("Programmer Mixology · Ingredients")
         .inner_size(370.0, 700.0)
         .resizable(false)
         .maximizable(false)

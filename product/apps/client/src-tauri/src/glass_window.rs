@@ -50,7 +50,7 @@ pub struct Payload {
     anchor: Anchor,
 }
 fn default_language() -> String {
-    "zh".into()
+    "en".into()
 }
 #[derive(Clone, Debug, Serialize)]
 pub struct Placement {
@@ -383,7 +383,7 @@ pub async fn glass_window_update(
         ready = false;
         state.0.lock().map_err(|e| e.to_string())?.ready_token = None;
         WebviewWindowBuilder::new(&app, LABEL, WebviewUrl::App("index.html?view=glass".into()))
-            .title("TIMER · 酒杯资料")
+            .title("Programmer Mixology · Glass details")
             .inner_size(WIDTH, 300.0)
             .decorations(false)
             .shadow(false)
@@ -571,6 +571,33 @@ pub fn on_window_event(window: &tauri::Window, event: &tauri::WindowEvent) {
 #[cfg(test)]
 mod tests {
     use super::*;
+    #[test]
+    fn legacy_payload_without_language_defaults_to_english_and_preserves_explicit_choices() {
+        let mut value = json!({
+            "token": "TEST-language-1",
+            "kind": "facts",
+            "recipe": {},
+            "ingredients": [],
+            "profile": null,
+            "target": null,
+            "anchor": {
+                "x": 550.0, "y": 400.0, "left_x": 450.0,
+                "right_x": 650.0, "end_y": 366.0, "preferred_side": "right"
+            }
+        });
+        let legacy: Payload = serde_json::from_value(value.clone()).unwrap();
+        assert_eq!(legacy.language, "en");
+        assert!(validate(&legacy).is_ok());
+        for language in ["zh", "en"] {
+            value["language"] = json!(language);
+            let explicit: Payload = serde_json::from_value(value.clone()).unwrap();
+            assert_eq!(explicit.language, language);
+            assert!(validate(&explicit).is_ok());
+        }
+        value["language"] = json!("unsupported");
+        let invalid: Payload = serde_json::from_value(value).unwrap();
+        assert!(validate(&invalid).is_err());
+    }
     fn anchor(side: Side) -> Anchor {
         Anchor {
             x: 550.0,

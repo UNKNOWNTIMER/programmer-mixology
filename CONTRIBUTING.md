@@ -1,6 +1,6 @@
 # ▸ 参与开发 / Contributing
 
-[中文首页](README.md) · [English README](README.en.md) · [English section](#english)
+[English README](README.md) · [中文首页](README.zh-CN.md) · [English section](#english)
 
 ~~~text
 FORK -> FEATURE BRANCH -> LOCAL CHECKS -> PULL REQUEST -> REVIEW
@@ -12,7 +12,7 @@ FORK -> FEATURE BRANCH -> LOCAL CHECKS -> PULL REQUEST -> REVIEW
 
 ### 开始一个改动
 
-先阅读 [README](README.md) 和 [架构](docs/ARCHITECTURE.md)。较大的数据契约、营养算法、账户权限或平台改动，建议先用 Issue 说明问题、预期行为与验证方法。小修复可以直接提交 PR。
+先阅读 [README](README.zh-CN.md) 和 [架构](docs/ARCHITECTURE.md)。较大的数据契约、营养算法、账户权限或平台改动，建议先用 Issue 说明问题、预期行为与验证方法。小修复可以直接提交 PR。
 
 ~~~powershell
 # 先在 GitHub 上 Fork 到自己的账号
@@ -82,7 +82,7 @@ Contributions to code, documentation, translation, ASCII art, rules, licensed in
 
 ### Start a change
 
-Read the [README](README.en.md) and [architecture](docs/ARCHITECTURE.md#english). For substantial schema, nutrition, authority, or platform changes, an issue describing the problem, intended behavior, and validation method is helpful. Small fixes can go directly to a PR.
+Read the [README](README.md) and [architecture](docs/ARCHITECTURE.md#english). For substantial schema, nutrition, authority, or platform changes, an issue describing the problem, intended behavior, and validation method is helpful. Small fixes can go directly to a PR.
 
 Fork the repository, then use the commands above with YOUR_ACCOUNT replaced by your GitHub login. Work on a focused feature branch.
 

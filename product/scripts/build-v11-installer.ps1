@@ -87,7 +87,7 @@ $timerDefinitions | Set-Content -LiteralPath (Join-Path $timerBuild 'payload.nsh
 $timerInstallLines | Set-Content -LiteralPath (Join-Path $timerBuild 'install-resources.nsh') -Encoding utf8
 $timerRemoveLines | Set-Content -LiteralPath (Join-Path $timerBuild 'uninstall-resources.nsh') -Encoding utf8
 $timerManifest = [ordered]@{
-    application='程序员调酒台'; english_name='Programmer Mixology'; version='1.2.0'; architecture='x64'; payload_sha256=$timerDigest
+    application='Programmer Mixology'; chinese_name='程序员调酒台'; version='1.2.0'; architecture='x64'; payload_sha256=$timerDigest
     payload_product_version=$timerVersion; installer='NSIS + native pixel chrome'; scope='currentUser'
     preview_only=[bool]$PreviewOnly; data_preserved='%LOCALAPPDATA%/local.pixelmix.workbench'
     resources=@($timerResources.Relative)

@@ -1,6 +1,6 @@
 # ▸ 使用说明 / User guide
 
-[中文首页](../README.md) · [English README](../README.en.md) · [English section](#english)
+[English README](../README.md) · [中文首页](../README.zh-CN.md) · [English section](#english)
 
 ~~~text
 BROWSE -> ADJUST -> INSPECT -> QUEUE -> MAKE -> RECORD
@@ -10,7 +10,7 @@ BROWSE -> ADJUST -> INSPECT -> QUEUE -> MAKE -> RECORD
 
 ### 开始使用
 
-打开程序员调酒台后，可以直接在本机浏览酒谱，不必先配置模型或局域网账户。默认中文、125%字号和完整动态效果；在“设置 → 常规”切换 English、字号、启动动画或减少动态。“关于”包含版本与开发者信息。
+打开程序员调酒台后，可以直接在本机浏览酒谱，不必先配置模型或局域网账户。新用户默认 English、125%字号和完整动态效果；在“Settings → General → Language”可选择中文，也可调整字号、启动动画或减少动态。已经保存的有效语言偏好会保留。“关于”包含版本与开发者信息。
 
 浏览器开发页仅用于 UI 开发；需要 SQLite、存档文件、Windows 剪贴板、主机或模型时，请运行 Tauri 桌面应用。
 
@@ -73,7 +73,7 @@ BROWSE -> ADJUST -> INSPECT -> QUEUE -> MAKE -> RECORD
 
 ### Start
 
-Open Programmer Mixology to browse recipes locally without configuring a model or LAN account. Defaults are Chinese, 125% text, and full motion. Use Settings → General to select English, text scale, startup animation, or reduced motion. About shows the version and developer.
+Open Programmer Mixology to browse recipes locally without configuring a model or LAN account. New profiles default to English, 125% text, and full motion. Use Settings → General → Language to select 中文; General also offers text scale, startup animation, and reduced motion. Valid saved language preferences remain unchanged on upgrade. About shows the version and developer.
 
 The browser development page is for UI work. Run the Tauri desktop application for SQLite, archives, Windows clipboard, host management, and model processes.
 

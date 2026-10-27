@@ -29,6 +29,7 @@ import { combineCatalog, emptyLibrary, importLibraryArchive, readLibrary, reconc
 import { useCurrentState } from './useCurrentState';
 import { persistLatestState, persistQueueChange } from './workbench-persistence';
 import { appName, APP_NAME_EN, APP_VERSION, APP_DEVELOPER, PROJECT_URL } from './brand';
+import { normalizeLanguage } from './language';
 
 function Icon({name,size=18}:{name:string;size?:number}) {
   const paths:Record<string,React.ReactNode> = {
@@ -60,7 +61,7 @@ export default function App() {
   const catalog=useMemo(()=>baseCatalog?combineCatalog(baseCatalog,library):null,[baseCatalog,library]);
   const availableCatalog=useMemo(()=>catalog?visibleCatalog(catalog,library):null,[catalog,library]);
   const [ui,setUi,current]=useCurrentState<UserState|null>(null);
-  const language=ui?(ui.settings.language==='en'?'en':'zh'):(localStorage.getItem('timer.language')==='en'?'en':'zh'),t=(text:string)=>translate(text,language);
+  const language=normalizeLanguage(ui?ui.settings.language:localStorage.getItem('timer.language')),t=(text:string)=>translate(text,language);
   useEffect(()=>{document.documentElement.lang=language==='en'?'en':'zh-CN';document.title=appName(language);localStorage.setItem('timer.language',language);if(native)void getCurrentWindow().setTitle(appName(language)).catch(()=>{});},[language]);
   const [fatal,setFatal]=useState('');
   const [error,setError]=useState('');

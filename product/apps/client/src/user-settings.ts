@@ -1,8 +1,10 @@
 import type { UserState } from './types';
+import { DEFAULT_LANGUAGE, normalizeLanguage } from './language';
 
 type Settings = UserState['settings'];
 
 export const DEFAULT_UI_SETTINGS = Object.freeze({
+  language: DEFAULT_LANGUAGE,
   fontScale: 1.25,
   reducedMotion: false,
   startupAnimation: true,
@@ -16,6 +18,7 @@ export function normalizeSettings(value: unknown): Settings {
     : {};
   return {
     ...saved,
+    language: normalizeLanguage(saved.language),
     fontScale: typeof saved.fontScale === 'number' && [1, 1.1, 1.25].includes(saved.fontScale)
       ? saved.fontScale : DEFAULT_UI_SETTINGS.fontScale,
     reducedMotion: typeof saved.reducedMotion === 'boolean'

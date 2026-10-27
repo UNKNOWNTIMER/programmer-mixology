@@ -210,7 +210,8 @@ async function language(value) {
     assert.equal(initial.settings.fontScale, 1.25);
     assert.equal(initial.settings.reducedMotion, false);
     assert.equal(initial.settings.startupAnimation, true);
-    await assertTitle('zh');
+    assert.equal(initial.settings.language, 'en');
+    await assertTitle('en');
   });
   await test('Logo holds for 0.4 seconds and all seven native modules complete entry animation', async () => {
     marks = await page.evaluate(() => performance.getEntriesByType('mark').filter(mark => mark.name.startsWith('timer:')).map(mark => ({ name: mark.name, at: mark.startTime, detail: mark.detail })));
@@ -221,7 +222,14 @@ async function language(value) {
     assert.equal(marks.filter(mark => mark.name.startsWith('timer:module-start:')).length, 7);
     assert.equal(marks.filter(mark => mark.name.startsWith('timer:module-end:')).length, 7);
   });
+  await test('Fresh installation defaults to a complete English workbench before any language change', async () => {
+    await workbenchFocus();
+    await assertWorkbench('en');
+    assert.equal(await page.locator('.engine-actions .square-action').first().innerText(), 'Settings');
+    assert.equal((await call('ui_state_get')).settings.language, 'en');
+  });
   await test('Chinese fixed-size workbench, pixel font and integer taste total; real DLC artwork', async () => {
+    await language('zh');
     await fixture('dlc_xd_sunrise_1972');
     await assertWorkbench('zh');
     await screenshot('workbench-zh.png');
@@ -261,6 +269,28 @@ async function language(value) {
     await page.mouse.move(4, 4);
     await screenshot('catalog-dlc.png');
     await workbenchFocus();
+  });
+  await test('A missing legacy language becomes English without changing recipes or other preferences', async () => {
+    assert(verified);
+    await workbenchFocus();
+    await sleep(600);
+    const before = await call('ui_state_get');
+    assert.equal(before.settings.language, 'zh');
+    const legacy = structuredClone(before);
+    delete legacy.settings.language;
+    await call('ui_state_set', { value: legacy });
+    await page.reload();
+    await ready();
+    await assertTitle('en');
+    const restored = await call('ui_state_get');
+    assert.equal(restored.settings.language, 'en');
+    delete restored.settings.language;
+    assert.deepEqual(restored, legacy);
+    await language('zh');
+    await page.reload();
+    await ready();
+    await assertTitle('zh');
+    assert.equal((await call('ui_state_get')).settings.language, 'zh');
   });
   await test('Native close button exits the exact isolated process normally', async () => {
     finalDiagnostics = await call('diagnostics');

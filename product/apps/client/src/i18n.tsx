@@ -1,7 +1,8 @@
 import { createContext, useContext, useMemo, Children, cloneElement, isValidElement, type ReactNode, type ReactElement } from 'react';
 import messages from './i18n-messages.json';
-export type Language='zh'|'en';
-const Context=createContext<Language>('zh');
+import { DEFAULT_LANGUAGE, type Language } from './language';
+export type { Language } from './language';
+const Context=createContext<Language>(DEFAULT_LANGUAGE);
 const dictionary=messages as Record<string,string>;
 const cache=new Map<string,string>();
 const fragments:Record<string,string[]>={};

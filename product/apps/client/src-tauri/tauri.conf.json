@@ -13,7 +13,7 @@
     "windows": [
       {
         "label": "main",
-        "title": "程序员调酒台",
+        "title": "Programmer Mixology",
         "width": 675,
         "height": 960,
         "resizable": false,
@@ -34,7 +34,7 @@
       "nsis"
     ],
     "category": "Lifestyle",
-    "shortDescription": "程序员调酒台 · 本地味觉与配方探索工作台",
+    "shortDescription": "A local-first taste and recipe exploration workbench",
     "longDescription": "Programmer Mixology: a local-first cocktail workbench and extensible architecture for constrained AI recipe exploration. Nutrition figures are estimates; validated nutrition optimization is a research direction. No model weights bundled.",
     "icon": [
       "icons/icon.ico",
@@ -55,8 +55,8 @@
         "installMode": "currentUser",
         "displayLanguageSelector": false,
         "languages": [
-          "SimpChinese",
-          "English"
+          "English",
+          "SimpChinese"
         ]
       }
     },

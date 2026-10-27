@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="740" viewBox="0 0 1200 740" role="img" aria-labelledby="title desc">
+  <title id="title">程序员调酒台架构</title>
+  <desc id="desc">当前路径：来源事实和味觉目标进入确定性规则，再由人审核候选。可选本地模型只选择候选并命名。已审核主机规格与不可变快照独立于本地试调。虚线研究模块表示未来的营养数据、确定性营养计算和感官校准。</desc>
+  <defs>
+    <marker id="blue" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#83b4c7" stroke-width="1.5"/></marker>
+    <marker id="red" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#b9695c" stroke-width="1.5"/></marker>
+    <style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif}.heading{font-size:18px;font-weight:700;fill:#d0dcde}.body{font-size:16px;fill:#91adba}.note{font-size:14px;fill:#87a1aa}.box{fill:#0b1720;stroke:#567785;stroke-width:2}.future{fill:#0b141a;stroke:#58707c;stroke-width:2;stroke-dasharray:7 7}</style>
+  </defs>
+  <rect width="1200" height="740" fill="#03090d"/>
+  <rect x="16" y="16" width="1168" height="708" fill="none" stroke="#334d58"/>
+  <text x="40" y="52" class="heading">程序员调酒台 / 架构</text>
+  <text x="40" y="79" class="note">实线：已实现的职责  |  虚线：未来研究扩展</text>
+  <rect x="40" y="112" width="320" height="166" class="box"/>
+  <text x="60" y="145" class="heading">来源事实与用户目标</text>
+  <text x="60" y="176" class="body">来源 / 配方修订 / 单位</text>
+  <text x="60" y="203" class="body">五味合计 = 10 000 整数基点</text>
+  <text x="60" y="230" class="body">七个相互独立的感官维度</text>
+  <text x="60" y="256" class="note">配方预测不等于实测结果</text>
+  <rect x="440" y="112" width="320" height="166" class="box"/>
+  <text x="460" y="145" class="heading">确定性规则引擎</text>
+  <text x="460" y="176" class="body">原料白名单与实际商品资料</text>
+  <text x="460" y="203" class="body">剂量 / 库存 / 杯量限制</text>
+  <text x="460" y="230" class="body">受约束的候选配方集合</text>
+  <text x="460" y="256" class="note">不偷偷放宽不可行的约束</text>
+  <rect x="840" y="112" width="320" height="166" class="box"/>
+  <text x="860" y="145" class="heading">人工审核与实作</text>
+  <text x="860" y="176" class="body">检查 / 制作 / 品尝</text>
+  <text x="860" y="203" class="body">试调不直接成为客人菜单</text>
+  <text x="860" y="230" class="body">单独审核可供制作的规格</text>
+  <text x="860" y="256" class="note">真实反馈独立保存</text>
+  <path d="M361 194H432" stroke="#83b4c7" stroke-width="2" fill="none" marker-end="url(#blue)"/>
+  <path d="M761 194H832" stroke="#83b4c7" stroke-width="2" fill="none" marker-end="url(#blue)"/>
+  <rect x="440" y="353" width="320" height="142" class="box"/>
+  <text x="460" y="386" class="heading">可选本地模型</text>
+  <text x="460" y="417" class="body">仅选择候选并命名</text>
+  <text x="460" y="444" class="body">严格格式 / 文件校验</text>
+  <text x="460" y="472" class="note">不决定剂量、热量或权限</text>
+  <path d="M570 279V344" stroke="#83b4c7" stroke-width="2" fill="none" marker-end="url(#blue)"/>
+  <path d="M630 352V287" stroke="#b9695c" stroke-width="2" fill="none" marker-end="url(#red)"/>
+  <text x="452" y="320" class="note">候选</text><text x="648" y="320" class="note">选择</text>
+  <rect x="840" y="353" width="320" height="142" class="box"/>
+  <text x="860" y="386" class="heading">持久化与权限执行</text>
+  <text x="860" y="417" class="body">SQLite / 不可变配方快照</text>
+  <text x="860" y="444" class="body">主机：认证 / 票据 / 库存</text>
+  <text x="860" y="472" class="note">相同请求 ID 只扣票一次</text>
+  <path d="M1000 279V344" stroke="#83b4c7" stroke-width="2" fill="none" marker-end="url(#blue)"/>
+  <text x="40" y="387" class="heading">本地优先</text>
+  <text x="40" y="418" class="body">React / TypeScript / Tauri 2</text>
+  <text x="40" y="445" class="body">Rust / SQLite / llama.cpp</text>
+  <text x="40" y="472" class="note">模型与局域网均需主动开启</text>
+  <path d="M40 527H1160" stroke="#334d58"/>
+  <text x="40" y="559" class="heading">研究方向 / 尚未实现</text>
+  <rect x="40" y="580" width="320" height="112" class="future"/>
+  <text x="60" y="613" class="heading">原料成分数据</text>
+  <text x="60" y="641" class="body">具有许可的营养成分来源</text>
+  <text x="60" y="668" class="note">保留缺失值与出处</text>
+  <rect x="440" y="580" width="320" height="112" class="future"/>
+  <text x="460" y="613" class="heading">确定性营养计算</text>
+  <text x="460" y="641" class="body">单位 / 出成率 / 留存量</text>
+  <text x="460" y="668" class="note">可复算的每份营养估计</text>
+  <rect x="840" y="580" width="320" height="112" class="future"/>
+  <text x="860" y="613" class="heading">感官预测校准</text>
+  <text x="860" y="641" class="body">明确同意的真实品尝实验</text>
+  <text x="860" y="668" class="note">记录版本、误差与适用范围</text>
+  <path d="M361 636H432" stroke="#58707c" stroke-width="2" stroke-dasharray="4 5" fill="none" marker-end="url(#blue)"/>
+  <path d="M761 636H832" stroke="#58707c" stroke-width="2" stroke-dasharray="4 5" fill="none" marker-end="url(#blue)"/>
+</svg>

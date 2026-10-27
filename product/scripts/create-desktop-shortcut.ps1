@@ -2,7 +2,7 @@ $ErrorActionPreference = 'Stop'
 . (Join-Path $PSScriptRoot 'shell-resource-path.ps1')
 $pixelRoot = (Resolve-Path -LiteralPath (Split-Path $PSScriptRoot -Parent)).Path
 $pixelDesktop = [Environment]::GetFolderPath('Desktop')
-$pixelShortcutPath = [IO.Path]::GetFullPath((Join-Path $pixelDesktop '程序员调酒台（开发版）.lnk'))
+$pixelShortcutPath = [IO.Path]::GetFullPath((Join-Path $pixelDesktop 'Programmer Mixology (Developer).lnk'))
 if ([IO.Path]::GetDirectoryName($pixelShortcutPath) -ne [IO.Path]::GetFullPath($pixelDesktop)) { throw 'Unexpected desktop destination' }
 $pixelLauncher = Join-Path $pixelRoot 'scripts\start-preview.ps1'
 $pixelIconSource = Join-Path $pixelRoot 'apps\client\src-tauri\icons\icon.ico'
@@ -26,7 +26,7 @@ $pixelShortcut.TargetPath = $pixelPowerShell
 $pixelShortcut.Arguments = $pixelArguments
 $pixelShortcut.WorkingDirectory = $pixelRoot
 $pixelShortcut.IconLocation = $pixelIcon + ',0'
-$pixelShortcut.Description = '程序员调酒台 · Programmer Mixology · 开发版'
+$pixelShortcut.Description = 'Programmer Mixology - Developer - Local data'
 $pixelShortcut.WindowStyle = 7
 $pixelShortcut.Save()
 $pixelCheck = $pixelShell.CreateShortcut($pixelShortcutPath)

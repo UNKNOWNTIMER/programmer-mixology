@@ -11,15 +11,15 @@ SetCompressorDictSize 32
 !include WordFunc.nsh
 !include "${BUILD_DIR}\payload.nsh"
 
-Name "程序员调酒台 V1.2"
-Caption "程序员调酒台 V1.2"
+Name "Programmer Mixology V1.2"
+Caption "Programmer Mixology V1.2"
 OutFile "${OUTPUT}"
 InstallDir "$LOCALAPPDATA\Programs\PIXEL MIX"
 Icon "${APP_ICON}"
 UninstallIcon "${APP_ICON}"
 VIProductVersion "1.2.0.0"
-VIAddVersionKey "ProductName" "程序员调酒台"
-VIAddVersionKey "FileDescription" "程序员调酒台 V1.2 安装程序"
+VIAddVersionKey "ProductName" "Programmer Mixology"
+VIAddVersionKey "FileDescription" "Programmer Mixology V1.2 Setup"
 VIAddVersionKey "CompanyName" "UNKNOWNTIMER"
 VIAddVersionKey "LegalCopyright" "UNKNOWNTIMER"
 VIAddVersionKey "FileVersion" "1.2.0"
@@ -74,13 +74,13 @@ Function .onInit
   ${AndIf} $2 != ""
     ${VersionCompare} $2 "1.2.0" $3
     ${If} $3 == 1
-      MessageBox MB_ICONSTOP "已安装更新版本。" /SD IDOK
+      MessageBox MB_ICONSTOP "A newer version is already installed." /SD IDOK
       SetErrorLevel 22
       Abort
     ${EndIf}
   ${EndIf}
   ${IfNot} ${RunningX64}
-    MessageBox MB_ICONSTOP "需要 Windows 10/11 x64。" /SD IDOK
+    MessageBox MB_ICONSTOP "Windows 10/11 x64 is required." /SD IDOK
     SetErrorLevel 20
     Abort
   ${EndIf}
@@ -92,7 +92,7 @@ Function .onInit
     ReadRegStr $0 HKLM "SOFTWARE\Microsoft\EdgeUpdate\Clients\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}" "pv"
   ${EndIf}
   ${If} $0 == ""
-    MessageBox MB_ICONSTOP "请先安装 Microsoft Edge WebView2 Runtime。" /SD IDOK
+    MessageBox MB_ICONSTOP "Install Microsoft Edge WebView2 Runtime first." /SD IDOK
     SetErrorLevel 21
     Abort
   ${EndIf}
@@ -107,23 +107,23 @@ Function Welcome
   nsDialogs::Create 1018
   Pop $Dialog
   SetCtlColors $Dialog B3CCD3 03090D
-  ${NSD_CreateLabel} 0 8u 100% 20u "安装位置"
+  ${NSD_CreateLabel} 0 8u 100% 20u "Install location"
   Pop $Label
   SetCtlColors $Label B3CCD3 03090D
   ${NSD_CreateText} 0 39u 100% 34u "$INSTDIR"
   Pop $Location
   SetCtlColors $Location B3CCD3 081319
-  ${NSD_CreateButton} 0 86u 62u 19u "更改"
+  ${NSD_CreateButton} 0 86u 62u 19u "Change"
   Pop $Browse
   ${NSD_OnClick} $Browse ChooseDirectory
   GetDlgItem $0 $HWNDPARENT 1
-  SendMessage $0 ${WM_SETTEXT} 0 "STR:安装"
+  SendMessage $0 ${WM_SETTEXT} 0 "STR:Install"
   System::Call '$PLUGINSDIR\TimerInstallerSkin.dll::SetPhase(i 0)'
   nsDialogs::Show
 FunctionEnd
 
 Function ChooseDirectory
-  nsDialogs::SelectFolderDialog "安装位置" "$INSTDIR"
+  nsDialogs::SelectFolderDialog "Install location" "$INSTDIR"
   Pop $0
   ${If} $0 != "error"
     StrCpy $INSTDIR $0
@@ -135,7 +135,7 @@ Function WelcomeLeave
   ${NSD_GetText} $Location $INSTDIR
   System::Call '$PLUGINSDIR\TimerInstallerSkin.dll::CheckTarget(w "$INSTDIR") i .r0'
   ${If} $0 != 0
-    MessageBox MB_ICONSTOP "请关闭此位置的调酒台，或更换安装位置。"
+    MessageBox MB_ICONSTOP "Close the app at this location, or choose another install folder."
     Abort
   ${EndIf}
 FunctionEnd
@@ -151,15 +151,15 @@ Function Finish
   nsDialogs::Create 1018
   Pop $Dialog
   SetCtlColors $Dialog B3CCD3 03090D
-  ${NSD_CreateLabel} 0 8u 100% 24u "安装完成"
+  ${NSD_CreateLabel} 0 8u 100% 24u "Installation complete"
   Pop $Label
   SetCtlColors $Label B3CCD3 03090D
-  ${NSD_CreateCheckbox} 0 51u 100% 18u "打开调酒台"
+  ${NSD_CreateCheckbox} 0 51u 100% 18u "Open Programmer Mixology"
   Pop $Launch
   SetCtlColors $Launch B3CCD3 03090D
   ${NSD_Check} $Launch
   GetDlgItem $0 $HWNDPARENT 1
-  SendMessage $0 ${WM_SETTEXT} 0 "STR:完成"
+  SendMessage $0 ${WM_SETTEXT} 0 "STR:Finish"
   System::Call '$PLUGINSDIR\TimerInstallerSkin.dll::SetPhase(i 2)'
   nsDialogs::Show
 FunctionEnd
@@ -172,13 +172,13 @@ FunctionEnd
 
 Section "TIMER" Main
   !ifdef PREVIEW_ONLY
-    MessageBox MB_OK "安装界面预览：不会安装文件。" /SD IDOK
+    MessageBox MB_OK "Installer preview: no files will be installed." /SD IDOK
     SetErrorLevel 99
     Quit
   !endif
   System::Call '$PLUGINSDIR\TimerInstallerSkin.dll::CheckTarget(w "$INSTDIR") i .r0'
   ${If} $0 != 0
-    MessageBox MB_ICONSTOP "请关闭此位置的调酒台，或更换安装位置。" /SD IDOK
+    MessageBox MB_ICONSTOP "Close the app at this location, or choose another install folder." /SD IDOK
     SetErrorLevel 32
     Abort
   ${EndIf}
@@ -186,7 +186,7 @@ Section "TIMER" Main
   File /oname=payload.exe "${PAYLOAD}"
   System::Call '$PLUGINSDIR\TimerInstallerSkin.dll::VerifyPayload(w "$PLUGINSDIR\payload.exe", w "${PAYLOAD_SHA256}") i .r0'
   ${If} $0 != 1
-    MessageBox MB_ICONSTOP "安装文件校验失败。" /SD IDOK
+    MessageBox MB_ICONSTOP "Installer payload verification failed." /SD IDOK
     SetErrorLevel 23
     Abort
   ${EndIf}
@@ -221,7 +221,7 @@ Section "TIMER" Main
   IfErrors Rollback
   WriteINIStr "$INSTDIR\timer-install.ini" "TIMER" "Owner" "local.pixelmix.workbench/1.1"
   WriteINIStr "$INSTDIR\timer-install.ini" "TIMER" "Isolated" "$Isolated"
-  WriteRegStr HKCU "$UninstallKey" "DisplayName" "程序员调酒台"
+  WriteRegStr HKCU "$UninstallKey" "DisplayName" "Programmer Mixology"
   WriteRegStr HKCU "$UninstallKey" "DisplayVersion" "1.2.0"
   WriteRegStr HKCU "$UninstallKey" "Publisher" "UNKNOWNTIMER"
   WriteRegStr HKCU "$UninstallKey" "URLInfoAbout" "https://github.com/UNKNOWNTIMER/programmer-mixology"
@@ -237,16 +237,19 @@ Section "TIMER" Main
     System::Call '$PLUGINSDIR\TimerInstallerSkin.dll::RemoveShortcutIfOwned(w "$DESKTOP\TIMER调酒台.lnk", w "$INSTDIR\pixel-mix.exe") i .r0'
     System::Call '$PLUGINSDIR\TimerInstallerSkin.dll::RemoveShortcutIfOwned(w "$SMPROGRAMS\TIMER调酒台\TIMER调酒台.lnk", w "$INSTDIR\pixel-mix.exe") i .r0'
     RMDir "$SMPROGRAMS\TIMER调酒台"
-    CreateShortCut "$DESKTOP\程序员调酒台.lnk" "$INSTDIR\pixel-mix.exe" "" "$INSTDIR\TIMER.ico" 0 SW_SHOWNORMAL "" "程序员调酒台"
-    CreateDirectory "$SMPROGRAMS\程序员调酒台"
-    CreateShortCut "$SMPROGRAMS\程序员调酒台\程序员调酒台.lnk" "$INSTDIR\pixel-mix.exe" "" "$INSTDIR\TIMER.ico" 0
+    System::Call '$PLUGINSDIR\TimerInstallerSkin.dll::RemoveShortcutIfOwned(w "$DESKTOP\程序员调酒台.lnk", w "$INSTDIR\pixel-mix.exe") i .r0'
+    System::Call '$PLUGINSDIR\TimerInstallerSkin.dll::RemoveShortcutIfOwned(w "$SMPROGRAMS\程序员调酒台\程序员调酒台.lnk", w "$INSTDIR\pixel-mix.exe") i .r0'
+    RMDir "$SMPROGRAMS\程序员调酒台"
+    CreateShortCut "$DESKTOP\Programmer Mixology.lnk" "$INSTDIR\pixel-mix.exe" "" "$INSTDIR\TIMER.ico" 0 SW_SHOWNORMAL "" "Programmer Mixology"
+    CreateDirectory "$SMPROGRAMS\Programmer Mixology"
+    CreateShortCut "$SMPROGRAMS\Programmer Mixology\Programmer Mixology.lnk" "$INSTDIR\pixel-mix.exe" "" "$INSTDIR\TIMER.ico" 0
   ${EndIf}
   IfErrors MetadataFailed
   Delete "$INSTDIR\.timer-previous.exe"
   SetErrorLevel 0
   Goto Done
 Collision:
-  MessageBox MB_ICONSTOP "安装位置存在待处理的更新文件。请更换位置。" /SD IDOK
+  MessageBox MB_ICONSTOP "Pending update files exist. Choose another install folder." /SD IDOK
   SetErrorLevel 24
   Abort
 Rollback:
@@ -256,12 +259,12 @@ Rollback:
   ${EndIf}
 InstallFailed:
   Delete "$INSTDIR\.timer-update.exe"
-  MessageBox MB_ICONSTOP "安装失败。请检查位置权限与占用。" /SD IDOK
+  MessageBox MB_ICONSTOP "Installation failed. Check folder access and running applications." /SD IDOK
   SetErrorLevel 25
   Abort
 MetadataFailed:
   Delete "$INSTDIR\.timer-previous.exe"
-  MessageBox MB_ICONSTOP "程序已写入，快捷方式或安装记录未完成。请重新运行安装器。" /SD IDOK
+  MessageBox MB_ICONSTOP "App files were written, but setup metadata is incomplete. Run setup again." /SD IDOK
   SetErrorLevel 26
   Abort
 Done:
@@ -289,14 +292,14 @@ Function un.Welcome
   nsDialogs::Create 1018
   Pop $Dialog
   SetCtlColors $Dialog B3CCD3 03090D
-  ${NSD_CreateLabel} 0 8u 100% 24u "卸载调酒台"
+  ${NSD_CreateLabel} 0 8u 100% 24u "Uninstall Programmer Mixology"
   Pop $Label
   SetCtlColors $Label B3CCD3 03090D
-  ${NSD_CreateLabel} 0 47u 100% 25u "保留酒谱、队列与设置"
+  ${NSD_CreateLabel} 0 47u 100% 25u "Recipes, queue and settings are kept"
   Pop $Label
   SetCtlColors $Label B3CCD3 03090D
   GetDlgItem $0 $HWNDPARENT 1
-  SendMessage $0 ${WM_SETTEXT} 0 "STR:卸载"
+  SendMessage $0 ${WM_SETTEXT} 0 "STR:Uninstall"
   System::Call '$PLUGINSDIR\TimerInstallerSkin.dll::SetPhase(i 3)'
   nsDialogs::Show
 FunctionEnd
@@ -309,7 +312,7 @@ FunctionEnd
 Section "Uninstall"
   System::Call '$PLUGINSDIR\TimerInstallerSkin.dll::CheckTarget(w "$INSTDIR") i .r0'
   ${If} $0 != 0
-    MessageBox MB_ICONSTOP "请先关闭调酒台。" /SD IDOK
+    MessageBox MB_ICONSTOP "Close Programmer Mixology first." /SD IDOK
     SetErrorLevel 32
     Abort
   ${EndIf}
@@ -320,9 +323,9 @@ Section "Uninstall"
   Delete "$INSTDIR\timer-install.ini"
   !include "${BUILD_DIR}\uninstall-resources.nsh"
   ${If} $Isolated == 0
-    System::Call '$PLUGINSDIR\TimerInstallerSkin.dll::RemoveShortcutIfOwned(w "$DESKTOP\程序员调酒台.lnk", w "$INSTDIR\pixel-mix.exe") i .r0'
-    System::Call '$PLUGINSDIR\TimerInstallerSkin.dll::RemoveShortcutIfOwned(w "$SMPROGRAMS\程序员调酒台\程序员调酒台.lnk", w "$INSTDIR\pixel-mix.exe") i .r0'
-    RMDir "$SMPROGRAMS\程序员调酒台"
+    System::Call '$PLUGINSDIR\TimerInstallerSkin.dll::RemoveShortcutIfOwned(w "$DESKTOP\Programmer Mixology.lnk", w "$INSTDIR\pixel-mix.exe") i .r0'
+    System::Call '$PLUGINSDIR\TimerInstallerSkin.dll::RemoveShortcutIfOwned(w "$SMPROGRAMS\Programmer Mixology\Programmer Mixology.lnk", w "$INSTDIR\pixel-mix.exe") i .r0'
+    RMDir "$SMPROGRAMS\Programmer Mixology"
   ${EndIf}
   ReadRegStr $0 HKCU "$UninstallKey" "InstallLocation"
   ${If} $0 == "$INSTDIR"
@@ -333,7 +336,7 @@ Section "Uninstall"
   SetErrorLevel 0
   Goto UninstallDone
 UninstallFailed:
-  MessageBox MB_ICONSTOP "卸载失败。请关闭调酒台后重试。" /SD IDOK
+  MessageBox MB_ICONSTOP "Uninstall failed. Close Programmer Mixology and try again." /SD IDOK
   SetErrorLevel 33
   Abort
 UninstallDone:

@@ -1,13 +1,13 @@
 # ▸ 架构 / Architecture
 
-[中文首页](../README.md) · [English README](../README.en.md) · [English section](#english)
+[English README](../README.md) · [中文首页](../README.zh-CN.md) · [English section](#english)
 
 ~~~text
 [ IMPLEMENTED CORE ]  facts -> constraints -> candidate -> review
 [ RESEARCH TRACK  ]  composition -> calculation -> sensory calibration
 ~~~
 
-![Architecture](media/architecture.svg)
+![程序员调酒台架构](media/architecture.zh-CN.svg)
 
 ## 中文 · 当前系统
 
@@ -119,6 +119,8 @@
 
 <a id="english"></a>
 ## English · Implemented system
+
+![Programmer Mixology architecture](media/architecture.svg)
 
 Programmer Mixology separates interaction, deterministic calculations, persistence, host authority, and model processes. Cocktails are the current data and rules domain. Expanding to food recipes requires reviewed contracts and calculators; arbitrary model text does not become an executable recipe.
 

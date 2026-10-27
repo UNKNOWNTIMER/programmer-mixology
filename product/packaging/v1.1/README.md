@@ -1,55 +1,70 @@
-# 程序员调酒台 V1.2 Windows 安装器
+# Programmer Mixology · Windows installer
 
-本目录提供真实 NSIS 安装器源码与原生像素皮肤，不依赖网页壳或远程下载。实际交付文件由 `product/scripts/build-v11-installer.ps1` 生成；本目录不把界面预览构建视为成品。
+`V1.2.0` · `NATIVE / NSIS` · [简体中文](README.zh-CN.md)
 
-此目录名 `v1.1` 与兼容构建入口 `build-v11-installer.ps1` 保留历史结构；当前输出版本为 1.2.0，公开入口为 `build-windows-installer.ps1`。
+This directory contains the real NSIS installer and its native pixel skin. The installer uses English. New app profiles also start in English; users can choose Chinese in Settings, and valid saved language choices are preserved.
 
-## 构建
+The historical `v1.1` directory and `build-v11-installer.ps1` implementation remain for build compatibility. The public build entry point is `build-windows-installer.ps1`; the current output version is **1.2.0**. An installer preview is not a deliverable.
 
-先构建版本为 `1.2.0` 的真实 x64 Tauri release EXE，再运行：
+## Build
+
+Build the actual x64 Tauri release executable at version `1.2.0`, then run from the repository root:
 
 ```powershell
 ./product/scripts/build-windows-installer.ps1
 ```
 
-默认读取 `product/target/release/pixel-mix.exe`，输出 `product/packaging/installer/Programmer_Mixology_Setup_1.2.0_x64.exe`。可以通过 `-Payload <完整路径>` 与 `-Output <完整路径>` 指定文件。构建器核对 PE 产品版本必须为 `1.2.0`，在源码生成的安装清单中记录实际 EXE 的 SHA-256；安装时使用 Windows BCrypt 重新验证解包和复制后的 EXE。运行20项真正的本机辅助代码测试（含隐藏窗口布局回归），任何失败中止构建。
+The default payload is `product/target/release/pixel-mix.exe`; the output is `product/packaging/installer/Programmer_Mixology_Setup_1.2.0_x64.exe`. Use `-Payload <absolute-path>` and `-Output <absolute-path>` to override them. The builder verifies the PE product version, records the real payload SHA-256, and runs 20 native helper checks, including hidden-window layout regression checks. Any failure stops the build. Installation verifies both the extracted and copied executable with Windows BCrypt.
 
-依赖现有 MSVC、Windows SDK 与 `%LOCALAPPDATA%/tauri/NSIS/makensis.exe`（本机3.11），不会下载工具链、模型或运行库，不修改系统 PATH。皮肤为 x86 DLL，安装器主体为 NSIS x86 Unicode，内含的应用为 x64。
+The build requires existing MSVC, Windows SDK and `%LOCALAPPDATA%/tauri/NSIS/makensis.exe`. It does not download toolchains, models or runtimes, or change system PATH. The skin is an x86 DLL, NSIS is x86 Unicode, and the application payload is x64.
 
-`-PreviewOnly` 生成明确命名的 `Programmer-Mixology-1.2.0-INSTALLER-UI-PREVIEW.exe`，用于布局开发；安装节直接以99退出，不能安装，也不允许作为交付产物。预览可包含已有 EXE，但不会把它标成实际已交付 V1.2。
+`-PreviewOnly` produces `Programmer-Mixology-1.2.0-INSTALLER-UI-PREVIEW.exe`. Its install section exits with code 99 and cannot install the app. It must not be published as a working installer.
 
-## 安装行为
+## Behavior
 
-- 当前用户安装，无管理员权限；默认 `%LOCALAPPDATA%/Programs/PIXEL MIX`，与原0.1安装器目录一致，可在欢迎页更改。
-- 沿用64位视图中的 `HKCU/Software/Microsoft/Windows/CurrentVersion/Uninstall/PIXEL MIX`，显示名称更新为 程序员调酒台，版本1.2.0。针对相同登记路径拒绝覆盖更高版本。
-- 只要求机器已有 Microsoft Edge WebView2 Runtime；缺失则明确退出，不自动下载、不改防火墙。
-- 深黑、蓝灰、暗红配色；去除系统标题栏／原生状态栏，保留右上关闭与背景拖动。文字来自项目已授权的 Fusion Pixel WOFF2，使用 Windows DirectWrite 解包并仅在安装进程私有加载，不安装系统字体。
-- 原生80ms像素杯高光和小方块动画，安装进度读取 NSIS 的真实进度控件。装饰动画不表示安装成功，也不替代真实百分比。完成页只在安装节成功后出现。
-- 文件校验后才替换应用；已有应用正在运行／文件锁定则拒绝，不强行结束进程。替换 EXE 采用同目录临时文件和旧文件备份，写入资源失败时尝试恢复旧 EXE；磁盘或文件系统故障不能保证整个安装目录原子回滚，失败会明确退出。
-- 默认创建桌面与开始菜单的 程序员调酒台 快捷方式，图标取本次应用 ICO。卸载只删除仍然指向此次安装目标的快捷方式。
-- 卸载只删除构建时列出的已知资源文件及空目录，保留未知文件与 `%LOCALAPPDATA%/local.pixelmix.workbench` 中酒谱、队列、设置和主机数据。卸载前核对所属标记并检查程序是否关闭。
-- 未签名；不申请或购买证书。安装与卸载验证必须记录实际结果，不以构建通过代替。
+- Installs for the current user without administrator rights. The default `%LOCALAPPDATA%/Programs/PIXEL MIX` directory is retained for compatibility and can be changed on the welcome page.
+- Keeps the 64-bit `HKCU/Software/Microsoft/Windows/CurrentVersion/Uninstall/PIXEL MIX` key, with display name **Programmer Mixology** and version **1.2.0**. Refuses to downgrade a newer registered version at the same path.
+- Requires an existing Microsoft Edge WebView2 Runtime. If missing, installation exits with a clear message. It does not download a runtime or change the firewall.
+- Uses dark blue-gray and muted red pixel styling, without a system title bar or native status bar. The close button and background dragging remain available. The licensed Fusion Pixel WOFF2 is unpacked through DirectWrite and loaded privately for this process; no system font is installed.
+- Animates the cup highlight and small pixels every 80 ms. Progress comes from the real NSIS progress control; decoration is not a success indication. The completion page appears only after the install section succeeds.
+- Verifies files before replacing the app. If the app is running or its files are locked, installation refuses the update without terminating it. Replacement uses a temporary file and backup beside the executable and attempts recovery if resource writing fails. Filesystem or disk failures cannot guarantee atomic rollback of the whole directory; failures return an error.
+- Creates **Programmer Mixology** desktop and Start menu shortcuts using the app ICO. Upgrade and uninstall only remove known shortcuts that still point to this installation, including legacy Chinese names.
+- Uninstall removes only listed resources and empty directories. Unknown files and recipes, queues, settings and host data under `%LOCALAPPDATA%/local.pixelmix.workbench` are preserved. Ownership and running-app checks precede removal.
+- The installer is unsigned. Record actual install and uninstall results separately from compilation results.
 
-## 隔离验证
+## Isolated verification
 
 ```powershell
 $installer = (Resolve-Path product/packaging/installer/Programmer_Mixology_Setup_1.2.0_x64.exe).Path
-$target = 'C:\实际工作区\product\evidence\install-test\v11'
+$target = Join-Path (Get-Location).Path 'product/evidence/install-test/manual'
 Start-Process -FilePath $installer -ArgumentList ('/S /ISOLATED=1 /D=' + $target) -WindowStyle Hidden -Wait -PassThru
 ```
 
-NSIS 的 `/D=` 必须是最后一个参数，目录值不要额外加引号。`/ISOLATED=1` 使用独立卸载键 `TIMER-V11-TEST`，不写桌面／开始菜单快捷方式，但其余安装文件与校验流程相同；不能同时运行两个使用同一隔离键的安装器。卸载程序读取安装目录的隔离标记，不需要重复传该参数。
+NSIS requires `/D=` to be the last argument, without extra quotation marks around its value. `/ISOLATED=1` uses the separate `TIMER-V11-TEST` uninstall key and skips desktop and Start menu shortcuts. File installation and verification are otherwise identical. Do not run two tests sharing that key concurrently. The uninstaller reads the isolated marker; the switch need not be repeated.
 
-真实安装器 GUI 可用 `product/tests/installer-window-native.py --pid <PID> --output <json>` 做目标PID限定的只读 Win32 检查，生成两帧截图并验证无系统标题栏／厚边框／状态栏，以及实际计时帧像素变化。`--close` 仅用于关闭该已知测试窗口。GUI验收需检查截图、安装完成页与卸载提示；单纯像素变化不能证明整个视觉符合预期。
+`product/tests/installer-window-native.py --pid <PID> --output <json>` performs read-only Win32 checks on the specified test process, captures two frames, and checks for removal of the system title bar, thick border and status bar, plus actual timed pixel changes. `--close` closes only that known test window. Inspect the screenshots, completion page and uninstall prompt; pixel changes alone do not establish visual quality.
 
-复用完整静默验收（必须使用新的证据名，保留之前的结果）：
+Run the full silent acceptance with a new evidence name so previous results remain available:
 
 ```powershell
-./product/scripts/test-v11-installer.ps1 -Installer product/packaging/installer/Programmer_Mixology_Setup_1.2.0_x64.exe -EvidenceName final
+./product/scripts/test-v11-installer.ps1 -Installer product/packaging/installer/Programmer_Mixology_Setup_1.2.0_x64.exe -EvidenceName english-default
 ```
 
-脚本执行隔离安装、正确哈希／版本、缺陷保护（降级、未所属更新文件、占用拒绝）、同版本重装、标准卸载自复制与删除本体，检查未知文件和正常用户库的数据库／WAL字节及登记不变。SQLite SHM含易变的读者锁／读标记，完整前后值保留用于诊断，不以其变化冒称存储内容变化。不会运行被安装的应用。测试结束保留作用域内的未知文件证据，不递归删除目录。`-LeaveInstalled` 在验收后另行重装，为主任务留存真实安装版入口。
+The test covers isolated installation, payload hash and version, downgrade prevention, unowned update-file collisions, busy-app refusal, same-version reinstall and normal self-copying uninstall. It verifies unknown-file preservation and unchanged normal-user database/WAL bytes and registration. SQLite SHM contains mutable reader locks; its before/after values are retained for diagnosis and are not treated as logical database-content changes. The installed app is not launched. Unknown-file evidence is retained, without recursive directory removal. `-LeaveInstalled` performs another installation after acceptance to leave a real entry point for the caller.
 
-退出码：0成功；20非x64；21缺少WebView2；22新版本阻止降级；23EXE校验失败；24残留更新文件阻止写入；25文件写入／替换失败；26快捷方式或安装登记失败（应用已写入，须修复）；31卸载所属标记不匹配；32应用占用或目标路径拒绝；33卸载删除失败；99仅界面预览。
+| Exit | Meaning |
+| --- | --- |
+| 0 | Success |
+| 20 | Unsupported non-x64 system |
+| 21 | WebView2 missing |
+| 22 | Newer version prevents downgrade |
+| 23 | Executable verification failed |
+| 24 | Existing update files prevent writing |
+| 25 | File write or replacement failed |
+| 26 | Shortcut or registration failed; installed app requires repair |
+| 31 | Uninstall ownership marker mismatch |
+| 32 | App busy or target path refused |
+| 33 | Uninstall removal failed |
+| 99 | UI preview only |
 
-技术依据：[NSIS脚本回调与安装行为](https://nsis.sourceforge.io/Docs/Chapter4.html)、[NSIS原生自定义页](https://nsis.sourceforge.io/Docs/nsDialogs/Readme.html)、[Microsoft DirectWrite WOFF2解包](https://learn.microsoft.com/en-us/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory5-unpackfontfile)。
+Implementation references: [NSIS callbacks and installation behavior](https://nsis.sourceforge.io/Docs/Chapter4.html), [NSIS native custom pages](https://nsis.sourceforge.io/Docs/nsDialogs/Readme.html), and [Microsoft DirectWrite WOFF2 unpacking](https://learn.microsoft.com/en-us/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory5-unpackfontfile).

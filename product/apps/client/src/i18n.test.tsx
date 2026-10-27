@@ -16,8 +16,9 @@ import type { Profile } from './types';
 const catalog=recipes.recipes as unknown as Recipe[];
 const chinese=/[\u3400-\u9fff]/;
 describe('bilingual presentation without source mutation',()=>{
- it('defaults to Chinese and translates explicit nested React display text',()=>{
-   expect(renderToStaticMarkup(<Localized><button title="打开设置">设置</button></Localized>)).toContain('设置');
+ it('defaults to English, preserves explicit Chinese, and translates nested display text',()=>{
+   const defaultHtml=renderToStaticMarkup(<Localized><button title="打开设置">设置</button></Localized>);expect(defaultHtml).toContain('Open settings');expect(defaultHtml).toContain('Settings');expect(defaultHtml).not.toMatch(chinese);
+   expect(renderToStaticMarkup(<I18nProvider language="zh"><Localized><button title="打开设置">设置</button></Localized></I18nProvider>)).toContain('设置');
    const html=renderToStaticMarkup(<I18nProvider language="en"><Localized><section><button title="打开设置">设置</button><p>本地模型未运行</p></section></Localized></I18nProvider>);
    expect(html).toContain('title="Open settings"');expect(html).toContain('Local model stopped');expect(html).not.toMatch(chinese);
  });

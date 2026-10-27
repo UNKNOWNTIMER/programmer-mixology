@@ -48,7 +48,7 @@ describe('recipe detail quantity integration',()=>{
     const html=renderToStaticMarkup(createElement(RecipeDetails,{recipe,ingredients,pinned:false,servings:2,onServings:noop,onPin:noop,onClose:noop}));
     expect(html).toContain('<b>40–60 ml</b>');
     expect(html.split(note)).toHaveLength(2);
-    expect(html).toContain('原配方备注：');
+    expect(html).toContain('Original notes:');
     expect(JSON.stringify(recipe)).toBe(before);
   });
 });

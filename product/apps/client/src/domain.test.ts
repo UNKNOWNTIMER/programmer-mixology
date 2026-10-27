@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest';
+import { defaultState } from './bridge';
 import { filterRecipes, matchIndex, quantityText, redistribute, safeSourceUrl, validateTaste } from './domain';
 import { GLASSES, renderGlass } from './Glass';
 import golden from '../../../tests/fixtures/taste-golden.json';
@@ -21,6 +22,14 @@ describe('integer taste parity and constraints',()=>{
   it('handles all-zero peers, a single unlocked axis and invalid values',()=>{expect(redistribute([10000,0,0,0,0],0,6000,[])).toEqual([6000,1000,1000,1000,1000]);expect(redistribute([4000,3000,2000,500,500],0,0,[1,2,3,4])).toEqual([4000,3000,2000,500,500]);expect(()=>redistribute([4000,3000,2000,500,500],0,3000,[0])).toThrow();for(const x of [NaN,Infinity,1.5])expect(()=>redistribute([4000,3000,2000,500,500],0,x,[])).toThrow();expect(()=>validateTaste([0,0,0,0,0])).toThrow();});
 });
 describe('catalog provenance and hard filters',()=>{
+  it('starts in English without mutating the catalog, taste profile or review records',()=>{
+    const before=JSON.stringify(catalog),state=defaultState(catalog),profile=catalog.profiles.find(p=>p.recipe_id===state.selected)!;
+    expect(state.settings).toEqual({language:'en',fontScale:1.25,reducedMotion:false,startupAnimation:true});
+    expect(state.target.taste_bps).toEqual(profile.taste_preference_bps);expect(state.target.taste_bps).not.toBe(profile.taste_preference_bps);
+    expect(state.target.sensory_0_10).toEqual(profile.sensory_0_10);expect(state.target.taste_bps.reduce((a,b)=>a+b,0)).toBe(10000);
+    expect(state.reviews).toEqual([]);expect(state.drafts).toEqual([]);expect(JSON.stringify(catalog)).toBe(before);
+  });
+
   it('contains the 300 real source recipes and leaves nutrition unknown',()=>{expect(catalog.recipes).toHaveLength(300);for(const r of catalog.recipes){expect(r.default_orderable).toBe(false);if (['official_recipe','community_recipe'].includes(r.source.kind)) expect(safeSourceUrl(r.source.url)).not.toBeNull(); else {expect(r.source.kind).toBe('user_note');expect(r.source.reference).toBeTruthy();expect(r.source.url).toBeNull();}}for(const i of catalog.ingredients){expect(i.abv_fraction).toBeNull();expect(i.kcal_per_100ml).toBeNull();}});
   it('searches Chinese, English and ingredient names',()=>{expect(filterRecipes(catalog,'内格罗尼',[],[],false).some(r=>r.id==='iba_negroni')).toBe(true);expect(filterRecipes(catalog,'NeGrOnI',[],[],false).some(r=>r.id==='iba_negroni')).toBe(true);expect(filterRecipes(catalog,'gin',[],[],false).length).toBeGreaterThan(3);});
   it('hard exclusion precedes ranking and includes optional ingredients',()=>{const filtered=filterRecipes(catalog,'',[],['gin'],false);expect(filtered.every(r=>r.ingredients.every(i=>i.ingredient_id!=='gin'))).toBe(true);expect(filterRecipes(catalog,'',[],[],true)).toHaveLength(0);});

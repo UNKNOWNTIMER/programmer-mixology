@@ -160,7 +160,7 @@ pub async fn taste_window_update(
     if payload.is_some() && app.get_webview_window(LABEL).is_none() {
         let popup =
             WebviewWindowBuilder::new(&app, LABEL, WebviewUrl::App("index.html?view=taste".into()))
-                .title("TIMER · 味觉构成")
+                .title("Programmer Mixology · Taste composition")
                 .inner_size(WIDTH, HEIGHT)
                 .decorations(false)
                 .shadow(false)

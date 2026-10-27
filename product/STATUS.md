@@ -4,7 +4,7 @@
 
 ## 已实现 / Implemented
 
-- Tauri 2 + React/TypeScript + Rust + SQLite；固定七区像素界面、双语、默认 125% 字号与完整动态效果。
+- Tauri 2 + React/TypeScript + Rust + SQLite；固定七区像素界面、双语、新用户默认英文（保留已存语言选择）、默认 125% 字号与完整动态效果。
 - 五味业务值为整数基点且合计 10000；显示整数合计 100。用户目标、配方预测、实饮评价分离。
 - 300 杯来源库 + 96 杯小董笔记 DLC；DLC 默认启用，可整体隐藏或重新启用；原稿与编辑补全记录随源码提供。
 - 自定义酒谱、收藏、制作队列、`.timermix` 快照、逐杯图标、字符酒杯、Windows 文件剪贴板与拖拽入口。
@@ -20,10 +20,10 @@ The application implements the seven-panel workbench, integer taste invariants, 
 | Python reference suite | 44 passed |
 | Public-export safeguards | 8 passed |
 | Seed data validation | Passed: 70 seed recipes / 101 ingredients |
-| Frontend | 269 tests / 34 files passed; TypeScript + Vite production build passed |
-| Rust workspace | 150 tests passed |
+| Frontend | 271 tests / 34 files passed; TypeScript + Vite production build passed |
+| Rust workspace | 151 tests passed |
 | Windows build | Debug and optimized release EXEs built, version 1.2.0 |
-| Native debug UI | 7/7 groups, 0 page errors; Chinese/English screenshots captured |
+| Native debug UI | 9/9 groups, 0 page errors; fresh English default and saved Chinese preference verified; Chinese/English screenshots captured |
 | Native installer helpers | 20/20 passed |
 | Actual installer lifecycle | 25/25 passed: isolated install, rejection guards, reinstall, uninstall |
 
@@ -40,3 +40,5 @@ Detailed commands, limits and artifact digests: [1.2.0 build report](https://git
 - Windows executables are unsigned; WebView2 must already be installed. Vite reports an existing >500 KB main chunk warning.
 
 The public repository is intended for forks and contributions. Presence of an adapter or a passing unit test does not mark all M0–M5 platform milestones complete.
+
+README.md is the full English default entrypoint; README.zh-CN.md and architecture.zh-CN.svg provide the complete Chinese documentation and translated architecture diagram. The final Windows package was rebuilt after this language-default change and reran all installer checks.

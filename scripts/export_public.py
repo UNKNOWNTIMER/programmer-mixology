@@ -21,7 +21,7 @@ from pathlib import Path, PurePosixPath
 
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC_ADDITIONS = {
-    "README.en.md", "LICENSE", "CONTRIBUTING.md", "SECURITY.md", "AUTHORS.md",
+    "README.en.md", "README.zh-CN.md", "LICENSE", "CONTRIBUTING.md", "SECURITY.md", "AUTHORS.md",
     "CODE_OF_CONDUCT.md", "scripts/export_public.py", "tests/test_public_export.py",
     "docs/ARCHITECTURE.md", "docs/USAGE.md",
     "docs/releases/1.2.0-STATUS.md", "docs/releases/1.2.0-BUILD_REPORT.md",

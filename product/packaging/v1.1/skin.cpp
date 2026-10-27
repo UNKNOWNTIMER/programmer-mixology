@@ -32,14 +32,14 @@ static int percentage(){if(g_phase==2)return 100;if(!g_progress||!IsWindow(g_pro
 static void paint(HDC dc){
     RECT r{};GetClientRect(g_canvas,&r);fill(dc,r,kBg);
     auto pen=CreatePen(PS_SOLID,px(1),kLine);auto oldp=SelectObject(dc,pen);auto oldb=SelectObject(dc,GetStockObject(NULL_BRUSH));Rectangle(dc,px(1),px(1),r.right-px(1),r.bottom-px(1));SelectObject(dc,oldp);SelectObject(dc,oldb);DeleteObject(pen);
-    text(dc,L"程序员调酒台",box(28,20,470,36),g_title,kText);text(dc,L"V1.2",box(30,58,160,20),g_small,kBlue);
+    text(dc,L"Programmer Mixology",box(28,20,470,36),g_title,kText);text(dc,L"V1.2",box(30,58,160,20),g_small,kBlue);
     line(dc,26,92,614,92,kLine);line(dc,250,114,250,326,kLine);line(dc,26,346,614,346,kLine);
     for(int y=121;y<324;y+=24)for(int x=32;x<233;x+=24)fill(dc,box(x,y,1,1),RGB(25,42,50));
     // A glass made of a fixed pixel grid. Rising highlights are decorative;
     // the separate progress bar always reads the real NSIS progress control.
     const wchar_t* glass[]={L"  _____________  ",L"  \\           /  ",L"   \\ .  .  . /   ",L"    \\ .  .  /    ",L"     \\ . . /     ",L"      \\ . /      ",L"       \\_/       ",L"        |        ",L"        |        ",L"      __|__      ",L"    ._______ .   "};
     for(int row=0;row<11;++row){COLORREF c=(row==2||row==3||row==4)?kRed:kBlue;if((g_tick/2)%11==row)c=kText;text(dc,glass[row],box(43,130+row*14,180,16),g_small,c);}
-    if(g_phase==1||g_phase==4){text(dc,g_phase==1?L"正在安装":L"正在卸载",box(280,132,330,28),g_font,kText);int p=percentage();fill(dc,box(280,247,330,14),RGB(19,34,41));for(int x=0;x<p*324/100;x+=9)fill(dc,box(283+x,250,6,8),kRed);wchar_t value[16]{};wsprintfW(value,L"%d%%",p);text(dc,value,box(280,269,330,22),g_small,kBlue,DT_RIGHT|DT_SINGLELINE);}
+    if(g_phase==1||g_phase==4){text(dc,g_phase==1?L"Installing":L"Uninstalling",box(280,132,330,28),g_font,kText);int p=percentage();fill(dc,box(280,247,330,14),RGB(19,34,41));for(int x=0;x<p*324/100;x+=9)fill(dc,box(283+x,250,6,8),kRed);wchar_t value[16]{};wsprintfW(value,L"%d%%",p);text(dc,value,box(280,269,330,22),g_small,kBlue,DT_RIGHT|DT_SINGLELINE);}
     for(int i=0;i<5;++i){int amount=((g_tick/2+i*3)%15);fill(dc,box(29+i*12,363,7,7),i==amount%5?kRed:RGB(29,51,59));}
 }
 static LRESULT CALLBACK CanvasProc(HWND w,UINT m,WPARAM a,LPARAM b){switch(m){case WM_PAINT:{PAINTSTRUCT ps{};HDC dc=BeginPaint(w,&ps);RECT r{};GetClientRect(w,&r);HDC mem=CreateCompatibleDC(dc);HBITMAP bmp=CreateCompatibleBitmap(dc,r.right,r.bottom);auto old=SelectObject(mem,bmp);paint(mem);BitBlt(dc,0,0,r.right,r.bottom,mem,0,0,SRCCOPY);SelectObject(mem,old);DeleteObject(bmp);DeleteDC(mem);EndPaint(w,&ps);return 0;}case WM_ERASEBKGND:return 1;case WM_LBUTTONDOWN:ReleaseCapture();SendMessageW(g_main,WM_NCLBUTTONDOWN,HTCAPTION,0);return 0;}return DefWindowProcW(w,m,a,b);}

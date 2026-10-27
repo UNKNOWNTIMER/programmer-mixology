@@ -14,15 +14,15 @@ Commands run from the repository root on Windows x64 after loading `product/scri
 | `python -m unittest discover -s tests -v` before export tests were added | 44 passed |
 | `python -m unittest discover -s tests -p test_public_export.py -v` | 8 passed |
 | `python scripts/validate_seed.py` | Passed, 70 seed recipes: 60 IBA reference revisions + 10 supplied notes; 101 ingredient types |
-| `pnpm --config.verify-deps-before-run=false --dir product/apps/client test` | 269 passed in 34 files |
+| `pnpm --config.verify-deps-before-run=false --dir product/apps/client test` | 271 passed in 34 files |
 | Same pnpm options, `build` | TypeScript and Vite production build passed |
-| `cargo +stable test --offline --workspace --locked --manifest-path product/Cargo.toml` | 150 passed: application 66, catalog 13, domain 7, inference 17, LAN host 41, recipe engine 6 |
+| `cargo +stable test --offline --workspace --locked --manifest-path product/Cargo.toml` | 151 passed: application 67, catalog 13, domain 7, inference 17, LAN host 41, recipe engine 6 |
 | `cargo +stable build --offline --locked --manifest-path product/Cargo.toml -p pixel-mix` | Real Windows debug build passed |
 | Same Cargo build with `--release` | Real optimized Windows build passed |
 | `python product/scripts/generate-sbom.py` | 663 resolved components recorded, including development and other-platform dependencies |
-| `node product/tests/e2e/public-release-smoke.cjs` | Real Tauri debug window, WebView2, Rust and isolated SQLite: 7/7 groups, 0 JavaScript page errors |
+| `node product/tests/e2e/public-release-smoke.cjs` | Real Tauri debug window, WebView2, Rust and isolated SQLite: 9/9 groups, 0 JavaScript page errors |
 | `product/scripts/build-windows-installer.ps1` | Real NSIS executable produced; native helper checks 20/20 |
-| `product/scripts/test-v11-installer.ps1 -Installer <new-installer> -EvidenceName public-release-1-2-0` | 25/25 checks passed; normal user database/WAL and registration state preserved |
+| `product/scripts/test-v11-installer.ps1 -Installer <new-installer> -EvidenceName public-release-english-final` | 25/25 checks passed; normal user database/WAL and registration state preserved |
 
 ## What the native checks exercised / 原生检查范围
 
@@ -40,8 +40,8 @@ The installer tests performed actual isolated installation, payload SHA verifica
 
 | File | Bytes | SHA-256 |
 |---|---:|---|
-| `Programmer_Mixology_Setup_1.2.0_x64.exe` | 8,015,949 | `742e4bce70645a5ad6c42cc1b898c3a77b5e148139d7f272dda0a592d46c44c2` |
-| Installed `pixel-mix.exe` payload | See release manifest | `eb3dc77e273b4cf43f8f4099d19b82d31646ef1b9a03c5d22dc550013d0de78c` |
+| `Programmer_Mixology_Setup_1.2.0_x64.exe` | 8,016,623 | `1eca0387352c5a988ed9fc735b8047c28558e74368fb0f4f92e12960e2bad99b` |
+| Installed `pixel-mix.exe` payload | 25,497,088 | `84cdd205d62d22561810cd710d50dcf6b151a4909e989cc045d9ed6484cbb473` |
 
 The Windows installer includes the 396-drink catalog, enabled Xiaodong DLC, MIT text and upstream notices. Source documents and optional personal-recipe examples are published in the repository. No model weights, account state, orders or personal SQLite databases are bundled. The installer uses current-user installation and existing WebView2; it is unsigned.
 
@@ -53,7 +53,7 @@ GitHub Actions is configured for Windows source checks on pushes and pull reques
 
 ## Independent public source snapshot / 独立公开源码验证
 
-The exported source tree was separately installed and tested: frozen pnpm install succeeded, all 269 frontend tests passed, TypeScript/Vite built successfully, all 52 Python tests passed (44 reference + 8 export), and all 150 Rust tests passed. The main documentation and release reports had 50 valid local links; four screenshots are actual 675×960 native captures.
+Before the English-default update, the exported source tree was separately installed and tested: frozen pnpm install succeeded, all 269 frontend tests passed, TypeScript/Vite built successfully, all 52 Python tests passed (44 reference + 8 export), and all 150 Rust tests passed. The main documentation and release reports had 50 valid local links; four screenshots are actual 675×960 native captures.
 
 The first offline dependency installation lacked cached metadata, so the normal frozen-lockfile install fetched the required locked packages. An initial parallel Rust check correctly refused to build before frontend `dist` existed; the complete workspace suite was rerun after the frontend build and passed. These failed attempts are retained locally.
 
@@ -64,3 +64,15 @@ Cloud Windows CI initially found a reference-test fixture read that depended on 
 
 On the shared GitHub Windows runner, the exhaustive 96-drink × 3-size pixel-geometry test took 10.353 s and exceeded Vitest's default 5 s timeout. Only this test now has a 30 s allowance; all samples and per-pixel assertions remain intact. Its four-test file was rerun locally and passed.
 
+
+## English-default final candidate / 英文默认最终候选
+
+The final installer above supersedes the earlier pre-publication candidate. The application, native window titles, installer text and newly created shortcuts default to English. An explicitly saved Chinese or English preference is retained; missing or invalid language values normalize to English without resetting the selected recipe, targets or other settings. The final source passed 271 frontend tests in 34 files and a fresh TypeScript/Vite build, then both Windows debug and optimized release executables were rebuilt.
+
+The rebuilt native debug executable passed 9/9 groups with zero page errors, including a fresh English profile before any language change, missing-language migration and Chinese preference persistence after reload. Four documentation screenshots were refreshed from that executable. The final installer passed 20/20 native helper checks and 25/25 real isolated lifecycle checks again. Its embedded payload hash matches the optimized executable in the artifact table. Production database/WAL bytes and installation registration remained unchanged.
+
+README.md and the complete README.en.md compatibility copy are English. README.zh-CN.md uses the Chinese workbench and architecture.zh-CN.svg; the Chinese architecture section also uses this translated figure. The Chinese SVG was rendered in Edge and visually inspected, with all 41 text nodes inside their bounds. Both source trees passed 89 local documentation-link checks and the eight public-export safeguards.
+
+The Computer Use skill was consulted for an interactive installer inspection, but its required node_repl runtime was unavailable in this session. No interactive installer screenshot or full page-sequence acceptance is claimed. The actual installation/lifecycle tests above did run through the real NSIS executable.
+
+The final independent review caught a legacy native glass-popup payload whose omitted language still selected Chinese. Its serde default now selects English; a new deserialization regression verifies omitted/en/zh values and rejects unsupported languages. The full Rust workspace was rerun: 151 passed (67 application + 13 catalog + 7 domain + 17 inference + 41 LAN host + 6 recipe engine). Debug/release executables and the installer were rebuilt after this correction; the final native 9/9 and installer 20/20 + 25/25 results above refer to those rebuilt artifacts. The final public tree also reran all 52 Python tests successfully. The final independent scan checked 90 local documentation links, with no missing targets, and preserved the authorized original materials byte-for-byte.

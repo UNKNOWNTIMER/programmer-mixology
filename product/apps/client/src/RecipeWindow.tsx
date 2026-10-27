@@ -11,6 +11,7 @@ import { I18nProvider, Localized, useI18n, type Language } from './i18n';
 import { localizedRecipe } from './recipe-i18n';
 import { displayQuantity } from './quantity-display';
 import { notebookDetails } from './dlc-notebook';
+import { normalizeLanguage } from './language';
 import './recipe-window.css';
 
 interface Payload { recipe:Recipe; ingredients:Ingredient[]; pinned:boolean; servings:number; language?:Language }
@@ -32,7 +33,7 @@ export function useRecipeWindow(props:Actions&{recipe?:Recipe;ingredients:Ingred
   },[]);
   useEffect(()=>{
     if(!native)return;
-    const payload:Payload|null=props.open&&props.recipe?{recipe:props.recipe,ingredients:props.ingredients.filter(i=>props.recipe!.ingredients.some(p=>p.ingredient_id===i.id)),pinned:props.pinned,servings:props.servings,language:props.language||'zh'}:null;
+    const payload:Payload|null=props.open&&props.recipe?{recipe:props.recipe,ingredients:props.ingredients.filter(i=>props.recipe!.ingredients.some(p=>p.ingredient_id===i.id)),pinned:props.pinned,servings:props.servings,language:normalizeLanguage(props.language)}:null;
     queue.current=queue.current.then(()=>invoke<void>('recipe_window_update',{payload})).catch(e=>current.current.onError(`配料窗口：${String(e)}`));
   },[props.open,props.recipe,props.ingredients,props.pinned,props.servings,props.language]);
 }
@@ -74,5 +75,5 @@ export function RecipePopupWindow(){
     })().catch(e=>setError(String(e)));
     return()=>{disposed=true;off?.();};
   },[]);
-  return <I18nProvider language={payload?.language||'zh'}><div className="recipe-popup-shell" onMouseEnter={()=>action('enter')} onMouseLeave={()=>action('leave')}>{payload&&<RecipeDetails {...payload} onServings={n=>action('servings',n)} onPin={()=>action('pin')} onClose={()=>action('close')}/>} {error&&<p role="alert">{error}</p>}</div></I18nProvider>;
+  return <I18nProvider language={normalizeLanguage(payload?.language)}><div className="recipe-popup-shell" onMouseEnter={()=>action('enter')} onMouseLeave={()=>action('leave')}>{payload&&<RecipeDetails {...payload} onServings={n=>action('servings',n)} onPin={()=>action('pin')} onClose={()=>action('close')}/>} {error&&<p role="alert">{error}</p>}</div></I18nProvider>;
 }
